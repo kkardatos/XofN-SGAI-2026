@@ -1,0 +1,3 @@
+Holm's test (control: XofN Jac-max Ung):
+XofN Jac-max Ung vs XofN Vouk Ung -> p:0.007 < adj_a:0.0167 (Significant)
+XofN Jac-max Ung vs XofN_none N/A -> p:0.2748 >= adj_a:0.025 (Not Significant)

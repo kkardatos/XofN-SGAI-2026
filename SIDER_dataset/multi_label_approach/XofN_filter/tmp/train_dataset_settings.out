@@ -1,0 +1,2075 @@
+Clus run se_C0009676_se_C0041657_se_C0002994_se_C0042571_se_C0004604_se_C0041834_se_C0085631_se_C0040822_se_C0042373_se_C0021053
+********************************************************************************************************************************
+
+Date: 3/29/26, 3:51 PM
+File: train_dataset_settings.out
+Attributes: 123 (input: 113, output: 10)
+Missing values: No
+
+[General]
+Verbose = 1
+RandomSeed = 43
+ResourceInfoLoaded = No
+DoNotInduce = No
+LoggingProperties = logging.properties
+
+[Data]
+File = XofN_filter/tmp/train_dataset.arff
+TestSet = XofN_filter/tmp/test_dataset.arff
+PruneSet = None
+XVal = 10
+RemoveMissingTarget = No
+NormalizeData = None
+
+[Attributes]
+Target = 114-123
+Clustering = 114-123
+Descriptive = 1-113
+Key = None
+Disable = None
+Weights = Normalize
+ClusteringWeights = 1.0
+ReduceMemoryNominalAttrs = No
+GIS = None
+
+[Constraints]
+Syntactic = None
+MaxSize = Infinity
+MaxError = 0.0
+MaxDepth = Infinity
+
+[Nominal]
+MEstimate = 1.0
+
+[Model]
+MinimalWeight = 2.0
+MinimalNumberExamples = 0
+MinimalKnownWeight = 0.0
+ParamTuneNumberFolds = 3
+NominalSubsetTests = Yes
+LoadFromModelFile = No
+
+[Tree]
+Heuristic = VarianceReduction
+HeuristicComplexity = N2
+SetDistance = GSMDistance
+TupleDistance = Euclidean
+TSDistance = DTW
+PruningMethod = C45
+FTest = 1.0
+BinarySplit = Yes
+ConvertToRules = No
+AlternativeSplits = No
+Optimize = []
+MSENominal = No
+SplitSampling = None
+MissingClusteringAttrHandling = EstimateFromParentNode
+MissingTargetAttrHandling = ParentNode
+InductionOrder = DepthFirst
+EntropyType = StandardEntropy
+ConsiderUnlableInstancesInIGCalc = No
+SpatialMatrix = Binary
+SpatialMeasure = GlobalMoran
+Bandwidth = 0.001
+Longlat = No
+NumNeightbours = 0.0
+Alpha = 1.0
+SplitPosition = Exact
+
+[Multilabel]
+MLCThreshold = 0.5
+OptimizeThresholds = No
+MultiLabelRankingMeasure = [HammingLoss]
+ShowThresholds = Yes
+
+[SemiSupervised]
+SemiSupervisedMethod = PCT
+StoppingCriteria = NoneAdded
+UnlabeledCriteria = Threshold
+ConfidenceThreshold = 0.8
+ConfidenceMeasure = Variance
+Iterations = 10
+K = 5
+UnlabeledData = 
+PercentageLabeled = 5
+UseWeights = No
+AirbagTrials = 0
+ExhaustiveSearchThresholds = [0.5,0.6,0.7,0.8,0.9,0.99]
+OOBErrorCalculation = LabeledOnly
+Normalization = MinMaxNormalization
+Aggregation = Average
+CalibrateHmcThreshold = No
+PruningWhenTuning = No
+InternalFolds = 5
+WeightScoresFile = NO
+PossibleWeights = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+IterationsSupervisionOptimisation = 0
+ForceInternalXValOptimisation = No
+ImputeMissingTargetValues = No
+InternalFold = -1234
+ProceedToMain = Yes
+
+[Output]
+ShowModels = [Default, Pruned, Others]
+TrainErrors = Yes
+ValidErrors = Yes
+TestErrors = Yes
+AllFoldModels = Yes
+AllFoldErrors = No
+AllFoldDatasets = No
+UnknownFrequency = No
+BranchFrequency = No
+ShowInfo = [Count]
+PrintModelAndExamples = No
+WriteErrorFile = No
+WriteModelFile = No
+WritePerBagModelFile = Yes
+WriteOOBFile = No
+WritePredictions = []
+GzipOutput = No
+ModelIDFiles = No
+WriteCurves = No
+OutputPythonModel = No
+PythonModelType = Object
+OutputROSSubspaces = No
+OutputJSONModel = No
+OutputDatabaseQueries = No
+OutputClowdFlowsJSON = No
+ComputeSpearman = No
+
+Run: 01
+*******
+
+Statistics
+----------
+
+FTValue (FTest): 1.0
+Induction Time: 2.0700E-1 sec
+Pruning Time: 1.1000E-2 sec
+Prediction Time (total for ClusModel.Original): 
+	0 microsecs
+	0 millisecs
+	0 secs
+Prediction Time (average for ClusModel.Original): 0 microsecs
+Model information:
+     Default: Nodes = 1; Leaves = 1; Depth = 1
+     Original: Nodes = 985; Leaves = 493; Depth = 22
+     Pruned: Nodes = 67; Leaves = 34; Depth = 13
+
+MultiLabelThresholds:
+---------------------
+Default
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+Original
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+Pruned
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+
+Training error
+--------------
+
+Number of examples: 1180
+Classification Error
+   Default: 
+   Attribute: se_C0009676
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  454 |  454
+             0 | 0 |  726 |  726
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.152542E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041657
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  439 |  439
+             0 | 0 |  741 |  741
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.279661E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0002994
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  433 |  433
+             0 | 0 |  747 |  747
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.330508E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042571
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  416 |  416
+             0 | 0 |  764 |  764
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.474576E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0004604
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  409 |  409
+             0 | 0 |  771 |  771
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.533898E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041834
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  392 |  392
+             0 | 0 |  788 |  788
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.677966E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0085631
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  395 |  395
+             0 | 0 |  785 |  785
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.652542E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0040822
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  385 |  385
+             0 | 0 |  795 |  795
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.737288E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042373
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  383 |  383
+             0 | 0 |  797 |  797
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.754237E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0021053
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  362 |  362
+             0 | 0 |  818 |  818
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.932203E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0009676
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 429 |  25 |  454
+             0 | 126 | 600 |  726
+     ----------------------------
+               | 555 | 625 | 1180
+     Accuracy: 8.720339E-1
+     Cramer's coefficient: 7.519314E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 405 |  34 |  439
+             0 | 114 | 627 |  741
+     ----------------------------
+               | 519 | 661 | 1180
+     Accuracy: 8.745763E-1
+     Cramer's coefficient: 7.485429E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 394 |  39 |  433
+             0 | 104 | 643 |  747
+     ----------------------------
+               | 498 | 682 | 1180
+     Accuracy: 8.788136E-1
+     Cramer's coefficient: 7.521194E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 392 |  24 |  416
+             0 | 115 | 649 |  764
+     ----------------------------
+               | 507 | 673 | 1180
+     Accuracy: 8.822034E-1
+     Cramer's coefficient: 7.641676E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 376 |  33 |  409
+             0 | 105 | 666 |  771
+     ----------------------------
+               | 481 | 699 | 1180
+     Accuracy: 8.830508E-1
+     Cramer's coefficient: 7.584218E-1
+
+
+   Attribute: se_C0041834
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 366 |  26 |  392
+             0 | 115 | 673 |  788
+     ----------------------------
+               | 481 | 699 | 1180
+     Accuracy: 8.805085E-1
+     Cramer's coefficient: 7.550484E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 361 |  34 |  395
+             0 |  99 | 686 |  785
+     ----------------------------
+               | 460 | 720 | 1180
+     Accuracy: 8.872881E-1
+     Cramer's coefficient: 7.622710E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 359 |  26 |  385
+             0 | 108 | 687 |  795
+     ----------------------------
+               | 467 | 713 | 1180
+     Accuracy: 8.864407E-1
+     Cramer's coefficient: 7.637674E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 347 |  36 |  383
+             0 | 101 | 696 |  797
+     ----------------------------
+               | 448 | 732 | 1180
+     Accuracy: 8.838983E-1
+     Cramer's coefficient: 7.518436E-1
+
+
+   Attribute: se_C0021053
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 336 |  26 |  362
+             0 | 111 | 707 |  818
+     ----------------------------
+               | 447 | 733 | 1180
+     Accuracy: 8.838983E-1
+     Cramer's coefficient: 7.533790E-1
+
+   Pruned: 
+   Attribute: se_C0009676
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 179 | 275 |  454
+             0 |  83 | 643 |  726
+     ----------------------------
+               | 262 | 918 | 1180
+     Accuracy: 6.966102E-1
+     Cramer's coefficient: 3.277191E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 133 | 306 |  439
+             0 |  52 | 689 |  741
+     ----------------------------
+               | 185 | 995 | 1180
+     Accuracy: 6.966102E-1
+     Cramer's coefficient: 3.094571E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 142 | 291 |  433
+             0 |  75 | 672 |  747
+     ----------------------------
+               | 217 | 963 | 1180
+     Accuracy: 6.898305E-1
+     Cramer's coefficient: 2.830901E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 | 120 |  296 |  416
+             0 |  34 |  730 |  764
+     -----------------------------
+               | 154 | 1026 | 1180
+     Accuracy: 7.203390E-1
+     Cramer's coefficient: 3.459999E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 156 | 253 |  409
+             0 |  78 | 693 |  771
+     ----------------------------
+               | 234 | 946 | 1180
+     Accuracy: 7.194915E-1
+     Cramer's coefficient: 3.344893E-1
+
+
+   Attribute: se_C0041834
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 | 101 |  291 |  392
+             0 |  51 |  737 |  788
+     -----------------------------
+               | 152 | 1028 | 1180
+     Accuracy: 7.101695E-1
+     Cramer's coefficient: 2.712643E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 177 | 218 |  395
+             0 |  72 | 713 |  785
+     ----------------------------
+               | 249 | 931 | 1180
+     Accuracy: 7.542373E-1
+     Cramer's coefficient: 4.121678E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 186 | 199 |  385
+             0 |  84 | 711 |  795
+     ----------------------------
+               | 270 | 910 | 1180
+     Accuracy: 7.601695E-1
+     Cramer's coefficient: 4.212872E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 126 | 257 |  383
+             0 |  60 | 737 |  797
+     ----------------------------
+               | 186 | 994 | 1180
+     Accuracy: 7.313559E-1
+     Cramer's coefficient: 3.259855E-1
+
+
+   Attribute: se_C0021053
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 | 115 |  247 |  362
+             0 |  56 |  762 |  818
+     -----------------------------
+               | 171 | 1009 | 1180
+     Accuracy: 7.432203E-1
+     Cramer's coefficient: 3.264901E-1
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.112,2.14,2.152,2.191,2.208,2.254,2.245,2.275,2.281,2.351])
+   Default        : [1.0000E0,1.0000E0,1.0000E0,1,1,1.0000E0,1.0000E0,1.0000E0,1,1]: 1.0000E0
+   Original       : [3.0192E-1,3.0936E-1,3.0237E-1,2.8836E-1,2.9344E-1,3.0178E-1,2.8732E-1,2.8966E-1,3.0584E-1,3.1169E-1]: 2.9917E-1
+   Pruned         : [8.4956E-1,8.6864E-1,8.8797E-1,8.5913E-1,8.5991E-1,8.9593E-1,7.8416E-1,7.8188E-1,8.5983E-1,8.5986E-1]: 8.5069E-1
+HammingLoss
+   Default        : 3.4475E-1
+   Original       : 1.1873E-1
+   Pruned         : 2.7780E-1
+RankingLoss
+   Default        : 3.8352E-1
+   Original       : 3.2995E-2
+   Pruned         : 2.6465E-1
+OneError
+   Default        : 3.8475E-1
+   Original       : 1.0000E-1
+   Pruned         : 3.3983E-1
+Coverage
+   Default        : 7.8754(label cardinality: 4.0237)
+   Original       : 4.819(label cardinality: 4.0237)
+   Pruned         : 7.0584(label cardinality: 4.0237)
+AveragePrecision
+   Default        : NaN
+   Original       : NaN
+   Pruned         : NaN
+MLAccuracy
+   Default        : 1.4322E-1
+   Original       : 7.2085E-1
+   Pruned         : 3.0117E-1
+MLPrecision
+   Default        : 1.4322E-1
+   Original       : 7.6121E-1
+   Pruned         : 3.7107E-1
+MLRecall
+   Default        : 1.4322E-1
+   Original       : 8.7251E-1
+   Pruned         : 3.5399E-1
+MLFOneMeasure
+   Default        : 1.4322E-1
+   Original       : 7.8841E-1
+   Pruned         : 3.4402E-1
+SubsetAccuracy
+   Default        : 1.4322E-1
+   Original       : 3.8644E-1
+   Pruned         : 1.3898E-1
+MacroPrecision
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [7.7297E-1, 7.8035E-1, 7.9116E-1, 7.7318E-1, 7.8170E-1, 7.6091E-1, 7.8478E-1, 7.6874E-1, 7.7455E-1, 7.5168E-1]: 7.7400E-1
+   Pruned         : [6.8321E-1, 7.1892E-1, 6.5438E-1, 7.7922E-1, 6.6667E-1, 6.6447E-1, 7.1084E-1, 6.8889E-1, 6.7742E-1, 6.7251E-1]: 6.9165E-1
+MacroRecall
+   Default        : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: 0
+   Original       : [9.4493E-1, 9.2255E-1, 9.0993E-1, 9.4231E-1, 9.1932E-1, 9.3367E-1, 9.1392E-1, 9.3247E-1, 9.0601E-1, 9.2818E-1]: 9.2533E-1
+   Pruned         : [3.9427E-1, 3.0296E-1, 3.2794E-1, 2.8846E-1, 3.8142E-1, 2.5765E-1, 4.4810E-1, 4.8312E-1, 3.2898E-1, 3.1768E-1]: 3.5306E-1
+MacroFOne
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [8.5035E-1, 8.4551E-1, 8.4640E-1, 8.4940E-1, 8.4494E-1, 8.3849E-1, 8.4444E-1, 8.4272E-1, 8.3514E-1, 8.3066E-1]: 8.4281E-1
+   Pruned         : [5.0000E-1, 4.2628E-1, 4.3692E-1, 4.2105E-1, 4.8523E-1, 3.7132E-1, 5.4969E-1, 5.6794E-1, 4.4288E-1, 4.3152E-1]: 4.6328E-1
+MicroPrecision
+   Default        : NaN
+   Original       : 7.7421E-1
+   Pruned         : 6.8990E-1
+MicroRecall
+   Default        : 0
+   Original       : 9.2552E-1
+   Pruned         : 3.5275E-1
+MicroFOne
+   Default        : NaN
+   Original       : 8.4313E-1
+   Pruned         : 4.6682E-1
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 9.661253E-1
+   Pruned         : 7.021447E-1
+averageAUPRC
+   Default        : 3.447458E-1
+   Original       : 9.405796E-1
+   Pruned         : 5.976261E-1
+weightedAUPRC
+   Default        : 3.462973E-1
+   Original       : 9.408627E-1
+   Pruned         : 5.984518E-1
+pooledAUPRC
+   Default        : 3.658743E-1
+   Original       : 9.410668E-1
+   Pruned         : 6.063411E-1
+
+Testing error
+-------------
+
+Number of examples: 131
+Classification Error
+   Default: 
+   Attribute: se_C0009676
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  51 |  51
+             0 | 0 |  80 |  80
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.106870E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041657
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  54 |  54
+             0 | 0 |  77 |  77
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0002994
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  59 |  59
+             0 | 0 |  72 |  72
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042571
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  55 |  55
+             0 | 0 |  76 |  76
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0004604
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  55 |  55
+             0 | 0 |  76 |  76
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041834
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  47 |  47
+             0 | 0 |  84 |  84
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.412214E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0085631
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  52 |  52
+             0 | 0 |  79 |  79
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0040822
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  50 |  50
+             0 | 0 |  81 |  81
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042373
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  43 |  43
+             0 | 0 |  88 |  88
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.717557E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0021053
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  52 |  52
+             0 | 0 |  79 |  79
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0009676
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 28 | 23 |  51
+             0 | 34 | 46 |  80
+     -------------------------
+               | 62 | 69 | 131
+     Accuracy: 5.648855E-1
+     Cramer's coefficient: 1.211156E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 25 | 29 |  54
+             0 | 30 | 47 |  77
+     -------------------------
+               | 55 | 76 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 7.315929E-2
+
+
+   Attribute: se_C0002994
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 35 | 24 |  59
+             0 | 28 | 44 |  72
+     -------------------------
+               | 63 | 68 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 2.034711E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 30 | 25 |  55
+             0 | 29 | 47 |  76
+     -------------------------
+               | 59 | 72 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 1.625587E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 24 | 31 |  55
+             0 | 28 | 48 |  76
+     -------------------------
+               | 52 | 79 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 6.853540E-2
+
+
+   Attribute: se_C0041834
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 24 | 23 |  47
+             0 | 36 | 48 |  84
+     -------------------------
+               | 60 | 71 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 7.900447E-2
+
+
+   Attribute: se_C0085631
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 30 | 22 |  52
+             0 | 26 | 53 |  79
+     -------------------------
+               | 56 | 75 | 131
+     Accuracy: 6.335878E-1
+     Cramer's coefficient: 2.450800E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 22 | 28 |  50
+             0 | 32 | 49 |  81
+     -------------------------
+               | 54 | 77 | 131
+     Accuracy: 5.419847E-1
+     Cramer's coefficient: 4.435082E-2
+
+
+   Attribute: se_C0042373
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 18 | 25 |  43
+             0 | 33 | 55 |  88
+     -------------------------
+               | 51 | 80 | 131
+     Accuracy: 5.572519E-1
+     Cramer's coefficient: 4.199314E-2
+
+
+   Attribute: se_C0021053
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 19 | 33 |  52
+             0 | 35 | 44 |  79
+     -------------------------
+               | 54 | 77 | 131
+     Accuracy: 4.809160E-1
+     Cramer's coefficient: 7.718506E-2
+
+   Pruned: 
+   Attribute: se_C0009676
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 12 |  39 |  51
+             0 | 11 |  69 |  80
+     --------------------------
+               | 23 | 108 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 1.253335E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 12 |  42 |  54
+             0 |  8 |  69 |  77
+     --------------------------
+               | 20 | 111 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 1.619371E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 12 |  47 |  59
+             0 |  8 |  64 |  72
+     --------------------------
+               | 20 | 111 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 1.276490E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  9 |  46 |  55
+             0 |  4 |  72 |  76
+     --------------------------
+               | 13 | 118 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 1.832387E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 11 |  44 |  55
+             0 | 12 |  64 |  76
+     --------------------------
+               | 23 | 108 | 131
+     Accuracy: 5.725191E-1
+     Cramer's coefficient: 5.461963E-2
+
+
+   Attribute: se_C0041834
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  7 |  40 |  47
+             0 |  4 |  80 |  84
+     --------------------------
+               | 11 | 120 | 131
+     Accuracy: 6.641221E-1
+     Cramer's coefficient: 1.752203E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 12 |  40 |  52
+             0 |  9 |  70 |  79
+     --------------------------
+               | 21 | 110 | 131
+     Accuracy: 6.259542E-1
+     Cramer's coefficient: 1.558189E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 12 |  38 |  50
+             0 | 12 |  69 |  81
+     --------------------------
+               | 24 | 107 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 1.153501E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  3 |  40 |  43
+             0 | 10 |  78 |  88
+     --------------------------
+               | 13 | 118 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 6.890010E-2
+
+
+   Attribute: se_C0021053
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  5 |  47 |  52
+             0 |  8 |  71 |  79
+     --------------------------
+               | 13 | 118 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 8.365490E-3
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.112,2.14,2.152,2.191,2.208,2.254,2.245,2.275,2.281,2.351])
+   Default        : [1.0044,1.044,1.0956,1.087,1.0992,1.0402,1.0923,1.0876,1.0059,1.1638]: 1.072
+   Original       : [1.4789,1.5325,1.3651,1.4845,1.6343,1.46,1.5111,1.6843,1.5926,1.9668]: 1.571
+   Pruned         : [1.0264,1.0537,1.1391,1.0998,1.1787,1.0802,1.1669,1.1788,1.1516,1.3572]: 1.1432
+HammingLoss
+   Default        : 3.9542E-1
+   Original       : 4.3817E-1
+   Pruned         : 3.8855E-1
+RankingLoss
+   Default        : 3.7347E-1
+   Original       : 3.3784E-1
+   Pruned         : 3.5128E-1
+OneError
+   Default        : 3.8931E-1
+   Original       : 4.6565E-1
+   Pruned         : 4.2748E-1
+Coverage
+   Default        : 8.1667(label cardinality: 4.5439)
+   Original       : 8.8772(label cardinality: 4.5439)
+   Pruned         : 8.1842(label cardinality: 4.5439)
+AveragePrecision
+   Default        : NaN
+   Original       : NaN
+   Pruned         : NaN
+MLAccuracy
+   Default        : 1.2977E-1
+   Original       : 3.1387E-1
+   Pruned         : 2.2555E-1
+MLPrecision
+   Default        : 1.2977E-1
+   Original       : 4.5205E-1
+   Pruned         : 2.7399E-1
+MLRecall
+   Default        : 1.2977E-1
+   Original       : 5.0304E-1
+   Pruned         : 2.7977E-1
+MLFOneMeasure
+   Default        : 1.2977E-1
+   Original       : 4.0399E-1
+   Pruned         : 2.5452E-1
+SubsetAccuracy
+   Default        : 1.2977E-1
+   Original       : 6.8702E-2
+   Pruned         : 1.4504E-1
+MacroPrecision
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [4.5161E-1, 4.5455E-1, 5.5556E-1, 5.0847E-1, 4.6154E-1, 4.0000E-1, 5.3571E-1, 4.0741E-1, 3.5294E-1, 3.5185E-1]: 4.4796E-1
+   Pruned         : [5.2174E-1, 6.0000E-1, 6.0000E-1, 6.9231E-1, 4.7826E-1, 6.3636E-1, 5.7143E-1, 5.0000E-1, 2.3077E-1, 3.8462E-1]: 5.2155E-1
+MacroRecall
+   Default        : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: 0
+   Original       : [5.4902E-1, 4.6296E-1, 5.9322E-1, 5.4545E-1, 4.3636E-1, 5.1064E-1, 5.7692E-1, 4.4000E-1, 4.1860E-1, 3.6538E-1]: 4.8986E-1
+   Pruned         : [2.3529E-1, 2.2222E-1, 2.0339E-1, 1.6364E-1, 2.0000E-1, 1.4894E-1, 2.3077E-1, 2.4000E-1, 6.9767E-2, 9.6154E-2]: 1.8102E-1
+MacroFOne
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [4.9558E-1, 4.5872E-1, 5.7377E-1, 5.2632E-1, 4.4860E-1, 4.4860E-1, 5.5556E-1, 4.2308E-1, 3.8298E-1, 3.5849E-1]: 4.6717E-1
+   Pruned         : [3.2432E-1, 3.2432E-1, 3.0380E-1, 2.6471E-1, 2.8205E-1, 2.4138E-1, 3.2877E-1, 3.2432E-1, 1.0714E-1, 1.5385E-1]: 2.6547E-1
+MicroPrecision
+   Default        : NaN
+   Original       : 4.5053E-1
+   Pruned         : 5.2486E-1
+MicroRecall
+   Default        : 0
+   Original       : 4.9228E-1
+   Pruned         : 1.8340E-1
+MicroFOne
+   Default        : NaN
+   Original       : 4.7048E-1
+   Pruned         : 2.7182E-1
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 5.664737E-1
+   Pruned         : 5.507356E-1
+averageAUPRC
+   Default        : 3.954198E-1
+   Original       : 4.522663E-1
+   Pruned         : 4.588433E-1
+weightedAUPRC
+   Default        : 3.980960E-1
+   Original       : 4.565134E-1
+   Pruned         : 4.628708E-1
+pooledAUPRC
+   Default        : 4.060957E-1
+   Original       : 4.532230E-1
+   Pruned         : 4.586820E-1
+
+Default Model
+*************
+
+[0,0,0,0,0,0,0,0,0,0] [726.0,741.0,747.0,764.0,771.0,788.0,785.0,795.0,797.0,818.0]: 1180
+
+Original Model
+**************
+
+f_391_f_299_f_710_f_145_f_750 > 1.0
++--yes: f_20_f_259_f_241_f_12_f_456 > 1.0
+|      +--yes: f_571_f_261_f_230_f_47_f_187 > 1.0
+|      |      +--yes: f_452_f_144_f_21_f_776_f_485 > 1.0
+|      |      |      +--yes: f_199_f_577_f_422_f_434_f_398 > 1.0
+|      |      |      |      +--yes: f_308_f_860_f_22_f_411_f_200 > 1.0
+|      |      |      |      |      +--yes: f_199_f_577_f_422_f_434_f_398 > 2.0
+|      |      |      |      |      |      +--yes: f_180_f_552_f_696_f_691_f_46 > 2.0
+|      |      |      |      |      |      |      +--yes: f_617_f_11_f_495_f_368_f_515 > 3.0
+|      |      |      |      |      |      |      |      +--yes: [0,0,1,1,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |      |      |      |      |      |      |      +--no:  f_566_f_607_f_430_f_450_f_695 > 4.0
+|      |      |      |      |      |      |      |             +--yes: [0,0,0,0,0,1,0,0,0,1] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |      |      |      |      |      |      |             +--no:  [0,0,0,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|      |      |      |      |      |      |      +--no:  [0,0,0,1,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |      |      |      |      |      +--no:  f_535_f_256_f_714_f_314_f_779 > 2.0
+|      |      |      |      |      |             +--yes: f_413_f_132_f_827_f_118_f_408 > 0.0
+|      |      |      |      |      |             |      +--yes: [1,1,0,0,1,1,0,1,0,1] [2.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0,2.0,2.0]: 3
+|      |      |      |      |      |             |      +--no:  [1,1,1,0,1,1,1,1,0,1] [2.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0]: 3
+|      |      |      |      |      |             +--no:  f_681_f_640_f_499_f_334_f_689 > 2.0
+|      |      |      |      |      |                    +--yes: f_374_f_683_f_356_f_442_f_458 > 3.0
+|      |      |      |      |      |                    |      +--yes: [0,1,1,1,1,1,0,0,1,0] [2.0,2.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |      |      |      |      |                    |      +--no:  [0,0,1,1,0,1,0,0,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |      |      |      |      |                    +--no:  f_374_f_683_f_356_f_442_f_458 > 3.0
+|      |      |      |      |      |                           +--yes: [1,1,1,1,1,1,0,1,1,1] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |      |      |      |      |                           +--no:  [1,0,1,0,1,1,1,0,1,1] [2.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0]: 2
+|      |      |      |      |      +--no:  f_646_f_371_f_560_f_597_f_195 > 1.0
+|      |      |      |      |             +--yes: f_646_f_371_f_560_f_597_f_195 > 2.0
+|      |      |      |      |             |      +--yes: f_180_f_552_f_696_f_691_f_46 > 2.0
+|      |      |      |      |             |      |      +--yes: f_20_f_259_f_241_f_12_f_456 > 3.0
+|      |      |      |      |             |      |      |      +--yes: [1,1,1,1,1,0,0,1,1,0] [1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |      |      |      |             |      |      |      +--no:  [0,0,0,0,1,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|      |      |      |      |             |      |      +--no:  f_20_f_259_f_241_f_12_f_456 > 3.0
+|      |      |      |      |             |      |             +--yes: f_614_f_668_f_345_f_574_f_213 > 3.0
+|      |      |      |      |             |      |             |      +--yes: [1,1,0,1,1,1,0,1,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|      |      |      |      |             |      |             |      +--no:  [1,0,1,1,1,1,0,1,1,1] [1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0]: 2
+|      |      |      |      |             |      |             +--no:  f_374_f_683_f_356_f_442_f_458 > 3.0
+|      |      |      |      |             |      |                    +--yes: [1,1,0,1,1,1,0,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |      |      |      |             |      |                    +--no:  [1,1,0,1,1,1,0,0,1,1] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |      |      |             |      +--no:  f_712_f_545_f_584_f_536_f_363 > 3.0
+|      |      |      |      |             |             +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |      |      |      |             |             +--no:  [1,1,1,1,1,1,0,0,1,1] [2.0,2.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,2.0]: 3
+|      |      |      |      |             +--no:  f_374_f_683_f_356_f_442_f_458 > 3.0
+|      |      |      |      |                    +--yes: [1,0,0,0,1,1,0,0,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |      |      |      |                    +--no:  [0,0,0,0,0,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |      |      +--no:  f_293_f_332_f_519_f_518 > 1.0
+|      |      |      |             +--yes: f_186_f_592_f_387_f_365_f_700 > 3.0
+|      |      |      |             |      +--yes: f_656_f_453_f_257_f_153_f_682 > 4.0
+|      |      |      |             |      |      +--yes: [1,0,1,0,0,0,1,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |      |      |             |      |      +--no:  [1,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |      |      |             |      +--no:  [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |      |      |             +--no:  [1,1,1,0,1,1,0,1,1,1] [2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |      |      +--no:  f_339_f_179_f_372_f_692_f_465 > 1.0
+|      |      |             +--yes: f_822_f_541_f_780_f_609_f_509 > 1.0
+|      |      |             |      +--yes: [1,0,0,0,1,0,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |      |             |      +--no:  f_366_f_13_f_359_f_305_f_243 > 2.0
+|      |      |             |             +--yes: [0,1,1,0,0,1,0,1,1,1] [3.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0,3.0,2.0]: 3
+|      |      |             |             +--no:  f_537_f_687_f_157_f_388_f_551 > 0.0
+|      |      |             |                    +--yes: f_550_f_343_f_419_f_497_f_527 > 0.0
+|      |      |             |                    |      +--yes: [0,0,0,1,1,0,1,1,1,1] [2.0,3.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0]: 3
+|      |      |             |                    |      +--no:  f_3_f_530_f_432_f_19_f_24 > 2.0
+|      |      |             |                    |             +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |             |                    |             +--no:  f_338_f_351_f_582_f_713_f_674 > 2.0
+|      |      |             |                    |                    +--yes: [1,1,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |             |                    |                    +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |      |             |                    +--no:  f_391_f_299_f_710_f_145_f_750 > 2.0
+|      |      |             |                           +--yes: f_637_f_539_f_486_f_250_f_621 > 1.0
+|      |      |             |                           |      +--yes: f_192_f_688_f_547_f_244_f_702 > 2.0
+|      |      |             |                           |      |      +--yes: f_3_f_530_f_432_f_19_f_24 > 2.0
+|      |      |             |                           |      |      |      +--yes: [1,1,1,1,1,0,1,1,0,1] [2.0,3.0,3.0,2.0,3.0,2.0,3.0,2.0,2.0,3.0]: 3
+|      |      |             |                           |      |      |      +--no:  [1,1,1,1,1,0,0,0,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |             |                           |      |      +--no:  f_698_f_576_f_758_f_464_f_229 > 2.0
+|      |      |             |                           |      |             +--yes: [1,1,1,1,1,1,0,1,1,1] [3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|      |      |             |                           |      |             +--no:  [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0]: 2
+|      |      |             |                           |      +--no:  [1,1,1,1,1,1,1,0,0,0] [3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0,2.0]: 3
+|      |      |             |                           +--no:  f_590_f_357_f_619_f_467_f_624 > 1.0
+|      |      |             |                                  +--yes: f_186_f_592_f_387_f_365_f_700 > 3.0
+|      |      |             |                                  |      +--yes: [1,1,1,1,0,1,1,1,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |      |             |                                  |      +--no:  [1,1,0,1,1,1,1,1,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |             |                                  +--no:  [1,1,1,1,0,1,1,0,1,1] [3.0,2.0,3.0,3.0,3.0,2.0,2.0,2.0,2.0,3.0]: 3
+|      |      |             +--no:  f_412_f_286_f_431_f_362_f_427 > 2.0
+|      |      |                    +--yes: [0,0,1,0,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |      |                    +--no:  [0,1,0,0,0,0,0,0,1,0] [3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0,3.0]: 3
+|      |      +--no:  f_658_f_361_f_675_f_436_f_676 > 0.0
+|      |             +--yes: f_452_f_144_f_21_f_776_f_485 > 0.0
+|      |             |      +--yes: f_646_f_371_f_560_f_597_f_195 > 1.0
+|      |             |      |      +--yes: f_586_f_767_f_409_f_350_f_568 > 1.0
+|      |             |      |      |      +--yes: [0,0,1,0,0,1,1,0,1,0] [3.0,2.0,3.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0]: 3
+|      |             |      |      |      +--no:  f_646_f_371_f_560_f_597_f_195 > 3.0
+|      |             |      |      |             +--yes: [0,0,1,0,0,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|      |             |      |      |             +--no:  f_188_f_399_f_502_f_784_f_605 > 0.0
+|      |             |      |      |                    +--yes: f_452_f_144_f_21_f_776_f_485 > 2.0
+|      |             |      |      |                    |      +--yes: [0,1,1,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |             |      |      |                    |      +--no:  f_643_f_613_f_418_f_667_f_708 > 2.0
+|      |             |      |      |                    |             +--yes: f_659_f_608_f_593_f_459_f_800 > 2.0
+|      |             |      |      |                    |             |      +--yes: f_23_f_618_f_821_f_540_f_612 > 2.0
+|      |             |      |      |                    |             |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |      |                    |             |      |      +--no:  [1,1,0,1,0,1,1,1,1,1] [1.0,1.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |             |      |      |                    |             |      +--no:  f_346_f_679_f_143_f_709_f_397 > 1.0
+|      |             |      |      |                    |             |             +--yes: f_3_f_530_f_432_f_19_f_24 > 0.0
+|      |             |      |      |                    |             |             |      +--yes: f_180_f_552_f_696_f_691_f_46 > 0.0
+|      |             |      |      |                    |             |             |      |      +--yes: f_659_f_608_f_593_f_459_f_800 > 1.0
+|      |             |      |      |                    |             |             |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0]: 6
+|      |             |      |      |                    |             |             |      |      |      +--no:  [0,0,0,0,0,0,0,0,0,1] [3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |             |      |      |                    |             |             |      |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |      |                    |             |             |      +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |      |                    |             |             +--no:  f_2_f_634_f_439_f_665_f_300 > 2.0
+|      |             |      |      |                    |             |                    +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |             |      |      |                    |             |                    +--no:  [1,0,0,0,0,1,1,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |      |                    |             +--no:  [0,0,1,0,0,1,0,0,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |             |      |      |                    +--no:  f_571_f_261_f_230_f_47_f_187 > 0.0
+|      |             |      |      |                           +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |             |      |      |                           +--no:  f_591_f_798_f_706_f_151_f_131 > 0.0
+|      |             |      |      |                                  +--yes: f_797_f_403_f_581_f_425_f_352 > 1.0
+|      |             |      |      |                                  |      +--yes: f_23_f_618_f_821_f_540_f_612 > 2.0
+|      |             |      |      |                                  |      |      +--yes: [1,0,1,0,0,0,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |             |      |      |                                  |      |      +--no:  [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |             |      |      |                                  |      +--no:  [1,0,1,0,0,0,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |      |                                  +--no:  [0,0,1,0,1,0,0,0,1,0] [3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |             |      |      +--no:  f_413_f_132_f_827_f_118_f_408 > 0.0
+|      |             |      |             +--yes: [0,0,1,0,1,1,1,0,0,1] [2.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0]: 3
+|      |             |      |             +--no:  f_287_f_333_f_358_f_645_f_150 > 1.0
+|      |             |      |                    +--yes: [0,0,1,0,0,0,0,0,0,1] [3.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0]: 3
+|      |             |      |                    +--no:  [0,0,1,1,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      +--no:  f_440_f_384_f_664_f_393_f_487 > 2.0
+|      |             |             +--yes: f_535_f_256_f_714_f_314_f_779 > 2.0
+|      |             |             |      +--yes: f_391_f_299_f_710_f_145_f_750 > 3.0
+|      |             |             |      |      +--yes: [1,1,0,1,0,0,1,1,1,0] [1.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|      |             |             |      |      +--no:  [1,1,1,1,0,0,1,1,1,1] [2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |             |             |      +--no:  f_335_f_255_f_285_f_569_f_755 > 2.0
+|      |             |             |             +--yes: [0,0,1,0,1,0,1,0,1,1] [2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+|      |             |             |             +--no:  f_20_f_259_f_241_f_12_f_456 > 2.0
+|      |             |             |                    +--yes: [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |             |                    +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |             |             +--no:  f_528_f_355_f_654_f_1_f_824 > 2.0
+|      |             |                    +--yes: [1,1,1,1,1,1,1,1,0,0] [2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0,2.0,2.0]: 2
+|      |             |                    +--no:  f_341_f_420_f_258_f_628_f_457 > 2.0
+|      |             |                           +--yes: [0,1,0,1,0,0,0,0,1,0] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |             |                           +--no:  f_335_f_255_f_285_f_569_f_755 > 2.0
+|      |             |                                  +--yes: [1,0,0,1,1,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                                  +--no:  [1,1,0,1,1,0,0,1,1,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |             +--no:  f_651_f_652_f_395_f_489_f_471 > 2.0
+|      |                    +--yes: f_656_f_453_f_257_f_153_f_682 > 2.0
+|      |                    |      +--yes: f_421_f_805_f_670_f_622_f_771 > 0.0
+|      |                    |      |      +--yes: [1,1,1,1,1,0,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                    |      |      +--no:  [1,1,1,1,1,1,1,1,1,1] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |                    |      +--no:  f_366_f_13_f_359_f_305_f_243 > 1.0
+|      |                    |             +--yes: [1,1,1,1,0,0,1,1,0,1] [1.0,1.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                    |             +--no:  [1,1,1,1,1,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                    +--no:  f_406_f_242_f_17_f_861_f_367 > 1.0
+|      |                           +--yes: f_550_f_343_f_419_f_497_f_527 > 0.0
+|      |                           |      +--yes: f_405_f_684_f_549_f_15_f_555 > 4.0
+|      |                           |      |      +--yes: [0,0,0,1,1,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |      |      +--no:  f_20_f_259_f_241_f_12_f_456 > 3.0
+|      |                           |      |             +--yes: [0,1,0,0,0,1,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |      |             +--no:  [0,1,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                           |      +--no:  f_346_f_679_f_143_f_709_f_397 > 3.0
+|      |                           |             +--yes: f_567_f_578_f_435_f_707_f_641 > 2.0
+|      |                           |             |      +--yes: f_20_f_259_f_241_f_12_f_456 > 2.0
+|      |                           |             |      |      +--yes: [0,1,1,0,0,1,1,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                           |             |      |      +--no:  [1,1,1,1,1,1,0,1,1,1] [2.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|      |                           |             |      +--no:  f_335_f_255_f_285_f_569_f_755 > 3.0
+|      |                           |             |             +--yes: [0,0,0,0,1,0,0,0,1,1] [3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |                           |             |             +--no:  f_698_f_576_f_758_f_464_f_229 > 1.0
+|      |                           |             |                    +--yes: [0,0,0,1,0,0,0,1,0,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,1.0]: 2
+|      |                           |             |                    +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+|      |                           |             |                           +--yes: [0,0,0,1,0,1,0,0,1,0] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |             |                           +--no:  [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                           |             +--no:  f_405_f_684_f_549_f_15_f_555 > 2.0
+|      |                           |                    +--yes: [0,1,1,1,0,0,0,0,0,0] [3.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |                           |                    +--no:  f_567_f_578_f_435_f_707_f_641 > 0.0
+|      |                           |                           +--yes: f_188_f_399_f_502_f_784_f_605 > 0.0
+|      |                           |                           |      +--yes: f_374_f_683_f_356_f_442_f_458 > 1.0
+|      |                           |                           |      |      +--yes: [0,0,0,0,1,0,0,0,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |                           |                           |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                           |                           |      +--no:  f_656_f_453_f_257_f_153_f_682 > 1.0
+|      |                           |                           |             +--yes: [0,0,0,1,0,0,0,1,1,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|      |                           |                           |             +--no:  [0,0,0,0,0,0,0,0,1,1] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |                           |                           +--no:  [1,0,1,1,0,0,1,1,1,1] [1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0]: 2
+|      |                           +--no:  f_734_f_376_f_599_f_472_f_394 > 1.0
+|      |                                  +--yes: f_293_f_332_f_519_f_518 > 2.0
+|      |                                  |      +--yes: f_663_f_677_f_416_f_447_f_585 > 3.0
+|      |                                  |      |      +--yes: f_374_f_683_f_356_f_442_f_458 > 4.0
+|      |                                  |      |      |      +--yes: [0,0,0,0,1,1,0,0,1,0] [3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |                                  |      |      |      +--no:  [1,0,1,0,1,0,0,0,0,1] [2.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0]: 3
+|      |                                  |      |      +--no:  f_38_f_449_f_573_f_521_f_738 > 1.0
+|      |                                  |      |             +--yes: f_374_f_683_f_356_f_442_f_458 > 3.0
+|      |                                  |      |             |      +--yes: [0,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                                  |      |             |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |      |             +--no:  [0,1,1,1,1,0,1,1,0,0] [2.0,3.0,2.0,3.0,3.0,2.0,3.0,2.0,2.0,3.0]: 3
+|      |                                  |      +--no:  f_663_f_677_f_416_f_447_f_585 > 3.0
+|      |                                  |             +--yes: f_659_f_608_f_593_f_459_f_800 > 2.0
+|      |                                  |             |      +--yes: f_528_f_355_f_654_f_1_f_824 > 3.0
+|      |                                  |             |      |      +--yes: f_672_f_749_f_181_f_454_f_336 > 1.0
+|      |                                  |             |      |      |      +--yes: [1,0,0,0,0,1,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|      |                                  |             |      |      |      +--no:  f_293_f_332_f_519_f_518 > 1.0
+|      |                                  |             |      |      |             +--yes: [0,1,0,0,1,1,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             |      |      |             +--no:  [1,1,0,1,1,0,0,0,0,0] [1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             |      |      +--no:  f_580_f_538_f_227_f_216_f_737 > 1.0
+|      |                                  |             |      |             +--yes: f_186_f_592_f_387_f_365_f_700 > 3.0
+|      |                                  |             |      |             |      +--yes: f_180_f_552_f_696_f_691_f_46 > 3.0
+|      |                                  |             |      |             |      |      +--yes: [0,0,0,1,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0,2.0,3.0]: 3
+|      |                                  |             |      |             |      |      +--no:  f_335_f_255_f_285_f_569_f_755 > 2.0
+|      |                                  |             |      |             |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |             |      |             |      |             +--no:  [0,0,0,0,1,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |             |      |             |      +--no:  [1,0,1,1,1,0,1,1,1,1] [1.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0]: 2
+|      |                                  |             |      |             +--no:  [1,1,1,1,1,0,1,0,1,0] [2.0,3.0,2.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0]: 3
+|      |                                  |             |      +--no:  f_567_f_578_f_435_f_707_f_641 > 2.0
+|      |                                  |             |             +--yes: f_23_f_618_f_821_f_540_f_612 > 2.0
+|      |                                  |             |             |      +--yes: f_287_f_333_f_358_f_645_f_150 > 2.0
+|      |                                  |             |             |      |      +--yes: f_23_f_618_f_821_f_540_f_612 > 3.0
+|      |                                  |             |             |      |      |      +--yes: f_20_f_259_f_241_f_12_f_456 > 3.0
+|      |                                  |             |             |      |      |      |      +--yes: [1,1,0,1,1,1,0,0,1,1] [1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|      |                                  |             |             |      |      |      |      +--no:  [0,0,0,0,0,0,0,1,1,0] [2.0,2.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,2.0]: 3
+|      |                                  |             |             |      |      |      +--no:  f_797_f_403_f_581_f_425_f_352 > 2.0
+|      |                                  |             |             |      |      |             +--yes: [0,1,1,1,0,1,1,1,1,1] [2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0]: 2
+|      |                                  |             |             |      |      |             +--no:  f_614_f_668_f_345_f_574_f_213 > 3.0
+|      |                                  |             |             |      |      |                    +--yes: [0,1,1,0,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             |             |      |      |                    +--no:  [0,1,1,1,1,1,1,0,1,1] [2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|      |                                  |             |             |      |      +--no:  [1,1,1,1,0,0,0,1,1,0] [3.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0]: 3
+|      |                                  |             |             |      +--no:  f_186_f_592_f_387_f_365_f_700 > 3.0
+|      |                                  |             |             |             +--yes: [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|      |                                  |             |             |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             |             +--no:  f_412_f_286_f_431_f_362_f_427 > 1.0
+|      |                                  |             |                    +--yes: f_440_f_384_f_664_f_393_f_487 > 3.0
+|      |                                  |             |                    |      +--yes: [1,0,0,0,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                  |             |                    |      +--no:  f_443_f_680_f_445_f_364_f_839 > 1.0
+|      |                                  |             |                    |             +--yes: f_697_f_611_f_14_f_146_f_721 > 3.0
+|      |                                  |             |                    |             |      +--yes: [1,1,1,1,1,1,1,1,0,1] [2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                  |             |                    |             |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             |                    |             +--no:  f_637_f_539_f_486_f_250_f_621 > 1.0
+|      |                                  |             |                    |                    +--yes: f_566_f_607_f_430_f_450_f_695 > 1.0
+|      |                                  |             |                    |                    |      +--yes: f_23_f_618_f_821_f_540_f_612 > 2.0
+|      |                                  |             |                    |                    |      |      +--yes: f_380_f_579_f_601_f_292_f_716 > 0.0
+|      |                                  |             |                    |                    |      |      |      +--yes: [1,0,0,0,0,0,1,0,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |             |                    |                    |      |      |      +--no:  [1,1,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             |                    |                    |      |      +--no:  [1,1,1,0,1,0,1,1,1,0] [1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0]: 2
+|      |                                  |             |                    |                    |      +--no:  [1,0,0,0,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                                  |             |                    |                    +--no:  [1,0,0,1,1,0,1,1,1,1] [3.0,3.0,3.0,3.0,2.0,3.0,2.0,2.0,3.0,2.0]: 3
+|      |                                  |             |                    +--no:  f_335_f_255_f_285_f_569_f_755 > 3.0
+|      |                                  |             |                           +--yes: [0,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                  |             |                           +--no:  [1,1,1,1,0,1,1,1,1,1] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |                                  |             +--no:  f_693_f_396_f_446_f_661_f_417 > 1.0
+|      |                                  |                    +--yes: f_663_f_677_f_416_f_447_f_585 > 2.0
+|      |                                  |                    |      +--yes: f_3_f_530_f_432_f_19_f_24 > 1.0
+|      |                                  |                    |      |      +--yes: f_346_f_679_f_143_f_709_f_397 > 3.0
+|      |                                  |                    |      |      |      +--yes: f_346_f_679_f_143_f_709_f_397 > 4.0
+|      |                                  |                    |      |      |      |      +--yes: f_2_f_634_f_439_f_665_f_300 > 3.0
+|      |                                  |                    |      |      |      |      |      +--yes: [0,0,1,1,1,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0]: 3
+|      |                                  |                    |      |      |      |      |      +--no:  [0,0,1,0,0,0,0,0,1,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |                                  |                    |      |      |      |      +--no:  f_643_f_613_f_418_f_667_f_708 > 3.0
+|      |                                  |                    |      |      |      |             +--yes: [0,1,1,1,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|      |                                  |                    |      |      |      |             +--no:  [1,1,1,1,0,0,0,1,0,0] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,2.0,3.0,3.0]: 3
+|      |                                  |                    |      |      |      +--no:  f_681_f_640_f_499_f_334_f_689 > 1.0
+|      |                                  |                    |      |      |             +--yes: f_192_f_688_f_547_f_244_f_702 > 2.0
+|      |                                  |                    |      |      |             |      +--yes: f_594_f_385_f_477_f_206_f_770 > 0.0
+|      |                                  |                    |      |      |             |      |      +--yes: f_308_f_860_f_22_f_411_f_200 > 0.0
+|      |                                  |                    |      |      |             |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |                    |      |      |             |      |      |      +--no:  [1,0,1,0,0,0,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |      |      |             |      |      +--no:  [1,0,0,0,0,1,0,0,1,0] [2.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |                                  |                    |      |      |             |      +--no:  f_553_f_812_f_298_f_631_f_26 > 0.0
+|      |                                  |                    |      |      |             |             +--yes: f_374_f_683_f_356_f_442_f_458 > 3.0
+|      |                                  |                    |      |      |             |             |      +--yes: [0,1,0,1,1,0,0,0,1,1] [3.0,3.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |                                  |                    |      |      |             |             |      +--no:  [1,1,1,1,0,0,0,1,0,0] [1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                  |                    |      |      |             |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |                                  |                    |      |      |             +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+|      |                                  |                    |      |      |                    +--yes: [1,1,1,1,1,1,0,0,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |      |      |                    +--no:  [1,0,1,0,1,0,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                  |                    |      |      +--no:  f_337_f_18_f_636_f_460_f_25 > 0.0
+|      |                                  |                    |      |             +--yes: f_2_f_634_f_439_f_665_f_300 > 4.0
+|      |                                  |                    |      |             |      +--yes: [0,1,0,1,0,0,1,1,1,0] [2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |      |             |      +--no:  f_642_f_482_f_377_f_701_f_632 > 1.0
+|      |                                  |                    |      |             |             +--yes: f_672_f_749_f_181_f_454_f_336 > 0.0
+|      |                                  |                    |      |             |             |      +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |      |             |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |                    |      |             |             +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+|      |                                  |                    |      |             |                    +--yes: f_185_f_178_f_602_f_484_f_685 > 3.0
+|      |                                  |                    |      |             |                    |      +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |      |             |                    |      +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |                    |      |             |                    +--no:  [1,1,0,0,0,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |      |             +--no:  [1,1,1,1,1,1,1,1,1,0] [2.0,2.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0]: 2
+|      |                                  |                    |      +--no:  f_346_f_679_f_143_f_709_f_397 > 2.0
+|      |                                  |                    |             +--yes: f_16_f_678_f_662_f_386_f_686 > 1.0
+|      |                                  |                    |             |      +--yes: f_591_f_798_f_706_f_151_f_131 > 0.0
+|      |                                  |                    |             |      |      +--yes: f_335_f_255_f_285_f_569_f_755 > 4.0
+|      |                                  |                    |             |      |      |      +--yes: [1,1,0,0,1,0,1,1,1,1] [2.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0,1.0,1.0]: 2
+|      |                                  |                    |             |      |      |      +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0]: 2
+|      |                                  |                    |             |      |      +--no:  f_614_f_668_f_345_f_574_f_213 > 2.0
+|      |                                  |                    |             |      |             +--yes: [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |             |      |             +--no:  [0,0,1,0,1,0,0,0,1,1] [3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |                    |             |      +--no:  [1,1,0,1,0,0,0,1,0,0] [3.0,2.0,2.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |                                  |                    |             +--no:  f_186_f_592_f_387_f_365_f_700 > 2.0
+|      |                                  |                    |                    +--yes: [1,1,1,1,0,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |                    +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    +--no:  f_535_f_256_f_714_f_314_f_779 > 0.0
+|      |                                  |                           +--yes: f_3_f_530_f_432_f_19_f_24 > 0.0
+|      |                                  |                           |      +--yes: f_185_f_178_f_602_f_484_f_685 > 3.0
+|      |                                  |                           |      |      +--yes: [1,0,0,0,0,0,1,1,1,0] [2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0]: 3
+|      |                                  |                           |      |      +--no:  f_341_f_420_f_258_f_628_f_457 > 1.0
+|      |                                  |                           |      |             +--yes: f_2_f_634_f_439_f_665_f_300 > 3.0
+|      |                                  |                           |      |             |      +--yes: f_761_f_653_f_792_f_526_f_764 > 0.0
+|      |                                  |                           |      |             |      |      +--yes: [0,1,0,0,0,0,0,0,1,1] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |                                  |                           |      |             |      |      +--no:  f_375_f_600_f_657_f_558_f_494 > 2.0
+|      |                                  |                           |      |             |      |             +--yes: [1,0,0,0,1,1,0,0,1,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                           |      |             |      |             +--no:  f_567_f_578_f_435_f_707_f_641 > 1.0
+|      |                                  |                           |      |             |      |                    +--yes: f_374_f_683_f_356_f_442_f_458 > 3.0
+|      |                                  |                           |      |             |      |                    |      +--yes: [0,0,0,0,1,1,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                           |      |             |      |                    |      +--no:  [0,0,0,0,1,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                  |                           |      |             |      |                    +--no:  [0,1,1,0,0,0,0,0,0,0] [3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |                                  |                           |      |             |      +--no:  f_566_f_607_f_430_f_450_f_695 > 2.0
+|      |                                  |                           |      |             |             +--yes: f_663_f_677_f_416_f_447_f_585 > 2.0
+|      |                                  |                           |      |             |             |      +--yes: f_392_f_370_f_690_f_673_f_833 > 2.0
+|      |                                  |                           |      |             |             |      |      +--yes: [0,0,1,0,1,0,1,1,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                  |                           |      |             |             |      |      +--no:  [1,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |                           |      |             |             |      +--no:  f_308_f_860_f_22_f_411_f_200 > 0.0
+|      |                                  |                           |      |             |             |             +--yes: [0,0,1,0,1,0,0,0,0,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                  |                           |      |             |             |             +--no:  [1,1,1,0,1,0,0,0,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                                  |                           |      |             |             +--no:  f_443_f_680_f_445_f_364_f_839 > 0.0
+|      |                                  |                           |      |             |                    +--yes: f_346_f_679_f_143_f_709_f_397 > 3.0
+|      |                                  |                           |      |             |                    |      +--yes: [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                           |      |             |                    |      +--no:  [0,1,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                           |      |             |                    +--no:  [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |                                  |                           |      |             +--no:  [1,0,1,0,1,0,1,1,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                                  |                           |      +--no:  [1,1,1,1,1,0,1,1,1,1] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                  |                           +--no:  f_23_f_618_f_821_f_540_f_612 > 2.0
+|      |                                  |                                  +--yes: f_374_f_683_f_356_f_442_f_458 > 2.0
+|      |                                  |                                  |      +--yes: [0,0,1,0,0,0,0,1,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0]: 2
+|      |                                  |                                  |      +--no:  [0,1,1,1,0,1,1,1,0,0] [2.0,1.0,1.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|      |                                  |                                  +--no:  f_639_f_595_f_390_f_638_f_340 > 2.0
+|      |                                  |                                         +--yes: [0,0,0,0,0,0,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|      |                                  |                                         +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  +--no:  f_580_f_538_f_227_f_216_f_737 > 0.0
+|      |                                         +--yes: f_639_f_595_f_390_f_638_f_340 > 3.0
+|      |                                         |      +--yes: f_697_f_611_f_14_f_146_f_721 > 2.0
+|      |                                         |      |      +--yes: f_693_f_396_f_446_f_661_f_417 > 1.0
+|      |                                         |      |      |      +--yes: f_249_f_490_f_506_f_116_f_620 > 3.0
+|      |                                         |      |      |      |      +--yes: [1,1,1,0,1,1,1,1,1,1] [1.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0]: 2
+|      |                                         |      |      |      |      +--no:  f_698_f_576_f_758_f_464_f_229 > 2.0
+|      |                                         |      |      |      |             +--yes: [1,1,0,1,1,0,1,1,1,1] [1.0,1.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      |                                         |      |      |      |             +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                         |      |      |      +--no:  [1,0,0,0,0,0,1,1,0,0] [2.0,2.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0]: 3
+|      |                                         |      |      +--no:  f_392_f_370_f_690_f_673_f_833 > 2.0
+|      |                                         |      |             +--yes: [0,0,1,1,0,0,0,0,0,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                         |      |             +--no:  [0,1,1,1,1,1,0,0,1,1] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                         |      +--no:  f_643_f_613_f_418_f_667_f_708 > 2.0
+|      |                                         |             +--yes: f_451_f_570_f_379_f_344_f_27 > 2.0
+|      |                                         |             |      +--yes: f_338_f_351_f_582_f_713_f_674 > 2.0
+|      |                                         |             |      |      +--yes: f_617_f_11_f_495_f_368_f_515 > 2.0
+|      |                                         |             |      |      |      +--yes: [1,1,1,1,1,0,0,1,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                         |             |      |      |      +--no:  [0,1,1,1,0,1,1,1,0,1] [2.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0,2.0,2.0]: 3
+|      |                                         |             |      |      +--no:  [1,0,0,1,1,1,1,1,1,1] [1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0]: 2
+|      |                                         |             |      +--no:  f_3_f_530_f_432_f_19_f_24 > 1.0
+|      |                                         |             |             +--yes: [1,1,1,1,1,1,1,1,1,1] [5.0,5.0,5.0,5.0,5.0,5.0,5.0,4.0,4.0,4.0]: 5
+|      |                                         |             |             +--no:  [1,1,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                         |             +--no:  f_338_f_351_f_582_f_713_f_674 > 2.0
+|      |                                         |                    +--yes: [0,0,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      |                                         |                    +--no:  [0,1,1,1,1,1,0,0,1,1] [2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                         +--no:  f_548_f_159_f_473_f_115_f_510 > 0.0
+|      |                                                +--yes: f_617_f_11_f_495_f_368_f_515 > 1.0
+|      |                                                |      +--yes: f_308_f_860_f_22_f_411_f_200 > 1.0
+|      |                                                |      |      +--yes: [0,0,1,0,1,1,0,0,1,1] [2.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,2.0]: 3
+|      |                                                |      |      +--no:  f_528_f_355_f_654_f_1_f_824 > 2.0
+|      |                                                |      |             +--yes: f_777_f_260_f_610_f_31_f_429 > 0.0
+|      |                                                |      |             |      +--yes: f_335_f_255_f_285_f_569_f_755 > 3.0
+|      |                                                |      |             |      |      +--yes: f_346_f_679_f_143_f_709_f_397 > 2.0
+|      |                                                |      |             |      |      |      +--yes: [1,0,1,0,1,1,0,0,0,0] [1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                |      |             |      |      |      +--no:  [0,1,1,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                |      |             |      |      +--no:  f_37_f_603_f_564_f_493_f_572 > 2.0
+|      |                                                |      |             |      |             +--yes: [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|      |                                                |      |             |      |             +--no:  f_338_f_351_f_582_f_713_f_674 > 2.0
+|      |                                                |      |             |      |                    +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                |      |             |      |                    +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                |      |             |      +--no:  [0,1,1,1,0,0,0,0,0,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                |      |             +--no:  [0,0,0,1,1,0,1,0,0,0] [3.0,3.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0]: 3
+|      |                                                |      +--no:  f_406_f_242_f_17_f_861_f_367 > 0.0
+|      |                                                |             +--yes: f_818_f_556_f_596_f_703_f_129 > 1.0
+|      |                                                |             |      +--yes: [0,0,0,1,0,1,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |                                                |             |      +--no:  [1,1,1,1,1,1,1,1,1,0] [3.0,3.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0,2.0]: 3
+|      |                                                |             +--no:  f_443_f_680_f_445_f_364_f_839 > 1.0
+|      |                                                |                    +--yes: f_338_f_351_f_582_f_713_f_674 > 2.0
+|      |                                                |                    |      +--yes: [1,0,1,0,0,1,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|      |                                                |                    |      +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                                                |                    +--no:  [0,1,1,1,1,1,0,0,0,0] [3.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0,2.0,3.0]: 3
+|      |                                                +--no:  f_671_f_711_f_488_f_43_f_347 > 1.0
+|      |                                                       +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |                                                       +--no:  f_452_f_144_f_21_f_776_f_485 > 1.0
+|      |                                                              +--yes: f_37_f_603_f_564_f_493_f_572 > 0.0
+|      |                                                              |      +--yes: [0,1,1,0,1,0,1,1,1,1] [2.0,2.0,3.0,2.0,3.0,2.0,2.0,2.0,3.0,3.0]: 3
+|      |                                                              |      +--no:  [1,1,0,1,1,1,1,1,1,1] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                                              +--no:  f_535_f_256_f_714_f_314_f_779 > 1.0
+|      |                                                                     +--yes: [1,1,1,1,0,0,1,1,0,0] [3.0,3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0]: 3
+|      |                                                                     +--no:  f_405_f_684_f_549_f_15_f_555 > 2.0
+|      |                                                                            +--yes: f_656_f_453_f_257_f_153_f_682 > 1.0
+|      |                                                                            |      +--yes: [0,1,1,1,1,0,0,0,0,0] [3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |                                                                            |      +--no:  f_308_f_860_f_22_f_411_f_200 > 0.0
+|      |                                                                            |             +--yes: f_374_f_683_f_356_f_442_f_458 > 2.0
+|      |                                                                            |             |      +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,1.0]: 2
+|      |                                                                            |             |      +--no:  [1,1,1,1,1,1,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0]: 2
+|      |                                                                            |             +--no:  [1,1,1,1,1,0,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            +--no:  f_185_f_178_f_602_f_484_f_685 > 1.0
+|      |                                                                                   +--yes: f_346_f_679_f_143_f_709_f_397 > 2.0
+|      |                                                                                   |      +--yes: f_20_f_259_f_241_f_12_f_456 > 2.0
+|      |                                                                                   |      |      +--yes: [0,1,1,1,1,0,0,0,0,0] [2.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                                   |      |      +--no:  [1,1,1,1,1,1,0,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                                                                                   |      +--no:  [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                                   +--no:  [0,0,1,1,1,0,0,1,0,1] [3.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,3.0]: 3
+|      +--no:  f_3_f_530_f_432_f_19_f_24 > 0.0
+|             +--yes: f_2_f_634_f_439_f_665_f_300 > 0.0
+|             |      +--yes: f_698_f_576_f_758_f_464_f_229 > 1.0
+|             |      |      +--yes: f_421_f_805_f_670_f_622_f_771 > 0.0
+|             |      |      |      +--yes: f_531_f_768_f_803 > 0.0
+|             |      |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+|             |      |      |      |      +--no:  f_712_f_545_f_584_f_536_f_363 > 1.0
+|             |      |      |      |             +--yes: f_349_f_441_f_373_f_407_f_565 > 1.0
+|             |      |      |      |             |      +--yes: f_20_f_259_f_241_f_12_f_456 > 0.0
+|             |      |      |      |             |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |      |      |             |      |      +--no:  [1,0,1,0,0,0,1,1,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |      |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0]: 7
+|             |      |      |      |             +--no:  [1,1,0,1,1,1,1,1,1,0] [1.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0,2.0]: 2
+|             |      |      |      +--no:  f_380_f_579_f_601_f_292_f_716 > 2.0
+|             |      |      |             +--yes: f_655_f_382_f_475_f_301_f_778 > 0.0
+|             |      |      |             |      +--yes: f_643_f_613_f_418_f_667_f_708 > 2.0
+|             |      |      |             |      |      +--yes: [1,1,1,0,0,1,1,1,0,0] [1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |             |      |      +--no:  [0,1,1,0,1,1,1,1,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |             |      +--no:  f_338_f_351_f_582_f_713_f_674 > 2.0
+|             |      |      |             |             +--yes: [1,1,1,1,1,0,1,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |             |             +--no:  [1,0,1,1,1,1,1,1,0,0] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |             +--no:  f_642_f_482_f_377_f_701_f_632 > 1.0
+|             |      |      |                    +--yes: f_528_f_355_f_654_f_1_f_824 > 3.0
+|             |      |      |                    |      +--yes: [1,1,1,1,1,1,1,1,0,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0]: 2
+|             |      |      |                    |      +--no:  f_553_f_812_f_298_f_631_f_26 > 0.0
+|             |      |      |                    |             +--yes: f_614_f_668_f_345_f_574_f_213 > 3.0
+|             |      |      |                    |             |      +--yes: f_346_f_679_f_143_f_709_f_397 > 3.0
+|             |      |      |                    |             |      |      +--yes: [1,0,0,1,0,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0]: 2
+|             |      |      |                    |             |      |      +--no:  [1,1,0,1,0,0,0,1,0,1] [1.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,1.0]: 2
+|             |      |      |                    |             |      +--no:  f_338_f_351_f_582_f_713_f_674 > 2.0
+|             |      |      |                    |             |             +--yes: [0,0,1,1,0,1,0,0,0,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|             |      |      |                    |             |             +--no:  f_308_f_860_f_22_f_411_f_200 > 0.0
+|             |      |      |                    |             |                    +--yes: [1,1,1,1,1,1,0,1,1,1] [1.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |                    |             |                    +--no:  [0,0,1,1,1,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |                    |             +--no:  f_335_f_255_f_285_f_569_f_755 > 2.0
+|             |      |      |                    |                    +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|             |      |      |                    |                    +--no:  [0,0,0,1,1,0,0,0,1,0] [3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|             |      |      |                    +--no:  f_567_f_578_f_435_f_707_f_641 > 2.0
+|             |      |      |                           +--yes: f_440_f_384_f_664_f_393_f_487 > 2.0
+|             |      |      |                           |      +--yes: f_374_f_683_f_356_f_442_f_458 > 3.0
+|             |      |      |                           |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |                           |      |      +--no:  [1,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|             |      |      |                           |      +--no:  [1,0,0,0,0,0,1,1,0,0] [3.0,2.0,3.0,2.0,2.0,3.0,2.0,2.0,2.0,3.0]: 3
+|             |      |      |                           +--no:  f_443_f_680_f_445_f_364_f_839 > 1.0
+|             |      |      |                                  +--yes: f_614_f_668_f_345_f_574_f_213 > 3.0
+|             |      |      |                                  |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+|             |      |      |                                  |      +--no:  f_294_f_284_f_0_f_10_f_423 > 3.0
+|             |      |      |                                  |             +--yes: [1,0,1,0,0,0,1,1,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0]: 2
+|             |      |      |                                  |             +--no:  f_571_f_261_f_230_f_47_f_187 > 0.0
+|             |      |      |                                  |                    +--yes: f_346_f_679_f_143_f_709_f_397 > 2.0
+|             |      |      |                                  |                    |      +--yes: [1,1,1,1,0,1,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |                                  |                    |      +--no:  [1,1,1,1,0,1,0,1,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |                                  |                    +--no:  [1,1,1,1,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|             |      |      |                                  +--no:  f_338_f_351_f_582_f_713_f_674 > 2.0
+|             |      |      |                                         +--yes: f_528_f_355_f_654_f_1_f_824 > 2.0
+|             |      |      |                                         |      +--yes: f_659_f_608_f_593_f_459_f_800 > 1.0
+|             |      |      |                                         |      |      +--yes: [0,1,0,1,1,0,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,2.0,3.0,2.0,3.0]: 3
+|             |      |      |                                         |      |      +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+|             |      |      |                                         |      |             +--yes: [1,1,1,1,1,0,1,1,1,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |                                         |      |             +--no:  [1,1,1,1,1,0,1,1,1,1] [1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|             |      |      |                                         |      +--no:  f_346_f_679_f_143_f_709_f_397 > 2.0
+|             |      |      |                                         |             +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |      |      |                                         |             +--no:  [1,1,1,1,1,1,1,1,1,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |      |      |                                         +--no:  f_3_f_530_f_432_f_19_f_24 > 1.0
+|             |      |      |                                                +--yes: [0,0,0,0,0,0,0,0,0,1] [2.0,2.0,2.0,3.0,3.0,2.0,2.0,3.0,2.0,2.0]: 3
+|             |      |      |                                                +--no:  f_38_f_449_f_573_f_521_f_738 > 2.0
+|             |      |      |                                                       +--yes: [1,0,1,0,0,1,1,0,0,0] [2.0,3.0,2.0,2.0,3.0,2.0,3.0,2.0,3.0,2.0]: 3
+|             |      |      |                                                       +--no:  f_287_f_333_f_358_f_645_f_150 > 1.0
+|             |      |      |                                                              +--yes: f_639_f_595_f_390_f_638_f_340 > 1.0
+|             |      |      |                                                              |      +--yes: f_822_f_541_f_780_f_609_f_509 > 0.0
+|             |      |      |                                                              |      |      +--yes: [1,0,1,1,1,0,1,1,0,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|             |      |      |                                                              |      |      +--no:  [1,1,0,1,0,0,1,1,0,0] [2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |      |                                                              |      +--no:  [0,0,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|             |      |      |                                                              +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,1.0,1.0]: 2
+|             |      |      +--no:  f_639_f_595_f_390_f_638_f_340 > 0.0
+|             |      |             +--yes: f_2_f_634_f_439_f_665_f_300 > 1.0
+|             |      |             |      +--yes: f_23_f_618_f_821_f_540_f_612 > 0.0
+|             |      |             |      |      +--yes: f_797_f_403_f_581_f_425_f_352 > 1.0
+|             |      |             |      |      |      +--yes: f_33_f_470_f_660_f_476_f_194 > 1.0
+|             |      |             |      |      |      |      +--yes: f_580_f_538_f_227_f_216_f_737 > 0.0
+|             |      |             |      |      |      |      |      +--yes: f_341_f_420_f_258_f_628_f_457 > 2.0
+|             |      |             |      |      |      |      |      |      +--yes: [0,0,1,1,1,0,0,1,0,1] [2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0]: 3
+|             |      |             |      |      |      |      |      |      +--no:  f_20_f_259_f_241_f_12_f_456 > 0.0
+|             |      |             |      |      |      |      |      |             +--yes: [0,0,0,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0]: 2
+|             |      |             |      |      |      |      |      |             +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|             |      |             |      |      |      |      |      +--no:  f_180_f_552_f_696_f_691_f_46 > 2.0
+|             |      |             |      |      |      |      |             +--yes: [1,0,1,1,1,0,0,0,0,0] [1.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |      |      |             +--no:  f_405_f_684_f_549_f_15_f_555 > 1.0
+|             |      |             |      |      |      |      |                    +--yes: [1,1,0,1,0,1,1,1,0,1] [2.0,2.0,2.0,3.0,3.0,2.0,2.0,3.0,2.0,2.0]: 3
+|             |      |             |      |      |      |      |                    +--no:  [0,0,1,1,1,0,1,1,1,1] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|             |      |             |      |      |      |      +--no:  f_528_f_355_f_654_f_1_f_824 > 3.0
+|             |      |             |      |      |      |             +--yes: f_566_f_607_f_430_f_450_f_695 > 2.0
+|             |      |             |      |      |      |             |      +--yes: [1,1,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      |      |             |      +--no:  [1,0,1,1,0,1,1,0,0,0] [1.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |      |             +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+|             |      |             |      |      |      |                    +--yes: [1,1,1,0,1,1,1,1,0,1] [2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|             |      |             |      |      |      |                    +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |      +--no:  f_34_f_207_f_625_f_826_f_588 > 0.0
+|             |      |             |      |      |             +--yes: f_308_f_860_f_22_f_411_f_200 > 0.0
+|             |      |             |      |      |             |      +--yes: [1,1,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |             |      +--no:  f_656_f_453_f_257_f_153_f_682 > 1.0
+|             |      |             |      |      |             |             +--yes: f_697_f_611_f_14_f_146_f_721 > 2.0
+|             |      |             |      |      |             |             |      +--yes: [1,1,0,0,0,0,1,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |             |             |      +--no:  [1,0,0,0,0,0,1,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      |             |             +--no:  f_503_f_763_f_533_f_650_f_401 > 0.0
+|             |      |             |      |      |             |                    +--yes: f_614_f_668_f_345_f_574_f_213 > 1.0
+|             |      |             |      |      |             |                    |      +--yes: [0,0,0,1,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |             |                    |      +--no:  f_528_f_355_f_654_f_1_f_824 > 2.0
+|             |      |             |      |      |             |                    |             +--yes: [1,1,1,1,1,1,1,1,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      |             |                    |             +--no:  [0,0,0,1,0,1,1,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |             |                    +--no:  [1,0,0,1,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |             +--no:  f_614_f_668_f_345_f_574_f_213 > 3.0
+|             |      |             |      |      |                    +--yes: f_412_f_286_f_431_f_362_f_427 > 1.0
+|             |      |             |      |      |                    |      +--yes: [1,1,1,1,1,1,1,0,0,0] [3.0,2.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0]: 3
+|             |      |             |      |      |                    |      +--no:  f_697_f_611_f_14_f_146_f_721 > 1.0
+|             |      |             |      |      |                    |             +--yes: f_186_f_592_f_387_f_365_f_700 > 2.0
+|             |      |             |      |      |                    |             |      +--yes: [1,1,0,0,0,0,0,0,0,0] [3.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|             |      |             |      |      |                    |             |      +--no:  f_391_f_299_f_710_f_145_f_750 > 2.0
+|             |      |             |      |      |                    |             |             +--yes: [1,0,0,0,0,1,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |                    |             |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             |      |      |                    |             +--no:  f_308_f_860_f_22_f_411_f_200 > 0.0
+|             |      |             |      |      |                    |                    +--yes: f_186_f_592_f_387_f_365_f_700 > 1.0
+|             |      |             |      |      |                    |                    |      +--yes: [1,1,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             |      |      |                    |                    |      +--no:  [1,1,0,1,0,1,0,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      |                    |                    +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|             |      |             |      |      |                    +--no:  f_697_f_611_f_14_f_146_f_721 > 1.0
+|             |      |             |      |      |                           +--yes: f_655_f_382_f_475_f_301_f_778 > 0.0
+|             |      |             |      |      |                           |      +--yes: f_199_f_577_f_422_f_434_f_398 > 1.0
+|             |      |             |      |      |                           |      |      +--yes: f_639_f_595_f_390_f_638_f_340 > 2.0
+|             |      |             |      |      |                           |      |      |      +--yes: [0,0,0,0,0,1,1,1,0,0] [3.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0]: 3
+|             |      |             |      |      |                           |      |      |      +--no:  [1,1,1,0,1,1,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |      |      +--no:  f_341_f_420_f_258_f_628_f_457 > 1.0
+|             |      |             |      |      |                           |      |             +--yes: f_308_f_860_f_22_f_411_f_200 > 0.0
+|             |      |             |      |      |                           |      |             |      +--yes: [1,0,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0]: 2
+|             |      |             |      |      |                           |      |             |      +--no:  [1,0,1,1,0,0,0,0,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |      |             |      |      |                           |      |             +--no:  [1,1,1,1,1,1,1,1,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|             |      |             |      |      |                           |      +--no:  f_180_f_552_f_696_f_691_f_46 > 2.0
+|             |      |             |      |      |                           |             +--yes: f_23_f_618_f_821_f_540_f_612 > 2.0
+|             |      |             |      |      |                           |             |      +--yes: [1,0,1,1,0,0,0,0,1,1] [1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |      |             |      |      |                           |             |      +--no:  f_646_f_371_f_560_f_597_f_195 > 1.0
+|             |      |             |      |      |                           |             |             +--yes: f_391_f_299_f_710_f_145_f_750 > 2.0
+|             |      |             |      |      |                           |             |             |      +--yes: [0,0,1,0,0,0,1,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |             |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             |      |      |                           |             |             +--no:  [0,0,0,0,0,1,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |             +--no:  f_580_f_538_f_227_f_216_f_737 > 0.0
+|             |      |             |      |      |                           |                    +--yes: [1,1,1,1,1,0,1,1,0,1] [1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |                    +--no:  f_23_f_618_f_821_f_540_f_612 > 1.0
+|             |      |             |      |      |                           |                           +--yes: f_16_f_678_f_662_f_386_f_686 > 1.0
+|             |      |             |      |      |                           |                           |      +--yes: [1,1,0,0,0,1,0,0,0,1] [2.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0]: 3
+|             |      |             |      |      |                           |                           |      +--no:  f_535_f_256_f_714_f_314_f_779 > 0.0
+|             |      |             |      |      |                           |                           |             +--yes: f_566_f_607_f_430_f_450_f_695 > 2.0
+|             |      |             |      |      |                           |                           |             |      +--yes: [1,1,0,0,1,0,1,1,0,1] [1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|             |      |             |      |      |                           |                           |             |      +--no:  f_646_f_371_f_560_f_597_f_195 > 2.0
+|             |      |             |      |      |                           |                           |             |             +--yes: f_614_f_668_f_345_f_574_f_213 > 1.0
+|             |      |             |      |      |                           |                           |             |             |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |                           |             |             |      +--no:  [1,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |                           |             |             +--no:  [1,0,0,0,0,1,0,0,0,0] [2.0,2.0,3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|             |      |             |      |      |                           |                           |             +--no:  [1,1,0,1,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |                           +--no:  f_20_f_259_f_241_f_12_f_456 > 0.0
+|             |      |             |      |      |                           |                                  +--yes: [0,1,0,0,1,1,0,1,1,0] [2.0,1.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      |                           |                                  +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |      |             |      |      |                           +--no:  f_503_f_763_f_533_f_650_f_401 > 0.0
+|             |      |             |      |      |                                  +--yes: [1,1,1,1,1,0,1,1,1,1] [1.0,2.0,2.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0]: 2
+|             |      |             |      |      |                                  +--no:  f_392_f_370_f_690_f_673_f_833 > 2.0
+|             |      |             |      |      |                                         +--yes: [0,0,0,0,0,0,0,1,0,0] [3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             |      |      |                                         +--no:  f_308_f_860_f_22_f_411_f_200 > 0.0
+|             |      |             |      |      |                                                +--yes: f_185_f_178_f_602_f_484_f_685 > 1.0
+|             |      |             |      |      |                                                |      +--yes: f_20_f_259_f_241_f_12_f_456 > 0.0
+|             |      |             |      |      |                                                |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|             |      |             |      |      |                                                |      |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |      |      |                                                |      +--no:  [0,0,0,0,0,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|             |      |             |      |      |                                                +--no:  f_366_f_13_f_359_f_305_f_243 > 0.0
+|             |      |             |      |      |                                                       +--yes: [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             |      |      |                                                       +--no:  [0,0,0,0,0,1,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |      |      +--no:  [1,1,1,0,0,0,1,0,0,0] [5.0,4.0,4.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0]: 5
+|             |      |             |      +--no:  f_192_f_688_f_547_f_244_f_702 > 1.0
+|             |      |             |             +--yes: f_663_f_677_f_416_f_447_f_585 > 2.0
+|             |      |             |             |      +--yes: f_542_f_166_f_400_f_532_f_511 > 0.0
+|             |      |             |             |      |      +--yes: [0,0,0,0,0,1,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |             |      |      +--no:  [0,0,0,0,0,0,0,0,0,1] [3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0]: 3
+|             |      |             |             |      +--no:  [0,1,0,0,0,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0]: 2
+|             |      |             |             +--no:  f_671_f_711_f_488_f_43_f_347 > 0.0
+|             |      |             |                    +--yes: f_374_f_683_f_356_f_442_f_458 > 1.0
+|             |      |             |                    |      +--yes: [0,0,0,0,0,0,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|             |      |             |                    |      +--no:  [0,1,0,0,0,0,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |                    +--no:  f_293_f_332_f_519_f_518 > 1.0
+|             |      |             |                           +--yes: f_693_f_396_f_446_f_661_f_417 > 0.0
+|             |      |             |                           |      +--yes: [1,0,0,0,0,1,0,0,0,0] [2.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             |                           |      +--no:  [1,1,1,1,0,1,0,0,1,1] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|             |      |             |                           +--no:  f_655_f_382_f_475_f_301_f_778 > 0.0
+|             |      |             |                                  +--yes: f_567_f_578_f_435_f_707_f_641 > 2.0
+|             |      |             |                                  |      +--yes: f_20_f_259_f_241_f_12_f_456 > 0.0
+|             |      |             |                                  |      |      +--yes: [1,1,0,0,0,0,0,0,1,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |      |             |                                  |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |                                  |      +--no:  f_516_f_704_f_438_f_830_f_414 > 1.0
+|             |      |             |                                  |             +--yes: [1,0,0,0,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|             |      |             |                                  |             +--no:  [1,0,0,0,0,0,1,1,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|             |      |             |                                  +--no:  f_23_f_618_f_821_f_540_f_612 > 2.0
+|             |      |             |                                         +--yes: [1,0,0,0,0,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |                                         +--no:  f_308_f_860_f_22_f_411_f_200 > 0.0
+|             |      |             |                                                +--yes: [0,0,1,0,1,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |                                                +--no:  [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|             |      +--no:  f_33_f_470_f_660_f_476_f_194 > 0.0
+|             |             +--yes: [1,0,1,0,1,0,0,0,0,1] [2.0,2.0,3.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0]: 3
+|             |             +--no:  f_20_f_259_f_241_f_12_f_456 > 0.0
+|             |                    +--yes: f_566_f_607_f_430_f_450_f_695 > 1.0
+|             |                    |      +--yes: [1,1,0,0,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|             |                    |      +--no:  [1,0,0,0,1,1,0,0,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |                    +--no:  [1,1,0,1,1,0,0,1,1,1] [2.0,3.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0]: 3
+|             +--no:  f_375_f_600_f_657_f_558_f_494 > 0.0
+|                    +--yes: f_553_f_812_f_298_f_631_f_26 > 0.0
+|                    |      +--yes: f_335_f_255_f_285_f_569_f_755 > 2.0
+|                    |      |      +--yes: [1,0,1,0,0,0,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                    |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                    |      +--no:  f_293_f_332_f_519_f_518 > 1.0
+|                    |             +--yes: f_500_f_715_f_789_f_785_f_740 > 0.0
+|                    |             |      +--yes: f_550_f_343_f_419_f_497_f_527 > 0.0
+|                    |             |      |      +--yes: f_374_f_683_f_356_f_442_f_458 > 2.0
+|                    |             |      |      |      +--yes: [1,1,0,0,0,0,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                    |             |      |      |      +--no:  f_335_f_255_f_285_f_569_f_755 > 2.0
+|                    |             |      |      |             +--yes: [1,1,1,0,0,1,1,1,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                    |             |      |      |             +--no:  [1,1,1,0,0,0,1,1,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                    |             |      |      +--no:  [1,1,0,1,1,1,1,1,1,1] [1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0]: 2
+|                    |             |      +--no:  f_658_f_361_f_675_f_436_f_676 > 0.0
+|                    |             |             +--yes: f_392_f_370_f_690_f_673_f_833 > 1.0
+|                    |             |             |      +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0]: 2
+|                    |             |             |      +--no:  [1,0,1,0,1,1,1,0,0,0] [2.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0]: 2
+|                    |             |             +--no:  f_374_f_683_f_356_f_442_f_458 > 1.0
+|                    |             |                    +--yes: f_374_f_683_f_356_f_442_f_458 > 2.0
+|                    |             |                    |      +--yes: [0,0,0,0,0,0,0,0,1,0] [2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|                    |             |                    |      +--no:  f_643_f_613_f_418_f_667_f_708 > 3.0
+|                    |             |                    |             +--yes: [1,1,0,0,1,0,1,0,0,1] [1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|                    |             |                    |             +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                    |             |                    +--no:  [0,0,0,1,1,1,0,0,1,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                    |             +--no:  f_421_f_805_f_670_f_622_f_771 > 0.0
+|                    |                    +--yes: [0,0,1,1,0,0,0,0,0,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                    |                    +--no:  f_643_f_613_f_418_f_667_f_708 > 2.0
+|                    |                           +--yes: f_797_f_403_f_581_f_425_f_352 > 1.0
+|                    |                           |      +--yes: [1,1,1,0,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                    |                           |      +--no:  f_405_f_684_f_549_f_15_f_555 > 2.0
+|                    |                           |             +--yes: [1,1,0,1,0,1,1,0,0,0] [3.0,3.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0]: 3
+|                    |                           |             +--no:  [1,1,0,0,0,0,1,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                    |                           +--no:  f_405_f_684_f_549_f_15_f_555 > 1.0
+|                    |                                  +--yes: f_180_f_552_f_696_f_691_f_46 > 1.0
+|                    |                                  |      +--yes: f_697_f_611_f_14_f_146_f_721 > 1.0
+|                    |                                  |      |      +--yes: [1,1,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                    |                                  |      |      +--no:  [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0]: 2
+|                    |                                  |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|                    |                                  +--no:  [0,1,0,1,1,1,0,1,1,1] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,1.0,1.0,1.0]: 2
+|                    +--no:  f_38_f_449_f_573_f_521_f_738 > 1.0
+|                           +--yes: [0,1,1,1,0,1,1,1,1,1] [2.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                           +--no:  f_656_f_453_f_257_f_153_f_682 > 1.0
+|                                  +--yes: f_308_f_860_f_22_f_411_f_200 > 0.0
+|                                  |      +--yes: [1,1,1,1,0,1,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0]: 2
+|                                  |      +--no:  f_604_f_160_f_167_f_483_f_513 > 0.0
+|                                  |             +--yes: f_759_f_589_f_514_f_575_f_559 > 0.0
+|                                  |             |      +--yes: [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  |             |      +--no:  f_346_f_679_f_143_f_709_f_397 > 3.0
+|                                  |             |             +--yes: [1,0,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                  |             |             +--no:  [1,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  |             +--no:  f_617_f_11_f_495_f_368_f_515 > 1.0
+|                                  |                    +--yes: [1,1,0,1,1,0,1,1,1,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|                                  |                    +--no:  [0,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                  +--no:  f_626_f_455_f_728_f_773_f_428 > 0.0
+|                                         +--yes: f_615_f_520_f_504_f_791_f_193 > 1.0
+|                                         |      +--yes: [1,1,0,0,0,0,1,1,0,1] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0]: 2
+|                                         |      +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+|                                         |             +--yes: [1,1,0,1,1,1,1,1,1,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |             +--no:  [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         +--no:  f_462_f_283_f_9_f_342 > 2.0
+|                                                +--yes: [1,1,1,1,1,0,1,1,1,1] [2.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                                                +--no:  f_614_f_668_f_345_f_574_f_213 > 2.0
+|                                                       +--yes: f_346_f_679_f_143_f_709_f_397 > 2.0
+|                                                       |      +--yes: f_639_f_595_f_390_f_638_f_340 > 2.0
+|                                                       |      |      +--yes: [1,0,0,1,0,0,1,1,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                       |      |      +--no:  [1,0,0,0,0,0,1,1,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                                       |      +--no:  f_186_f_592_f_387_f_365_f_700 > 2.0
+|                                                       |             +--yes: f_338_f_351_f_582_f_713_f_674 > 2.0
+|                                                       |             |      +--yes: [1,1,0,1,0,0,1,1,0,0] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                       |             |      +--no:  [1,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                       |             +--no:  f_248_f_840_f_694_f_214_f_719 > 0.0
+|                                                       |                    +--yes: [1,1,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                       |                    +--no:  [1,1,1,1,0,0,1,1,0,1] [3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|                                                       +--no:  f_185_f_178_f_602_f_484_f_685 > 1.0
+|                                                              +--yes: f_614_f_668_f_345_f_574_f_213 > 0.0
+|                                                              |      +--yes: [1,1,0,0,0,0,1,1,1,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+|                                                              |      +--no:  [1,1,0,1,1,0,1,1,1,1] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                                              +--no:  f_287_f_333_f_358_f_645_f_150 > 1.0
+|                                                                     +--yes: [1,1,0,0,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     +--no:  f_338_f_351_f_582_f_713_f_674 > 2.0
+|                                                                            +--yes: [1,1,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+|                                                                            +--no:  [0,0,0,0,0,0,1,1,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
++--no:  f_20_f_259_f_241_f_12_f_456 > 1.0
+       +--yes: f_374_f_683_f_356_f_442_f_458 > 1.0
+       |      +--yes: f_663_f_677_f_416_f_447_f_585 > 1.0
+       |      |      +--yes: f_643_f_613_f_418_f_667_f_708 > 1.0
+       |      |      |      +--yes: f_185_f_178_f_602_f_484_f_685 > 1.0
+       |      |      |      |      +--yes: f_346_f_679_f_143_f_709_f_397 > 2.0
+       |      |      |      |      |      +--yes: f_571_f_261_f_230_f_47_f_187 > 0.0
+       |      |      |      |      |      |      +--yes: f_567_f_578_f_435_f_707_f_641 > 2.0
+       |      |      |      |      |      |      |      +--yes: f_20_f_259_f_241_f_12_f_456 > 2.0
+       |      |      |      |      |      |      |      |      +--yes: f_672_f_749_f_181_f_454_f_336 > 0.0
+       |      |      |      |      |      |      |      |      |      +--yes: [1,1,0,1,1,0,1,0,1,1] [2.0,1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,1.0]: 2
+       |      |      |      |      |      |      |      |      |      +--no:  [0,0,0,0,0,0,0,0,1,1] [3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0]: 3
+       |      |      |      |      |      |      |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+       |      |      |      |      |      |      |      +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+       |      |      |      |      |      |      |             +--yes: [1,0,1,1,1,0,1,1,0,0] [1.0,2.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+       |      |      |      |      |      |      |             +--no:  [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+       |      |      |      |      |      |      +--no:  f_537_f_687_f_157_f_388_f_551 > 0.0
+       |      |      |      |      |      |             +--yes: [0,0,0,0,0,0,0,0,1,1] [3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+       |      |      |      |      |      |             +--no:  f_346_f_679_f_143_f_709_f_397 > 3.0
+       |      |      |      |      |      |                    +--yes: [0,0,1,0,0,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |      |      |      |      |      |                    +--no:  [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |      |      |      |      |      +--no:  f_617_f_11_f_495_f_368_f_515 > 2.0
+       |      |      |      |      |             +--yes: [1,0,1,1,0,1,1,1,1,1] [1.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+       |      |      |      |      |             +--no:  f_335_f_255_f_285_f_569_f_755 > 1.0
+       |      |      |      |      |                    +--yes: [0,0,1,0,0,1,0,0,0,1] [3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0]: 3
+       |      |      |      |      |                    +--no:  [0,1,0,0,0,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |      |      +--no:  [0,1,0,1,1,0,0,0,1,1] [2.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0,3.0,2.0]: 3
+       |      |      |      +--no:  f_346_f_679_f_143_f_709_f_397 > 2.0
+       |      |      |             +--yes: f_383_f_831_f_505 > 0.0
+       |      |      |             |      +--yes: f_20_f_259_f_241_f_12_f_456 > 2.0
+       |      |      |             |      |      +--yes: [1,1,1,0,0,1,0,0,1,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+       |      |      |             |      |      +--no:  [1,1,1,1,1,1,0,0,0,0] [1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |             |      +--no:  f_380_f_579_f_601_f_292_f_716 > 1.0
+       |      |      |             |             +--yes: f_335_f_255_f_285_f_569_f_755 > 2.0
+       |      |      |             |             |      +--yes: [0,1,0,0,1,0,0,0,0,0] [2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |             |             |      +--no:  [0,0,0,1,1,1,0,0,0,0] [3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+       |      |      |             |             +--no:  f_374_f_683_f_356_f_442_f_458 > 2.0
+       |      |      |             |                    +--yes: [0,1,1,1,1,1,0,0,1,1] [2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+       |      |      |             |                    +--no:  [0,1,1,0,1,1,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |             +--no:  f_308_f_860_f_22_f_411_f_200 > 0.0
+       |      |      |                    +--yes: [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |                    +--no:  [0,1,0,0,0,0,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+       |      |      +--no:  f_659_f_608_f_593_f_459_f_800 > 1.0
+       |      |             +--yes: [1,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |             +--no:  f_672_f_749_f_181_f_454_f_336 > 0.0
+       |      |                    +--yes: f_553_f_812_f_298_f_631_f_26 > 0.0
+       |      |                    |      +--yes: [1,1,1,1,1,0,1,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0]: 2
+       |      |                    |      +--no:  [1,1,0,1,1,1,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+       |      |                    +--no:  [0,0,1,1,1,1,0,0,1,1] [3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+       |      +--no:  f_537_f_687_f_157_f_388_f_551 > 0.0
+       |             +--yes: f_37_f_603_f_564_f_493_f_572 > 0.0
+       |             |      +--yes: f_537_f_687_f_157_f_388_f_551 > 1.0
+       |             |      |      +--yes: f_639_f_595_f_390_f_638_f_340 > 0.0
+       |             |      |      |      +--yes: [0,0,1,0,1,1,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+       |             |      |      |      +--no:  [0,0,1,0,1,0,0,0,0,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |             |      |      +--no:  f_591_f_798_f_706_f_151_f_131 > 1.0
+       |             |      |             +--yes: f_16_f_678_f_662_f_386_f_686 > 1.0
+       |             |      |             |      +--yes: [0,0,0,0,0,1,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |             |      |             |      +--no:  [0,0,0,0,0,1,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+       |             |      |             +--no:  f_548_f_159_f_473_f_115_f_510 > 0.0
+       |             |      |                    +--yes: [0,1,1,1,0,1,1,0,1,1] [2.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0]: 2
+       |             |      |                    +--no:  f_20_f_259_f_241_f_12_f_456 > 2.0
+       |             |      |                           +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |             |      |                           +--no:  [1,0,0,0,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |             |      +--no:  f_23_f_618_f_821_f_540_f_612 > 0.0
+       |             |             +--yes: f_617_f_11_f_495_f_368_f_515 > 2.0
+       |             |             |      +--yes: [0,0,1,0,1,1,1,0,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |             |             |      +--no:  f_3_f_530_f_432_f_19_f_24 > 2.0
+       |             |             |             +--yes: f_697_f_611_f_14_f_146_f_721 > 1.0
+       |             |             |             |      +--yes: [0,0,0,1,1,1,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |             |             |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |             |             |             +--no:  f_406_f_242_f_17_f_861_f_367 > 2.0
+       |             |             |                    +--yes: f_672_f_749_f_181_f_454_f_336 > 0.0
+       |             |             |                    |      +--yes: f_797_f_403_f_581_f_425_f_352 > 2.0
+       |             |             |                    |      |      +--yes: [0,1,1,1,1,1,0,0,1,0] [2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+       |             |             |                    |      |      +--no:  [0,1,1,1,0,1,0,0,1,0] [2.0,1.0,1.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+       |             |             |                    |      +--no:  [0,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |             |             |                    +--no:  [0,0,0,0,0,1,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+       |             |             +--no:  f_3_f_530_f_432_f_19_f_24 > 2.0
+       |             |                    +--yes: f_452_f_144_f_21_f_776_f_485 > 3.0
+       |             |                    |      +--yes: [1,0,1,1,0,1,0,0,0,0] [1.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |             |                    |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 4
+       |             |                    +--no:  f_672_f_749_f_181_f_454_f_336 > 0.0
+       |             |                           +--yes: [0,1,1,1,0,1,1,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0,2.0]: 3
+       |             |                           +--no:  [0,0,1,1,0,1,0,0,0,0] [3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+       |             +--no:  f_516_f_704_f_438_f_830_f_414 > 0.0
+       |                    +--yes: f_699_f_523_f_633_f_517_f_630 > 0.0
+       |                    |      +--yes: f_642_f_482_f_377_f_701_f_632 > 0.0
+       |                    |      |      +--yes: f_693_f_396_f_446_f_661_f_417 > 1.0
+       |                    |      |      |      +--yes: f_672_f_749_f_181_f_454_f_336 > 0.0
+       |                    |      |      |      |      +--yes: [1,0,1,1,1,1,0,1,0,0] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |      |      |      +--no:  [1,1,1,1,1,0,0,1,1,0] [1.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0]: 2
+       |                    |      |      |      +--no:  f_3_f_530_f_432_f_19_f_24 > 1.0
+       |                    |      |      |             +--yes: [0,1,0,0,0,1,0,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+       |                    |      |      |             +--no:  [0,1,0,0,0,1,0,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0]: 2
+       |                    |      |      +--no:  f_20_f_259_f_241_f_12_f_456 > 2.0
+       |                    |      |             +--yes: [1,0,0,0,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |             +--no:  f_346_f_679_f_143_f_709_f_397 > 3.0
+       |                    |      |                    +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |                    |      |                    +--no:  [0,0,0,0,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+       |                    |      +--no:  f_818_f_556_f_596_f_703_f_129 > 1.0
+       |                    |             +--yes: [1,1,1,1,1,1,0,1,1,1] [2.0,1.0,1.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0]: 2
+       |                    |             +--no:  f_580_f_538_f_227_f_216_f_737 > 0.0
+       |                    |                    +--yes: [1,1,0,0,1,0,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0]: 2
+       |                    |                    +--no:  f_548_f_159_f_473_f_115_f_510 > 0.0
+       |                    |                           +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0]: 3
+       |                    |                           +--no:  f_337_f_18_f_636_f_460_f_25 > 1.0
+       |                    |                                  +--yes: [1,1,1,1,1,0,0,1,0,0] [1.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+       |                    |                                  +--no:  f_617_f_11_f_495_f_368_f_515 > 1.0
+       |                    |                                         +--yes: f_697_f_611_f_14_f_146_f_721 > 0.0
+       |                    |                                         |      +--yes: f_681_f_640_f_499_f_334_f_689 > 2.0
+       |                    |                                         |      |      +--yes: [0,0,0,0,1,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |                    |                                         |      |      +--no:  [0,1,0,0,1,1,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |                    |                                         |      +--no:  [0,0,0,0,1,0,0,0,1,1] [3.0,2.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0,2.0]: 3
+       |                    |                                         +--no:  [0,1,0,1,1,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    +--no:  f_656_f_453_f_257_f_153_f_682 > 0.0
+       |                           +--yes: [0,0,0,1,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+       |                           +--no:  f_528_f_355_f_654_f_1_f_824 > 1.0
+       |                                  +--yes: [1,1,1,0,1,1,1,0,1,1] [1.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0]: 2
+       |                                  +--no:  f_192_f_688_f_547_f_244_f_702 > 0.0
+       |                                         +--yes: f_406_f_242_f_17_f_861_f_367 > 2.0
+       |                                         |      +--yes: [1,0,0,0,0,0,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |                                         |      +--no:  [0,0,1,0,0,1,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+       |                                         +--no:  f_797_f_403_f_581_f_425_f_352 > 1.0
+       |                                                +--yes: [1,0,1,0,1,1,0,0,0,0] [1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |                                                +--no:  f_374_f_683_f_356_f_442_f_458 > 0.0
+       |                                                       +--yes: [0,0,1,0,0,0,0,0,0,0] [3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |                                                       +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       +--no:  f_571_f_261_f_230_f_47_f_187 > 1.0
+              +--yes: [1,1,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              +--no:  f_822_f_541_f_780_f_609_f_509 > 0.0
+                     +--yes: f_452_f_144_f_21_f_776_f_485 > 0.0
+                     |      +--yes: f_3_f_530_f_432_f_19_f_24 > 1.0
+                     |      |      +--yes: f_818_f_556_f_596_f_703_f_129 > 1.0
+                     |      |      |      +--yes: [1,1,0,1,0,0,1,1,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+                     |      |      |      +--no:  [1,1,0,1,0,0,0,0,0,0] [3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+                     |      |      +--no:  f_818_f_556_f_596_f_703_f_129 > 1.0
+                     |      |             +--yes: [0,1,0,0,0,1,0,0,1,1] [3.0,2.0,2.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0]: 3
+                     |      |             +--no:  f_405_f_684_f_549_f_15_f_555 > 1.0
+                     |      |                    +--yes: f_335_f_255_f_285_f_569_f_755 > 1.0
+                     |      |                    |      +--yes: [1,0,1,1,1,0,0,1,0,0] [2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                     |      |                    |      +--no:  [1,1,1,1,0,0,0,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+                     |      |                    +--no:  [1,0,0,0,0,1,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+                     |      +--no:  f_614_f_668_f_345_f_574_f_213 > 2.0
+                     |             +--yes: f_646_f_371_f_560_f_597_f_195 > 1.0
+                     |             |      +--yes: [1,0,1,0,1,1,0,0,0,1] [1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+                     |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0]: 7
+                     |             +--no:  f_712_f_545_f_584_f_536_f_363 > 1.0
+                     |                    +--yes: f_374_f_683_f_356_f_442_f_458 > 1.0
+                     |                    |      +--yes: [1,1,1,0,0,1,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+                     |                    |      +--no:  [1,1,1,1,0,1,1,1,1,0] [2.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+                     |                    +--no:  f_374_f_683_f_356_f_442_f_458 > 0.0
+                     |                           +--yes: f_2_f_634_f_439_f_665_f_300 > 0.0
+                     |                           |      +--yes: [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                     |                           |      +--no:  [0,0,1,1,1,0,0,0,0,0] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                     |                           +--no:  f_20_f_259_f_241_f_12_f_456 > 0.0
+                     |                                  +--yes: [1,0,1,1,0,1,1,1,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,1.0,1.0]: 2
+                     |                                  +--no:  [1,0,0,0,1,1,1,1,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+                     +--no:  f_586_f_767_f_409_f_350_f_568 > 1.0
+                            +--yes: [1,1,0,0,0,1,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+                            +--no:  f_452_f_144_f_21_f_776_f_485 > 1.0
+                                   +--yes: f_2_f_634_f_439_f_665_f_300 > 1.0
+                                   |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0]: 2
+                                   |      +--no:  f_672_f_749_f_181_f_454_f_336 > 0.0
+                                   |             +--yes: f_308_f_860_f_22_f_411_f_200 > 1.0
+                                   |             |      +--yes: [1,0,1,0,1,1,0,0,1,1] [1.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+                                   |             |      +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                                   |             +--no:  f_391_f_299_f_710_f_145_f_750 > 0.0
+                                   |                    +--yes: [1,1,1,1,1,0,1,1,1,0] [1.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0]: 2
+                                   |                    +--no:  [1,1,0,0,0,0,0,0,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                   +--no:  f_392_f_370_f_690_f_673_f_833 > 2.0
+                                          +--yes: [0,1,1,1,1,0,0,0,0,0] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                          +--no:  f_180_f_552_f_696_f_691_f_46 > 0.0
+                                                 +--yes: f_199_f_577_f_422_f_434_f_398 > 1.0
+                                                 |      +--yes: f_566_f_607_f_430_f_450_f_695 > 1.0
+                                                 |      |      +--yes: f_2_f_634_f_439_f_665_f_300 > 2.0
+                                                 |      |      |      +--yes: [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                                                 |      |      |      +--no:  [0,1,1,1,0,1,0,0,1,0] [2.0,1.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                                                 |      |      +--no:  [1,0,1,0,1,0,0,1,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0]: 2
+                                                 |      +--no:  f_759_f_589_f_514_f_575_f_559 > 0.0
+                                                 |             +--yes: [0,1,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+                                                 |             +--no:  f_2_f_634_f_439_f_665_f_300 > 2.0
+                                                 |                    +--yes: f_338_f_351_f_582_f_713_f_674 > 2.0
+                                                 |                    |      +--yes: [0,0,0,0,1,1,0,0,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+                                                 |                    |      +--no:  [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+                                                 |                    +--no:  f_406_f_242_f_17_f_861_f_367 > 0.0
+                                                 |                           +--yes: f_3_f_530_f_432_f_19_f_24 > 1.0
+                                                 |                           |      +--yes: f_287_f_333_f_358_f_645_f_150 > 0.0
+                                                 |                           |      |      +--yes: [0,0,1,1,0,1,0,1,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                                 |                           |      |      +--no:  [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+                                                 |                           |      +--no:  f_553_f_812_f_298_f_631_f_26 > 0.0
+                                                 |                           |             +--yes: [1,1,0,0,0,0,1,0,0,0] [2.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,2.0,3.0]: 3
+                                                 |                           |             +--no:  f_192_f_688_f_547_f_244_f_702 > 0.0
+                                                 |                           |                    +--yes: f_366_f_13_f_359_f_305_f_243 > 0.0
+                                                 |                           |                    |      +--yes: f_20_f_259_f_241_f_12_f_456 > 0.0
+                                                 |                           |                    |      |      +--yes: [1,0,0,0,0,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                                                 |                           |                    |      |      +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                 |                           |                    |      +--no:  [0,1,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+                                                 |                           |                    +--no:  f_20_f_259_f_241_f_12_f_456 > 0.0
+                                                 |                           |                           +--yes: [0,0,0,1,1,0,0,1,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                                 |                           |                           +--no:  [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+                                                 |                           +--no:  f_671_f_711_f_488_f_43_f_347 > 0.0
+                                                 |                                  +--yes: [0,0,0,0,0,1,0,0,0,1] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0]: 3
+                                                 |                                  +--no:  f_761_f_653_f_792_f_526_f_764 > 0.0
+                                                 |                                         +--yes: [1,0,0,0,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                                 |                                         +--no:  f_656_f_453_f_257_f_153_f_682 > 0.0
+                                                 |                                                +--yes: f_643_f_613_f_418_f_667_f_708 > 1.0
+                                                 |                                                |      +--yes: f_374_f_683_f_356_f_442_f_458 > 2.0
+                                                 |                                                |      |      +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                 |                                                |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                 |                                                |      +--no:  [0,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                                                 |                                                +--no:  f_535_f_256_f_714_f_314_f_779 > 0.0
+                                                 |                                                       +--yes: [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+                                                 |                                                       +--no:  [0,0,0,0,0,0,0,0,0,0] [7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0]: 7
+                                                 +--no:  f_516_f_704_f_438_f_830_f_414 > 0.0
+                                                        +--yes: f_656_f_453_f_257_f_153_f_682 > 0.0
+                                                        |      +--yes: f_20_f_259_f_241_f_12_f_456 > 0.0
+                                                        |      |      +--yes: [1,1,1,1,1,0,1,1,0,1] [2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                        |      |      +--no:  [1,0,1,1,1,0,1,1,0,0] [2.0,2.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+                                                        |      +--no:  f_405_f_684_f_549_f_15_f_555 > 0.0
+                                                        |             +--yes: f_734_f_376_f_599_f_472_f_394 > 0.0
+                                                        |             |      +--yes: f_20_f_259_f_241_f_12_f_456 > 0.0
+                                                        |             |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                                                        |             |      |      +--no:  [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+                                                        |             |      +--no:  [0,0,1,0,0,1,0,0,1,0] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                                                        |             +--no:  [1,0,0,0,1,1,0,0,1,1] [2.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0,2.0,2.0]: 3
+                                                        +--no:  f_626_f_455_f_728_f_773_f_428 > 0.0
+                                                               +--yes: f_20_f_259_f_241_f_12_f_456 > 0.0
+                                                               |      +--yes: [1,1,1,1,0,1,1,0,1,1] [1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0]: 2
+                                                               |      +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                               +--no:  f_537_f_687_f_157_f_388_f_551 > 0.0
+                                                                      +--yes: f_553_f_812_f_298_f_631_f_26 > 0.0
+                                                                      |      +--yes: [0,1,0,0,0,1,0,0,0,0] [2.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0]: 3
+                                                                      |      +--no:  f_413_f_132_f_827_f_118_f_408 > 0.0
+                                                                      |             +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                      |             +--no:  f_20_f_259_f_241_f_12_f_456 > 0.0
+                                                                      |                    +--yes: f_335_f_255_f_285_f_569_f_755 > 0.0
+                                                                      |                    |      +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                                      |                    |      +--no:  [1,0,0,0,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                      |                    +--no:  [0,0,0,0,0,1,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,3.0,4.0,4.0,4.0,4.0]: 4
+                                                                      +--no:  f_413_f_132_f_827_f_118_f_408 > 0.0
+                                                                             +--yes: f_338_f_351_f_582_f_713_f_674 > 1.0
+                                                                             |      +--yes: [0,1,1,0,0,1,1,0,1,1] [2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0]: 2
+                                                                             |      +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0,2.0]: 3
+                                                                             +--no:  f_3_f_530_f_432_f_19_f_24 > 0.0
+                                                                                    +--yes: f_287_f_333_f_358_f_645_f_150 > 1.0
+                                                                                    |      +--yes: [1,0,0,0,0,1,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+                                                                                    |      +--no:  f_338_f_351_f_582_f_713_f_674 > 0.0
+                                                                                    |             +--yes: f_405_f_684_f_549_f_15_f_555 > 0.0
+                                                                                    |             |      +--yes: f_23_f_618_f_821_f_540_f_612 > 0.0
+                                                                                    |             |      |      +--yes: f_406_f_242_f_17_f_861_f_367 > 0.0
+                                                                                    |             |      |      |      +--yes: f_374_f_683_f_356_f_442_f_458 > 0.0
+                                                                                    |             |      |      |      |      +--yes: [1,0,0,0,0,0,1,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                                                    |             |      |      |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                    |             |      |      |      +--no:  f_20_f_259_f_241_f_12_f_456 > 0.0
+                                                                                    |             |      |      |             +--yes: [0,1,1,1,0,0,1,0,0,0] [2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                                                    |             |      |      |             +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                    |             |      |      +--no:  [1,1,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                                                    |             |      +--no:  f_339_f_179_f_372_f_692_f_465 > 0.0
+                                                                                    |             |             +--yes: [0,0,0,1,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+                                                                                    |             |             +--no:  f_294_f_284_f_0_f_10_f_423 > 2.0
+                                                                                    |             |                    +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+                                                                                    |             |                    +--no:  [0,0,0,1,1,0,0,1,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                                                                    |             +--no:  f_293_f_332_f_519_f_518 > 0.0
+                                                                                    |                    +--yes: [1,1,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                                                                    |                    +--no:  f_380_f_579_f_601_f_292_f_716 > 0.0
+                                                                                    |                           +--yes: f_451_f_570_f_379_f_344_f_27 > 0.0
+                                                                                    |                           |      +--yes: f_294_f_284_f_0_f_10_f_423 > 1.0
+                                                                                    |                           |      |      +--yes: [1,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                                                                    |                           |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+                                                                                    |                           |      +--no:  [1,1,1,1,0,0,1,1,0,0] [2.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+                                                                                    |                           +--no:  f_374_f_683_f_356_f_442_f_458 > 0.0
+                                                                                    |                                  +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+                                                                                    |                                  +--no:  f_405_f_684_f_549_f_15_f_555 > 0.0
+                                                                                    |                                         +--yes: [0,0,0,0,0,1,1,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0]: 2
+                                                                                    |                                         +--no:  [0,1,0,0,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,3.0,2.0,2.0,2.0,3.0,2.0]: 3
+                                                                                    +--no:  f_392_f_370_f_690_f_673_f_833 > 0.0
+                                                                                           +--yes: f_374_f_683_f_356_f_442_f_458 > 0.0
+                                                                                           |      +--yes: [1,0,0,1,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                           |      +--no:  [0,0,0,1,1,0,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                           +--no:  f_405_f_684_f_549_f_15_f_555 > 0.0
+                                                                                                  +--yes: f_16_f_678_f_662_f_386_f_686 > 0.0
+                                                                                                  |      +--yes: f_294_f_284_f_0_f_10_f_423 > 1.0
+                                                                                                  |      |      +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                                  |      |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                                  |      +--no:  [1,0,0,0,0,0,0,1,0,0] [2.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0,2.0]: 3
+                                                                                                  +--no:  [0,0,0,0,0,0,0,0,0,0] [10.0,9.0,10.0,10.0,10.0,10.0,10.0,10.0,9.0,10.0]: 10
+
+Pruned Model
+************
+
+f_391_f_299_f_710_f_145_f_750 > 1.0
++--yes: f_20_f_259_f_241_f_12_f_456 > 1.0
+|      +--yes: f_571_f_261_f_230_f_47_f_187 > 1.0
+|      |      +--yes: f_452_f_144_f_21_f_776_f_485 > 1.0
+|      |      |      +--yes: [0,0,0,0,1,1,0,0,1,1] [31.0,36.0,35.0,36.0,34.0,39.0,47.0,41.0,36.0,33.0]: 56
+|      |      |      +--no:  f_339_f_179_f_372_f_692_f_465 > 1.0
+|      |      |             +--yes: f_822_f_541_f_780_f_609_f_509 > 1.0
+|      |      |             |      +--yes: [1,0,0,0,1,0,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |      |             |      +--no:  [1,1,1,1,1,1,1,1,1,1] [25.0,25.0,19.0,26.0,22.0,20.0,23.0,23.0,21.0,22.0]: 32
+|      |      |             +--no:  [0,0,0,0,0,0,0,0,1,0] [5.0,3.0,3.0,4.0,4.0,5.0,5.0,4.0,3.0,4.0]: 5
+|      |      +--no:  f_658_f_361_f_675_f_436_f_676 > 0.0
+|      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [57.0,60.0,42.0,56.0,59.0,53.0,53.0,59.0,53.0,49.0]: 73
+|      |             +--no:  f_651_f_652_f_395_f_489_f_471 > 2.0
+|      |                    +--yes: [1,1,1,1,1,0,1,1,0,1] [8.0,7.0,8.0,8.0,7.0,6.0,7.0,8.0,5.0,6.0]: 9
+|      |                    +--no:  f_406_f_242_f_17_f_861_f_367 > 1.0
+|      |                           +--yes: [0,0,0,0,0,0,0,0,0,0] [33.0,27.0,26.0,26.0,27.0,28.0,33.0,31.0,21.0,24.0]: 36
+|      |                           +--no:  f_734_f_376_f_599_f_472_f_394 > 1.0
+|      |                                  +--yes: f_293_f_332_f_519_f_518 > 2.0
+|      |                                  |      +--yes: f_663_f_677_f_416_f_447_f_585 > 3.0
+|      |                                  |      |      +--yes: [0,0,1,0,1,0,0,0,1,1] [4.0,4.0,3.0,5.0,4.0,4.0,6.0,5.0,4.0,3.0]: 6
+|      |                                  |      |      +--no:  [0,1,1,1,1,1,1,1,1,1] [4.0,7.0,5.0,7.0,7.0,5.0,6.0,5.0,5.0,4.0]: 7
+|      |                                  |      +--no:  f_663_f_677_f_416_f_447_f_585 > 3.0
+|      |                                  |             +--yes: f_659_f_608_f_593_f_459_f_800 > 2.0
+|      |                                  |             |      +--yes: [0,0,0,0,1,0,0,0,0,0] [14.0,13.0,15.0,13.0,11.0,17.0,15.0,18.0,16.0,18.0]: 20
+|      |                                  |             |      +--no:  f_567_f_578_f_435_f_707_f_641 > 2.0
+|      |                                  |             |             +--yes: [0,1,1,0,0,0,0,0,1,0] [13.0,11.0,9.0,11.0,14.0,11.0,14.0,11.0,13.0,10.0]: 18
+|      |                                  |             |             +--no:  f_412_f_286_f_431_f_362_f_427 > 1.0
+|      |                                  |             |                    +--yes: [1,0,0,0,1,0,1,1,0,0] [15.0,11.0,13.0,10.0,12.0,12.0,13.0,12.0,10.0,11.0]: 18
+|      |                                  |             |                    +--no:  [1,1,1,1,1,1,1,1,1,1] [3.0,5.0,4.0,4.0,3.0,5.0,5.0,4.0,4.0,4.0]: 5
+|      |                                  |             +--no:  [0,0,0,0,0,0,0,0,0,0] [76.0,69.0,64.0,78.0,68.0,85.0,87.0,81.0,71.0,74.0]: 108
+|      |                                  +--no:  f_580_f_538_f_227_f_216_f_737 > 0.0
+|      |                                         +--yes: f_639_f_595_f_390_f_638_f_340 > 3.0
+|      |                                         |      +--yes: f_697_f_611_f_14_f_146_f_721 > 2.0
+|      |                                         |      |      +--yes: [1,1,0,0,0,0,1,1,1,0] [6.0,5.0,7.0,6.0,6.0,7.0,6.0,6.0,5.0,5.0]: 9
+|      |                                         |      |      +--no:  [0,0,1,1,1,1,0,0,0,1] [4.0,3.0,3.0,2.0,2.0,2.0,4.0,4.0,3.0,3.0]: 4
+|      |                                         |      +--no:  [1,1,1,1,1,1,1,1,1,1] [10.0,13.0,12.0,16.0,12.0,10.0,12.0,14.0,14.0,13.0]: 18
+|      |                                         +--no:  f_548_f_159_f_473_f_115_f_510 > 0.0
+|      |                                                +--yes: [0,0,1,0,0,0,0,0,0,0] [24.0,20.0,17.0,22.0,18.0,18.0,22.0,26.0,24.0,27.0]: 31
+|      |                                                +--no:  f_671_f_711_f_488_f_43_f_347 > 1.0
+|      |                                                       +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |                                                       +--no:  f_452_f_144_f_21_f_776_f_485 > 1.0
+|      |                                                              +--yes: [1,1,1,1,1,1,1,1,1,1] [4.0,5.0,4.0,3.0,6.0,4.0,5.0,5.0,6.0,6.0]: 6
+|      |                                                              +--no:  [0,1,1,1,1,0,0,1,0,0] [12.0,15.0,18.0,16.0,14.0,14.0,13.0,11.0,14.0,14.0]: 21
+|      +--no:  f_3_f_530_f_432_f_19_f_24 > 0.0
+|             +--yes: f_2_f_634_f_439_f_665_f_300 > 0.0
+|             |      +--yes: f_698_f_576_f_758_f_464_f_229 > 1.0
+|             |      |      +--yes: f_421_f_805_f_670_f_622_f_771 > 0.0
+|             |      |      |      +--yes: f_531_f_768_f_803 > 0.0
+|             |      |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+|             |      |      |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [11.0,11.0,13.0,13.0,12.0,13.0,11.0,10.0,13.0,14.0]: 14
+|             |      |      |      +--no:  f_380_f_579_f_601_f_292_f_716 > 2.0
+|             |      |      |             +--yes: [1,1,1,0,1,1,1,1,0,0] [5.0,5.0,7.0,5.0,4.0,4.0,8.0,8.0,8.0,8.0]: 8
+|             |      |      |             +--no:  f_642_f_482_f_377_f_701_f_632 > 1.0
+|             |      |      |                    +--yes: f_528_f_355_f_654_f_1_f_824 > 3.0
+|             |      |      |                    |      +--yes: [1,1,1,1,1,1,1,1,0,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0]: 2
+|             |      |      |                    |      +--no:  f_553_f_812_f_298_f_631_f_26 > 0.0
+|             |      |      |                    |             +--yes: [0,0,1,1,0,1,0,0,1,1] [6.0,8.0,5.0,8.0,7.0,8.0,8.0,6.0,5.0,7.0]: 10
+|             |      |      |                    |             +--no:  [0,0,0,0,1,0,0,0,0,0] [5.0,5.0,5.0,4.0,3.0,6.0,6.0,5.0,4.0,5.0]: 6
+|             |      |      |                    +--no:  f_567_f_578_f_435_f_707_f_641 > 2.0
+|             |      |      |                           +--yes: [1,0,0,0,0,0,0,0,0,0] [5.0,6.0,7.0,5.0,7.0,8.0,5.0,5.0,7.0,8.0]: 8
+|             |      |      |                           +--no:  [1,1,1,1,0,0,1,1,0,0] [25.0,24.0,22.0,24.0,21.0,22.0,24.0,25.0,25.0,25.0]: 36
+|             |      |      +--no:  f_639_f_595_f_390_f_638_f_340 > 0.0
+|             |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [82.0,97.0,108.0,99.0,115.0,112.0,87.0,96.0,125.0,118.0]: 151
+|             |      |             +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|             |      +--no:  [1,1,0,0,1,0,0,0,1,1] [7.0,6.0,6.0,7.0,9.0,6.0,7.0,7.0,7.0,8.0]: 10
+|             +--no:  [1,0,0,0,0,0,1,1,0,0] [60.0,49.0,72.0,64.0,70.0,74.0,63.0,59.0,61.0,71.0]: 95
++--no:  [0,0,0,0,0,0,0,0,0,0] [259.0,262.0,252.0,262.0,263.0,232.0,285.0,297.0,270.0,275.0]: 349
+

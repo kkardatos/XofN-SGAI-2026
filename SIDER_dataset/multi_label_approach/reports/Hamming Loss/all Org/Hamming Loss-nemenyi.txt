@@ -1,0 +1,2 @@
+Nemenyi's test (CD = 1.11):
+XofN_none N/A and XofN Vouk Org -> |1.89 - 3.22| = 1.33 -> 1.33 >= 1.1055 (Significant)

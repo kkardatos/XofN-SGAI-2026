@@ -1,0 +1,2071 @@
+Clus run se_C0009676_se_C0041657_se_C0002994_se_C0042571_se_C0004604_se_C0041834_se_C0085631_se_C0040822_se_C0042373_se_C0021053
+********************************************************************************************************************************
+
+Date: 3/29/26, 11:18 AM
+File: train_dataset_settings.out
+Attributes: 162 (input: 152, output: 10)
+Missing values: No
+
+[General]
+Verbose = 1
+RandomSeed = 43
+ResourceInfoLoaded = No
+DoNotInduce = No
+LoggingProperties = logging.properties
+
+[Data]
+File = vouk/tmp/train_dataset.arff
+TestSet = vouk/tmp/test_dataset.arff
+PruneSet = None
+XVal = 10
+RemoveMissingTarget = No
+NormalizeData = None
+
+[Attributes]
+Target = 153-162
+Clustering = 153-162
+Descriptive = 1-152
+Key = None
+Disable = None
+Weights = Normalize
+ClusteringWeights = 1.0
+ReduceMemoryNominalAttrs = No
+GIS = None
+
+[Constraints]
+Syntactic = None
+MaxSize = Infinity
+MaxError = 0.0
+MaxDepth = Infinity
+
+[Nominal]
+MEstimate = 1.0
+
+[Model]
+MinimalWeight = 2.0
+MinimalNumberExamples = 0
+MinimalKnownWeight = 0.0
+ParamTuneNumberFolds = 3
+NominalSubsetTests = Yes
+LoadFromModelFile = No
+
+[Tree]
+Heuristic = VarianceReduction
+HeuristicComplexity = N2
+SetDistance = GSMDistance
+TupleDistance = Euclidean
+TSDistance = DTW
+PruningMethod = C45
+FTest = 1.0
+BinarySplit = Yes
+ConvertToRules = No
+AlternativeSplits = No
+Optimize = []
+MSENominal = No
+SplitSampling = None
+MissingClusteringAttrHandling = EstimateFromParentNode
+MissingTargetAttrHandling = ParentNode
+InductionOrder = DepthFirst
+EntropyType = StandardEntropy
+ConsiderUnlableInstancesInIGCalc = No
+SpatialMatrix = Binary
+SpatialMeasure = GlobalMoran
+Bandwidth = 0.001
+Longlat = No
+NumNeightbours = 0.0
+Alpha = 1.0
+SplitPosition = Exact
+
+[Multilabel]
+MLCThreshold = 0.5
+OptimizeThresholds = No
+MultiLabelRankingMeasure = [HammingLoss]
+ShowThresholds = Yes
+
+[SemiSupervised]
+SemiSupervisedMethod = PCT
+StoppingCriteria = NoneAdded
+UnlabeledCriteria = Threshold
+ConfidenceThreshold = 0.8
+ConfidenceMeasure = Variance
+Iterations = 10
+K = 5
+UnlabeledData = 
+PercentageLabeled = 5
+UseWeights = No
+AirbagTrials = 0
+ExhaustiveSearchThresholds = [0.5,0.6,0.7,0.8,0.9,0.99]
+OOBErrorCalculation = LabeledOnly
+Normalization = MinMaxNormalization
+Aggregation = Average
+CalibrateHmcThreshold = No
+PruningWhenTuning = No
+InternalFolds = 5
+WeightScoresFile = NO
+PossibleWeights = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+IterationsSupervisionOptimisation = 0
+ForceInternalXValOptimisation = No
+ImputeMissingTargetValues = No
+InternalFold = -1234
+ProceedToMain = Yes
+
+[Output]
+ShowModels = [Default, Pruned, Others]
+TrainErrors = Yes
+ValidErrors = Yes
+TestErrors = Yes
+AllFoldModels = Yes
+AllFoldErrors = No
+AllFoldDatasets = No
+UnknownFrequency = No
+BranchFrequency = No
+ShowInfo = [Count]
+PrintModelAndExamples = No
+WriteErrorFile = No
+WriteModelFile = No
+WritePerBagModelFile = Yes
+WriteOOBFile = No
+WritePredictions = []
+GzipOutput = No
+ModelIDFiles = No
+WriteCurves = No
+OutputPythonModel = No
+PythonModelType = Object
+OutputROSSubspaces = No
+OutputJSONModel = No
+OutputDatabaseQueries = No
+OutputClowdFlowsJSON = No
+ComputeSpearman = No
+
+Run: 01
+*******
+
+Statistics
+----------
+
+FTValue (FTest): 1.0
+Induction Time: 3.0400E-1 sec
+Pruning Time: 2.2000E-2 sec
+Prediction Time (total for ClusModel.Original): 
+	0 microsecs
+	0 millisecs
+	0 secs
+Prediction Time (average for ClusModel.Original): 0 microsecs
+Model information:
+     Default: Nodes = 1; Leaves = 1; Depth = 1
+     Original: Nodes = 973; Leaves = 487; Depth = 40
+     Pruned: Nodes = 75; Leaves = 38; Depth = 12
+
+MultiLabelThresholds:
+---------------------
+Default
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+Original
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+Pruned
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+
+Training error
+--------------
+
+Number of examples: 1180
+Classification Error
+   Default: 
+   Attribute: se_C0009676
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  454 |  454
+             0 | 0 |  726 |  726
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.152542E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041657
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  439 |  439
+             0 | 0 |  741 |  741
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.279661E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0002994
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  433 |  433
+             0 | 0 |  747 |  747
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.330508E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042571
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  416 |  416
+             0 | 0 |  764 |  764
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.474576E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0004604
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  409 |  409
+             0 | 0 |  771 |  771
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.533898E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041834
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  392 |  392
+             0 | 0 |  788 |  788
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.677966E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0085631
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  395 |  395
+             0 | 0 |  785 |  785
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.652542E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0040822
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  385 |  385
+             0 | 0 |  795 |  795
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.737288E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042373
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  383 |  383
+             0 | 0 |  797 |  797
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.754237E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0021053
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  362 |  362
+             0 | 0 |  818 |  818
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.932203E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0009676
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 421 |  33 |  454
+             0 | 113 | 613 |  726
+     ----------------------------
+               | 534 | 646 | 1180
+     Accuracy: 8.762712E-1
+     Cramer's coefficient: 7.542900E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 403 |  36 |  439
+             0 | 118 | 623 |  741
+     ----------------------------
+               | 521 | 659 | 1180
+     Accuracy: 8.694915E-1
+     Cramer's coefficient: 7.385488E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 397 |  36 |  433
+             0 | 142 | 605 |  747
+     ----------------------------
+               | 539 | 641 | 1180
+     Accuracy: 8.491525E-1
+     Cramer's coefficient: 7.031939E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 385 |  31 |  416
+             0 | 102 | 662 |  764
+     ----------------------------
+               | 487 | 693 | 1180
+     Accuracy: 8.872881E-1
+     Cramer's coefficient: 7.685508E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 361 |  48 |  409
+             0 | 122 | 649 |  771
+     ----------------------------
+               | 483 | 697 | 1180
+     Accuracy: 8.559322E-1
+     Cramer's coefficient: 7.011001E-1
+
+
+   Attribute: se_C0041834
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 345 |  47 |  392
+             0 | 127 | 661 |  788
+     ----------------------------
+               | 472 | 708 | 1180
+     Accuracy: 8.525424E-1
+     Cramer's coefficient: 6.912066E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 363 |  32 |  395
+             0 | 115 | 670 |  785
+     ----------------------------
+               | 478 | 702 | 1180
+     Accuracy: 8.754237E-1
+     Cramer's coefficient: 7.425813E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 352 |  33 |  385
+             0 |  99 | 696 |  795
+     ----------------------------
+               | 451 | 729 | 1180
+     Accuracy: 8.881356E-1
+     Cramer's coefficient: 7.620011E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 351 |  32 |  383
+             0 | 108 | 689 |  797
+     ----------------------------
+               | 459 | 721 | 1180
+     Accuracy: 8.813559E-1
+     Cramer's coefficient: 7.500199E-1
+
+
+   Attribute: se_C0021053
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 329 |  33 |  362
+             0 | 107 | 711 |  818
+     ----------------------------
+               | 436 | 744 | 1180
+     Accuracy: 8.813559E-1
+     Cramer's coefficient: 7.433600E-1
+
+   Pruned: 
+   Attribute: se_C0009676
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 213 | 241 |  454
+             0 |  92 | 634 |  726
+     ----------------------------
+               | 305 | 875 | 1180
+     Accuracy: 7.177966E-1
+     Cramer's coefficient: 3.805646E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 173 | 266 |  439
+             0 |  74 | 667 |  741
+     ----------------------------
+               | 247 | 933 | 1180
+     Accuracy: 7.118644E-1
+     Cramer's coefficient: 3.495530E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 125 | 308 |  433
+             0 |  76 | 671 |  747
+     ----------------------------
+               | 201 | 979 | 1180
+     Accuracy: 6.745763E-1
+     Cramer's coefficient: 2.396761E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 | 124 |  292 |  416
+             0 |  54 |  710 |  764
+     -----------------------------
+               | 178 | 1002 | 1180
+     Accuracy: 7.067797E-1
+     Cramer's coefficient: 3.035518E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 175 | 234 |  409
+             0 | 104 | 667 |  771
+     ----------------------------
+               | 279 | 901 | 1180
+     Accuracy: 7.135593E-1
+     Cramer's coefficient: 3.281459E-1
+
+
+   Attribute: se_C0041834
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 |  75 |  317 |  392
+             0 |  46 |  742 |  788
+     -----------------------------
+               | 121 | 1059 | 1180
+     Accuracy: 6.923729E-1
+     Cramer's coefficient: 2.064224E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 201 | 194 |  395
+             0 |  81 | 704 |  785
+     ----------------------------
+               | 282 | 898 | 1180
+     Accuracy: 7.669492E-1
+     Cramer's coefficient: 4.489004E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 190 | 195 |  385
+             0 |  72 | 723 |  795
+     ----------------------------
+               | 262 | 918 | 1180
+     Accuracy: 7.737288E-1
+     Cramer's coefficient: 4.545512E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 | 101 |  282 |  383
+             0 |  41 |  756 |  797
+     -----------------------------
+               | 142 | 1038 | 1180
+     Accuracy: 7.262712E-1
+     Cramer's coefficient: 3.054664E-1
+
+
+   Attribute: se_C0021053
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 |  81 |  281 |  362
+             0 |  39 |  779 |  818
+     -----------------------------
+               | 120 | 1060 | 1180
+     Accuracy: 7.288136E-1
+     Cramer's coefficient: 2.686560E-1
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.112,2.14,2.152,2.191,2.208,2.254,2.245,2.275,2.281,2.351])
+   Default        : [1.0000E0,1.0000E0,1.0000E0,1,1,1.0000E0,1.0000E0,1.0000E0,1,1]: 1.0000E0
+   Original       : [2.9842E-1,3.2000E-1,3.6867E-1,2.8244E-1,3.6712E-1,3.7982E-1,3.1459E-1,2.8889E-1,3.0877E-1,3.2184E-1]: 3.2506E-1
+   Pruned         : [8.3274E-1,8.4223E-1,9.1409E-1,8.5318E-1,8.6806E-1,9.3122E-1,7.7497E-1,7.5836E-1,8.5688E-1,8.8263E-1]: 8.5144E-1
+HammingLoss
+   Default        : 3.4475E-1
+   Original       : 1.2831E-1
+   Pruned         : 2.7873E-1
+RankingLoss
+   Default        : 3.8352E-1
+   Original       : 3.8514E-2
+   Pruned         : 2.6846E-1
+OneError
+   Default        : 3.8475E-1
+   Original       : 1.0508E-1
+   Pruned         : 3.2119E-1
+Coverage
+   Default        : 7.8754(label cardinality: 4.0237)
+   Original       : 4.9199(label cardinality: 4.0237)
+   Pruned         : 7.1919(label cardinality: 4.0237)
+AveragePrecision
+   Default        : NaN
+   Original       : NaN
+   Pruned         : NaN
+MLAccuracy
+   Default        : 1.4322E-1
+   Original       : 7.0404E-1
+   Pruned         : 3.0060E-1
+MLPrecision
+   Default        : 1.4322E-1
+   Original       : 7.5710E-1
+   Pruned         : 3.7919E-1
+MLRecall
+   Default        : 1.4322E-1
+   Original       : 8.5820E-1
+   Pruned         : 3.5504E-1
+MLFOneMeasure
+   Default        : 1.4322E-1
+   Original       : 7.7461E-1
+   Pruned         : 3.4046E-1
+SubsetAccuracy
+   Default        : 1.4322E-1
+   Original       : 3.6441E-1
+   Pruned         : 1.5593E-1
+MacroPrecision
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [7.8839E-1, 7.7351E-1, 7.3655E-1, 7.9055E-1, 7.4741E-1, 7.3093E-1, 7.5941E-1, 7.8049E-1, 7.6471E-1, 7.5459E-1]: 7.6265E-1
+   Pruned         : [6.9836E-1, 7.0040E-1, 6.2189E-1, 6.9663E-1, 6.2724E-1, 6.1983E-1, 7.1277E-1, 7.2519E-1, 7.1127E-1, 6.7500E-1]: 6.7886E-1
+MacroRecall
+   Default        : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: 0
+   Original       : [9.2731E-1, 9.1800E-1, 9.1686E-1, 9.2548E-1, 8.8264E-1, 8.8010E-1, 9.1899E-1, 9.1429E-1, 9.1645E-1, 9.0884E-1]: 9.1090E-1
+   Pruned         : [4.6916E-1, 3.9408E-1, 2.8868E-1, 2.9808E-1, 4.2787E-1, 1.9133E-1, 5.0886E-1, 4.9351E-1, 2.6371E-1, 2.2376E-1]: 3.5590E-1
+MacroFOne
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [8.5223E-1, 8.3958E-1, 8.1687E-1, 8.5271E-1, 8.0942E-1, 7.9861E-1, 8.3162E-1, 8.4211E-1, 8.3373E-1, 8.2456E-1]: 8.3014E-1
+   Pruned         : [5.6126E-1, 5.0437E-1, 3.9432E-1, 4.1751E-1, 5.0872E-1, 2.9240E-1, 5.9380E-1, 5.8733E-1, 3.8476E-1, 3.3610E-1]: 4.5806E-1
+MicroPrecision
+   Default        : NaN
+   Original       : 7.6276E-1
+   Pruned         : 6.8226E-1
+MicroRecall
+   Default        : 0
+   Original       : 9.1126E-1
+   Pruned         : 3.5841E-1
+MicroFOne
+   Default        : NaN
+   Original       : 8.3042E-1
+   Pruned         : 4.6994E-1
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 9.598603E-1
+   Pruned         : 6.952818E-1
+averageAUPRC
+   Default        : 3.447458E-1
+   Original       : 9.302643E-1
+   Pruned         : 5.941708E-1
+weightedAUPRC
+   Default        : 3.462973E-1
+   Original       : 9.305470E-1
+   Pruned         : 5.953590E-1
+pooledAUPRC
+   Default        : 3.658743E-1
+   Original       : 9.313645E-1
+   Pruned         : 6.076833E-1
+
+Testing error
+-------------
+
+Number of examples: 131
+Classification Error
+   Default: 
+   Attribute: se_C0009676
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  51 |  51
+             0 | 0 |  80 |  80
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.106870E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041657
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  54 |  54
+             0 | 0 |  77 |  77
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0002994
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  59 |  59
+             0 | 0 |  72 |  72
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042571
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  55 |  55
+             0 | 0 |  76 |  76
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0004604
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  55 |  55
+             0 | 0 |  76 |  76
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041834
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  47 |  47
+             0 | 0 |  84 |  84
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.412214E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0085631
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  52 |  52
+             0 | 0 |  79 |  79
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0040822
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  50 |  50
+             0 | 0 |  81 |  81
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042373
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  43 |  43
+             0 | 0 |  88 |  88
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.717557E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0021053
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  52 |  52
+             0 | 0 |  79 |  79
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0009676
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 26 | 25 |  51
+             0 | 34 | 46 |  80
+     -------------------------
+               | 60 | 71 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 8.299295E-2
+
+
+   Attribute: se_C0041657
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 25 | 29 |  54
+             0 | 29 | 48 |  77
+     -------------------------
+               | 54 | 77 | 131
+     Accuracy: 5.572519E-1
+     Cramer's coefficient: 8.633959E-2
+
+
+   Attribute: se_C0002994
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 33 | 26 |  59
+             0 | 25 | 47 |  72
+     -------------------------
+               | 58 | 73 | 131
+     Accuracy: 6.106870E-1
+     Cramer's coefficient: 2.124502E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 30 | 25 |  55
+             0 | 24 | 52 |  76
+     -------------------------
+               | 54 | 77 | 131
+     Accuracy: 6.259542E-1
+     Cramer's coefficient: 2.302718E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 29 | 26 |  55
+             0 | 33 | 43 |  76
+     -------------------------
+               | 62 | 69 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 9.199010E-2
+
+
+   Attribute: se_C0041834
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 21 | 26 |  47
+             0 | 33 | 51 |  84
+     -------------------------
+               | 54 | 77 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 5.257131E-2
+
+
+   Attribute: se_C0085631
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 23 | 29 |  52
+             0 | 21 | 58 |  79
+     -------------------------
+               | 44 | 87 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 1.828255E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 21 | 29 |  50
+             0 | 19 | 62 |  81
+     -------------------------
+               | 40 | 91 | 131
+     Accuracy: 6.335878E-1
+     Cramer's coefficient: 1.955968E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 20 | 23 |  43
+             0 | 25 | 63 |  88
+     -------------------------
+               | 45 | 86 | 131
+     Accuracy: 6.335878E-1
+     Cramer's coefficient: 1.790027E-1
+
+
+   Attribute: se_C0021053
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 24 | 28 |  52
+             0 | 30 | 49 |  79
+     -------------------------
+               | 54 | 77 | 131
+     Accuracy: 5.572519E-1
+     Cramer's coefficient: 8.129837E-2
+
+   Pruned: 
+   Attribute: se_C0009676
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 14 |  37 |  51
+             0 | 13 |  67 |  80
+     --------------------------
+               | 27 | 104 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 1.350167E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 15 |  39 |  54
+             0 | 11 |  66 |  77
+     --------------------------
+               | 26 | 105 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 1.665096E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 14 |  45 |  59
+             0 |  9 |  63 |  72
+     --------------------------
+               | 23 | 108 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 1.468420E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 13 |  42 |  55
+             0 |  6 |  70 |  76
+     --------------------------
+               | 19 | 112 | 131
+     Accuracy: 6.335878E-1
+     Cramer's coefficient: 2.206236E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 11 |  44 |  55
+             0 | 13 |  63 |  76
+     --------------------------
+               | 24 | 107 | 131
+     Accuracy: 5.648855E-1
+     Cramer's coefficient: 3.693174E-2
+
+
+   Attribute: se_C0041834
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  7 |  40 |  47
+             0 |  9 |  75 |  84
+     --------------------------
+               | 16 | 115 | 131
+     Accuracy: 6.259542E-1
+     Cramer's coefficient: 6.121903E-2
+
+
+   Attribute: se_C0085631
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 15 |  37 |  52
+             0 |  9 |  70 |  79
+     --------------------------
+               | 24 | 107 | 131
+     Accuracy: 6.488550E-1
+     Cramer's coefficient: 2.207529E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 14 |  36 |  50
+             0 | 12 |  69 |  81
+     --------------------------
+               | 26 | 105 | 131
+     Accuracy: 6.335878E-1
+     Cramer's coefficient: 1.605951E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  8 |  35 |  43
+             0 | 11 |  77 |  88
+     --------------------------
+               | 19 | 112 | 131
+     Accuracy: 6.488550E-1
+     Cramer's coefficient: 8.140491E-2
+
+
+   Attribute: se_C0021053
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  8 |  44 |  52
+             0 | 10 |  69 |  79
+     --------------------------
+               | 18 | 113 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 3.874604E-2
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.112,2.14,2.152,2.191,2.208,2.254,2.245,2.275,2.281,2.351])
+   Default        : [1.0044,1.044,1.0956,1.087,1.0992,1.0402,1.0923,1.0876,1.0059,1.1638]: 1.072
+   Original       : [1.4605,1.5444,1.4152,1.3223,1.5966,1.5286,1.3771,1.4908,1.4295,1.7997]: 1.4965
+   Pruned         : [1.024,1.0667,1.1492,1.0583,1.2052,1.0825,1.0885,1.1341,1.0725,1.291]: 1.1172
+HammingLoss
+   Default        : 3.9542E-1
+   Original       : 4.1145E-1
+   Pruned         : 3.8321E-1
+RankingLoss
+   Default        : 3.7347E-1
+   Original       : 3.3862E-1
+   Pruned         : 3.3582E-1
+OneError
+   Default        : 3.8931E-1
+   Original       : 5.5725E-1
+   Pruned         : 4.1221E-1
+Coverage
+   Default        : 8.1667(label cardinality: 4.5439)
+   Original       : 9.0702(label cardinality: 4.5439)
+   Pruned         : 7.9649(label cardinality: 4.5439)
+AveragePrecision
+   Default        : NaN
+   Original       : NaN
+   Pruned         : NaN
+MLAccuracy
+   Default        : 1.2977E-1
+   Original       : 2.7179E-1
+   Pruned         : 2.2878E-1
+MLPrecision
+   Default        : 1.2977E-1
+   Original       : 4.0343E-1
+   Pruned         : 2.6281E-1
+MLRecall
+   Default        : 1.2977E-1
+   Original       : 4.1977E-1
+   Pruned         : 2.9246E-1
+MLFOneMeasure
+   Default        : 1.2977E-1
+   Original       : 3.6314E-1
+   Pruned         : 2.5552E-1
+SubsetAccuracy
+   Default        : 1.2977E-1
+   Original       : 1.5267E-2
+   Pruned         : 1.2977E-1
+MacroPrecision
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [4.3333E-1, 4.6296E-1, 5.6897E-1, 5.5556E-1, 4.6774E-1, 3.8889E-1, 5.2273E-1, 5.2500E-1, 4.4444E-1, 4.4444E-1]: 4.8141E-1
+   Pruned         : [5.1852E-1, 5.7692E-1, 6.0870E-1, 6.8421E-1, 4.5833E-1, 4.3750E-1, 6.2500E-1, 5.3846E-1, 4.2105E-1, 4.4444E-1]: 5.3131E-1
+MacroRecall
+   Default        : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: 0
+   Original       : [5.0980E-1, 4.6296E-1, 5.5932E-1, 5.4545E-1, 5.2727E-1, 4.4681E-1, 4.4231E-1, 4.2000E-1, 4.6512E-1, 4.6154E-1]: 4.8406E-1
+   Pruned         : [2.7451E-1, 2.7778E-1, 2.3729E-1, 2.3636E-1, 2.0000E-1, 1.4894E-1, 2.8846E-1, 2.8000E-1, 1.8605E-1, 1.5385E-1]: 2.2832E-1
+MacroFOne
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [4.6847E-1, 4.6296E-1, 5.6410E-1, 5.5046E-1, 4.9573E-1, 4.1584E-1, 4.7917E-1, 4.6667E-1, 4.5455E-1, 4.5283E-1]: 4.8108E-1
+   Pruned         : [3.5897E-1, 3.7500E-1, 3.4146E-1, 3.5135E-1, 2.7848E-1, 2.2222E-1, 3.9474E-1, 3.6842E-1, 2.5806E-1, 2.2857E-1]: 3.1773E-1
+MicroPrecision
+   Default        : NaN
+   Original       : 4.8000E-1
+   Pruned         : 5.3604E-1
+MicroRecall
+   Default        : 0
+   Original       : 4.8649E-1
+   Pruned         : 2.2973E-1
+MicroFOne
+   Default        : NaN
+   Original       : 4.8322E-1
+   Pruned         : 3.2162E-1
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 5.722333E-1
+   Pruned         : 5.639413E-1
+averageAUPRC
+   Default        : 3.954198E-1
+   Original       : 4.629728E-1
+   Pruned         : 4.761474E-1
+weightedAUPRC
+   Default        : 3.980960E-1
+   Original       : 4.667094E-1
+   Pruned         : 4.789320E-1
+pooledAUPRC
+   Default        : 4.060957E-1
+   Original       : 4.612109E-1
+   Pruned         : 4.757362E-1
+
+Default Model
+*************
+
+[0,0,0,0,0,0,0,0,0,0] [726.0,741.0,747.0,764.0,771.0,788.0,785.0,795.0,797.0,818.0]: 1180
+
+Original Model
+**************
+
+(f_14>=1and(f_710>=1and(f_18<=0 > 1.0
++--yes: (f_146>=1and(f_658<=0and(f_15>=1and(f_488<=0 > 3.0
+|      +--yes: (f_709>=1and(f_193<=0and(f_576>=1and(f_405<=0 > 3.0
+|      |      +--yes: (f_143>=1and(f_683>=1and(f_685>=1 > 2.0
+|      |      |      +--yes: (f_569>=1and(f_494>=1 > 1.0
+|      |      |      |      +--yes: [0,1,0,1,0,0,1,1,1,0] [2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |      |      |      +--no:  (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 2.0
+|      |      |      |             +--yes: [1,1,1,1,1,1,1,1,1,1] [6.0,7.0,6.0,6.0,6.0,7.0,7.0,7.0,6.0,6.0]: 7
+|      |      |      |             +--no:  [1,1,1,1,1,1,0,1,1,1] [1.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |      |      +--no:  (f_12>=1and(f_645>=1and(f_346>=1 > 1.0
+|      |      |             +--yes: (f_356>=1and(f_20<=0and(f_696>=1and(f_14>=1and(f_16<=0 > 4.0
+|      |      |             |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |      |             |      +--no:  (f_698>=1and(f_390>=1and(f_193<=0and(f_377<=0and(f_380<=0 > 3.0
+|      |      |             |             +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |      |             |             +--no:  (f_695>=1and(f_615>=1 > 0.0
+|      |      |             |                    +--yes: [1,1,1,1,1,1,1,1,0,0] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|      |      |             |                    +--no:  (f_187>=1 > 0.0
+|      |      |             |                           +--yes: [0,0,1,0,1,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|      |      |             |                           +--no:  [1,1,1,1,1,0,0,0,1,1] [1.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |             +--no:  (f_261>=1and(f_22>=1 > 0.0
+|      |      |                    +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 1.0
+|      |      |                    |      +--yes: [0,1,1,0,1,1,1,0,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      |      |                    |      +--no:  [1,1,1,1,0,1,1,1,1,0] [1.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0]: 2
+|      |      |                    +--no:  (f_576>=1and(f_241>=1and(f_821>=1 > 1.0
+|      |      |                           +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 1.0
+|      |      |                           |      +--yes: (f_146>=1and(f_517>=1 > 1.0
+|      |      |                           |      |      +--yes: [1,1,0,0,1,0,1,1,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,2.0,3.0]: 3
+|      |      |                           |      |      +--no:  [1,1,0,1,0,0,1,1,0,1] [3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |      |                           |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      |                           +--no:  (f_391>=1and(f_2<=0and(f_633>=1 > 2.0
+|      |      |                                  +--yes: [1,1,1,1,1,1,1,1,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|      |      |                                  +--no:  [1,1,1,1,1,0,0,1,1,1] [2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0]: 3
+|      |      +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|      |             +--yes: (f_20<=0and(f_569>=1and(f_308<=0 > 2.0
+|      |             |      +--yes: (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+|      |             |      |      +--yes: (f_576>=1and(f_241>=1 > 0.0
+|      |             |      |      |      +--yes: [0,1,1,1,1,0,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0]: 2
+|      |             |      |      |      +--no:  [1,1,0,0,0,0,1,1,0,0] [2.0,2.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |             |      |      +--no:  (f_356>=1and(f_2>=1and(f_3<=0and(f_684>=1 > 2.0
+|      |             |      |             +--yes: (f_671>=1and(f_299<=0and(f_365<=0 > 0.0
+|      |             |      |             |      +--yes: (f_576>=1and(f_241>=1 > 0.0
+|      |             |      |             |      |      +--yes: [0,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |             |      |             |      |      +--no:  (f_695>=1and(f_615>=1 > 0.0
+|      |             |      |             |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |             |      |             +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |             |      +--no:  [0,0,0,0,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |             +--no:  [0,1,0,1,1,0,1,1,0,1] [2.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      |             |      +--no:  (f_518>=1and(f_517>=1 > 1.0
+|      |             |             +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 2.0
+|      |             |             |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|      |             |             |      +--no:  [1,1,1,0,1,1,1,1,0,0] [2.0,1.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |             |             +--no:  (f_576>=1and(f_241>=1and(f_821>=1 > 1.0
+|      |             |                    +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535<=0and(f_345>=1 > 4.0
+|      |             |                    |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |             |                    |      +--no:  (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_683<=0 > 3.0
+|      |             |                    |             +--yes: (f_259>=1and(f_244>=1and(f_638>=1and(f_374>=1 > 3.0
+|      |             |                    |             |      +--yes: (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+|      |             |                    |             |      |      +--yes: [1,1,1,1,1,0,0,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0]: 2
+|      |             |                    |             |      |      +--no:  [1,1,1,1,1,0,0,0,1,1] [1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                    |             |      +--no:  [0,1,1,1,1,1,1,0,1,1] [3.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |             |                    |             +--no:  (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 2.0
+|      |             |                    |                    +--yes: (f_432>=1and(f_356<=0 > 0.0
+|      |             |                    |                    |      +--yes: [1,1,1,1,1,0,1,1,1,0] [3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0]: 3
+|      |             |                    |                    |      +--no:  (f_229>=1 > 0.0
+|      |             |                    |                    |             +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |             |                    |                    |             +--no:  (f_12>=1and(f_645>=1and(f_346>=1 > 2.0
+|      |             |                    |                    |                    +--yes: [0,0,1,1,1,0,1,0,1,0] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |             |                    |                    |                    +--no:  [0,0,0,1,1,1,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                    |                    +--no:  (f_709>=1and(f_193<=0and(f_576>=1and(f_405<=0 > 2.0
+|      |             |                    |                           +--yes: (f_143>=1and(f_683>=1and(f_685>=1 > 2.0
+|      |             |                    |                           |      +--yes: [0,1,0,0,0,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |             |                    |                           |      +--no:  (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 1.0
+|      |             |                    |                           |             +--yes: (f_576>=1and(f_241>=1 > 1.0
+|      |             |                    |                           |             |      +--yes: [0,1,1,1,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                    |                           |             |      +--no:  [0,1,1,1,1,1,1,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0]: 2
+|      |             |                    |                           |             +--no:  [1,1,1,1,1,0,0,1,0,0] [1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |             |                    |                           +--no:  (f_709>=1and(f_380<=0and(f_659>=1and(f_704<=0 > 2.0
+|      |             |                    |                                  +--yes: [0,0,0,0,0,0,0,0,1,1] [3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |             |                    |                                  +--no:  (f_709>=1and(f_380<=0and(f_659>=1and(f_704<=0 > 1.0
+|      |             |                    |                                         +--yes: (f_695>=1and(f_615>=1 > 1.0
+|      |             |                    |                                         |      +--yes: [0,0,0,1,1,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                    |                                         |      +--no:  [0,0,0,0,1,0,0,1,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0]: 2
+|      |             |                    |                                         +--no:  (f_146>=1and(f_517>=1 > 1.0
+|      |             |                    |                                                +--yes: [0,1,1,1,1,0,1,0,1,0] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0]: 2
+|      |             |                    |                                                +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+|      |             |                    |                                                       +--yes: [0,0,1,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |             |                    |                                                       +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                    +--no:  (f_335>=1and(f_602>=1and(f_145<=0 > 1.0
+|      |             |                           +--yes: (f_690>=1and(f_551>=1 > 0.0
+|      |             |                           |      +--yes: (f_22>=1 > 0.0
+|      |             |                           |      |      +--yes: [1,0,1,0,1,1,0,1,1,1] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |             |                           |      |      +--no:  [1,0,0,0,0,0,0,0,0,1] [3.0,2.0,3.0,3.0,2.0,3.0,2.0,2.0,2.0,2.0]: 3
+|      |             |                           |      +--no:  (f_356>=1and(f_20<=0and(f_569>=1 > 1.0
+|      |             |                           |             +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+|      |             |                           |             |      +--yes: [0,0,0,0,0,0,0,0,1,1] [3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |             |                           |             |      +--no:  (f_22>=1 > 0.0
+|      |             |                           |             |             +--yes: [0,0,0,0,0,1,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |             |                           |             |             +--no:  [0,0,0,0,0,0,0,0,0,1] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |             |                           |             +--no:  [1,1,0,1,0,1,1,0,1,1] [2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0]: 2
+|      |             |                           +--no:  (f_335>=1and(f_21>=1 > 1.0
+|      |             |                                  +--yes: [1,1,1,1,1,0,0,0,1,1] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                                  +--no:  (f_13>=1and(f_685>=1 > 0.0
+|      |             |                                         +--yes: (f_146>=1and(f_346>=1and(f_299>=1 > 2.0
+|      |             |                                         |      +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+|      |             |                                         |      |      +--yes: [0,0,0,0,0,0,0,0,1,1] [3.0,3.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,2.0]: 3
+|      |             |                                         |      |      +--no:  [1,1,1,0,1,1,0,0,1,0] [2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                                         |      +--no:  (f_13>=1and(f_704<=0 > 0.0
+|      |             |                                         |             +--yes: (f_308<=0and(f_535<=0and(f_430>=1 > 1.0
+|      |             |                                         |             |      +--yes: [0,1,0,0,0,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|      |             |                                         |             |      +--no:  (f_671>=1and(f_299<=0and(f_365<=0 > 0.0
+|      |             |                                         |             |             +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                                         |             |             +--no:  [0,0,0,1,0,0,0,1,1,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|      |             |                                         |             +--no:  [0,0,0,1,0,0,1,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                                         +--no:  (f_356>=1and(f_20<=0and(f_569>=1 > 1.0
+|      |             |                                                +--yes: (f_356>=1and(f_777<=0and(f_2>=1 > 2.0
+|      |             |                                                |      +--yes: (f_709>=1and(f_380<=0and(f_659>=1and(f_704<=0 > 3.0
+|      |             |                                                |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |             |                                                |      |      +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 3.0
+|      |             |                                                |      |             +--yes: [1,0,1,0,1,1,0,0,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |             |                                                |      |             +--no:  [0,1,1,1,1,0,0,0,1,0] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |             |                                                |      +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+|      |             |                                                |             +--yes: [0,0,0,0,1,0,0,0,0,0] [3.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,2.0]: 3
+|      |             |                                                |             +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 3.0
+|      |             |                                                |                    +--yes: [0,0,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |                                                |                    +--no:  [0,0,0,1,1,0,0,0,1,1] [3.0,3.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0,2.0]: 3
+|      |             |                                                +--no:  (f_695>=1and(f_615>=1 > 0.0
+|      |             |                                                       +--yes: [0,0,1,0,1,0,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |             |                                                       +--no:  [0,0,1,1,0,0,0,0,0,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             +--no:  (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 2.0
+|      |                    +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 3.0
+|      |                    |      +--yes: [1,1,1,1,1,1,1,0,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0]: 2
+|      |                    |      +--no:  (f_709>=1and(f_193<=0and(f_576>=1and(f_405<=0 > 2.0
+|      |                    |             +--yes: (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 2.0
+|      |                    |             |      +--yes: [0,1,1,0,1,1,1,0,1,1] [2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0]: 3
+|      |                    |             |      +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,2.0,2.0,3.0,2.0,3.0,2.0,3.0]: 3
+|      |                    |             +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+|      |                    |                    +--yes: (f_145>=1and(f_571>=1 > 0.0
+|      |                    |                    |      +--yes: [0,0,1,0,0,0,1,1,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                    |                    |      +--no:  [0,0,1,0,0,0,0,0,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                    |                    +--no:  (f_690>=1and(f_551>=1 > 0.0
+|      |                    |                           +--yes: [0,0,1,1,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                    |                           +--no:  [0,0,0,1,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+|      |                    +--no:  (f_146>=1and(f_346>=1and(f_539>=1 > 1.0
+|      |                           +--yes: (f_671>=1and(f_299<=0and(f_566<=0 > 1.0
+|      |                           |      +--yes: (f_672<=0and(f_24>=1 > 0.0
+|      |                           |      |      +--yes: [1,1,1,0,1,0,1,0,0,1] [1.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      |                           |      |      +--no:  [0,1,1,0,1,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |      +--no:  (f_146>=1and(f_12<=0and(f_185>=1 > 1.0
+|      |                           |             +--yes: (f_684>=1and(f_15>=1and(f_672<=0 > 2.0
+|      |                           |             |      +--yes: [0,1,0,1,1,1,1,0,1,1] [3.0,2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0]: 3
+|      |                           |             |      +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 2.0
+|      |                           |             |             +--yes: [1,1,1,1,1,1,0,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |             |             +--no:  [1,1,0,1,1,1,1,1,1,1] [3.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |                           |             +--no:  (f_146>=1and(f_430<=0 > 1.0
+|      |                           |                    +--yes: [1,1,1,1,1,1,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0]: 2
+|      |                           |                    +--no:  [1,1,1,1,1,1,1,1,0,1] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |                           +--no:  (f_146>=1and(f_12<=0and(f_185>=1 > 2.0
+|      |                                  +--yes: (f_20<=0and(f_213>=1 > 0.0
+|      |                                  |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|      |                                  |      +--no:  [1,1,1,1,1,0,0,1,1,1] [3.0,2.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,2.0]: 3
+|      |                                  +--no:  (f_356>=1and(f_777<=0and(f_2>=1 > 2.0
+|      |                                         +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 1.0
+|      |                                         |      +--yes: (f_695>=1and(f_615>=1 > 0.0
+|      |                                         |      |      +--yes: [0,1,1,1,0,0,0,1,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                         |      |      +--no:  [0,1,1,0,0,0,1,1,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                                         |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0]: 2
+|      |                                         +--no:  (f_356>=1and(f_20<=0and(f_569>=1 > 2.0
+|      |                                                +--yes: [1,0,0,0,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                                +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 2.0
+|      |                                                       +--yes: [0,1,1,0,1,0,0,0,0,0] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                       +--no:  [0,0,1,1,1,0,1,0,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      +--no:  (f_535<=0and(f_213>=1 > 1.0
+|             +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 2.0
+|             |      +--yes: (f_682>=1and(f_22>=1 > 0.0
+|             |      |      +--yes: (f_259>=1and(f_244>=1and(f_638>=1and(f_374>=1 > 1.0
+|             |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |      +--no:  [0,1,1,1,0,0,1,1,1,1] [2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|             |      |      +--no:  (f_146>=1and(f_24>=1 > 0.0
+|             |      |             +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             +--no:  (f_671>=1and(f_299<=0and(f_365<=0 > 0.0
+|             |      |                    +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+|             |      |                    |      +--yes: (f_14>=1and(f_19<=0and(f_18<=0 > 1.0
+|             |      |                    |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 1.0
+|             |      |                    |      |      |      +--yes: (f_569>=1and(f_494>=1 > 0.0
+|             |      |                    |      |      |      |      +--yes: (f_576>=1and(f_405<=0 > 1.0
+|             |      |                    |      |      |      |      |      +--yes: [1,1,0,1,1,0,1,0,1,0] [3.0,3.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0]: 3
+|             |      |                    |      |      |      |      |      +--no:  [1,1,0,0,0,0,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0]: 2
+|             |      |                    |      |      |      |      +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 1.0
+|             |      |                    |      |      |      |             +--yes: [1,1,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |                    |      |      |      |             +--no:  [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0]: 2
+|             |      |                    |      |      |      +--no:  [1,1,1,0,0,0,1,1,0,0] [3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|             |      |                    |      |      +--no:  (f_576>=1and(f_405<=0 > 1.0
+|             |      |                    |      |             +--yes: [1,0,1,0,0,0,1,1,0,0] [3.0,2.0,2.0,2.0,2.0,3.0,3.0,2.0,3.0,2.0]: 3
+|             |      |                    |      |             +--no:  [0,1,1,0,0,0,1,0,0,1] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|             |      |                    |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |                    +--no:  (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 2.0
+|             |      |                           +--yes: (f_432>=1and(f_717>=1 > 0.0
+|             |      |                           |      +--yes: [1,0,1,0,1,1,1,1,1,1] [1.0,2.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0]: 2
+|             |      |                           |      +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 0.0
+|             |      |                           |             +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+|             |      |                           |             |      +--yes: [1,1,0,1,0,1,1,1,0,0] [1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |                           |             |      +--no:  [1,1,1,1,1,0,1,1,0,1] [2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|             |      |                           |             +--no:  (f_698>=1and(f_390>=1and(f_193<=0and(f_377<=0and(f_380<=0 > 3.0
+|             |      |                           |                    +--yes: [1,1,0,0,0,0,1,1,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |                           |                    +--no:  [1,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |                           +--no:  [0,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|             +--no:  (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 3.0
+|                    +--yes: (f_709>=1and(f_576>=1and(f_440<=0and(f_698<=0 > 1.0
+|                    |      +--yes: (f_432>=1and(f_356<=0 > 0.0
+|                    |      |      +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 2.0
+|                    |      |      |      +--yes: [1,0,0,0,1,0,1,1,1,0] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                    |      |      |      +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 3.0
+|                    |      |      |             +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                    |      |      |             +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|                    |      |      |                    +--yes: [1,1,0,1,0,0,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                    |      |      |                    +--no:  [1,1,0,1,1,1,0,1,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                    |      |      +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 1.0
+|                    |      |             +--yes: [0,1,1,1,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                    |      |             +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                    |      +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+|                    |             +--yes: [0,0,0,0,0,1,0,0,1,1] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                    |             +--no:  (f_576>=1and(f_709>=1and(f_639<=0 > 1.0
+|                    |                    +--yes: (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+|                    |                    |      +--yes: [1,1,1,0,1,0,1,1,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                    |                    |      +--no:  (f_671>=1and(f_299<=0and(f_566<=0 > 1.0
+|                    |                    |             +--yes: [1,1,1,0,1,1,1,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|                    |                    |             +--no:  [1,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0,2.0,3.0]: 3
+|                    |                    +--no:  [0,1,1,0,1,0,0,0,1,1] [2.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+|                    +--no:  (f_356>=1and(f_20<=0and(f_696>=1and(f_14>=1and(f_16<=0 > 4.0
+|                           +--yes: (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 4.0
+|                           |      +--yes: (f_14>=1and(f_19<=0and(f_18<=0 > 2.0
+|                           |      |      +--yes: (f_146>=1and(f_776>=1 > 0.0
+|                           |      |      |      +--yes: [1,1,0,0,0,0,1,1,1,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                           |      |      |      +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+|                           |      |      |             +--yes: [0,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+|                           |      |      |             +--no:  [1,1,0,0,0,0,1,1,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |      |      +--no:  (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_683<=0 > 3.0
+|                           |      |             +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+|                           |      |             |      +--yes: [1,1,0,1,1,0,1,1,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                           |      |             |      +--no:  [1,1,1,1,1,0,1,1,1,1] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0]: 3
+|                           |      |             +--no:  [1,1,1,1,1,0,1,1,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |      +--no:  (f_611>=1and(f_261>=1 > 0.0
+|                           |             +--yes: (f_684>=1and(f_374>=1and(f_524<=0 > 1.0
+|                           |             |      +--yes: (f_576>=1and(f_241>=1and(f_821>=1 > 1.0
+|                           |             |      |      +--yes: [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+|                           |             |      |      +--no:  (f_672<=0and(f_24>=1 > 0.0
+|                           |             |      |             +--yes: [1,1,1,1,1,1,1,1,0,0] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                           |             |      |             +--no:  [1,0,1,1,1,1,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |             |      +--no:  (f_244>=1and(f_683>=1 > 0.0
+|                           |             |             +--yes: (f_14>=1and(f_19<=0and(f_18<=0 > 2.0
+|                           |             |             |      +--yes: (f_671>=1and(f_299<=0and(f_365<=0 > 0.0
+|                           |             |             |      |      +--yes: (f_340>=1and(f_241>=1and(f_249<=0and(f_15>=1and(f_355>=1and(f_683>=1and(f_671<=0and(f_711<=0 > 6.0
+|                           |             |             |      |      |      +--yes: [0,0,1,0,0,1,1,1,0,0] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|                           |             |             |      |      |      +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                           |             |             |      |      +--no:  [0,0,1,0,0,0,1,0,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                           |             |             |      +--no:  (f_698>=1and(f_390>=1and(f_193<=0and(f_377<=0and(f_380<=0 > 2.0
+|                           |             |             |             +--yes: (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 1.0
+|                           |             |             |             |      +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 4.0
+|                           |             |             |             |      |      +--yes: [0,0,0,0,0,1,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|                           |             |             |             |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|                           |             |             |             |      +--no:  [1,0,0,1,1,0,0,0,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |             |             |             +--no:  [1,0,0,0,0,0,0,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|                           |             |             +--no:  [0,1,0,1,0,1,1,1,1,1] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,1.0]: 2
+|                           |             +--no:  (f_19<=0and(f_179>=1 > 1.0
+|                           |                    +--yes: (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 1.0
+|                           |                    |      +--yes: (f_346>=1and(f_539>=1 > 0.0
+|                           |                    |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 1.0
+|                           |                    |      |      |      +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+|                           |                    |      |      |      |      +--yes: [1,0,0,1,0,0,1,1,0,0] [4.0,4.0,4.0,3.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|                           |                    |      |      |      |      +--no:  [1,1,0,1,0,1,1,1,1,0] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|                           |                    |      |      |      +--no:  [1,1,1,1,0,0,1,0,0,0] [1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                    |      |      +--no:  (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535>=1 > 4.0
+|                           |                    |      |             +--yes: [0,1,0,0,0,0,1,1,0,0] [3.0,2.0,3.0,3.0,3.0,2.0,2.0,2.0,2.0,3.0]: 3
+|                           |                    |      |             +--no:  (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 1.0
+|                           |                    |      |                    +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|                           |                    |      |                    |      +--yes: [1,1,1,1,0,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                           |                    |      |                    |      +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                    |      |                    +--no:  [1,1,0,1,1,0,1,1,1,1] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+|                           |                    |      +--no:  (f_259>=1and(f_643>=1and(f_374>=1and(f_672>=1 > 1.0
+|                           |                    |             +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 2.0
+|                           |                    |             |      +--yes: (f_576>=1and(f_241>=1 > 0.0
+|                           |                    |             |      |      +--yes: [1,0,0,1,1,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                           |                    |             |      |      +--no:  (f_684>=1and(f_656>=1and(f_524<=0 > 0.0
+|                           |                    |             |      |             +--yes: [0,1,0,1,1,1,0,0,0,0] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                    |             |      |             +--no:  [0,0,1,1,1,1,0,1,1,0] [2.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0]: 2
+|                           |                    |             |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                           |                    |             +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 1.0
+|                           |                    |                    +--yes: [1,1,0,1,0,1,1,1,0,0] [3.0,3.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+|                           |                    |                    +--no:  (f_709>=1and(f_576>=1and(f_440<=0and(f_698<=0 > 2.0
+|                           |                    |                           +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 0.0
+|                           |                    |                           |      +--yes: [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|                           |                    |                           |      +--no:  [0,1,0,1,1,0,1,1,0,0] [2.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                           |                    |                           +--no:  (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 3.0
+|                           |                    |                                  +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|                           |                    |                                  |      +--yes: [1,0,0,0,0,0,1,1,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0]: 2
+|                           |                    |                                  |      +--no:  [1,0,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                    |                                  +--no:  (f_146>=1and(f_776>=1 > 0.0
+|                           |                    |                                         +--yes: [1,1,0,1,0,0,1,1,0,0] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                           |                    |                                         +--no:  [1,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|                           |                    +--no:  (f_229>=1 > 0.0
+|                           |                           +--yes: (f_146>=1and(f_250>=1 > 1.0
+|                           |                           |      +--yes: [1,0,1,1,0,0,1,1,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0]: 2
+|                           |                           |      +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 2.0
+|                           |                           |             +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                           |                           |             +--no:  [1,1,1,1,1,1,1,1,0,0] [2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                           |                           +--no:  (f_667>=1and(f_346>=1and(f_697>=1 > 2.0
+|                           |                                  +--yes: (f_709>=1and(f_193<=0and(f_576>=1and(f_405<=0 > 2.0
+|                           |                                  |      +--yes: [0,1,1,1,0,0,1,1,0,1] [2.0,2.0,2.0,3.0,2.0,2.0,2.0,3.0,2.0,3.0]: 3
+|                           |                                  |      +--no:  (f_146>=1and(f_24>=1 > 0.0
+|                           |                                  |             +--yes: [1,0,1,0,1,1,0,0,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                                  |             +--no:  [1,0,1,1,1,0,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                                  +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 3.0
+|                           |                                         +--yes: [1,0,1,0,0,1,1,1,1,1] [3.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0]: 3
+|                           |                                         +--no:  (f_576>=1and(f_241>=1and(f_797>=1 > 0.0
+|                           |                                                +--yes: (f_143>=1and(f_683>=1and(f_685>=1 > 2.0
+|                           |                                                |      +--yes: [1,1,1,1,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                                                |      +--no:  (f_698>=1and(f_341<=0 > 0.0
+|                           |                                                |             +--yes: (f_683>=1and(f_335>=1and(f_341>=1and(f_299>=1 > 1.0
+|                           |                                                |             |      +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_683<=0 > 2.0
+|                           |                                                |             |      |      +--yes: (f_146>=1and(f_346>=1and(f_299>=1 > 0.0
+|                           |                                                |             |      |      |      +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+|                           |                                                |             |      |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0]: 6
+|                           |                                                |             |      |      |      |      +--no:  [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                                                |             |      |      |      +--no:  [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                           |                                                |             |      |      +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|                           |                                                |             |      |             +--yes: [1,1,0,1,1,0,0,1,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                           |                                                |             |      |             +--no:  [0,0,1,0,0,0,0,0,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                           |                                                |             |      +--no:  [0,0,0,0,1,1,0,0,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                           |                                                |             +--no:  [0,0,0,0,0,0,0,0,1,1] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0]: 3
+|                           |                                                +--no:  (f_671>=1and(f_299<=0and(f_365<=0 > 1.0
+|                           |                                                       +--yes: [1,1,1,1,0,0,1,1,1,1] [3.0,2.0,2.0,3.0,2.0,3.0,2.0,3.0,2.0,2.0]: 3
+|                           |                                                       +--no:  (f_259>=1and(f_244>=1and(f_638>=1and(f_374>=1 > 1.0
+|                           |                                                              +--yes: (f_145>=1and(f_571>=1 > 0.0
+|                           |                                                              |      +--yes: (f_356>=1and(f_777<=0and(f_2>=1 > 2.0
+|                           |                                                              |      |      +--yes: (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 2.0
+|                           |                                                              |      |      |      +--yes: (f_335>=1and(f_21>=1 > 0.0
+|                           |                                                              |      |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                                                              |      |      |      |      +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|                           |                                                              |      |      |      +--no:  [0,0,0,1,0,0,1,0,0,0] [2.0,3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0]: 3
+|                           |                                                              |      |      +--no:  [1,1,0,1,0,0,0,0,1,1] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0,2.0,2.0]: 3
+|                           |                                                              |      +--no:  (f_146>=1and(f_20>=1and(f_12<=0 > 0.0
+|                           |                                                              |             +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|                           |                                                              |             +--no:  [1,1,1,0,0,0,0,0,0,1] [2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0]: 3
+|                           |                                                              +--no:  (f_259>=1and(f_643>=1and(f_374>=1and(f_672>=1 > 1.0
+|                           |                                                                     +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535>=1 > 1.0
+|                           |                                                                     |      +--yes: (f_146>=1and(f_776>=1 > 0.0
+|                           |                                                                     |      |      +--yes: [0,0,0,0,1,0,0,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0]: 2
+|                           |                                                                     |      |      +--no:  (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 1.0
+|                           |                                                                     |      |             +--yes: (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 0.0
+|                           |                                                                     |      |             |      +--yes: [1,0,0,1,0,0,0,1,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                                                                     |      |             |      +--no:  [0,1,0,0,0,0,0,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                           |                                                                     |      |             +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                           |                                                                     |      +--no:  [0,1,0,0,0,0,1,0,1,0] [3.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+|                           |                                                                     +--no:  (f_145>=1and(f_382>=1 > 0.0
+|                           |                                                                            +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                           |                                                                            +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+|                           |                                                                                   +--yes: [0,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0]: 3
+|                           |                                                                                   +--no:  [1,0,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                           +--no:  (f_285>=1and(f_711>=1and(f_860<=0 > 2.0
+|                                  +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535>=1 > 2.0
+|                                  |      +--yes: (f_146>=1and(f_12<=0and(f_185>=1 > 1.0
+|                                  |      |      +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535<=0and(f_345>=1 > 4.0
+|                                  |      |      |      +--yes: [1,1,0,1,0,1,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                  |      |      |      +--no:  (f_374>=1and(f_243>=1 > 0.0
+|                                  |      |      |             +--yes: (f_667>=1and(f_346>=1and(f_697>=1 > 2.0
+|                                  |      |      |             |      +--yes: [1,1,0,1,0,1,1,0,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0]: 2
+|                                  |      |      |             |      +--no:  [1,1,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0,3.0]: 3
+|                                  |      |      |             +--no:  [1,1,1,0,1,0,1,1,1,1] [1.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                  |      |      +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+|                                  |      |             +--yes: (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 3.0
+|                                  |      |             |      +--yes: (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 2.0
+|                                  |      |             |      |      +--yes: [1,1,1,1,0,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                  |      |             |      |      +--no:  [1,1,1,0,0,0,1,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                  |      |             |      +--no:  [0,0,1,0,0,0,1,0,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0]: 3
+|                                  |      |             +--no:  [1,1,1,1,1,1,1,1,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                  |      +--no:  (f_576>=1and(f_241>=1 > 0.0
+|                                  |             +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|                                  |             +--no:  [1,1,0,1,1,1,0,0,1,1] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  +--no:  (f_684>=1and(f_15>=1and(f_672<=0 > 1.0
+|                                         +--yes: (f_698>=1and(f_341<=0 > 1.0
+|                                         |      +--yes: (f_671>=1and(f_299<=0and(f_365<=0 > 0.0
+|                                         |      |      +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 1.0
+|                                         |      |      |      +--yes: (f_695>=1and(f_615>=1 > 0.0
+|                                         |      |      |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 0.0
+|                                         |      |      |      |      |      +--yes: (f_671>=1and(f_299<=0and(f_365<=0 > 1.0
+|                                         |      |      |      |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,1.0,1.0]: 2
+|                                         |      |      |      |      |      |      +--no:  [1,1,1,1,0,0,1,1,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|                                         |      |      |      |      |      +--no:  [0,1,1,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |      |      |      |      +--no:  [1,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+|                                         |      |      |      +--no:  (f_146>=1and(f_776>=1 > 0.0
+|                                         |      |      |             +--yes: [0,1,1,1,1,0,0,1,0,0] [2.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                         |      |      |             +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+|                                         |      |      |                    +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|                                         |      |      |                    |      +--yes: [0,1,1,0,1,1,1,1,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |      |      |                    |      +--no:  [0,1,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                         |      |      |                    +--no:  [1,1,1,0,0,1,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |      |      +--no:  (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535<=0and(f_345>=1 > 3.0
+|                                         |      |             +--yes: [0,0,0,0,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |      |             +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+|                                         |      |                    +--yes: (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 2.0
+|                                         |      |                    |      +--yes: [1,1,1,1,1,0,1,1,1,1] [1.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                         |      |                    |      +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 4.0
+|                                         |      |                    |             +--yes: [0,1,1,1,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                         |      |                    |             +--no:  [0,1,1,1,1,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|                                         |      |                    +--no:  [0,1,0,0,1,0,0,0,0,0] [3.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|                                         |      +--no:  (f_356>=1and(f_143>=1and(f_571>=1 > 2.0
+|                                         |             +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 3.0
+|                                         |             |      +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |             |      +--no:  (f_576>=1and(f_709>=1and(f_698>=1and(f_440>=1 > 2.0
+|                                         |             |             +--yes: (f_259>=1and(f_244>=1and(f_638>=1and(f_374>=1 > 3.0
+|                                         |             |             |      +--yes: (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 3.0
+|                                         |             |             |      |      +--yes: (f_695>=1and(f_615>=1 > 1.0
+|                                         |             |             |      |      |      +--yes: [1,1,0,1,1,1,0,1,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|                                         |             |             |      |      |      +--no:  [1,0,1,1,1,1,0,1,1,1] [1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0]: 2
+|                                         |             |             |      |      +--no:  (f_576>=1and(f_143>=1and(f_698>=1 > 2.0
+|                                         |             |             |      |             +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 2.0
+|                                         |             |             |      |             |      +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |             |             |      |             |      +--no:  [0,0,1,1,0,1,0,0,1,1] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|                                         |             |             |      |             +--no:  [0,1,0,0,1,0,0,0,1,0] [3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|                                         |             |             |      +--no:  (f_157>=1 > 0.0
+|                                         |             |             |             +--yes: (f_576>=1and(f_709>=1and(f_639<=0 > 1.0
+|                                         |             |             |             |      +--yes: [1,0,1,0,0,0,1,0,1,1] [4.0,3.0,3.0,5.0,3.0,3.0,3.0,4.0,4.0,5.0]: 5
+|                                         |             |             |             |      +--no:  [1,1,1,0,1,1,1,1,0,1] [1.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0]: 2
+|                                         |             |             |             +--no:  [1,1,1,1,1,1,0,1,0,1] [2.0,3.0,3.0,2.0,3.0,2.0,2.0,3.0,2.0,3.0]: 3
+|                                         |             |             +--no:  (f_683>=1and(f_335>=1and(f_341>=1and(f_299>=1 > 3.0
+|                                         |             |                    +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 2.0
+|                                         |             |                    |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                                         |             |                    |      +--no:  [0,1,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                         |             |                    +--no:  [0,0,0,0,0,1,0,0,1,1] [3.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                         |             +--no:  (f_695>=1and(f_615>=1 > 1.0
+|                                         |                    +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                         |                    +--no:  (f_356>=1and(f_14>=1and(f_179>=1and(f_696<=0and(f_569>=1 > 4.0
+|                                         |                           +--yes: (f_259>=1and(f_567>=1 > 0.0
+|                                         |                           |      +--yes: (f_356>=1and(f_339>=1and(f_143>=1and(f_452<=0 > 2.0
+|                                         |                           |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|                                         |                           |      |      |      +--yes: [1,1,1,1,1,0,1,1,0,1] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                           |      |      |      +--no:  [1,1,1,1,1,1,1,1,1,0] [3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0]: 3
+|                                         |                           |      |      +--no:  (f_146>=1and(f_24>=1 > 0.0
+|                                         |                           |      |             +--yes: [0,1,1,0,0,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|                                         |                           |      |             +--no:  [1,1,1,1,1,1,0,1,1,1] [3.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|                                         |                           |      +--no:  (f_576>=1and(f_405<=0 > 0.0
+|                                         |                           |             +--yes: (f_14>=1and(f_20<=0and(f_697>=1 > 2.0
+|                                         |                           |             |      +--yes: [0,1,1,0,1,1,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+|                                         |                           |             |      +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+|                                         |                           |             |             +--yes: (f_20<=0and(f_569>=1and(f_308<=0 > 2.0
+|                                         |                           |             |             |      +--yes: (f_340>=1and(f_241>=1and(f_249<=0and(f_15>=1and(f_355>=1and(f_683>=1and(f_671<=0and(f_711<=0 > 6.0
+|                                         |                           |             |             |      |      +--yes: [1,1,1,0,0,1,1,1,0,0] [1.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|                                         |                           |             |             |      |      +--no:  [1,0,1,0,0,0,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                           |             |             |      +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+|                                         |                           |             |             |             +--yes: [0,0,0,0,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                           |             |             |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                           |             |             +--no:  (f_695>=1and(f_615>=1 > 0.0
+|                                         |                           |             |                    +--yes: [1,1,0,0,0,1,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                                         |                           |             |                    +--no:  [1,1,0,0,1,1,0,0,0,1] [1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                           |             +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 3.0
+|                                         |                           |                    +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535<=0and(f_345>=1 > 3.0
+|                                         |                           |                    |      +--yes: [1,1,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                                         |                           |                    |      +--no:  [1,1,1,1,0,1,1,1,0,1] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|                                         |                           |                    +--no:  [1,0,1,0,0,0,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                         |                           +--no:  (f_146>=1and(f_658<=0 > 0.0
+|                                         |                                  +--yes: (f_356>=1and(f_339>=1and(f_143>=1and(f_452<=0 > 0.0
+|                                         |                                  |      +--yes: (f_143>=1and(f_683>=1and(f_452<=0and(f_144<=0 > 3.0
+|                                         |                                  |      |      +--yes: (f_146>=1and(f_776>=1 > 0.0
+|                                         |                                  |      |      |      +--yes: (f_213>=1 > 0.0
+|                                         |                                  |      |      |      |      +--yes: [1,0,1,1,1,1,0,0,1,1] [1.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                                  |      |      |      |      +--no:  (f_611>=1and(f_261>=1 > 1.0
+|                                         |                                  |      |      |      |             +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|                                         |                                  |      |      |      |             +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+|                                         |                                  |      |      |      |                    +--yes: [1,1,0,0,0,1,0,0,0,0] [1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |      |      |                    +--no:  [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                                  |      |      |      +--no:  (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535<=0and(f_345>=1 > 4.0
+|                                         |                                  |      |      |             +--yes: [1,1,1,0,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0]: 2
+|                                         |                                  |      |      |             +--no:  (f_146>=1and(f_346>=1and(f_539>=1 > 0.0
+|                                         |                                  |      |      |                    +--yes: [0,1,0,0,0,1,0,0,1,1] [2.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|                                         |                                  |      |      |                    +--no:  [1,1,1,0,0,1,1,1,1,0] [1.0,1.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                         |                                  |      |      +--no:  (f_569>=1and(f_494>=1 > 1.0
+|                                         |                                  |      |             +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,2.0]: 3
+|                                         |                                  |      |             +--no:  (f_684>=1and(f_588>=1 > 1.0
+|                                         |                                  |      |                    +--yes: (f_695>=1and(f_615>=1 > 0.0
+|                                         |                                  |      |                    |      +--yes: [1,0,1,1,1,1,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|                                         |                                  |      |                    |      +--no:  (f_709>=1and(f_576>=1and(f_440<=0and(f_698<=0 > 1.0
+|                                         |                                  |      |                    |             +--yes: (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 2.0
+|                                         |                                  |      |                    |             |      +--yes: [0,0,1,0,1,1,0,0,0,0] [2.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                         |                                  |      |                    |             |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                    |             +--no:  [0,0,1,0,0,0,0,0,0,1] [3.0,3.0,3.0,2.0,3.0,2.0,3.0,2.0,2.0,3.0]: 3
+|                                         |                                  |      |                    +--no:  (f_683>=1and(f_432>=1and(f_671<=0 > 2.0
+|                                         |                                  |      |                           +--yes: [0,0,1,0,1,1,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,2.0,3.0]: 3
+|                                         |                                  |      |                           +--no:  (f_576>=1and(f_377<=0 > 1.0
+|                                         |                                  |      |                                  +--yes: (f_14>=1and(f_20<=0and(f_697>=1 > 2.0
+|                                         |                                  |      |                                  |      +--yes: [1,1,1,1,0,1,1,1,1,1] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                                  |      |                                  |      +--no:  (f_576>=1and(f_143>=1and(f_698>=1 > 1.0
+|                                         |                                  |      |                                  |             +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0]: 3
+|                                         |                                  |      |                                  |             +--no:  (f_576>=1and(f_709>=1and(f_639<=0 > 2.0
+|                                         |                                  |      |                                  |                    +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 0.0
+|                                         |                                  |      |                                  |                    |      +--yes: [1,1,1,1,0,1,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                  |                    |      +--no:  [1,1,1,1,1,1,1,1,1,0] [1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                                  |      |                                  |                    +--no:  [1,0,1,0,0,0,0,0,0,0] [2.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|                                         |                                  |      |                                  +--no:  (f_244>=1 > 0.0
+|                                         |                                  |      |                                         +--yes: [1,1,1,1,1,1,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0,2.0]: 2
+|                                         |                                  |      |                                         +--no:  (f_709>=1and(f_380<=0and(f_659>=1and(f_704<=0 > 3.0
+|                                         |                                  |      |                                                +--yes: (f_695>=1and(f_615>=1 > 0.0
+|                                         |                                  |      |                                                |      +--yes: (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 1.0
+|                                         |                                  |      |                                                |      |      +--yes: [0,1,1,1,1,0,0,0,1,0] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                |      |      +--no:  [0,1,1,0,1,0,0,0,0,0] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                |      +--no:  (f_569>=1and(f_494>=1 > 0.0
+|                                         |                                  |      |                                                |             +--yes: [1,0,1,1,1,0,1,1,1,0] [2.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                |             +--no:  [1,0,1,0,1,0,1,1,0,1] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                +--no:  (f_709>=1and(f_193<=0and(f_576>=1and(f_405<=0 > 1.0
+|                                         |                                  |      |                                                       +--yes: (f_213>=1 > 0.0
+|                                         |                                  |      |                                                       |      +--yes: (f_146>=1and(f_12<=0and(f_185>=1 > 1.0
+|                                         |                                  |      |                                                       |      |      +--yes: (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 1.0
+|                                         |                                  |      |                                                       |      |      |      +--yes: [0,0,0,0,0,1,0,0,1,1] [3.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                                         |                                  |      |                                                       |      |      |      +--no:  [1,1,1,0,0,0,1,1,0,0] [1.0,1.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |      |      +--no:  [1,1,1,0,1,1,1,0,0,1] [2.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |      +--no:  (f_721>=1 > 0.0
+|                                         |                                  |      |                                                       |             +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 4.0
+|                                         |                                  |      |                                                       |             |      +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 5.0
+|                                         |                                  |      |                                                       |             |      |      +--yes: (f_576>=1and(f_241>=1 > 0.0
+|                                         |                                  |      |                                                       |             |      |      |      +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |             |      |      |      +--no:  [1,1,0,1,1,0,0,1,1,0] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                       |             |      |      +--no:  [0,1,0,0,1,1,0,0,0,1] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                                  |      |                                                       |             |      +--no:  [1,1,0,0,0,1,0,1,1,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |             +--no:  (f_146>=1and(f_345>=1and(f_12<=0 > 0.0
+|                                         |                                  |      |                                                       |                    +--yes: (f_684>=1and(f_374>=1and(f_524<=0 > 2.0
+|                                         |                                  |      |                                                       |                    |      +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+|                                         |                                  |      |                                                       |                    |      |      +--yes: [0,0,1,1,1,0,0,0,0,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |      |      +--no:  (f_22>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |      |             +--yes: [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |      |             +--no:  [0,1,1,1,0,0,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |      +--no:  (f_356>=1and(f_16>=1and(f_143>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 4.0
+|                                         |                                  |      |                                                       |                    |             |      +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_683<=0 > 4.0
+|                                         |                                  |      |                                                       |                    |             |      |      +--yes: [1,1,1,0,1,1,1,0,0,1] [1.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |      +--no:  (f_146>=1and(f_658<=0 > 1.0
+|                                         |                                  |      |                                                       |                    |             |      |             +--yes: [0,1,0,1,1,1,0,0,1,0] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |             +--no:  (f_146>=1and(f_12<=0and(f_185>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    +--yes: (f_335>=1and(f_602>=1and(f_145<=0 > 2.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |      +--yes: [1,0,0,0,1,0,0,0,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |      +--no:  (f_672<=0and(f_24>=1 > 1.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |             +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |             |      +--yes: [0,0,0,0,0,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |             |      +--no:  [1,0,0,0,0,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |             +--no:  (f_684>=1and(f_656>=1and(f_524<=0 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    +--yes: (f_356>=1and(f_20<=0and(f_696>=1and(f_14>=1and(f_16<=0 > 3.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      +--yes: (f_259>=1and(f_643>=1and(f_374>=1and(f_672>=1 > 2.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |      +--yes: [1,1,0,1,1,0,1,1,0,0] [1.0,2.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |      +--no:  (f_576>=1and(f_241>=1and(f_797>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |             +--yes: (f_374>=1and(f_243>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |             |      +--yes: [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |             |      +--no:  [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |             +--no:  (f_259>=1and(f_567>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                    +--yes: [1,1,1,0,0,0,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                    +--no:  (f_356>=1and(f_777<=0and(f_2>=1 > 2.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                           +--yes: (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 3.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                           |      +--yes: [0,0,1,0,0,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                           |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                           +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                                  +--yes: [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      |                                  +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |      +--no:  (f_346>=1and(f_539>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |             +--yes: (f_146>=1and(f_20>=1and(f_12<=0 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |             |      +--yes: [0,0,0,0,0,0,0,0,0,0] [10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0]: 10
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |             |      +--no:  [0,1,1,0,0,0,0,0,0,1] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |             +--no:  (f_146>=1and(f_658<=0and(f_15>=1and(f_488<=0 > 2.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    +--yes: (f_695>=1and(f_615>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    |      +--yes: [1,0,1,1,0,0,0,0,1,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    |      +--no:  (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535<=0and(f_345>=1 > 4.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    |             +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    |             |      +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    |             |      +--no:  [0,0,0,1,1,0,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    |             +--no:  [0,0,0,0,0,0,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    |                    +--no:  [0,1,1,0,0,1,0,1,1,1] [2.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0,1.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                    |                    +--no:  (f_698>=1and(f_390>=1and(f_193<=0and(f_377<=0and(f_380<=0 > 3.0
+|                                         |                                  |      |                                                       |                    |             |      |                    |                           +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|                                         |                                  |      |                                                       |                    |             |      |                    |                           +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0]: 3
+|                                         |                                  |      |                                                       |                    |             |      |                    +--no:  (f_356>=1and(f_20<=0and(f_569>=1 > 1.0
+|                                         |                                  |      |                                                       |                    |             |      |                           +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+|                                         |                                  |      |                                                       |                    |             |      |                           |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                           |      +--no:  [0,0,1,0,0,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      |                           +--no:  [1,1,1,0,1,1,1,1,1,0] [2.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             |      +--no:  (f_576>=1and(f_241>=1 > 0.0
+|                                         |                                  |      |                                                       |                    |             |             +--yes: [0,0,1,0,0,1,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0]: 3
+|                                         |                                  |      |                                                       |                    |             |             +--no:  [0,0,1,1,1,1,0,1,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                       |                    |             +--no:  [1,0,0,0,0,0,0,1,0,1] [2.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+|                                         |                                  |      |                                                       |                    +--no:  [0,0,1,1,1,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0]: 3
+|                                         |                                  |      |                                                       +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+|                                         |                                  |      |                                                              +--yes: [1,1,1,1,0,1,0,1,1,1] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,1.0]: 2
+|                                         |                                  |      |                                                              +--no:  (f_146>=1and(f_776>=1 > 0.0
+|                                         |                                  |      |                                                                     +--yes: (f_22>=1 > 0.0
+|                                         |                                  |      |                                                                     |      +--yes: [1,0,1,0,1,1,1,1,1,1] [1.0,2.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,2.0]: 2
+|                                         |                                  |      |                                                                     |      +--no:  [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                         |                                  |      |                                                                     +--no:  [0,0,0,1,0,1,0,0,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                         |                                  |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  +--no:  (f_20<=0and(f_213>=1 > 0.0
+|                                         |                                         +--yes: (f_356>=1and(f_143>=1and(f_571>=1 > 1.0
+|                                         |                                         |      +--yes: [1,1,1,0,0,0,1,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                         |      +--no:  (f_146>=1and(f_346>=1and(f_539>=1 > 0.0
+|                                         |                                         |             +--yes: [1,1,1,1,0,1,1,1,1,1] [1.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0]: 2
+|                                         |                                         |             +--no:  [0,1,1,0,0,1,1,1,0,0] [2.0,2.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0]: 3
+|                                         |                                         +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 3.0
+|                                         |                                                +--yes: [1,1,1,0,1,1,1,0,1,1] [1.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|                                         |                                                +--no:  [1,1,1,1,1,0,1,1,0,1] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                         +--no:  (f_721>=1 > 0.0
+|                                                +--yes: [1,1,1,1,1,1,0,1,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0]: 2
+|                                                +--no:  (f_634>=1and(f_349<=0and(f_475>=1 > 0.0
+|                                                       +--yes: (f_576>=1and(f_377<=0 > 1.0
+|                                                       |      +--yes: [0,1,1,1,1,0,0,0,1,1] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                                       |      +--no:  (f_681<=0and(f_701>=1 > 1.0
+|                                                       |             +--yes: [0,0,1,0,1,0,0,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+|                                                       |             +--no:  (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 4.0
+|                                                       |                    +--yes: (f_146>=1and(f_12<=0and(f_185>=1 > 1.0
+|                                                       |                    |      +--yes: [1,0,0,0,0,0,1,1,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0]: 2
+|                                                       |                    |      +--no:  [0,1,0,0,0,0,0,1,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                                       |                    +--no:  (f_698>=1and(f_390>=1and(f_193<=0and(f_377<=0and(f_380<=0 > 4.0
+|                                                       |                           +--yes: [0,1,1,1,0,0,0,0,0,0] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                       |                           +--no:  (f_391>=1and(f_2<=0and(f_633>=1 > 2.0
+|                                                       |                                  +--yes: [1,1,1,1,1,0,1,1,0,0] [1.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                                       |                                  +--no:  (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535>=1 > 3.0
+|                                                       |                                         +--yes: (f_432>=1and(f_356<=0 > 0.0
+|                                                       |                                         |      +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|                                                       |                                         |      +--no:  [0,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                       |                                         +--no:  (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 0.0
+|                                                       |                                                +--yes: (f_709>=1and(f_193<=0and(f_576>=1and(f_405<=0 > 1.0
+|                                                       |                                                |      +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_683<=0 > 4.0
+|                                                       |                                                |      |      +--yes: [1,0,0,1,0,0,0,1,1,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|                                                       |                                                |      |      +--no:  (f_146>=1and(f_12<=0and(f_185>=1 > 0.0
+|                                                       |                                                |      |             +--yes: (f_576>=1and(f_716<=0and(f_704>=1 > 0.0
+|                                                       |                                                |      |             |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 1.0
+|                                                       |                                                |      |             |      |      +--yes: (f_684>=1and(f_588>=1 > 1.0
+|                                                       |                                                |      |             |      |      |      +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                                                       |                                                |      |             |      |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0]: 12
+|                                                       |                                                |      |             |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|                                                       |                                                |      |             |      +--no:  [0,1,0,0,0,1,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                                       |                                                |      |             +--no:  [1,0,0,0,0,0,1,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                                       |                                                |      +--no:  [1,0,1,0,0,0,0,0,1,1] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                                       |                                                +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+|                                                       +--no:  [1,1,0,1,1,1,1,1,1,1] [2.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0]: 2
++--no:  (f_146>=1and(f_430<=0 > 1.0
+       +--yes: (f_690>=1and(f_551>=1 > 0.0
+       |      +--yes: (f_259>=1and(f_244>=1and(f_638>=1and(f_374>=1 > 0.0
+       |      |      +--yes: (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 3.0
+       |      |      |      +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 3.0
+       |      |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |      |      +--no:  [1,1,0,1,1,1,1,1,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0]: 2
+       |      |      |      +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 3.0
+       |      |      |             +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 5.0
+       |      |      |             |      +--yes: (f_576>=1and(f_241>=1 > 0.0
+       |      |      |             |      |      +--yes: [1,1,1,0,1,0,1,1,1,0] [1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0]: 2
+       |      |      |             |      |      +--no:  [1,1,0,0,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+       |      |      |             |      +--no:  (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 1.0
+       |      |      |             |             +--yes: (f_576>=1and(f_241>=1 > 0.0
+       |      |      |             |             |      +--yes: [1,0,0,0,1,0,1,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |             |             |      +--no:  [0,0,0,0,1,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+       |      |      |             |             +--no:  [1,1,0,1,1,0,1,1,1,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0]: 2
+       |      |      |             +--no:  [1,0,0,0,1,1,0,0,1,1] [3.0,5.0,5.0,5.0,4.0,5.0,4.0,4.0,4.0,4.0]: 5
+       |      |      +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 1.0
+       |      |             +--yes: [0,1,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0]: 3
+       |      |             +--no:  [1,1,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      +--no:  (f_569>=1and(f_494>=1 > 1.0
+       |             +--yes: (f_146>=1and(f_658<=0and(f_15>=1and(f_488<=0 > 3.0
+       |             |      +--yes: (f_20<=0and(f_569>=1and(f_308<=0 > 1.0
+       |             |      |      +--yes: (f_682>=1and(f_22>=1 > 0.0
+       |             |      |      |      +--yes: [1,0,1,1,1,1,1,1,0,0] [2.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0]: 2
+       |             |      |      |      +--no:  (f_695>=1and(f_615>=1 > 0.0
+       |             |      |      |             +--yes: [1,0,1,0,1,1,1,1,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |             |      |      |             +--no:  [1,0,1,1,1,1,1,1,1,1] [1.0,2.0,1.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0]: 2
+       |             |      |      +--no:  [1,0,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |             |      +--no:  [0,0,0,0,0,0,1,1,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+       |             +--no:  (f_683>=1and(f_335>=1and(f_341>=1and(f_299>=1 > 0.0
+       |                    +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535>=1 > 1.0
+       |                    |      +--yes: (f_683>=1and(f_335>=1and(f_341>=1and(f_299>=1 > 2.0
+       |                    |      |      +--yes: (f_146>=1and(f_346>=1and(f_539>=1 > 1.0
+       |                    |      |      |      +--yes: (f_695>=1and(f_615>=1 > 0.0
+       |                    |      |      |      |      +--yes: [0,0,1,1,0,1,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |      |      |      +--no:  [0,0,1,1,0,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+       |                    |      |      |      +--no:  [1,0,1,1,0,1,1,0,0,0] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+       |                    |      |      +--no:  (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 3.0
+       |                    |      |             +--yes: (f_145>=1and(f_571>=1 > 1.0
+       |                    |      |             |      +--yes: [1,1,1,1,0,1,0,0,1,1] [1.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+       |                    |      |             |      +--no:  (f_695>=1and(f_615>=1 > 0.0
+       |                    |      |             |             +--yes: (f_684>=1and(f_374>=1and(f_524<=0 > 1.0
+       |                    |      |             |             |      +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 1.0
+       |                    |      |             |             |      |      +--yes: [0,0,1,0,1,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |             |             |      |      +--no:  [0,0,0,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+       |                    |      |             |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |             |             +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 2.0
+       |                    |      |             |                    +--yes: [1,0,1,0,1,0,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |                    |      |             |                    +--no:  [1,1,1,0,1,0,1,0,0,0] [2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+       |                    |      |             +--no:  (f_12>=1and(f_645>=1and(f_346>=1 > 1.0
+       |                    |      |                    +--yes: (f_146>=1and(f_346>=1and(f_539>=1 > 2.0
+       |                    |      |                    |      +--yes: [0,0,0,0,0,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0]: 2
+       |                    |      |                    |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |                    |      |                    +--no:  (f_335>=1and(f_21>=1 > 0.0
+       |                    |      |                           +--yes: [1,1,1,1,0,1,0,0,0,0] [2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |                           +--no:  (f_671>=1and(f_683<=0and(f_365<=0 > 1.0
+       |                    |      |                                  +--yes: [1,0,0,0,0,0,1,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+       |                    |      |                                  +--no:  [1,0,0,1,0,0,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+       |                    |      +--no:  [0,1,1,1,1,0,0,1,1,1] [2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,3.0]: 3
+       |                    +--no:  [1,1,1,1,1,1,0,1,1,1] [3.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+       +--no:  (f_576>=1and(f_12<=0 > 0.0
+              +--yes: (f_356>=1and(f_2>=1and(f_3<=0and(f_684>=1 > 2.0
+              |      +--yes: (f_146>=1and(f_346>=1and(f_20>=1 > 0.0
+              |      |      +--yes: (f_671>=1and(f_299<=0and(f_566<=0 > 0.0
+              |      |      |      +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 3.0
+              |      |      |      |      +--yes: (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 1.0
+              |      |      |      |      |      +--yes: (f_576>=1and(f_143>=1 > 1.0
+              |      |      |      |      |      |      +--yes: [1,0,1,0,0,1,1,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |      |      |      |      |      |      +--no:  (f_14>=1and(f_19<=0and(f_18<=0 > 0.0
+              |      |      |      |      |      |             +--yes: [0,1,1,1,1,0,0,0,0,0] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |      |      |      |      |      |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |      |      |      |      |      +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+              |      |      |      |      |             +--yes: [1,1,1,1,0,0,0,0,0,0] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |      |      |      |      |             +--no:  [1,1,1,1,0,0,1,0,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |      |      |      |      +--no:  (f_13>=1and(f_704<=0 > 0.0
+              |      |      |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+              |      |      |      |             +--no:  (f_146>=1and(f_776>=1 > 0.0
+              |      |      |      |                    +--yes: [0,0,0,1,0,1,0,0,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+              |      |      |      |                    +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+              |      |      |      +--no:  [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,2.0,3.0,2.0,3.0,3.0,2.0,2.0,2.0]: 3
+              |      |      +--no:  (f_391>=1and(f_2<=0and(f_633>=1 > 0.0
+              |      |             +--yes: (f_146>=1and(f_12<=0and(f_185>=1 > 1.0
+              |      |             |      +--yes: [1,1,1,1,0,0,0,1,0,0] [3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0,3.0]: 3
+              |      |             |      +--no:  (f_672<=0and(f_24>=1 > 0.0
+              |      |             |             +--yes: [0,1,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+              |      |             |             +--no:  [1,1,1,1,0,1,0,0,1,0] [1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+              |      |             +--no:  [1,1,1,1,0,1,1,1,0,0] [3.0,3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0]: 3
+              |      +--no:  (f_20<=0and(f_179>=1and(f_19<=0 > 1.0
+              |             +--yes: (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 1.0
+              |             |      +--yes: (f_672<=0and(f_24>=1 > 1.0
+              |             |      |      +--yes: (f_351>=1and(f_20<=0and(f_710>=1and(f_37<=0 > 1.0
+              |             |      |      |      +--yes: [1,1,0,0,1,0,1,0,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |             |      |      |      +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |             |      |      +--no:  (f_535<=0and(f_213>=1 > 0.0
+              |             |      |             +--yes: (f_576>=1and(f_405<=0 > 0.0
+              |             |      |             |      +--yes: (f_179>=1and(f_18<=0 > 0.0
+              |             |      |             |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 1.0
+              |             |      |             |      |      |      +--yes: (f_146>=1and(f_345>=1and(f_12<=0 > 1.0
+              |             |      |             |      |      |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+              |             |      |             |      |      |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |             |      |             |      |      |      |      |      +--no:  [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |             |      |             |      |      |      |      +--no:  [0,0,0,0,0,1,0,0,0,0] [5.0,5.0,5.0,4.0,5.0,4.0,5.0,5.0,5.0,5.0]: 5
+              |             |      |             |      |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [11.0,10.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0]: 11
+              |             |      |             |      |      +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 0.0
+              |             |      |             |      |             +--yes: (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+              |             |      |             |      |             |      +--yes: [0,0,0,0,0,0,1,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+              |             |      |             |      |             |      +--no:  (f_146>=1and(f_346>=1and(f_539>=1 > 0.0
+              |             |      |             |      |             |             +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+              |             |      |             |      |             |             |      +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |             |      |             |      |             |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |             |      |             |      |             |             +--no:  [1,0,0,0,0,0,0,0,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+              |             |      |             |      |             +--no:  [1,0,0,1,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |             |      |             |      +--no:  (f_356>=1and(f_20<=0and(f_696>=1and(f_14>=1and(f_16<=0 > 2.0
+              |             |      |             |             +--yes: (f_14>=1and(f_19<=0and(f_18<=0 > 1.0
+              |             |      |             |             |      +--yes: [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+              |             |      |             |             |      +--no:  [0,1,0,0,0,0,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |             |      |             |             +--no:  [0,0,1,0,1,0,0,0,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+              |             |      |             +--no:  (f_146>=1and(f_346>=1and(f_539>=1 > 0.0
+              |             |      |                    +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |             |      |                    +--no:  [1,0,0,1,0,0,0,1,0,0] [3.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0,2.0]: 3
+              |             |      +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 2.0
+              |             |             +--yes: [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+              |             |             +--no:  [1,0,1,0,0,1,1,1,1,1] [1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0]: 2
+              |             +--no:  (f_340>=1and(f_241>=1and(f_249<=0and(f_15>=1and(f_355>=1and(f_683>=1and(f_671<=0and(f_711<=0 > 6.0
+              |                    +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+              |                    |      +--yes: [0,0,0,1,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                    |      +--no:  [1,0,0,1,1,1,1,1,0,0] [2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+              |                    +--no:  (f_576>=1and(f_12<=0 > 1.0
+              |                           +--yes: [1,1,0,1,0,0,1,0,0,0] [2.0,3.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0]: 3
+              |                           +--no:  (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 4.0
+              |                                  +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 0.0
+              |                                  |      +--yes: [1,0,1,1,0,1,1,0,0,0] [2.0,2.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0,2.0]: 3
+              |                                  |      +--no:  [1,0,0,0,0,1,0,0,0,0] [2.0,3.0,3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0]: 3
+              |                                  +--no:  (f_569>=1and(f_494>=1 > 0.0
+              |                                         +--yes: (f_143>=1and(f_683>=1and(f_685>=1 > 1.0
+              |                                         |      +--yes: [0,0,1,0,0,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+              |                                         |      +--no:  (f_146>=1and(f_346>=1and(f_539>=1 > 0.0
+              |                                         |             +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 2.0
+              |                                         |             |      +--yes: [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                         |             |      +--no:  (f_143>=1and(f_683>=1and(f_685>=1 > 0.0
+              |                                         |             |             +--yes: (f_709>=1and(f_576>=1and(f_440<=0and(f_698<=0 > 1.0
+              |                                         |             |             |      +--yes: (f_576>=1and(f_405<=0 > 1.0
+              |                                         |             |             |      |      +--yes: [1,0,0,0,0,1,1,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+              |                                         |             |             |      |      +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                         |             |             |      +--no:  [1,1,0,0,0,0,1,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+              |                                         |             |             +--no:  [1,0,1,0,0,1,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+              |                                         |             +--no:  [0,1,1,0,1,1,1,1,1,0] [2.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,1.0,2.0]: 2
+              |                                         +--no:  (f_576>=1and(f_405<=0 > 0.0
+              |                                                +--yes: (f_681<=0and(f_701>=1 > 0.0
+              |                                                |      +--yes: (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 0.0
+              |                                                |      |      +--yes: (f_683>=1and(f_335>=1and(f_341>=1and(f_299>=1 > 0.0
+              |                                                |      |      |      +--yes: (f_671>=1and(f_299<=0and(f_566<=0 > 1.0
+              |                                                |      |      |      |      +--yes: (f_671>=1and(f_14<=0 > 0.0
+              |                                                |      |      |      |      |      +--yes: [0,0,0,1,1,0,0,0,1,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+              |                                                |      |      |      |      |      +--no:  [1,1,1,1,1,1,1,0,1,1] [1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |                                                |      |      |      |      +--no:  (f_634>=1and(f_349<=0and(f_475>=1 > 0.0
+              |                                                |      |      |      |             +--yes: (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 1.0
+              |                                                |      |      |      |             |      +--yes: (f_682>=1and(f_22>=1 > 0.0
+              |                                                |      |      |      |             |      |      +--yes: (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 2.0
+              |                                                |      |      |      |             |      |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 0.0
+              |                                                |      |      |      |             |      |      |      |      +--yes: [0,0,0,1,1,0,0,1,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+              |                                                |      |      |      |             |      |      |      |      +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |                                                |      |      |      |             |      |      |      +--no:  [0,0,1,1,0,0,0,0,0,0] [2.0,3.0,3.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+              |                                                |      |      |      |             |      |      +--no:  (f_20<=0and(f_213>=1 > 0.0
+              |                                                |      |      |      |             |      |             +--yes: (f_146>=1and(f_658<=0and(f_15>=1and(f_488<=0 > 2.0
+              |                                                |      |      |      |             |      |             |      +--yes: (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 1.0
+              |                                                |      |      |      |             |      |             |      |      +--yes: [0,0,0,1,0,1,0,0,1,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+              |                                                |      |      |      |             |      |             |      |      +--no:  [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+              |                                                |      |      |      |             |      |             |      +--no:  (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 2.0
+              |                                                |      |      |      |             |      |             |             +--yes: [0,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+              |                                                |      |      |      |             |      |             |             +--no:  [1,1,0,0,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                                |      |      |      |             |      |             +--no:  [1,1,1,0,1,1,1,1,1,1] [2.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0]: 2
+              |                                                |      |      |      |             |      +--no:  (f_340>=1and(f_241>=1and(f_249<=0and(f_15>=1and(f_355>=1and(f_683>=1and(f_671<=0and(f_711<=0 > 3.0
+              |                                                |      |      |      |             |             +--yes: [0,0,0,0,0,1,1,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+              |                                                |      |      |      |             |             +--no:  [0,0,0,1,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+              |                                                |      |      |      |             +--no:  [0,1,1,0,0,0,0,0,0,1] [2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+              |                                                |      |      |      +--no:  (f_634>=1and(f_349<=0and(f_475>=1 > 0.0
+              |                                                |      |      |             +--yes: (f_20<=0and(f_179>=1and(f_19<=0 > 0.0
+              |                                                |      |      |             |      +--yes: (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 1.0
+              |                                                |      |      |             |      |      +--yes: (f_14>=1and(f_179>=1and(f_19<=0 > 0.0
+              |                                                |      |      |             |      |      |      +--yes: [0,1,0,1,1,0,0,0,0,0] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                                |      |      |             |      |      |      +--no:  [1,0,0,1,1,1,1,1,1,0] [1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0]: 2
+              |                                                |      |      |             |      |      +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+              |                                                |      |      |             |      |             +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+              |                                                |      |      |             |      |             +--no:  [1,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+              |                                                |      |      |             |      +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 1.0
+              |                                                |      |      |             |             +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+              |                                                |      |      |             |             +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 0.0
+              |                                                |      |      |             |                    +--yes: [0,0,1,0,0,0,0,0,0,0] [4.0,3.0,2.0,4.0,3.0,4.0,4.0,4.0,3.0,3.0]: 4
+              |                                                |      |      |             |                    +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |                                                |      |      |             +--no:  [1,0,0,0,1,1,0,0,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                                |      |      +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+              |                                                |      |             +--yes: [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                                |      |             +--no:  [0,1,0,0,1,1,1,0,0,0] [2.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+              |                                                |      +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+              |                                                |             +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,1.0,2.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+              |                                                |             +--no:  [1,0,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+              |                                                +--no:  (f_672<=0and(f_24>=1 > 0.0
+              |                                                       +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 5.0
+              |                                                       |      +--yes: [1,0,0,0,0,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                                       |      +--no:  (f_259>=1and(f_643>=1and(f_374>=1and(f_672>=1 > 0.0
+              |                                                       |             +--yes: (f_671>=1and(f_299<=0and(f_566<=0 > 1.0
+              |                                                       |             |      +--yes: (f_698>=1and(f_390>=1and(f_193<=0and(f_377<=0and(f_380<=0 > 2.0
+              |                                                       |             |      |      +--yes: [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+              |                                                       |             |      |      +--no:  [1,0,0,0,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+              |                                                       |             |      +--no:  [0,0,0,0,0,0,0,0,0,0] [7.0,6.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0]: 7
+              |                                                       |             +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 1.0
+              |                                                       |                    +--yes: [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |                                                       |                    +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+              |                                                       +--no:  [0,0,0,0,1,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0]: 3
+              +--no:  (f_356>=1and(f_14>=1and(f_179>=1and(f_696<=0and(f_569>=1 > 3.0
+                     +--yes: (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+                     |      +--yes: [1,1,1,1,1,0,1,1,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                     |      +--no:  [1,1,1,0,0,1,1,1,0,0] [2.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+                     +--no:  (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 1.0
+                            +--yes: (f_259>=1and(f_643>=1and(f_374>=1and(f_672>=1 > 1.0
+                            |      +--yes: (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 2.0
+                            |      |      +--yes: (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 2.0
+                            |      |      |      +--yes: [1,0,0,1,1,0,0,0,0,0] [3.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,2.0]: 3
+                            |      |      |      +--no:  (f_698>=1and(f_390>=1and(f_193<=0and(f_377<=0and(f_380<=0 > 3.0
+                            |      |      |             +--yes: [0,1,1,0,0,1,0,0,1,1] [3.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,2.0]: 3
+                            |      |      |             +--no:  (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 1.0
+                            |      |      |                    +--yes: (f_576>=1and(f_241>=1and(f_797>=1 > 1.0
+                            |      |      |                    |      +--yes: [1,0,0,0,1,0,1,0,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0]: 2
+                            |      |      |                    |      +--no:  (f_684>=1and(f_374>=1and(f_524<=0 > 1.0
+                            |      |      |                    |             +--yes: (f_146>=1and(f_776>=1 > 0.0
+                            |      |      |                    |             |      +--yes: [0,0,1,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+                            |      |      |                    |             |      +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0]: 3
+                            |      |      |                    |             +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                            |      |      |                    +--no:  [0,0,0,1,1,1,0,0,1,0] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                            |      |      +--no:  (f_576>=1and(f_440<=0 > 0.0
+                            |      |             +--yes: (f_684>=1and(f_15>=1and(f_734<=0 > 2.0
+                            |      |             |      +--yes: [0,0,1,1,1,0,0,0,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+                            |      |             |      +--no:  [0,0,0,0,0,1,0,0,1,1] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0]: 3
+                            |      |             +--no:  (f_146>=1and(f_15>=1and(f_439<=0and(f_185<=0 > 1.0
+                            |      |                    +--yes: (f_146>=1and(f_776>=1 > 0.0
+                            |      |                    |      +--yes: [0,1,0,0,1,1,1,1,1,1] [2.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+                            |      |                    |      +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 1.0
+                            |      |                    |             +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |      |                    |             +--no:  [1,1,1,1,1,1,0,1,1,1] [2.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+                            |      |                    +--no:  [1,1,0,1,1,1,1,0,1,0] [2.0,1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0]: 2
+                            |      +--no:  (f_576>=1and(f_709>=1 > 0.0
+                            |             +--yes: (f_698>=1and(f_341<=0 > 0.0
+                            |             |      +--yes: (f_356>=1and(f_16>=1and(f_143>=1 > 0.0
+                            |             |      |      +--yes: (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+                            |             |      |      |      +--yes: (f_683>=1and(f_432>=1and(f_671<=0 > 0.0
+                            |             |      |      |      |      +--yes: (f_145>=1and(f_571>=1 > 0.0
+                            |             |      |      |      |      |      +--yes: (f_13>=1and(f_685>=1 > 0.0
+                            |             |      |      |      |      |      |      +--yes: (f_146>=1and(f_24>=1 > 0.0
+                            |             |      |      |      |      |      |      |      +--yes: [1,0,1,1,1,0,0,1,1,1] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0]: 2
+                            |             |      |      |      |      |      |      |      +--no:  [0,0,1,0,1,0,0,0,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |      |      |      |      +--no:  (f_146>=1and(f_346>=1and(f_697>=1 > 1.0
+                            |             |      |      |      |      |      |             +--yes: (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 2.0
+                            |             |      |      |      |      |      |             |      +--yes: (f_667>=1and(f_346>=1and(f_697>=1 > 2.0
+                            |             |      |      |      |      |      |             |      |      +--yes: (f_576>=1and(f_241>=1 > 0.0
+                            |             |      |      |      |      |      |             |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,1] [2.0,2.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+                            |             |      |      |      |      |      |             |      |      |      +--no:  [0,1,0,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+                            |             |      |      |      |      |      |             |      |      +--no:  [0,1,1,0,1,1,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |      |      |      |             |      +--no:  [0,1,1,1,1,0,0,0,1,0] [2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+                            |             |      |      |      |      |      |             +--no:  [0,0,0,0,1,0,0,0,1,1] [3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+                            |             |      |      |      |      |      +--no:  (f_576>=1and(f_659<=0and(f_143>=1and(f_193<=0 > 2.0
+                            |             |      |      |      |      |             +--yes: (f_20<=0and(f_213>=1 > 0.0
+                            |             |      |      |      |      |             |      +--yes: [0,1,1,1,1,0,0,0,1,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+                            |             |      |      |      |      |             |      +--no:  [1,1,1,0,1,1,0,0,0,0] [1.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |      |      |             +--no:  (f_356>=1and(f_20<=0and(f_569>=1 > 1.0
+                            |             |      |      |      |      |                    +--yes: [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+                            |             |      |      |      |      |                    +--no:  [0,0,0,0,0,0,0,0,1,1] [3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+                            |             |      |      |      |      +--no:  [1,1,1,1,1,1,1,1,1,0] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,2.0]: 2
+                            |             |      |      |      +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+                            |             |      |      |             +--yes: (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 4.0
+                            |             |      |      |             |      +--yes: (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 2.0
+                            |             |      |      |             |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+                            |             |      |      |             |      |      +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 3.0
+                            |             |      |      |             |      |             +--yes: [0,0,0,0,1,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |             |      |             +--no:  [0,0,1,0,1,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |             |      +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 1.0
+                            |             |      |      |             |             +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |             |             +--no:  (f_356>=1and(f_20<=0and(f_569>=1 > 0.0
+                            |             |      |      |             |                    +--yes: (f_576>=1and(f_241>=1 > 0.0
+                            |             |      |      |             |                    |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |             |                    |      +--no:  [0,0,1,1,0,1,0,0,0,0] [2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |             |                    +--no:  (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_683<=0 > 2.0
+                            |             |      |      |             |                           +--yes: [0,1,1,1,0,1,0,1,0,0] [2.0,1.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+                            |             |      |      |             |                           +--no:  [0,1,1,1,0,1,0,0,0,1] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |             +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 2.0
+                            |             |      |      |                    +--yes: (f_671>=1and(f_299<=0and(f_365<=0 > 2.0
+                            |             |      |      |                    |      +--yes: (f_356>=1and(f_2>=1and(f_3<=0and(f_684>=1 > 2.0
+                            |             |      |      |                    |      |      +--yes: [0,1,0,0,0,0,0,0,1,1] [3.0,2.0,2.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0]: 3
+                            |             |      |      |                    |      |      +--no:  [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]: 2
+                            |             |      |      |                    |      +--no:  [1,1,0,1,1,0,1,1,0,1] [2.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0]: 2
+                            |             |      |      |                    +--no:  (f_356>=1and(f_2>=1and(f_3<=0and(f_684>=1 > 2.0
+                            |             |      |      |                           +--yes: (f_340>=1and(f_241>=1and(f_249<=0and(f_15>=1and(f_355>=1and(f_683>=1and(f_671<=0and(f_711<=0 > 1.0
+                            |             |      |      |                           |      +--yes: [1,0,0,0,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |      |                           |      +--no:  [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+                            |             |      |      |                           +--no:  [0,1,1,0,1,1,0,0,1,1] [2.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0]: 2
+                            |             |      |      +--no:  (f_643>=1and(f_248<=0and(f_452<=0and(f_704>=1 > 1.0
+                            |             |      |             +--yes: [0,0,1,0,0,1,0,0,0,1] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+                            |             |      |             +--no:  (f_340>=1and(f_241>=1and(f_249<=0and(f_15>=1and(f_355>=1and(f_683>=1and(f_671<=0and(f_711<=0 > 2.0
+                            |             |      |                    +--yes: [1,0,1,1,1,0,0,1,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |             |      |                    +--no:  [1,1,1,1,1,1,1,1,1,0] [2.0,1.0,1.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0]: 2
+                            |             |      +--no:  [1,1,1,1,1,1,0,1,1,1] [1.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                            |             +--no:  (f_684>=1and(f_15>=1and(f_734<=0 > 1.0
+                            |                    +--yes: (f_308<=0and(f_535<=0and(f_430>=1 > 0.0
+                            |                    |      +--yes: [0,0,0,1,0,0,0,0,0,0] [3.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+                            |                    |      +--no:  (f_146>=1and(f_346>=1and(f_19>=1 > 1.0
+                            |                    |             +--yes: [0,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+                            |                    |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |                    +--no:  (f_709>=1and(f_576>=1and(f_440<=0and(f_698<=0 > 1.0
+                            |                           +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                            |                           +--no:  [0,0,1,0,0,0,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+                            +--no:  (f_341>=1and(f_374>=1and(f_368>=1and(f_21<=0 > 3.0
+                                   +--yes: [0,0,1,0,1,1,1,0,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                   +--no:  (f_576>=1and(f_709>=1and(f_639<=0 > 1.0
+                                          +--yes: (f_690>=1and(f_551>=1 > 0.0
+                                          |      +--yes: (f_681<=0and(f_701>=1 > 0.0
+                                          |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+                                          |      |      +--no:  [0,0,1,0,1,1,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+                                          |      +--no:  [0,0,0,0,0,1,0,0,0,0] [7.0,7.0,7.0,7.0,7.0,5.0,7.0,7.0,7.0,6.0]: 7
+                                          +--no:  (f_672<=0and(f_24>=1 > 0.0
+                                                 +--yes: (f_146>=1and(f_24>=1 > 0.0
+                                                 |      +--yes: (f_146>=1and(f_346>=1and(f_19>=1 > 2.0
+                                                 |      |      +--yes: [0,0,0,1,1,1,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+                                                 |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                                                 |      +--no:  [0,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                 +--no:  (f_356>=1and(f_777<=0and(f_672<=0and(f_249<=0and(f_287<=0and(f_248<=0and(f_683>=1 > 0.0
+                                                        +--yes: (f_690>=1and(f_551>=1 > 0.0
+                                                        |      +--yes: [0,0,1,0,1,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+                                                        |      +--no:  (f_351>=1and(f_20<=0and(f_710>=1and(f_37<=0 > 1.0
+                                                        |             +--yes: (f_356>=1and(f_2>=1and(f_3<=0and(f_684>=1 > 2.0
+                                                        |             |      +--yes: [0,1,1,1,0,1,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                        |             |      +--no:  [1,0,1,1,0,1,0,0,0,0] [1.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+                                                        |             +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                        +--no:  [0,1,1,1,0,1,0,0,1,0] [3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+
+Pruned Model
+************
+
+(f_14>=1and(f_710>=1and(f_18<=0 > 1.0
++--yes: (f_146>=1and(f_658<=0and(f_15>=1and(f_488<=0 > 3.0
+|      +--yes: (f_709>=1and(f_193<=0and(f_576>=1and(f_405<=0 > 3.0
+|      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [24.0,30.0,21.0,28.0,25.0,22.0,23.0,27.0,23.0,20.0]: 39
+|      |      +--no:  (f_641>=1and(f_143>=1and(f_392<=0and(f_683>=1 > 2.0
+|      |             +--yes: [0,0,0,0,1,0,0,0,0,0] [83.0,72.0,70.0,65.0,58.0,78.0,84.0,83.0,56.0,62.0]: 109
+|      |             +--no:  (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 2.0
+|      |                    +--yes: (f_335>=1and(f_341>=1and(f_693<=0and(f_700>=1 > 3.0
+|      |                    |      +--yes: [1,1,1,1,1,1,1,0,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0]: 2
+|      |                    |      +--no:  [0,0,0,0,0,0,0,0,0,0] [12.0,11.0,8.0,8.0,11.0,12.0,10.0,12.0,11.0,11.0]: 15
+|      |                    +--no:  (f_146>=1and(f_346>=1and(f_539>=1 > 1.0
+|      |                           +--yes: (f_671>=1and(f_299<=0and(f_566<=0 > 1.0
+|      |                           |      +--yes: [0,1,1,0,1,0,0,0,1,1] [3.0,2.0,3.0,4.0,3.0,3.0,3.0,4.0,2.0,3.0]: 4
+|      |                           |      +--no:  [1,1,1,1,1,1,1,1,1,1] [10.0,11.0,7.0,12.0,11.0,11.0,9.0,10.0,9.0,10.0]: 13
+|      |                           +--no:  (f_146>=1and(f_12<=0and(f_185>=1 > 2.0
+|      |                                  +--yes: [1,1,1,1,1,0,1,1,1,1] [5.0,4.0,3.0,5.0,5.0,3.0,3.0,5.0,4.0,4.0]: 5
+|      |                                  +--no:  (f_356>=1and(f_777<=0and(f_2>=1 > 2.0
+|      |                                         +--yes: [0,1,1,1,0,0,0,1,0,0] [4.0,6.0,4.0,4.0,4.0,5.0,4.0,4.0,4.0,5.0]: 6
+|      |                                         +--no:  [0,0,0,0,1,0,0,0,0,0] [5.0,5.0,4.0,4.0,4.0,6.0,5.0,5.0,6.0,5.0]: 6
+|      +--no:  (f_535<=0and(f_213>=1 > 1.0
+|             +--yes: [1,1,0,0,0,0,1,1,0,0] [32.0,25.0,27.0,22.0,30.0,32.0,33.0,30.0,27.0,27.0]: 42
+|             +--no:  (f_567>=1and(f_681<=0and(f_697>=1and(f_535>=1 > 3.0
+|                    +--yes: (f_709>=1and(f_576>=1and(f_440<=0and(f_698<=0 > 1.0
+|                    |      +--yes: [1,1,0,1,1,1,1,1,1,1] [9.0,9.0,7.0,10.0,7.0,7.0,7.0,9.0,11.0,7.0]: 12
+|                    |      +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 2.0
+|                    |             +--yes: [0,0,0,0,0,1,0,0,1,1] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                    |             +--no:  [1,1,1,0,1,0,1,0,1,0] [8.0,7.0,8.0,11.0,7.0,8.0,6.0,7.0,6.0,8.0]: 11
+|                    +--no:  (f_356>=1and(f_20<=0and(f_696>=1and(f_14>=1and(f_16<=0 > 4.0
+|                           +--yes: (f_611>=1and(f_261>=1 > 0.0
+|                           |      +--yes: (f_684>=1and(f_374>=1and(f_524<=0 > 1.0
+|                           |      |      +--yes: [1,0,1,0,1,1,1,1,0,0] [4.0,5.0,6.0,4.0,4.0,4.0,5.0,5.0,6.0,6.0]: 7
+|                           |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [16.0,18.0,18.0,18.0,18.0,14.0,15.0,16.0,17.0,17.0]: 20
+|                           |      +--no:  (f_19<=0and(f_179>=1 > 1.0
+|                           |             +--yes: [1,0,0,1,0,0,1,1,0,0] [33.0,27.0,37.0,28.0,36.0,38.0,37.0,32.0,34.0,40.0]: 50
+|                           |             +--no:  (f_229>=1 > 0.0
+|                           |                    +--yes: [1,1,1,1,0,1,1,1,0,0] [6.0,4.0,3.0,5.0,4.0,3.0,5.0,5.0,4.0,4.0]: 6
+|                           |                    +--no:  (f_308<=0and(f_285>=1and(f_535<=0and(f_333>=1 > 3.0
+|                           |                           +--yes: [1,0,1,0,0,1,1,1,1,1] [7.0,3.0,6.0,2.0,3.0,3.0,7.0,7.0,7.0,5.0]: 8
+|                           |                           +--no:  [0,0,0,0,0,0,0,0,0,0] [45.0,45.0,51.0,43.0,51.0,55.0,54.0,47.0,53.0,49.0]: 69
+|                           +--no:  (f_285>=1and(f_711>=1and(f_860<=0 > 2.0
+|                                  +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535>=1 > 2.0
+|                                  |      +--yes: [1,1,1,0,0,0,1,0,0,0] [13.0,13.0,11.0,11.0,14.0,14.0,17.0,10.0,14.0,13.0]: 19
+|                                  |      +--no:  [1,1,1,1,1,1,0,0,1,1] [3.0,3.0,2.0,2.0,4.0,3.0,3.0,3.0,4.0,4.0]: 4
+|                                  +--no:  (f_698>=1and(f_341<=0 > 1.0
+|                                         +--yes: (f_671>=1and(f_299<=0and(f_365<=0 > 0.0
+|                                         |      +--yes: [0,1,1,0,0,0,1,1,0,0] [12.0,15.0,13.0,13.0,16.0,15.0,12.0,18.0,19.0,19.0]: 22
+|                                         |      +--no:  [0,1,1,1,1,0,0,0,1,0] [10.0,8.0,6.0,6.0,7.0,10.0,10.0,10.0,6.0,7.0]: 11
+|                                         +--no:  (f_356>=1and(f_14>=1and(f_179>=1and(f_696<=0and(f_569>=1 > 4.0
+|                                                +--yes: (f_259>=1and(f_567>=1 > 0.0
+|                                                |      +--yes: [1,1,1,1,1,1,0,1,1,1] [8.0,7.0,8.0,7.0,7.0,6.0,6.0,7.0,7.0,6.0]: 10
+|                                                |      +--no:  [1,0,0,0,0,0,0,0,0,0] [12.0,12.0,16.0,17.0,20.0,15.0,14.0,12.0,18.0,16.0]: 23
+|                                                +--no:  (f_146>=1and(f_658<=0 > 0.0
+|                                                       +--yes: (f_356>=1and(f_339>=1and(f_143>=1and(f_452<=0 > 0.0
+|                                                       |      +--yes: (f_569>=1and(f_494>=1 > 1.0
+|                                                       |      |      +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,2.0]: 3
+|                                                       |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [166.0,170.0,149.0,182.0,175.0,158.0,192.0,180.0,168.0,166.0]: 236
+|                                                       |      +--no:  [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                                       +--no:  [1,1,1,0,0,0,1,1,0,0] [7.0,6.0,8.0,9.0,8.0,7.0,8.0,8.0,7.0,6.0]: 11
++--no:  (f_146>=1and(f_430<=0 > 1.0
+       +--yes: (f_690>=1and(f_551>=1 > 0.0
+       |      +--yes: (f_259>=1and(f_244>=1and(f_638>=1and(f_374>=1 > 0.0
+       |      |      +--yes: (f_285>=1and(f_535<=0and(f_308<=0and(f_391<=0and(f_633<=0 > 3.0
+       |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [3.0,3.0,2.0,3.0,4.0,3.0,3.0,4.0,4.0,3.0]: 4
+       |      |      |      +--no:  (f_405>=1and(f_797<=0and(f_709>=1and(f_716<=0and(f_659>=1 > 3.0
+       |      |      |             +--yes: [1,1,0,0,1,0,1,0,0,0] [7.0,6.0,9.0,9.0,8.0,9.0,7.0,6.0,6.0,8.0]: 10
+       |      |      |             +--no:  [1,0,0,0,1,1,0,0,1,1] [3.0,5.0,5.0,5.0,4.0,5.0,4.0,4.0,4.0,4.0]: 5
+       |      |      +--no:  [1,1,0,1,1,0,1,1,0,0] [3.0,4.0,5.0,3.0,3.0,5.0,3.0,3.0,5.0,5.0]: 5
+       |      +--no:  (f_569>=1and(f_494>=1 > 1.0
+       |             +--yes: [1,0,1,0,1,0,1,1,0,0] [7.0,11.0,6.0,7.0,6.0,8.0,10.0,8.0,8.0,6.0]: 11
+       |             +--no:  (f_683>=1and(f_335>=1and(f_341>=1and(f_299>=1 > 0.0
+       |                    +--yes: (f_391>=1and(f_308<=0and(f_2>=1and(f_633<=0and(f_535>=1 > 1.0
+       |                    |      +--yes: [0,0,0,0,0,0,0,0,0,0] [19.0,26.0,17.0,19.0,22.0,23.0,26.0,28.0,26.0,23.0]: 30
+       |                    |      +--no:  [0,1,1,1,1,0,0,1,1,1] [2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,3.0]: 3
+       |                    +--no:  [1,1,1,1,1,1,0,1,1,1] [3.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+       +--no:  [0,0,0,0,0,0,0,0,0,0] [254.0,254.0,243.0,254.0,252.0,222.0,267.0,291.0,267.0,276.0]: 341
+

@@ -1,0 +1,24 @@
+General instructions:
+create requirements.txt
+install anaconda
+
+open conda terminal / conda activate (anaconda.navigator -> Environments -> base (root))
+conda create --name sep python=3.7
+conda activate sep
+pip install -r requirements.txt
+
+Mac:
+Install homebrew - https://brew.sh/
+install anaconda with homebrew - https://formulae.brew.sh/cask/anaconda
+
+Linux:
+https://docs.anaconda.com/free/anaconda/install/linux/
+
+Windows:
+https://docs.anaconda.com/anaconda/install/windows/
+
+
+if additional dependencies are needed then:
+    1. open conda terminal
+    2. conda activate sep
+    3. pip install [dependency]  

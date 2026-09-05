@@ -1,0 +1,21 @@
+Dataset,XofN_none N/A,XofN VarRed Org,XofN Vouk Org
+fingerprint_high_freq,0.782,0.797,0.793
+fingerprint_mid_freq,0.474,0.493,0.465
+fingerprint_low_freq,0.077,0.364,0.452
+fingerprint_cardiac,0.038,0.366,0.423
+fingerprint_ten,0.593,0.573,0.589
+fingerprint_ten_mid,0.504,0.474,0.449
+CPI_high_freq,0.794,0.795,0.795
+CPI_mid_freq,0.511,0.529,0.509
+CPI_low_freq,0.422,0.492,0.488
+CPI_cardiac,0.424,0.495,0.41
+CPI_ten,0.623,0.619,0.612
+CPI_ten_mid,0.532,0.53,0.516
+CPI+fingerprint_high_freq,0.789,0.794,0.795
+CPI+fingerprint_mid_freq,0.528,0.526,0.505
+CPI+fingerprint_low_freq,0.516,0.484,0.463
+CPI+fingerprint_cardiac,0.451,0.426,0.447
+CPI+fingerprint_ten,0.587,0.596,0.593
+CPI+fingerprint_ten_mid,0.504,0.51,0.515
+Avg Rank,2.06,1.75,2.19
+Wins,7.0,6.5,4.5

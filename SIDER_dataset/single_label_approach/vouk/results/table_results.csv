@@ -1,0 +1,25 @@
+dataset,pruning,include_original_features,averageAUROC,MacroFOne,MacroPrecision,MacroRecall,Nodes; Leaves,#XofN; #Feat/XofN,XofN time (s); PCT tr. time (s)
+CPI+fingerprint_cardiac,True,no_org,0.51,0.032,0.11,0.022,6.5; 3.8,18.3,0.3
+CPI+fingerprint_cardiac,True,with_org,0.564,0.354,0.406,0.32,192.6; 96.8,18.3,3.0
+CPI+fingerprint_high_freq,True,no_org,0.532,0.867,0.78,0.98,4.1; 2.6,10.4,0.3
+CPI+fingerprint_high_freq,True,with_org,0.586,0.819,0.801,0.84,184.1; 92.6,10.4,2.7
+CPI+fingerprint_low_freq,True,no_org,0.532,0.094,0.239,0.067,19.7; 10.4,91.6,0.4
+CPI+fingerprint_low_freq,True,with_org,0.592,0.388,0.448,0.35,180.1; 90.5,91.6,3.1
+CPI+fingerprint_mid_freq,True,no_org,0.546,0.184,0.339,0.144,17.5; 9.3,45.4,0.4
+CPI+fingerprint_mid_freq,True,with_org,0.588,0.466,0.494,0.446,268.5; 134.7,45.4,2.8
+CPI_cardiac,True,no_org,0.575,0.355,0.449,0.302,107.2; 54.1,2153.4,2.4
+CPI_cardiac,True,with_org,0.558,0.359,0.43,0.313,131.3; 66.2,2153.4,4.4
+CPI_high_freq,True,no_org,0.586,0.857,0.799,0.926,52.3; 26.7,1510.6,1.7
+CPI_high_freq,True,with_org,0.58,0.845,0.8,0.897,86.4; 43.7,1510.6,3.5
+CPI_low_freq,True,no_org,0.58,0.337,0.44,0.28,95.1; 48.0,2022.7,2.3
+CPI_low_freq,True,with_org,0.576,0.346,0.427,0.299,118.1; 59.5,2022.7,4.2
+CPI_mid_freq,True,no_org,0.605,0.471,0.553,0.418,118.2; 59.6,2266.1,2.4
+CPI_mid_freq,True,with_org,0.606,0.487,0.549,0.443,160.6; 80.8,2266.1,4.4
+fingerprint_cardiac,True,no_org,0.529,0.093,0.198,0.07,21.2; 11.1,80.8,0.4
+fingerprint_cardiac,True,with_org,0.581,0.345,0.392,0.318,192.1; 96.6,80.8,1.1
+fingerprint_high_freq,True,no_org,0.54,0.873,0.791,0.976,5.7; 3.4,16.1,0.3
+fingerprint_high_freq,True,with_org,0.57,0.831,0.804,0.861,161.3; 81.2,16.1,1.0
+fingerprint_low_freq,True,no_org,0.561,0.147,0.301,0.107,35.1; 18.1,99.2,0.5
+fingerprint_low_freq,True,with_org,0.581,0.347,0.397,0.317,190.8; 95.9,99.2,1.2
+fingerprint_mid_freq,True,no_org,0.554,0.21,0.384,0.162,16.7; 8.9,13.7,0.3
+fingerprint_mid_freq,True,with_org,0.577,0.451,0.473,0.436,269.6; 135.3,13.7,1.0

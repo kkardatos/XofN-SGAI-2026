@@ -1,0 +1,4252 @@
+ADR,Name,Frequency,Count
+se__C0027497,Nausea,0.85,1179
+se__C0018681,Headache,0.787,1092
+se__C0011603,Dermatitis,0.771,1070
+se__C0015230,Rash,0.766,1062
+se__C0042963,Vomiting,0.764,1060
+se__C0012833,Dizziness,0.731,1014
+se__C0011991,Diarrhoea,0.69,957
+se__C0033774,Pruritus,0.666,924
+se__C0004093,Asthenia,0.642,890
+se__C0020517,Hypersensitivity,0.634,880
+se__C0000737,Abdominal pain,0.583,808
+se__C0042109,Urticaria,0.562,779
+se__C0687713,Gastrointestinal pain,0.551,764
+se__C0015967,Body temperature increased,0.543,753
+se__C0017178,Gastrointestinal disorder,0.525,728
+se__C0030193,Pain,0.523,725
+se__C1443060,Feeling abnormal,0.517,717
+se__C0015672,Fatigue,0.515,714
+se__C0009806,Constipation,0.495,687
+se__C0013404,Dyspnoea,0.495,687
+se__C0013395,Dyspepsia,0.495,686
+se__C0948594,Musculoskeletal discomfort,0.489,678
+se__C0232462,Decreased appetite,0.488,677
+se__C0917801,Insomnia,0.477,662
+se__C2830004,Somnolence,0.474,657
+se__C0020649,Hypotension,0.47,652
+se__C0030554,Paraesthesia,0.459,637
+se__C0037274,Skin disorder,0.451,625
+se__C0027765,Nervous system disorder,0.443,614
+se__C0002792,Anaphylactic shock,0.442,613
+se__C0020458,Hyperhidrosis,0.426,591
+se__C0040034,Thrombocytopenia,0.426,591
+se__C0009450,Infection,0.424,588
+se__C0036974,Shock,0.42,583
+se__C0039231,Tachycardia,0.419,581
+se__C0003862,Arthralgia,0.413,573
+se__C0013604,Oedema,0.407,565
+se__C0010200,Cough,0.402,557
+se__C0231528,Myalgia,0.401,556
+se__C0020538,Hypertension,0.4,555
+se__C0234215,Discomfort,0.394,547
+se__C0043352,Dry mouth,0.391,543
+se__C0008031,Chest pain,0.389,540
+se__C0003467,Anxiety,0.388,538
+se__C0009676,Confusional state,0.387,537
+se__C0041657,Loss of consciousness,0.376,521
+se__C0002994,Angioedema,0.375,520
+se__C0036572,Convulsion,0.367,509
+se__C0002871,Anaemia,0.362,502
+se__C0023530,Leukopenia,0.361,501
+se__C0030252,Palpitations,0.36,500
+se__C0042571,Vertigo,0.359,498
+se__C0039070,Syncope,0.358,497
+se__C0231218,Malaise,0.354,491
+se__C0004604,Back pain,0.353,489
+se__C2047937,Ill-defined disorder,0.344,477
+se__C0041834,Erythema,0.342,475
+se__C0037763,Muscle spasms,0.34,472
+se__C0085631,Agitation,0.337,467
+se__C0162429,Malnutrition,0.332,460
+se__C0040822,Tremor,0.329,456
+se__C0004936,Mental disorder,0.325,451
+se__C0344232,Vision blurred,0.325,451
+se__C0042373,Angiopathy,0.324,449
+se__C0013378,Dysgeusia,0.32,444
+se__C0025061,Mediastinal disorder,0.32,444
+se__C0021053,Immune system disorder,0.317,440
+se__C0016204,Flatulence,0.317,439
+se__C0002170,Alopecia,0.315,437
+se__C0085593,Chills,0.311,432
+se__C0027769,Nervousness,0.311,431
+se__C0233494,Tension,0.307,426
+se__C0016382,Flushing,0.301,417
+se__C0018799,Cardiac disorder,0.293,406
+se__C0085649,Oedema peripheral,0.291,403
+se__C0003811,Arrhythmia,0.29,402
+se__C0015397,Eye disorder,0.288,399
+se__C0009782,Connective tissue disorder,0.285,395
+se__C0040264,Tinnitus,0.28,388
+se__C0014742,Erythema multiforme,0.277,384
+se__C0041969,Urethral disorder,0.274,380
+se__C3665347,Visual impairment,0.273,379
+se__C0031350,Pharyngitis,0.271,376
+se__C0019080,Haemorrhage,0.271,376
+se__C0042075,Urinary tract disorder,0.271,376
+se__C0518015,Haemoglobin,0.27,374
+se__C0035455,Rhinitis,0.268,372
+se__C0019158,Hepatitis,0.26,361
+se__C0428977,Bradycardia,0.256,355
+se__C0037199,Sinusitis,0.255,354
+se__C0020580,Hypoaesthesia,0.255,354
+se__C0014591,Epistaxis,0.25,347
+se__C0042029,Urinary tract infection,0.249,346
+se__C1384353,Infestation,0.246,341
+se__C0267792,Hepatobiliary disease,0.244,339
+se__C0018524,Hallucination,0.244,338
+se__C0031117,Neuropathy peripheral,0.24,333
+se__C0018965,Haematuria,0.239,332
+se__C0032285,Pneumonia,0.237,329
+se__C0027051,Myocardial infarction,0.236,328
+se__C0948089,Acute coronary syndrome,0.236,328
+se__C0001824,Agranulocytosis,0.236,327
+se__C0038362,Stomatitis,0.235,326
+se__C0020456,Hyperglycaemia,0.234,325
+se__C0043094,Weight increased,0.234,325
+se__C0009763,Conjunctivitis,0.234,325
+se__C0035078,Renal failure,0.234,324
+se__C0041912,Upper respiratory tract infection,0.232,322
+se__C0022346,Jaundice,0.231,321
+se__C0011570,Depression,0.229,318
+se__C0038325,Stevens-Johnson syndrome,0.228,316
+se__C0043096,Weight decreased,0.226,313
+se__C0030305,Pancreatitis,0.224,311
+se__C0027947,Neutropenia,0.221,307
+se__C0162830,Photosensitivity reaction,0.218,302
+se__C0006277,Bronchitis,0.217,301
+se__C0042023,Pollakiuria,0.213,296
+se__C0242350,Erectile dysfunction,0.213,295
+se__C0013428,Dysuria,0.212,294
+se__C0000731,Abdominal distension,0.211,293
+se__C0030312,Pancytopenia,0.21,291
+se__C0014457,Eosinophilia,0.206,286
+se__C0002962,Angina pectoris,0.206,286
+se__C0232487,Abdominal discomfort,0.205,285
+se__C0006266,Bronchospasm,0.202,280
+se__C0021400,Influenza,0.2,278
+se__C0027441,Nasopharyngitis,0.2,277
+se__C0151786,Muscular weakness,0.198,274
+se__C0151904,Aspartate aminotransferase increased,0.195,270
+se__C0004096,Asthma,0.195,270
+se__C0151905,Alanine aminotransferase increased,0.193,268
+se__C0151908,Dry skin,0.189,262
+se__C0232492,Abdominal pain upper,0.188,261
+se__C0011168,Dysphagia,0.187,260
+se__C0017152,Gastritis,0.187,259
+se__C0006145,Breast disorder,0.182,253
+se__C0014518,Toxic epidermal necrolysis,0.182,253
+se__C0020651,Orthostatic hypotension,0.18,250
+se__C0030196,Pain in extremity,0.18,249
+se__C0020621,Hypokalaemia,0.18,249
+se__C0340865,Anaphylactoid reaction,0.176,244
+se__C0235431,Blood creatinine increased,0.176,244
+se__C0151766,Liver function test abnormal,0.174,242
+se__C0085633,Mood swings,0.173,240
+se__C0011175,Dehydration,0.172,238
+se__C0004134,Ataxia,0.172,238
+se__C0542571,Face oedema,0.172,238
+se__C0080274,Urinary retention,0.169,234
+se__C0855242,Disturbance in sexual arousal,0.167,232
+se__C0018790,Cardiac arrest,0.167,232
+se__C0149931,Migraine,0.166,230
+se__C0233472,Affect lability,0.163,226
+se__C0022107,Irritability,0.163,226
+se__C0038454,Cerebrovascular accident,0.161,223
+se__C0033975,Psychotic disorder,0.159,220
+se__C0236075,Menopausal symptoms,0.159,220
+se__C0003864,Arthritis,0.158,219
+se__C0029408,Osteoarthritis,0.158,219
+se__C0232461,Increased appetite,0.158,219
+se__C0023380,Lethargy,0.158,219
+se__C0020615,Hypoglycaemia,0.157,218
+se__C0034150,Purpura,0.156,216
+se__C0600142,Hot flush,0.156,216
+se__C0018801,Cardiac failure,0.155,215
+se__C0012569,Diplopia,0.154,214
+se__C0017181,Gastrointestinal haemorrhage,0.154,214
+se__C0020625,Hyponatraemia,0.154,213
+se__C0085932,Dermatitis bullous,0.151,210
+se__C0039971,Thirst,0.151,210
+se__C0022660,Renal failure acute,0.15,208
+se__C0011124,Libido decreased,0.15,208
+se__C0011606,Dermatitis exfoliative,0.149,206
+se__C1565489,Renal impairment,0.149,206
+se__C0004238,Atrial fibrillation,0.149,206
+se__C0040046,Thrombophlebitis,0.148,205
+se__C3263723,Injury,0.148,205
+se__C0018802,Cardiac failure congestive,0.146,203
+se__C0027424,Nasal congestion,0.146,203
+se__C0002622,Amnesia,0.146,203
+se__C0038999,Swelling,0.146,202
+se__C0085605,Hepatic failure,0.145,201
+se__C0011849,Diabetes mellitus,0.145,201
+se__C1368065,Vascular purpura,0.144,200
+se__C0151827,Eye pain,0.143,199
+se__C0002878,Haemolytic anaemia,0.143,198
+se__C0013595,Eczema,0.141,196
+se__C0851578,Sleep disorder,0.14,194
+se__C0011053,Deafness,0.139,193
+se__C0017160,Gastroenteritis,0.138,192
+se__C0032617,Polyuria,0.138,191
+se__C0151735,Injection site reaction,0.136,188
+se__C0852911,Blood alkaline phosphatase increased,0.134,186
+se__C0243026,Sepsis,0.133,185
+se__C0497156,Lymphadenopathy,0.133,184
+se__C0086565,Hepatic function abnormal,0.131,182
+se__C0013491,Ecchymosis,0.13,180
+se__C0013456,Ear pain,0.128,177
+se__C0018418,Gynaecomastia,0.127,176
+se__C0027651,Neoplasm,0.127,176
+se__C0233407,Disorientation,0.126,175
+se__C1306341,Mental disability,0.125,174
+se__C0034063,Pulmonary oedema,0.125,174
+se__C0026826,Hypertonia,0.125,173
+se__C0009421,Coma,0.123,171
+se__C1167965,Urine output increased,0.123,170
+se__C0014868,Oesophagitis,0.123,170
+se__C0034065,Pulmonary embolism,0.122,169
+se__C0031542,Phlebitis,0.122,169
+se__C0149745,Mouth ulceration,0.122,169
+se__C0423791,Rash maculo-papular,0.122,169
+se__C0424295,Hyperkinesia,0.122,169
+se__C0043144,Wheezing,0.121,168
+se__C0235146,Euphoric mood,0.121,168
+se__C0232849,Bladder pain,0.118,164
+se__C0006840,Candida infection,0.118,164
+se__C0404521,Vaginal infection,0.118,164
+se__C0314719,Dry eye,0.118,163
+se__C0026858,Musculoskeletal pain,0.118,163
+se__C0521839,Influenza like illness,0.117,162
+se__C0268000,Fluid retention,0.117,162
+se__C0151539,Blood urea increased,0.115,160
+se__C0002874,Aplastic anaemia,0.115,159
+se__C0011616,Dermatitis contact,0.114,158
+se__C0042024,Urinary incontinence,0.113,157
+se__C0085636,Photophobia,0.113,157
+se__C0237849,Skin exfoliation,0.112,156
+se__C0151825,Bone pain,0.11,153
+se__C0020461,Hyperkalaemia,0.11,153
+se__C0025222,Melaena,0.11,153
+se__C0021368,Inflammation,0.11,153
+se__C0014724,Eructation,0.11,152
+se__C0042267,Vaginal inflammation,0.109,151
+se__C0010692,Cystitis,0.109,151
+se__C0403632,Cystitis noninfective,0.107,149
+se__C0042384,Vasculitis,0.107,149
+se__C0007859,Neck pain,0.107,149
+se__C0009319,Colitis,0.107,148
+se__C0234458,Abnormal dreams,0.107,148
+se__C0497247,Blood pressure increased,0.106,147
+se__C0037036,Salivary hypersecretion,0.106,147
+se__C0235416,Blood uric acid increased,0.106,147
+se__C0028084,Nightmare,0.105,146
+se__C0151763,Hepatocellular injury,0.105,146
+se__C0231530,Muscle twitching,0.105,146
+se__C0023518,Leukocytosis,0.105,146
+se__C2363731,Oropharyngeal pain,0.105,146
+se__C0019521,Hiccups,0.104,144
+se__C0549249,Depressed level of consciousness,0.103,143
+se__C0042514,Ventricular tachycardia,0.103,143
+se__C1384666,Hearing impaired,0.103,143
+se__C0575081,Gait disturbance,0.102,142
+se__C0086543,Cataract,0.102,142
+se__C0152227,Lacrimation increased,0.102,141
+se__C0151828,Injection site pain,0.102,141
+se__C1145670,Respiratory failure,0.101,140
+se__C0017675,Glossitis,0.1,139
+se__C0267596,Rectal haemorrhage,0.099,137
+se__C0009938,Contusion,0.099,137
+se__C0520966,Coordination abnormal,0.099,137
+se__C0020443,Hypercholesterolaemia,0.099,137
+se__C0020433,Hyperbilirubinaemia,0.099,137
+se__C0013390,Dysmenorrhoea,0.098,136
+se__C0017168,Gastrooesophageal reflux disease,0.098,136
+se__C0018099,Gout,0.098,136
+se__C0948586,Protein urine present,0.098,136
+se__C0740394,Hyperuricaemia,0.097,135
+se__C0311468,Blood bilirubin increased,0.097,135
+se__C0235996,Hepatic enzyme increased,0.097,135
+se__C0030232,Pallor,0.097,135
+se__C0151907,Skin discolouration,0.097,135
+se__C0235710,Chest discomfort,0.097,135
+se__C0948525,Musculoskeletal stiffness,0.097,134
+se__C0028734,Nocturia,0.097,134
+se__C0033687,Proteinuria,0.096,133
+se__C0022408,Arthropathy,0.096,133
+se__C0004245,Atrioventricular block,0.095,132
+se__C0035410,Rhabdomyolysis,0.095,132
+se__C0687133,Drug interaction,0.095,132
+se__C0006826,Neoplasm malignant,0.095,132
+se__C0019348,Herpes simplex,0.094,131
+se__C0020598,Hypocalcaemia,0.094,131
+se__C0041582,Ulcer,0.094,131
+se__C1142412,Vasodilation procedure,0.094,131
+se__C0702166,Acne,0.094,130
+se__C0028961,Oliguria,0.094,130
+se__C0022354,Jaundice cholestatic,0.094,130
+se__C0013362,Dysarthria,0.093,129
+se__C0024902,Breast pain,0.093,129
+se__C0042769,Viral infection,0.093,129
+se__C0007642,Cellulitis,0.092,128
+se__C0013384,Dyskinesia,0.092,128
+se__C0014130,Endocrine disorder,0.092,127
+se__C0233414,Disturbance in attention,0.092,127
+se__C0151636,Ventricular extrasystoles,0.091,126
+se__C0235266,Eye irritation,0.091,126
+se__C0005940,Bone disorder,0.089,123
+se__C0233632,Thinking abnormal,0.089,123
+se__C1527344,Dysphonia,0.088,122
+se__C0160390,Liver injury,0.088,122
+se__C0002453,Amenorrhoea,0.087,121
+se__C0031256,Petechiae,0.087,120
+se__C0018939,Blood disorder,0.087,120
+se__C0001807,Aggression,0.086,119
+se__C0234233,Tenderness,0.086,119
+se__C0278134,Sensory loss,0.086,119
+se__C0017979,Glycosuria,0.085,118
+se__C1260880,Rhinorrhoea,0.085,118
+se__C0037822,Speech disorder,0.085,118
+se__C0007222,Cardiovascular disorder,0.085,118
+se__C0151662,Gamma-glutamyltransferase increased,0.084,116
+se__C0003578,Apnoea,0.084,116
+se__C2979982,Vaginal haemorrhage,0.083,115
+se__C0019360,Herpes zoster,0.082,114
+se__C0019079,Haemoptysis,0.082,114
+se__C2939147,Feeling hot,0.082,114
+se__C0032227,Pleural effusion,0.081,113
+se__C0392525,Nephrolithiasis,0.081,112
+se__C0026946,Fungal infection,0.081,112
+se__C0151744,Myocardial ischaemia,0.081,112
+se__C0235378,Hepatotoxicity,0.08,111
+se__C0017601,Glaucoma,0.079,110
+se__C0040053,Thrombosis,0.079,110
+se__C0011206,Delirium,0.079,110
+se__C0000833,Abscess,0.079,110
+se__C0041349,Tubulointerstitial nephritis,0.079,109
+se__C2364111,Ageusia,0.079,109
+se__C0340464,Extrasystoles,0.079,109
+se__C0233794,Memory impairment,0.078,108
+se__C0025323,Menorrhagia,0.078,108
+se__C0037299,Skin ulcer,0.078,108
+se__C0085641,Rash pustular,0.077,107
+se__C0026961,Mydriasis,0.076,106
+se__C0015376,Extravasation,0.076,106
+se__C0026848,Myopathy,0.076,106
+se__C0011615,Dermatitis atopic,0.076,105
+se__C0020453,Hyperaesthesia,0.076,105
+se__C2363730,Oropharyngeal discomfort,0.076,105
+se__C0162119,Haemoglobin decreased,0.075,104
+se__C0234913,Rash erythematous,0.075,104
+se__C0005779,Coagulopathy,0.075,104
+se__C0017574,Gingivitis,0.075,104
+se__C0008370,Cholestasis,0.075,104
+se__C0002418,Amblyopia,0.075,104
+se__C0042510,Ventricular fibrillation,0.074,102
+se__C0015371,Extrapyramidal disorder,0.073,101
+se__C0005758,Blister,0.073,101
+se__C0023066,Laryngospasm,0.072,100
+se__C0549373,Laryngeal pain,0.072,100
+se__C0018926,Haematemesis,0.072,100
+se__C0029882,Otitis media,0.072,100
+se__C0001925,Albuminuria,0.071,99
+se__C0085612,Ventricular arrhythmia,0.071,99
+se__C0027813,Neuritis,0.071,99
+se__C0025874,Metrorrhagia,0.071,99
+se__C0085624,Burning sensation,0.071,99
+se__C0018944,Haematoma,0.071,99
+se__C0036454,Scotoma,0.071,98
+se__C0020437,Hypercalcaemia,0.071,98
+se__C0040409,Tongue disorder,0.071,98
+se__C0019209,Hepatomegaly,0.071,98
+se__C0027540,Necrosis,0.071,98
+se__C0010520,Cyanosis,0.071,98
+se__C0030920,Peptic ulcer,0.07,97
+se__C0085628,Stupor,0.07,97
+se__C1258215,Ileus,0.069,96
+se__C0028738,Nystagmus,0.069,96
+se__C0011253,Delusion,0.069,96
+se__C0023067,Laryngitis,0.069,96
+se__C0206062,Interstitial lung disease,0.069,96
+se__C0853034,Blood creatine phosphokinase increased,0.068,95
+se__C0338831,Mania,0.068,95
+se__C0438717,Transaminases increased,0.068,94
+se__C0522224,Paralysis,0.068,94
+se__C0853692,Blood triglycerides increased,0.068,94
+se__C0149871,Deep vein thrombosis,0.068,94
+se__C0027796,Neuralgia,0.067,93
+se__C0013922,Embolism,0.067,93
+se__C0029134,Optic neuritis,0.066,92
+se__C0023895,Liver disorder,0.066,92
+se__C0006849,Oral candidiasis,0.066,92
+se__C0020578,Hyperventilation,0.066,91
+se__C0025345,Menstrual disorder,0.066,91
+se__C0010709,Cyst,0.066,91
+se__C0036508,Seborrhoeic dermatitis,0.065,90
+se__C0424000,Suicidal ideation,0.065,90
+se__C0040479,Torsade de pointes,0.065,90
+se__C0855775,Pulmonary function test decreased,0.065,90
+se__C0235063,Respiratory depression,0.064,89
+se__C0021843,Intestinal obstruction,0.064,89
+se__C0016436,Folliculitis,0.064,89
+se__C0020473,Hyperlipidaemia,0.064,89
+se__C0023052,Laryngeal oedema,0.064,89
+se__C2225524,Breast enlargement,0.063,88
+se__C0011551,Depersonalisation,0.063,88
+se__C0037383,Sneezing,0.063,88
+se__C0020676,Hypothyroidism,0.063,88
+se__C0040460,Toothache,0.063,87
+se__C1510410,Parosmia,0.063,87
+se__C0233471,Flat affect,0.063,87
+se__C1456784,Paranoia,0.063,87
+se__C0040435,Tooth disorder,0.062,86
+se__C0085632,Apathy,0.062,86
+se__C0008350,Cholelithiasis,0.062,86
+se__C0019572,Hirsutism,0.061,85
+se__C0003537,Aphasia,0.061,85
+se__C0476273,Respiratory distress,0.061,85
+se__C0242184,Hypoxia,0.061,85
+se__C0022568,Keratitis,0.061,85
+se__C0151723,Hypomagnesaemia,0.061,84
+se__C0522055,Electrocardiogram abnormal,0.061,84
+se__C0227791,Vaginal discharge,0.061,84
+se__C0027339,Nail disorder,0.061,84
+se__C0019112,Haemorrhoids,0.06,83
+se__C0235660,Galactorrhoea,0.06,83
+se__C0086439,Hypokinesia,0.06,83
+se__C0151878,Electrocardiogram QT prolonged,0.06,83
+se__C0029456,Osteoporosis,0.06,83
+se__C0746883,Febrile neutropenia,0.06,83
+se__C0039240,Supraventricular tachycardia,0.059,82
+se__C0032584,Polyp,0.059,82
+se__C0033860,Psoriasis,0.058,81
+se__C0853149,Blood lactate dehydrogenase increased,0.058,81
+se__C0021177,Libido increased,0.058,81
+se__C0836924,Thrombocytosis,0.058,81
+se__C0085682,Hypophosphataemia,0.058,80
+se__C0085584,Encephalopathy,0.057,79
+se__C0392386,Platelet count decreased,0.057,79
+se__C0030794,Pelvic pain,0.057,79
+se__C0024141,Systemic lupus erythematosus,0.057,79
+se__C0016658,Fracture,0.056,78
+se__C0156404,Menstruation irregular,0.056,78
+se__C0020557,Hypertriglyceridaemia,0.056,78
+se__C0005741,Blepharitis,0.056,78
+se__C0016655,Multiple fractures,0.056,78
+se__C0162834,Skin hyperpigmentation,0.056,78
+se__C0333355,Mucosal inflammation,0.056,77
+se__C0035243,Respiratory tract infection,0.056,77
+se__C0595916,Nephropathy toxic,0.056,77
+se__C0017565,Gingival bleeding,0.056,77
+se__C1609512,Vulvovaginal mycotic infection,0.056,77
+se__C0027066,Myoclonus,0.056,77
+se__C0011609,Drug eruption,0.056,77
+se__C0024115,Lung disorder,0.056,77
+se__C0028081,Night sweats,0.055,76
+se__C0853813,Local reaction,0.055,76
+se__C0234632,Visual acuity reduced,0.054,75
+se__C0456909,Blindness,0.053,74
+se__C0085606,Micturition urgency,0.053,74
+se__C0020488,Hypernatraemia,0.053,74
+se__C0008325,Cholecystitis,0.053,74
+se__C0151798,Hepatic necrosis,0.053,73
+se__C0151603,Generalised oedema,0.053,73
+se__C0151610,Tongue oedema,0.052,72
+se__C2242737,Anorectal discomfort,0.052,72
+se__C0700345,Vulvovaginal candidiasis,0.052,72
+se__C0549622,Sexual dysfunction,0.052,72
+se__C0340726,Embolism venous,0.052,72
+se__C0239571,Foetor hepaticus,0.051,71
+se__C0438142,Urine analysis abnormal,0.05,70
+se__C2937358,Cerebral haemorrhage,0.05,70
+se__C0007787,Transient ischaemic attack,0.05,70
+se__C0024312,Lymphopenia,0.05,70
+se__C0038358,Gastric ulcer,0.05,70
+se__C0038663,Suicide attempt,0.05,69
+se__C0032961,Pregnancy,0.05,69
+se__C0152198,Accommodation disorder,0.05,69
+se__C0021141,Inappropriate antidiuretic hormone secretion,0.05,69
+se__C0852733,Completed suicide,0.049,68
+se__C0700184,Throat irritation,0.049,68
+se__C0013447,Ear disorder,0.048,67
+se__C0015732,Faecal incontinence,0.048,67
+se__C1257843,Pseudomembranous colitis,0.048,67
+se__C0575090,Balance disorder,0.048,67
+se__C0392156,Akathisia,0.048,67
+se__C1320474,Nuchal rigidity,0.048,66
+se__C0020039,Hostility,0.048,66
+se__C0558489,Renal pain,0.047,65
+se__C0413252,Hypothermia,0.047,65
+se__C0020672,Body temperature decreased,0.047,65
+se__C0033117,Priapism,0.047,65
+se__C0026827,Hypotonia,0.047,65
+se__C0595877,Blood glucose increased,0.047,65
+se__C0750394,White blood cell count decreased,0.046,64
+se__C0235639,Urine abnormality,0.046,64
+se__C0152029,Sinus congestion,0.046,64
+se__C0006384,Bundle branch block,0.046,64
+se__C0027726,Nephrotic syndrome,0.045,63
+se__C0001122,Acidosis,0.045,63
+se__C0032326,Pneumothorax,0.045,63
+se__C0162835,Leukoderma,0.045,63
+se__C0242528,Azotaemia,0.045,63
+se__C0152031,Joint swelling,0.045,63
+se__C0151479,Amylase increased,0.045,62
+se__C0234708,Intraocular pressure increased,0.045,62
+se__C0151692,Impaired healing,0.045,62
+se__C0027121,Myositis,0.045,62
+se__C0034886,Proctalgia,0.045,62
+se__C0235896,Lung infiltration,0.044,61
+se__C0006444,Bursitis,0.044,61
+se__C1142135,Muscle relaxant therapy,0.044,61
+se__C0878544,Cardiomyopathy,0.044,61
+se__C0085610,Sinus bradycardia,0.044,61
+se__C0022658,Nephropathy,0.044,61
+se__C0034069,Pulmonary fibrosis,0.043,60
+se__C0027849,Neuroleptic malignant syndrome,0.043,60
+se__C0026837,Muscle rigidity,0.043,60
+se__C0015402,Eye haemorrhage,0.043,60
+se__C0242301,Furuncle,0.043,60
+se__C0033771,Prurigo,0.043,60
+se__C0085096,Peripheral vascular disorder,0.043,60
+se__C0151596,Tongue discolouration,0.043,60
+se__C0011071,Sudden death,0.043,60
+se__C0917798,Cerebral ischaemia,0.043,59
+se__C0014236,Endophthalmitis,0.043,59
+se__C0687707,Anorectal disorder,0.043,59
+se__C0162285,Eyelid oedema,0.043,59
+se__C0521591,Paraesthesia oral,0.042,58
+se__C0001339,Pancreatitis acute,0.042,58
+se__C1291078,Epigastric discomfort,0.042,58
+se__C0036830,Serum sickness,0.042,58
+se__C0009241,Cognitive disorder,0.042,58
+se__C0521491,Application site pain,0.041,57
+se__C0152128,Drug withdrawal syndrome,0.041,57
+se__C0151889,Hyperreflexia,0.041,57
+se__C0151699,Haemorrhage intracranial,0.041,57
+se__C0031046,Pericarditis,0.041,57
+se__C0332534,Induration,0.041,57
+se__C0151740,Intracranial pressure increased,0.041,57
+se__C0155169,Ocular hyperaemia,0.041,57
+se__C0150450,Altered state of consciousness,0.041,57
+se__C0013295,Duodenal ulcer,0.04,56
+se__C0277925,Peripheral coldness,0.04,55
+se__C0038363,Aphthous stomatitis,0.04,55
+se__C0152030,Skin irritation,0.04,55
+se__C2973529,Leukocytoclastic vasculitis,0.04,55
+se__C0857305,Thrombocytopenic purpura,0.04,55
+se__C1761613,Conjunctival hyperaemia,0.039,54
+se__C0232431,Cold sweat,0.039,54
+se__C0022904,Lacrimal disorder,0.039,54
+se__C0022281,Eye pruritus,0.039,54
+se__C0004623,Bacterial infection,0.039,54
+se__C2981158,Loss of libido,0.039,54
+se__C0014743,Erythema nodosum,0.039,54
+se__C0546817,Fluid overload,0.038,53
+se__C0699744,Ear infection,0.038,53
+se__C0744727,Haematocrit decreased,0.038,53
+se__C0014544,Epilepsy,0.038,53
+se__C0014549,Grand mal convulsion,0.038,53
+se__C0151505,Application site reaction,0.038,53
+se__C0497327,Dementia,0.038,53
+se__C0151872,Prothrombin level increased,0.038,53
+se__C0235086,Muscle contractions involuntary,0.038,53
+se__C0919980,VIIth nerve paralysis,0.037,52
+se__C0497365,Rash generalised,0.037,52
+se__C0236071,Throat tightness,0.037,52
+se__C0029118,Opportunistic infection,0.037,52
+se__C0152459,Skin striae,0.037,52
+se__C0019270,Hernia,0.037,52
+se__C0025289,Meningitis,0.037,52
+se__C0151205,Periorbital oedema,0.037,51
+se__C0011630,Fungal skin infection,0.037,51
+se__C0344315,Depressed mood,0.037,51
+se__C0031212,Personality disorder,0.037,51
+se__C0151602,Swelling face,0.037,51
+se__C0020555,Hypertrichosis,0.037,51
+se__C0151888,Hyporeflexia,0.037,51
+se__C0242422,Parkinsonism,0.037,51
+se__C0162297,Respiratory arrest,0.037,51
+se__C0342579,Electrolyte imbalance,0.036,50
+se__C0020550,Hyperthyroidism,0.036,50
+se__C0006142,Breast cancer,0.036,50
+se__C0007820,Cerebrovascular disorder,0.036,50
+se__C0016199,Flank pain,0.036,50
+se__C0030446,Ileus paralytic,0.036,50
+se__C0033575,Prostatic disorder,0.035,49
+se__C0034642,Rales,0.035,49
+se__C0235234,Dry throat,0.035,49
+se__C0151514,Skin atrophy,0.035,49
+se__C0018932,Haematochezia,0.035,49
+se__C0031039,Pericardial effusion,0.035,49
+se__C0518988,Tooth abscess,0.035,49
+se__C1956346,Coronary artery disease,0.035,49
+se__C0221201,Rash macular,0.035,49
+se__C0029445,Osteonecrosis,0.035,49
+se__C0033777,Pruritus genital,0.035,48
+se__C0233477,Dysphoria,0.035,48
+se__C0392699,Dysaesthesia,0.035,48
+se__C0026205,Miosis,0.035,48
+se__C0151970,Oesophageal ulcer,0.035,48
+se__C0007971,Cheilitis,0.035,48
+se__C2242588,Traumatic liver injury,0.035,48
+se__C0333641,Atrophy,0.034,47
+se__C0232726,Rectal tenesmus,0.034,47
+se__C0021167,Incontinence,0.034,47
+se__C0428974,Arrhythmia supraventricular,0.034,47
+se__C0438215,Laboratory test abnormal,0.034,47
+se__C0011334,Dental caries,0.034,47
+se__C0149904,Hepatitis cholestatic,0.034,47
+se__C0220981,Metabolic acidosis,0.033,46
+se__C0035309,Retinal disorder,0.033,46
+se__C0013182,Drug hypersensitivity,0.033,46
+se__C0003962,Ascites,0.033,46
+se__C0152032,Urinary hesitation,0.033,46
+se__C0042345,Varicose vein,0.033,46
+se__C0231919,Nasal dryness,0.033,46
+se__C0039503,Tendonitis,0.033,46
+se__C0039239,Sinus tachycardia,0.032,45
+se__C0022081,Iritis,0.032,45
+se__C0476280,Musculoskeletal chest pain,0.032,45
+se__C0475858,Pruritus generalised,0.032,45
+se__C0018021,Goitre,0.032,45
+se__C0012739,Disseminated intravascular coagulation,0.032,45
+se__C0262397,Breast tenderness,0.032,45
+se__C0232495,Abdominal pain lower,0.032,44
+se__C0235032,Neurotoxicity,0.032,44
+se__C0034186,Pyelonephritis,0.032,44
+se__C1519353,Rash papular,0.032,44
+se__C0600228,Cardio-respiratory arrest,0.032,44
+se__C0151717,Skin hypertrophy,0.032,44
+se__C0030353,Papilloedema,0.032,44
+se__C0151799,Skin necrosis,0.032,44
+se__C0853761,Blood potassium decreased,0.032,44
+se__C0038587,Withdrawal syndrome,0.032,44
+se__C0234894,Dermatitis acneiform,0.032,44
+se__C0027697,Nephritis,0.032,44
+se__C0700361,Emotional distress,0.032,44
+se__C0027932,Neurosis,0.031,43
+se__C0004239,Atrial flutter,0.031,43
+se__C0000768,Congenital anomaly,0.031,43
+se__C0595930,Blood cholesterol increased,0.031,43
+se__C0085614,Atrioventricular block first degree,0.031,43
+se__C0235490,Peripheral ischaemia,0.031,43
+se__C0151734,Injection site inflammation,0.031,43
+se__C0424605,Developmental delay,0.031,43
+se__C0022116,Ischaemia,0.031,43
+se__C0002884,Hypochromic anaemia,0.031,43
+se__C0030552,Paresis,0.031,43
+se__C0024305,Non-Hodgkin's lymphoma,0.03,42
+se__C0948349,Respiratory tract congestion,0.03,42
+se__C0231835,Tachypnoea,0.03,42
+se__C0858797,Instillation site pain,0.03,42
+se__C2697368,Gastrointestinal tract irritation,0.03,42
+se__C0024299,Lymphoma,0.03,42
+se__C0026857,Musculoskeletal disorder,0.03,41
+se__C0686347,Tardive dyskinesia,0.03,41
+se__C0018520,Breath odour,0.03,41
+se__C0235969,Ejaculation disorder,0.03,41
+se__C0039520,Tenosynovitis,0.03,41
+se__C3203358,Hypoventilation,0.03,41
+se__C0549209,Feeling jittery,0.03,41
+se__C0018800,Cardiomegaly,0.03,41
+se__C0392676,Hyperpyrexia,0.03,41
+se__C0034880,Hyperacusis,0.029,40
+se__C0549567,Pigmentation disorder,0.029,40
+se__C2711227,Hepatic steatosis,0.029,40
+se__C0042134,Uterine haemorrhage,0.029,40
+se__C0043387,Yawning,0.029,40
+se__C0042487,Venous thrombosis,0.029,40
+se__C0033036,Supraventricular extrasystoles,0.029,40
+se__C0033845,Benign intracranial hypertension,0.029,40
+se__C0020542,Pulmonary hypertension,0.029,40
+se__C0233514,Abnormal behaviour,0.029,40
+se__C0017672,Glossodynia,0.028,39
+se__C0026113,Miliaria,0.028,39
+se__C0270996,Eye swelling,0.028,39
+se__C0085637,Oculogyric crisis,0.028,39
+se__C0234987,Dizziness postural,0.028,39
+se__C0021845,Intestinal perforation,0.028,39
+se__C0085616,Vasospasm,0.028,39
+se__C0699828,Serotonin syndrome,0.027,38
+se__C0151698,Injection site haemorrhage,0.027,38
+se__C0541832,Chromaturia,0.027,38
+se__C0037195,Sinus headache,0.027,38
+se__C0042164,Uveitis,0.027,38
+se__C0271650,Glucose tolerance impaired,0.027,38
+se__C0042035,Micturition disorder,0.027,38
+se__C0018808,Cardiac murmur,0.027,38
+se__C0034359,Pyuria,0.027,38
+se__C0007785,Cerebral infarction,0.027,38
+se__C0038450,Stridor,0.027,38
+se__C0002957,Anger,0.027,37
+se__C0035317,Retinal haemorrhage,0.027,37
+se__C0007114,Skin cancer,0.027,37
+se__C0236000,Pain in jaw,0.027,37
+se__C0423602,Sensation of foreign body,0.027,37
+se__C0004144,Atelectasis,0.027,37
+se__C0006147,Breast feeding,0.027,37
+se__C0009760,Conjunctival haemorrhage,0.027,37
+se__C0234930,Skin odour abnormal,0.027,37
+se__C1325847,Sensitisation,0.027,37
+se__C0003460,Anuria,0.027,37
+se__C0028259,Nodule,0.027,37
+se__C0853619,Local swelling,0.027,37
+se__C0018991,Hemiplegia,0.027,37
+se__C0041105,Trismus,0.027,37
+se__C0085602,Polydipsia,0.027,37
+se__C0546884,Hypovolaemia,0.027,37
+se__C0014335,Enteritis,0.026,36
+se__C0162298,Joint stiffness,0.026,36
+se__C0149725,Lower respiratory tract infection,0.026,36
+se__C0700200,Presyncope,0.026,36
+se__C0014534,Epididymitis,0.026,36
+se__C0858259,Nasal discomfort,0.026,36
+se__C0232602,Retching,0.025,35
+se__C0281981,Skin mass,0.025,35
+se__C0021775,Intermittent claudication,0.025,35
+se__C0236068,Swollen tongue,0.025,35
+se__C0026766,Multi-organ failure,0.025,35
+se__C0021308,Infarction,0.025,35
+se__C0003873,Rheumatoid arthritis,0.025,35
+se__C0086769,Panic attack,0.025,35
+se__C0004364,Autoimmune disorder,0.025,35
+se__C0549475,Lipase increased,0.025,35
+se__C0012813,Diverticulitis,0.025,35
+se__C0036983,Septic shock,0.025,35
+se__C0151474,Alcohol intolerance,0.025,35
+se__C1619712,Procedural pain,0.025,35
+se__C0015256,Excoriation,0.025,35
+se__C0162529,Colitis ischaemic,0.025,34
+se__C0038002,Splenomegaly,0.025,34
+se__C0152025,Polyneuropathy,0.025,34
+se__C0855329,Electrocardiogram change,0.025,34
+se__C0235259,Cataract subcapsular,0.025,34
+se__C0151517,Atrioventricular block complete,0.025,34
+se__C0014356,Enterocolitis,0.025,34
+se__C0035222,Acute respiratory distress syndrome,0.025,34
+se__C0031154,Peritonitis,0.025,34
+se__C0241934,Hypomania,0.024,33
+se__C0151601,Conjunctival oedema,0.024,33
+se__C0162287,Abnormal faeces,0.024,33
+se__C0029878,Otitis externa,0.024,33
+se__C0085681,Hyperphosphataemia,0.024,33
+se__C0024282,Lymphocytosis,0.024,33
+se__C1527311,Brain oedema,0.024,33
+se__C0040485,Torticollis,0.024,33
+se__C0039446,Telangiectasia,0.024,33
+se__C0231807,Dyspnoea exertional,0.024,33
+se__C1510472,Drug dependence,0.024,33
+se__C0085635,Photopsia,0.024,33
+se__C0037278,Skin infection,0.024,33
+se__C3495920,Lacrimal structural disorder,0.023,32
+se__C0235031,Neurological symptom,0.023,32
+se__C0853760,Blood potassium increased,0.023,32
+se__C0036396,Sciatica,0.023,32
+se__C0041364,Tumour lysis syndrome,0.023,32
+se__C0347390,Skin papilloma,0.023,32
+se__C0085669,Acute leukaemia,0.023,32
+se__C0020639,Hypoproteinaemia,0.023,32
+se__C0151313,Peripheral sensory neuropathy,0.023,32
+se__C0151480,Antinuclear antibody positive,0.023,32
+se__C0521490,Application site irritation,0.022,31
+se__C0007398,Catatonia,0.022,31
+se__C1720775,Renal tubular necrosis,0.022,31
+se__C0022661,Renal failure chronic,0.022,31
+se__C0242073,Pulmonary congestion,0.022,31
+se__C0020546,Hypertensive crisis,0.022,31
+se__C0151605,Injection site swelling,0.022,31
+se__C0020569,Salivary gland enlargement,0.022,31
+se__C0015403,Eye infection,0.022,31
+se__C0234192,Feeling cold,0.022,31
+se__C0004509,Azoospermia,0.022,31
+se__C0205204,Scab,0.022,31
+se__C0151686,Growth retardation,0.022,31
+se__C0917799,Hypersomnia,0.022,30
+se__C0013298,Duodenitis,0.022,30
+se__C0013146,Drug abuse,0.022,30
+se__C0853697,Neutrophil count decreased,0.022,30
+se__C0014394,Enuresis,0.022,30
+se__C0151942,Arterial thrombosis,0.022,30
+se__C0010043,Ulcerative keratitis,0.022,30
+se__C0151937,Tendon rupture,0.022,30
+se__C0870082,Hyperkeratosis,0.022,30
+se__C0016059,Fibrosis,0.022,30
+se__C0037284,Skin lesion,0.022,30
+se__C0152027,Sensory disturbance,0.022,30
+se__C0026846,Muscle atrophy,0.022,30
+se__C0026650,Movement disorder,0.022,30
+se__C0042133,Uterine leiomyoma,0.022,30
+se__C0034152,Henoch-Schonlein purpura,0.022,30
+se__C0151632,Red blood cell sedimentation rate increased,0.022,30
+se__C0019372,Herpes virus infection,0.021,29
+se__C1262144,Increased bronchial secretion,0.021,29
+se__C0038814,Sunburn,0.021,29
+se__C0151701,Pulmonary haemorrhage,0.021,29
+se__C0039621,Tetany,0.021,29
+se__C0025202,Malignant melanoma,0.021,29
+se__C0017566,Gingival hyperplasia,0.021,29
+se__C0010481,Cushing's syndrome,0.021,29
+se__C0020452,Hyperaemia,0.021,29
+se__C0085623,Akinesia,0.02,28
+se__C0035258,Restless legs syndrome,0.02,28
+se__C0030807,Pemphigus,0.02,28
+se__C0264906,Atrioventricular block second degree,0.02,28
+se__C0239981,Hypoalbuminaemia,0.02,28
+se__C0025290,Meningitis aseptic,0.02,28
+se__C0006625,Cachexia,0.02,28
+se__C0035305,Retinal detachment,0.02,28
+se__C0152517,Viral diarrhoea,0.02,28
+se__C0015300,Exophthalmos,0.02,28
+se__C0232498,Abdominal tenderness,0.02,28
+se__C3160741,Toxicity to various agents,0.02,28
+se__C0852625,Injection site erythema,0.02,28
+se__C0221776,Oral pain,0.02,28
+se__C0151664,Gastrointestinal perforation,0.02,28
+se__C0233763,"Hallucination, visual",0.02,28
+se__C0025637,Methaemoglobinaemia,0.02,28
+se__C0439857,Dependence,0.02,28
+se__C0002888,Anaemia megaloblastic,0.019,27
+se__C0236024,Pharyngeal oedema,0.019,27
+se__C0015734,Faecalith,0.019,27
+se__C0853700,Application site erythema,0.019,27
+se__C0032708,Porphyrin metabolism disorder,0.019,27
+se__C0002965,Angina unstable,0.019,27
+se__C1322281,Rhinitis seasonal,0.019,27
+se__C0151594,Diarrhoea haemorrhagic,0.019,27
+se__C0010038,Corneal opacity,0.019,27
+se__C0002390,Alveolitis allergic,0.019,27
+se__C2607914,Rhinitis allergic,0.019,27
+se__C1458155,Breast neoplasm,0.019,27
+se__C0235567,Sputum increased,0.019,27
+se__C0521592,Hypoaesthesia oral,0.019,27
+se__C0029927,Ovarian cyst,0.019,27
+se__C1269683,Major depression,0.019,27
+se__C1262113,Lipohypertrophy,0.019,27
+se__C0151529,Bleeding time prolonged,0.019,27
+se__C0009324,Colitis ulcerative,0.019,27
+se__C0085583,Choreoathetosis,0.019,27
+se__C1321686,Faecaloma,0.019,27
+se__C0232197,Cardiac fibrillation,0.019,26
+se__C0242656,Disease progression,0.019,26
+se__C0030332,Panophthalmitis,0.019,26
+se__C0017605,Angle closure glaucoma,0.019,26
+se__C0001125,Lactic acidosis,0.019,26
+se__C0010037,Corneal oedema,0.019,26
+se__C2004489,Regurgitation,0.019,26
+se__C0151579,Crystalluria,0.019,26
+se__C0023418,Leukaemia,0.019,26
+se__C0259799,Punctate keratitis,0.019,26
+se__C0151824,Biliary colic,0.019,26
+se__C0476089,Endometrial cancer,0.019,26
+se__C0032290,Pneumonia aspiration,0.019,26
+se__C0040425,Tonsillitis,0.019,26
+se__C0018621,Seasonal allergy,0.019,26
+se__C0151936,Tendon disorder,0.019,26
+se__C0024236,Lymphoedema,0.019,26
+se__C0024117,Chronic obstructive pulmonary disease,0.019,26
+se__C0237314,Heart rate irregular,0.019,26
+se__C0559031,Functional gastrointestinal disorder,0.019,26
+se__C0877192,Lipodystrophy acquired,0.019,26
+se__C0006325,Bruxism,0.019,26
+se__C0341012,Oral herpes,0.019,26
+se__C0034068,Pulmonary eosinophilia,0.019,26
+se__C0033247,Proctocolitis,0.019,26
+se__C0043349,Xerophthalmia,0.019,26
+se__C0016242,Vitreous floaters,0.018,25
+se__C0029453,Osteopenia,0.018,25
+se__C1760428,Suicidal behaviour,0.018,25
+se__C0795692,Hyperlactacidaemia,0.018,25
+se__C0026896,Myasthenia gravis,0.018,25
+se__C0017086,Gangrene,0.018,25
+se__C0149741,Breast discharge,0.018,25
+se__C0085129,Bronchial hyperreactivity,0.018,25
+se__C0013609,Localised oedema,0.018,25
+se__C0241705,Strangury,0.018,25
+se__C0033246,Proctitis,0.018,25
+se__C0020514,Hyperprolactinaemia,0.018,25
+se__C0600260,Obstructive airways disorder,0.018,25
+se__C0262988,Cutaneous vasculitis,0.018,25
+se__C0032231,Pleurisy,0.018,25
+se__C0423006,Eye discharge,0.018,25
+se__C0271738,Secondary adrenocortical insufficiency,0.018,25
+se__C0024894,Mastitis,0.018,25
+se__C0235437,Gravitational oedema,0.018,25
+se__C0007117,Basal cell carcinoma,0.018,25
+se__C0240735,Personality change,0.018,25
+se__C0034155,Thrombotic thrombocytopenic purpura,0.018,25
+se__C0521495,Application site rash,0.017,24
+se__C0007286,Carpal tunnel syndrome,0.017,24
+se__C0231856,Breath sounds abnormal,0.017,24
+se__C0039591,Testicular pain,0.017,24
+se__C0008489,Chorea,0.017,24
+se__C0032461,Polycythaemia,0.017,24
+se__C0241057,Skin burning sensation,0.017,24
+se__C0853714,Application site pruritus,0.017,24
+se__C0028754,Obesity,0.017,24
+se__C0234022,Anorgasmia,0.017,24
+se__C1318520,Vasculitis necrotising,0.017,24
+se__C0877661,Application site burn,0.017,24
+se__C0029443,Osteomyelitis,0.017,24
+se__C0043246,Laceration,0.017,24
+se__C0271051,Macular oedema,0.017,24
+se__C0035854,Rosacea,0.017,24
+se__C0019054,Haemolysis,0.017,24
+se__C0019087,Haemorrhagic disorder,0.017,24
+se__C0543467,Surgery,0.017,24
+se__C0038525,Subarachnoid haemorrhage,0.017,24
+se__C1112214,Vulvovaginal pruritus,0.017,24
+se__C0001623,Adrenal insufficiency,0.017,24
+se__C0040586,Tracheobronchitis,0.017,23
+se__C0376358,Prostate cancer,0.017,23
+se__C0038826,Superinfection,0.017,23
+se__C0038220,Status epilepticus,0.017,23
+se__C0026636,Oral disorder,0.017,23
+se__C0161479,Nerve injury,0.017,23
+se__C0018946,Subdural haematoma,0.017,23
+se__C0947999,Blood urine present,0.017,23
+se__C0025320,Menopause,0.017,23
+se__C0435002,Ligament sprain,0.017,23
+se__C0008033,Pleuritic pain,0.017,23
+se__C0239739,Gingival pain,0.017,23
+se__C0239978,Frequent bowel movements,0.017,23
+se__C0041976,Urethritis,0.017,23
+se__C0239134,Productive cough,0.017,23
+se__C0036980,Cardiogenic shock,0.017,23
+se__C0026986,Myelodysplastic syndrome,0.017,23
+se__C0948595,Ocular discomfort,0.017,23
+se__C0919715,Lupus-like syndrome,0.017,23
+se__C0241136,Pain of skin,0.017,23
+se__C0242379,Lung neoplasm malignant,0.017,23
+se__C0021359,Infertility,0.017,23
+se__C0919874,Post procedural haemorrhage,0.017,23
+se__C0919924,Pulmonary toxicity,0.017,23
+se__C0005747,Blepharospasm,0.017,23
+se__C0853777,Blood albumin decreased,0.017,23
+se__C0392163,Corneal erosion,0.016,22
+se__C0027059,Myocarditis,0.016,22
+se__C0025362,Mental retardation,0.016,22
+se__C2938875,Upper-airway cough syndrome,0.016,22
+se__C1140680,Ovarian cancer,0.016,22
+se__C0025517,Metabolic disorder,0.016,22
+se__C0856054,Mental status changes,0.016,22
+se__C1096035,Infusion site pain,0.016,22
+se__C0259749,Autonomic neuropathy,0.016,22
+se__C0221100,Hangover,0.016,22
+se__C0032343,Poisoning,0.016,22
+se__C0852810,Blood creatinine decreased,0.016,22
+se__C0151705,Retroperitoneal haemorrhage,0.016,22
+se__C0162316,Iron deficiency anaemia,0.016,22
+se__C3665624,Blood calcium decreased,0.016,22
+se__C0003126,Anosmia,0.016,22
+se__C1328337,Urethritis noninfective,0.016,22
+se__C0037023,Sialoadenitis,0.016,22
+se__C0015393,Congenital eye disorder,0.016,22
+se__C0022104,Irritable bowel syndrome,0.016,22
+se__C0595883,Blood glucose decreased,0.016,22
+se__C0025218,Chloasma,0.016,22
+se__C0345904,Hepatic cancer,0.016,22
+se__C0750426,White blood cell count increased,0.015,21
+se__C0016977,Gallbladder disorder,0.015,21
+se__C0162281,Corneal deposits,0.015,21
+se__C0238106,Clostridium difficile colitis,0.015,21
+se__C0018500,Hair disorder,0.015,21
+se__C0264886,Conduction disorder,0.015,21
+se__C0876994,Cardiotoxicity,0.015,21
+se__C1510431,Thrombophlebitis superficial,0.015,21
+se__C0016034,Fibrocystic breast disease,0.015,21
+se__C0030846,Penis disorder,0.015,21
+se__C0151691,High density lipoprotein decreased,0.015,21
+se__C0541782,Sinus arrest,0.015,21
+se__C0018213,Basedow's disease,0.015,21
+se__C0003708,Arachnoiditis,0.015,21
+se__C0151671,Glucose tolerance decreased,0.015,21
+se__C0520589,Vulvovaginal dryness,0.015,21
+se__C0240211,Lip swelling,0.015,21
+se__C0235874,Condition aggravated,0.014,20
+se__C0041296,Tuberculosis,0.014,20
+se__C0156312,Testicular atrophy,0.014,20
+se__C0004610,Bacteraemia,0.014,20
+se__C0151818,Opisthotonus,0.014,20
+se__C0341047,Parotid gland enlargement,0.014,20
+se__C0033581,Prostatitis,0.014,20
+se__C1608945,Exfoliative rash,0.014,20
+se__C0343863,Genital candidiasis,0.014,20
+se__C0028077,Night blindness,0.014,20
+se__C0086132,Depressive symptom,0.014,20
+se__C0423798,Increased tendency to bruise,0.014,20
+se__C0010399,Crying,0.014,20
+se__C2240374,Eosinophil count increased,0.014,20
+se__C0007137,Squamous cell carcinoma,0.014,20
+se__C0233459,Emotional disorder,0.014,20
+se__C0042998,Vulvovaginitis,0.014,20
+se__C0085622,Monoplegia,0.014,20
+se__C0042594,Vestibular disorder,0.014,20
+se__C0278106,Ejaculation failure,0.014,20
+se__C0009946,Conversion disorder,0.014,20
+se__C0151611,Electroencephalogram abnormal,0.014,20
+se__C0302809,Hepatitis fulminant,0.014,20
+se__C0854082,Blood prolactin increased,0.014,20
+se__C0019061,Haemolytic uraemic syndrome,0.014,20
+se__C0018989,Hemiparesis,0.014,20
+se__C0005684,Bladder cancer,0.014,19
+se__C0018378,Guillain-Barre syndrome,0.014,19
+se__C0027092,Myopia,0.014,19
+se__C0155626,Acute myocardial infarction,0.014,19
+se__C2239176,Hepatocellular carcinoma,0.014,19
+se__C0262385,Autonomic nervous system imbalance,0.014,19
+se__C0029124,Optic atrophy,0.014,19
+se__C0037315,Sleep apnoea syndrome,0.014,19
+se__C0549405,Blood pressure fluctuation,0.014,19
+se__C3160858,Posterior reversible encephalopathy syndrome,0.014,19
+se__C0877322,Muscle tightness,0.014,19
+se__C0877055,Acute generalised exanthematous pustulosis,0.014,19
+se__C0085688,Breast engorgement,0.014,19
+se__C0854100,Nitrogen balance negative,0.014,19
+se__C0019163,Hepatitis B,0.014,19
+se__C1510497,Lenticular opacities,0.014,19
+se__C0151785,Mucous membrane disorder,0.014,19
+se__C0033046,Premenstrual syndrome,0.014,19
+se__C0221165,Diplegia,0.014,19
+se__C0743680,Eye oedema,0.014,19
+se__C0392162,Sticky skin,0.014,19
+se__C0520887,Electrocardiogram ST segment depression,0.014,19
+se__C0221203,Rash vesicular,0.014,19
+se__C0151564,Cogwheel rigidity,0.014,19
+se__C0239454,Erythema of eyelid,0.014,19
+se__C0040128,Thyroid disorder,0.013,18
+se__C0262431,Spinal compression fracture,0.013,18
+se__C2939419,Metastatic neoplasm,0.013,18
+se__C0232910,Teratogenicity,0.013,18
+se__C0085692,Cystitis haemorrhagic,0.013,18
+se__C0877153,Neutropenic sepsis,0.013,18
+se__C0541820,Carbohydrate tolerance decreased,0.013,18
+se__C0030318,Panic reaction,0.013,18
+se__C0332563,Papule,0.013,18
+se__C0013132,Drooling,0.013,18
+se__C0239295,Oesophageal candidiasis,0.013,18
+se__C0151934,Hypogeusia,0.013,18
+se__C0235351,Tongue ulceration,0.013,18
+se__C0001622,Hyperadrenocorticism,0.013,18
+se__C0018824,Cardiac valve disease,0.013,18
+se__C0037672,Somnambulism,0.013,18
+se__C0007760,Cerebellar syndrome,0.013,18
+se__C1619702,Device related infection,0.013,18
+se__C0521498,Injection site irritation,0.013,18
+se__C0023890,Hepatic cirrhosis,0.013,18
+se__C0240417,Muscle mass,0.013,18
+se__C0235280,Ototoxicity,0.013,18
+se__C0003813,Sinus arrhythmia,0.013,18
+se__C0476281,Non-cardiac chest pain,0.013,18
+se__C0030486,Paraplegia,0.013,18
+se__C0040261,Onychomycosis,0.012,17
+se__C0520888,Electrocardiogram T wave inversion,0.012,17
+se__C0025287,Meningism,0.012,17
+se__C0474378,Hair colour changes,0.012,17
+se__C0162557,Acute hepatic failure,0.012,17
+se__C0234047,Ejaculation delayed,0.012,17
+se__C0020295,Hydronephrosis,0.012,17
+se__C0008301,Choking,0.012,17
+se__C0233565,Bradykinesia,0.012,17
+se__C0553692,Haemorrhagic stroke,0.012,17
+se__C0429098,Electrocardiogram QRS complex,0.012,17
+se__C1280433,Lipoatrophy,0.012,17
+se__C0242339,Dyslipidaemia,0.012,17
+se__C0022073,Iridocyclitis,0.012,17
+se__C0233762,"Hallucination, auditory",0.012,17
+se__C1527407,Eosinophilic pneumonia,0.012,17
+se__C0221706,Road traffic accident,0.012,17
+se__C0856151,Fat redistribution,0.012,17
+se__C0033775,Anal pruritus,0.012,17
+se__C0853225,International normalised ratio increased,0.012,17
+se__C0553732,Prothrombin level decreased,0.012,16
+se__C2586050,Oesophagitis ulcerative,0.012,16
+se__C2584688,Testicular swelling,0.012,16
+se__C0021051,Immunodeficiency,0.012,16
+se__C0038160,Staphylococcal infection,0.012,16
+se__C0221269,Pseudolymphoma,0.012,16
+se__C0497201,Abnormal sensation in eye,0.012,16
+se__C0030848,Peyronie's disease,0.012,16
+se__C0004690,Balanitis,0.012,16
+se__C1142499,Gastrointestinal toxicity,0.012,16
+se__C0043241,Wound infection,0.012,16
+se__C0235025,Peripheral motor neuropathy,0.012,16
+se__C1142139,Drug reaction with eosinophilia and systemic symptoms,0.012,16
+se__C0013220,Drug tolerance,0.012,16
+se__C0152169,Renal colic,0.012,16
+se__C1096343,Infusion site reaction,0.012,16
+se__C0542008,Injection site haematoma,0.012,16
+se__C0003615,Appendicitis,0.012,16
+se__C0029442,Osteomalacia,0.012,16
+se__C0009917,Muscle contracture,0.012,16
+se__C0235315,Faeces discoloured,0.012,16
+se__C0019196,Hepatitis C,0.012,16
+se__C0151830,Urethral pain,0.012,16
+se__C1384606,Dyspareunia,0.012,16
+se__C0241442,Protrusion tongue,0.012,16
+se__C0034902,Aplasia pure red cell,0.012,16
+se__C0040434,Tooth discolouration,0.012,16
+se__C0393593,Dystonia,0.012,16
+se__C0221185,Xanthopsia,0.012,16
+se__C0151609,Scrotal oedema,0.012,16
+se__C0577559,Mass,0.012,16
+se__C0085762,Alcohol abuse,0.012,16
+se__C0028866,IIIrd nerve paralysis,0.012,16
+se__C0000786,Abortion spontaneous,0.012,16
+se__C0876973,Lung infection,0.012,16
+se__C0019193,Hepatitis toxic,0.012,16
+se__C0001175,Acquired immunodeficiency syndrome,0.012,16
+se__C0015468,Facial pain,0.012,16
+se__C0008311,Cholangitis,0.012,16
+se__C0155003,Blindness transient,0.011,15
+se__C0521509,Injection site induration,0.011,15
+se__C0004095,Asthenopia,0.011,15
+se__C0424230,Psychomotor retardation,0.011,15
+se__C1306577,Death,0.011,15
+se__C1112320,Temperature intolerance,0.011,15
+se__C0041956,Ureteric obstruction,0.011,15
+se__C0030781,Peliosis hepatis,0.011,15
+se__C0021655,Insulin resistance,0.011,15
+se__C0023467,Acute myeloid leukaemia,0.011,15
+se__C0085570,Alkalosis hypokalaemic,0.011,15
+se__C0035204,Respiratory disorder,0.011,15
+se__C0036341,Schizophrenia,0.011,15
+se__C0029163,Mouth haemorrhage,0.011,15
+se__C0235409,Increased insulin requirement,0.011,15
+se__C0262985,Dermatitis psoriasiform,0.011,15
+se__C0080276,Urogenital disorder,0.011,15
+se__C0525045,Affective disorder,0.011,15
+se__C0018843,Heat stroke,0.011,15
+se__C0151747,Renal tubular disorder,0.011,15
+se__C1287298,Urine output,0.011,15
+se__C0852908,Drug ineffective,0.011,15
+se__C0522063,Impaired gastric emptying,0.011,15
+se__C0020522,Type IV hypersensitivity reaction,0.011,15
+se__C0043250,Wound,0.011,15
+se__C0265031,Haemorrhoidal haemorrhage,0.011,15
+se__C1260922,Respiration abnormal,0.011,15
+se__C0017658,Glomerulonephritis,0.011,15
+se__C1704272,Benign prostatic hyperplasia,0.011,15
+se__C0743400,Ejection fraction decreased,0.011,15
+se__C0035508,Rhonchi,0.011,15
+se__C1262013,Recall phenomenon,0.011,15
+se__C0085702,Monocytosis,0.011,15
+se__C0240671,Activated partial thromboplastin time prolonged,0.011,15
+se__C0009766,Conjunctivitis allergic,0.011,15
+se__C0522172,Feeling drunk,0.011,15
+se__C0393760,Initial insomnia,0.01,14
+se__C0236065,Oedema mouth,0.01,14
+se__C0007177,Cardiac tamponade,0.01,14
+se__C0028949,Oligomenorrhoea,0.01,14
+se__C0016385,Cardiac flutter,0.01,14
+se__C0948296,Ear discomfort,0.01,14
+se__C0002940,Aneurysm,0.01,14
+se__C0020619,Hypogonadism,0.01,14
+se__C0221345,Nail discolouration,0.01,14
+se__C0853019,Blood thyroid stimulating hormone increased,0.01,14
+se__C0853026,Porphyria non-acute,0.01,14
+se__C0853908,Oropharyngeal swelling,0.01,14
+se__C0022893,Labyrinthitis,0.01,14
+se__C0085661,Onycholysis,0.01,14
+se__C0007166,Cardiac output decreased,0.01,14
+se__C0041747,Unintended pregnancy,0.01,14
+se__C0332601,Cushingoid,0.01,14
+se__C0221752,Blood urine,0.01,14
+se__C0920171,Foreign body sensation in eyes,0.01,14
+se__C0312420,Hypersexuality,0.01,14
+se__C0235807,Hair texture abnormal,0.01,14
+se__C0042907,Vitreous detachment,0.01,14
+se__C0029928,Ovarian disorder,0.01,14
+se__C0029089,Ophthalmoplegia,0.01,14
+se__C0004044,Asphyxia,0.01,14
+se__C0015663,Fasting,0.01,14
+se__C0023903,Hepatic neoplasm,0.01,14
+se__C0003850,Arteriosclerosis,0.01,14
+se__C0010346,Crohn's disease,0.01,14
+se__C0023646,Lichen planus,0.01,14
+se__C1274594,Lichenoid keratosis,0.01,14
+se__C0151577,Creatinine renal clearance decreased,0.01,14
+se__C0236072,Bronchospasm paradoxical,0.01,14
+se__C0014173,Endometrial hyperplasia,0.01,14
+se__C0018916,Haemangioma,0.01,14
+se__C0853193,Bipolar I disorder,0.01,14
+se__C0031924,Piloerection,0.01,14
+se__C0080203,Tachyarrhythmia,0.01,14
+se__C0030567,Parkinson's disease,0.01,14
+se__C0237938,Gastrointestinal ulcer,0.01,14
+se__C0020523,Type I hypersensitivity,0.01,14
+se__C0043117,Idiopathic thrombocytopenic purpura,0.01,14
+se__C0023212,Left ventricular failure,0.01,14
+se__C0024205,Lymphadenitis,0.01,14
+se__C0232409,Hair growth abnormal,0.01,14
+se__C0025160,Megacolon,0.01,14
+se__C0555724,Lip dry,0.01,14
+se__C0004998,Benign neoplasm of skin,0.01,14
+se__C0023524,Progressive multifocal leukoencephalopathy,0.01,14
+se__C0014866,Oesophageal stenosis,0.01,14
+se__C0235270,Keratopathy,0.01,14
+se__C0235325,Gastric haemorrhage,0.01,14
+se__C0006285,Bronchopneumonia,0.01,14
+se__C0036416,Scleritis,0.01,14
+se__C0023510,White blood cell disorder,0.01,14
+se__C0019917,Hordeolum,0.01,14
+se__C0020255,Hydrocephalus,0.01,14
+se__C0003469,Anxiety disorder,0.01,14
+se__C1264613,Gastrointestinal infection,0.01,14
+se__C0877338,Breast discomfort,0.009,13
+se__C0039584,Testicular disorder,0.009,13
+se__C0011880,Diabetic ketoacidosis,0.009,13
+se__C0270611,Brain injury,0.009,13
+se__C0746961,Oxygen saturation decreased,0.009,13
+se__C0920289,Sluggishness,0.009,13
+se__C0026603,Motion sickness,0.009,13
+se__C0853117,Blood testosterone decreased,0.009,13
+se__C0020620,Hypohidrosis,0.009,13
+se__C0031099,Periodontitis,0.009,13
+se__C0231170,Disability,0.009,13
+se__C0005818,Platelet disorder,0.009,13
+se__C0013415,Dysthymic disorder,0.009,13
+se__C0030578,Paronychia,0.009,13
+se__C0014038,Encephalitis,0.009,13
+se__C0020903,Illusion,0.009,13
+se__C0030662,Pathological gambling,0.009,13
+se__C0030805,Pemphigoid,0.009,13
+se__C0235761,Nasal septum perforation,0.009,13
+se__C0426390,Bladder spasm,0.009,13
+se__C0085680,Hypochloraemia,0.009,13
+se__C0010073,Arteriospasm coronary,0.009,13
+se__C0029132,Optic nerve disorder,0.009,13
+se__C0877046,Tooth infection,0.009,13
+se__C0005586,Bipolar disorder,0.009,13
+se__C0520587,Vulvovaginal discomfort,0.009,13
+se__C0242461,Purpura non-thrombocytopenic,0.009,13
+se__C0234916,Rash follicular,0.009,13
+se__C0033893,Tension headache,0.009,13
+se__C0919671,Subileus,0.009,13
+se__C0014175,Endometriosis,0.009,13
+se__C0019214,Hepatosplenomegaly,0.009,13
+se__C0155365,Vitreous disorder,0.009,13
+se__C0023798,Lipoma,0.009,13
+se__C0034951,Refraction disorder,0.009,13
+se__C0024437,Macular degeneration,0.009,13
+se__C0855704,Vital dye staining cornea present,0.009,13
+se__C0019294,Inguinal hernia,0.009,13
+se__C0549448,Haemoglobin increased,0.009,13
+se__C0581912,Sensation of heaviness,0.009,13
+se__C0015423,Eyelid disorder,0.009,13
+se__C0019151,Hepatic encephalopathy,0.009,13
+se__C0019156,Venoocclusive liver disease,0.009,13
+se__C0234131,Motor dysfunction,0.009,13
+se__C1262141,Poor quality sleep,0.009,13
+se__C0042755,Virilism,0.009,13
+se__C0086168,Dissociation,0.009,13
+se__C0595878,Blood sodium increased,0.009,13
+se__C0002063,Alkalosis,0.009,13
+se__C3489393,Hiatus hernia,0.009,13
+se__C0393761,Middle insomnia,0.009,13
+se__C0554976,Bradyphrenia,0.009,12
+se__C0399459,Oral discomfort,0.009,12
+se__C0948441,Venoocclusive disease,0.009,12
+se__C0854382,Libido disorder,0.009,12
+se__C0039103,Synovitis,0.009,12
+se__C0162283,Nephrogenic diabetes insipidus,0.009,12
+se__C0027609,Drug withdrawal syndrome neonatal,0.009,12
+se__C0036130,Salpingitis,0.009,12
+se__C0010072,Coronary artery thrombosis,0.009,12
+se__C0006663,Calcinosis,0.009,12
+se__C0040147,Thyroiditis,0.009,12
+se__C0008049,Varicella,0.009,12
+se__C0007194,Hypertrophic cardiomyopathy,0.009,12
+se__C0595939,Stillbirth,0.009,12
+se__C0549399,Low density lipoprotein increased,0.009,12
+se__C0239783,Groin pain,0.009,12
+se__C0035328,Retinal vein occlusion,0.009,12
+se__C0860207,Drug-induced liver injury,0.009,12
+se__C2939465,Glucose-6-phosphate dehydrogenase deficiency,0.009,12
+se__C0043049,Water intoxication,0.009,12
+se__C0080194,Muscle strain,0.009,12
+se__C0264893,Nodal arrhythmia,0.009,12
+se__C0243065,Aplasia,0.009,12
+se__C1442903,Exostosis,0.009,12
+se__C0018674,Head injury,0.009,12
+se__C0178421,Fibroadenoma of breast,0.009,12
+se__C0178415,Prostatic specific antigen increased,0.009,12
+se__C0151571,Corneal lesion,0.009,12
+se__C0011644,Scleroderma,0.009,12
+se__C0267797,Hepatitis acute,0.009,12
+se__C0270810,Peroneal nerve palsy,0.009,12
+se__C0852995,Injection site pruritus,0.009,12
+se__C0032131,Plasmacytoma,0.009,12
+se__C0018813,Myocardial rupture,0.009,12
+se__C0151971,Intestinal ulcer,0.009,12
+se__C0521465,Toxic skin eruption,0.009,12
+se__C0037384,Snoring,0.009,12
+se__C0235195,Sedation,0.009,12
+se__C0494559,Inner ear disorder,0.009,12
+se__C0022638,Ketosis,0.009,12
+se__C0339916,Viral upper respiratory tract infection,0.009,12
+se__C0427457,Red blood cell count decreased,0.009,12
+se__C1535939,Pneumocystis jirovecii pneumonia,0.009,12
+se__C1527411,Retinal vein thrombosis,0.009,12
+se__C0026764,Plasma cell myeloma,0.009,12
+se__C0549463,X-linked lymphoproliferative syndrome,0.009,12
+se__C0520588,Vulvovaginal pain,0.009,12
+se__C0406834,Wound secretion,0.009,12
+se__C0233754,Derealisation,0.009,12
+se__C0021390,Inflammatory bowel disease,0.009,12
+se__C0015927,Foetal death,0.009,12
+se__C0024314,Lymphoproliferative disorder,0.009,12
+se__C1168034,Gastric pH decreased,0.009,12
+se__C0877098,Application site dryness,0.009,12
+se__C0877517,Blood phosphorus decreased,0.009,12
+se__C0400823,Neutropenic colitis,0.008,11
+se__C0029261,Orgasm abnormal,0.008,11
+se__C0020175,Hunger,0.008,11
+se__C1096274,Corneal thinning,0.008,11
+se__C0221166,Paraparesis,0.008,11
+se__C0221150,Odynophagia,0.008,11
+se__C0851536,Administration site reaction,0.008,11
+se__C0849918,Eyelids pruritus,0.008,11
+se__C0024523,Malabsorption,0.008,11
+se__C0233795,Anterograde amnesia,0.008,11
+se__C0016169,Fistula,0.008,11
+se__C0038435,Stress,0.008,11
+se__C1262036,Ocular toxicity,0.008,11
+se__C0035357,Retroperitoneal fibrosis,0.008,11
+se__C1167709,Epidermal necrosis,0.008,11
+se__C0027080,Myoglobinuria,0.008,11
+se__C0240515,Nipple pain,0.008,11
+se__C0020507,Hyperplasia,0.008,11
+se__C1392046,Cardiovascular insufficiency,0.008,11
+se__C0020429,Hyperpathia,0.008,11
+se__C0020438,Hypercalciuria,0.008,11
+se__C0241742,Wound haemorrhage,0.008,11
+se__C0009144,Tongue coated,0.008,11
+se__C0034013,Precocious puberty,0.008,11
+se__C0014863,Oesophageal spasm,0.008,11
+se__C0151544,Gastrointestinal carcinoma,0.008,11
+se__C0007867,Cervix disorder,0.008,11
+se__C0009024,Clonus,0.008,11
+se__C0036689,Pharyngitis streptococcal,0.008,11
+se__C0042376,Vascular headache,0.008,11
+se__C0151599,Drug level increased,0.008,11
+se__C0155320,Blindness cortical,0.008,11
+se__C0034067,Emphysema,0.008,11
+se__C0032533,Polymyalgia rheumatica,0.008,11
+se__C0026838,Muscle spasticity,0.008,11
+se__C0853875,Myoglobin urine present,0.008,11
+se__C0877365,Infusion site erythema,0.008,11
+se__C0281774,Acute psychosis,0.008,11
+se__C0277884,Blood pressure systolic increased,0.008,11
+se__C2173677,Renal cyst,0.008,11
+se__C1141861,Procedural complication,0.008,11
+se__C0013687,Effusion,0.008,11
+se__C1963818,Gastrointestinal sounds abnormal,0.008,11
+se__C0010034,Corneal disorder,0.008,11
+se__C0151713,Hyperchlorhydria,0.008,11
+se__C0151714,Hypermagnesaemia,0.008,11
+se__C0040584,Tracheitis,0.008,11
+se__C0018188,Granuloma,0.008,11
+se__C0001973,Alcoholism,0.007,10
+se__C0011127,Decubitus ulcer,0.007,10
+se__C0235857,Lacrimation decreased,0.007,10
+se__C0267537,Caecitis,0.007,10
+se__C0455204,Homicidal ideation,0.007,10
+se__C0474381,Chromatopsia,0.007,10
+se__C0521508,Injection site bruising,0.007,10
+se__C2711248,Osteonecrosis of jaw,0.007,10
+se__C0877097,Application site vesicles,0.007,10
+se__C0019065,Peritoneal haemorrhage,0.007,10
+se__C1167791,Skin toxicity,0.007,10
+se__C0040136,Thyroid neoplasm,0.007,10
+se__C0847033,Allergic oedema,0.007,10
+se__C0349231,Phobia,0.007,10
+se__C0241060,Dermal cyst,0.007,10
+se__C0151998,Uterine spasm,0.007,10
+se__C0151814,Coronary artery occlusion,0.007,10
+se__C0424296,Disinhibition,0.007,10
+se__C0003621,Appetite disorder,0.007,10
+se__C0024103,Breast mass,0.007,10
+se__C0860210,Granulomatous liver disease,0.007,10
+se__C0011860,Type 2 diabetes mellitus,0.007,10
+se__C0549493,Alveolitis,0.007,10
+se__C0549385,Feeling of body temperature change,0.007,10
+se__C0015624,Fanconi syndrome,0.007,10
+se__C0240717,Perineal pain,0.007,10
+se__C0232766,Asterixis,0.007,10
+se__C0011633,Dermatomyositis,0.007,10
+se__C0005745,Eyelid ptosis,0.007,10
+se__C0151311,Cranial nerve paralysis,0.007,10
+se__C0037052,Sick sinus syndrome,0.007,10
+se__C0233401,Psychiatric symptom,0.007,10
+se__C0853986,Lymphocyte count decreased,0.007,10
+se__C0239935,Haematocrit increased,0.007,10
+se__C0151604,Oedema genital,0.007,10
+se__C0278008,Change of bowel habit,0.007,10
+se__C0003507,Aortic valve stenosis,0.007,10
+se__C0853348,Arthropod bite,0.007,10
+se__C0234535,Clonic convulsion,0.007,10
+se__C0242698,Left ventricular dysfunction,0.007,10
+se__C0231837,Respiratory rate decreased,0.007,10
+se__C0277585,Drug intolerance,0.007,10
+se__C0426732,Prostatomegaly,0.007,10
+se__C0023211,Bundle branch block left,0.007,10
+se__C0948008,Ischaemic stroke,0.007,10
+se__C0016397,Localised infection,0.007,10
+se__C0041909,Upper gastrointestinal haemorrhage,0.007,10
+se__C0018784,Deafness neurosensory,0.007,10
+se__C0948294,Eyelid margin crusting,0.007,10
+se__C0263386,Ichthyosis acquired,0.007,10
+se__C1142011,Orchitis noninfective,0.007,10
+se__C0234146,Areflexia,0.007,10
+se__C0013928,Fat embolism,0.007,10
+se__C0221742,Serum sickness-like reaction,0.007,10
+se__C0020440,Hypercapnia,0.007,10
+se__C0029191,Orchitis,0.007,10
+se__C0424448,Masked facies,0.007,10
+se__C0006152,Breast swelling,0.007,10
+se__C0860713,Carbon dioxide increased,0.007,10
+se__C0042721,Hepatitis viral,0.007,10
+se__C0311394,Walking disability,0.007,10
+se__C0021122,Impulse-control disorder,0.007,10
+se__C0424109,Tearfulness,0.007,10
+se__C0151683,Neutrophil count increased,0.007,10
+se__C0030319,Panic disorder,0.007,10
+se__C0002886,Anaemia macrocytic,0.007,10
+se__C0085620,Paralysis flaccid,0.007,10
+se__C0079102,Cerebral thrombosis,0.007,10
+se__C0085615,Bundle branch block right,0.007,10
+se__C0020678,Hypotrichosis,0.007,10
+se__C0085077,Acute febrile neutrophilic dermatosis,0.007,10
+se__C0021099,Impetigo,0.007,10
+se__C0020757,Ichthyosis,0.007,10
+se__C0018979,Hemianopia,0.006,9
+se__C0235620,Haemorrhage urinary tract,0.006,9
+se__C0235546,Hypopnoea,0.006,9
+se__C0152021,Heart disease congenital,0.006,9
+se__C0026975,Myelitis,0.006,9
+se__C0542149,Injection site phlebitis,0.006,9
+se__C0026976,Myelitis transverse,0.006,9
+se__C2717961,Thrombotic microangiopathy,0.006,9
+se__C0220982,Ketoacidosis,0.006,9
+se__C1112442,Female sexual dysfunction,0.006,9
+se__C2010560,Gastritis haemorrhagic,0.006,9
+se__C0026266,Mitral valve incompetence,0.006,9
+se__C0555120,White blood cells urine positive,0.006,9
+se__C0747256,Infection parasitic,0.006,9
+se__C0750876,Phlebitis superficial,0.006,9
+se__C0019147,Coma hepatic,0.006,9
+se__C0016053,Fibromyalgia,0.006,9
+se__C0019064,Pericardial haemorrhage,0.006,9
+se__C0155305,Optic ischaemic neuropathy,0.006,9
+se__C0269189,Ectropion of cervix,0.006,9
+se__C2939447,Right ventricular failure,0.006,9
+se__C0854097,Hypoaesthesia eye,0.006,9
+se__C0042131,Uterine disorder,0.006,9
+se__C0038238,Steatorrhoea,0.006,9
+se__C0854069,Tumour pain,0.006,9
+se__C0028778,Obstruction,0.006,9
+se__C0028768,Obsessive-compulsive disorder,0.006,9
+se__C0264267,Nasal ulcer,0.006,9
+se__C0919714,Retinal vascular thrombosis,0.006,9
+se__C0020564,Hypertrophy,0.006,9
+se__C0235238,Cycloplegia,0.006,9
+se__C0020502,Hyperparathyroidism,0.006,9
+se__C0020635,Hypopituitarism,0.006,9
+se__C0852925,Gastrointestinal necrosis,0.006,9
+se__C0549225,Myasthenic syndrome,0.006,9
+se__C0003635,Apraxia,0.006,9
+se__C0232841,Bladder dysfunction,0.006,9
+se__C0429029,Electrocardiogram ST segment,0.006,9
+se__C0007869,Uterine cervical erosion,0.006,9
+se__C0240322,Menstruation delayed,0.006,9
+se__C0152081,Pustular psoriasis,0.006,9
+se__C0267940,Pancreatitis haemorrhagic,0.006,9
+se__C1141930,Post procedural complication,0.006,9
+se__C0012817,Diverticulum,0.006,9
+se__C0232943,Menometrorrhagia,0.006,9
+se__C0042909,Vitreous haemorrhage,0.006,9
+se__C0037286,Neoplasm skin,0.006,9
+se__C0038354,Gastric disorder,0.006,9
+se__C0600125,Electrocardiogram PR prolongation,0.006,9
+se__C0011848,Diabetes insipidus,0.006,9
+se__C0003860,Arteritis,0.006,9
+se__C0012691,Joint dislocation,0.006,9
+se__C0025209,Melanosis,0.006,9
+se__C0011974,Dermatitis diaper,0.006,9
+se__C0035232,Respiratory paralysis,0.006,9
+se__C0580413,Prothrombin time shortened,0.006,9
+se__C0221245,Skin fissures,0.006,9
+se__C0042018,Calculus urinary,0.006,9
+se__C0029944,Overdose,0.006,9
+se__C0541798,Terminal insomnia,0.006,9
+se__C0151623,Enterocolitis haemorrhagic,0.006,9
+se__C0235014,Fontanelle bulging,0.006,9
+se__C0151795,Injection site necrosis,0.006,9
+se__C0701836,Thermal burn,0.006,9
+se__C0013781,Electric shock,0.006,9
+se__C0085136,Central nervous system neoplasm,0.006,9
+se__C0009492,Compartment syndrome,0.006,9
+se__C0476427,Smear cervix abnormal,0.006,9
+se__C0476414,Thyroid function test abnormal,0.006,9
+se__C0855223,"Hallucinations, mixed",0.006,9
+se__C0020617,Hypoglycaemic coma,0.006,9
+se__C1963790,Vulvovaginal burning sensation,0.006,9
+se__C0085679,Hyperchloraemia,0.006,9
+se__C0221714,Injection site infection,0.006,9
+se__C0030517,Parathyroid disorder,0.006,9
+se__C0151563,Coagulation time prolonged,0.006,9
+se__C0277885,Blood pressure systolic decreased,0.006,9
+se__C0277890,Blood pressure diastolic decreased,0.006,9
+se__C0853748,Blood electrolytes abnormal,0.006,9
+se__C0001126,Renal tubular acidosis,0.006,9
+se__C0002064,Respiratory alkalosis,0.006,9
+se__C0948692,Necrotising colitis,0.006,9
+se__C0156394,Enlarged clitoris,0.006,9
+se__C0016167,Anal fissure,0.006,9
+se__C0018924,Haemarthrosis,0.006,9
+se__C0949059,Large intestine polyp,0.006,9
+se__C0154833,Retinal vascular disorder,0.006,9
+se__C0001418,Adenocarcinoma,0.006,9
+se__C0001430,Adenoma benign,0.006,9
+se__C3544060,Accidental exposure to product,0.006,8
+se__C0162311,Androgenetic alopecia,0.006,8
+se__C0948715,Infusion related reaction,0.006,8
+se__C0162275,Ketonuria,0.006,8
+se__C0155862,Pneumonia streptococcal,0.006,8
+se__C0702266,Basophilia,0.006,8
+se__C0235453,Steroid withdrawal syndrome,0.006,8
+se__C0040213,Costochondritis,0.006,8
+se__C1112366,Eyelid irritation,0.006,8
+se__C0403673,Retrograde ejaculation,0.006,8
+se__C0391870,Red blood cell abnormality,0.006,8
+se__C1735601,Floppy iris syndrome,0.006,8
+se__C0520886,Electrocardiogram ST segment elevation,0.006,8
+se__C0521505,Injection site dermatitis,0.006,8
+se__C0006846,Skin candida,0.006,8
+se__C0158570,Vascular anomaly,0.006,8
+se__C0426636,Defaecation urgency,0.006,8
+se__C0242973,Ventricular dysfunction,0.006,8
+se__C0262977,Skin depigmentation,0.006,8
+se__C0085580,Essential hypertension,0.006,8
+se__C0085298,Sudden cardiac death,0.006,8
+se__C0003564,Aphonia,0.006,8
+se__C1510471,Hypovitaminosis,0.006,8
+se__C0853336,Corneal infiltrates,0.006,8
+se__C0278016,Faeces hard,0.006,8
+se__C0085619,Orthopnoea,0.006,8
+se__C0028850,Eye movement disorder,0.006,8
+se__C0856554,Hepatic cancer metastatic,0.006,8
+se__C0494165,Metastases to liver,0.006,8
+se__C0085083,Ovarian hyperstimulation syndrome,0.006,8
+se__C0021364,Infertility male,0.006,8
+se__C0004691,Balanoposthitis,0.006,8
+se__C0541941,Erection increased,0.006,8
+se__C0151775,Injection site mass,0.006,8
+se__C0002880,Autoimmune haemolytic anaemia,0.006,8
+se__C0151625,Enzyme abnormality,0.006,8
+se__C0242225,Colour blindness,0.006,8
+se__C0259768,Wound dehiscence,0.006,8
+se__C1323189,Dermatitis infected,0.006,8
+se__C0085617,Arterial spasm,0.006,8
+se__C0149512,Acute sinusitis,0.006,8
+se__C0010414,Cryptococcosis,0.006,8
+se__C0027709,Nephrocalcinosis,0.006,8
+se__C0027962,Melanocytic naevus,0.006,8
+se__C0020505,Hyperphagia,0.006,8
+se__C0033038,Premature ejaculation,0.006,8
+se__C0032987,Ectopic pregnancy,0.006,8
+se__C0241166,Skin tightness,0.006,8
+se__C0522067,Hepatic pain,0.006,8
+se__C0919659,Oropharyngeal candidiasis,0.006,8
+se__C0341164,Gastric ulcer haemorrhage,0.006,8
+se__C0342406,Pituitary haemorrhage,0.006,8
+se__C0019829,Hodgkin's disease,0.006,8
+se__C0151865,Pregnancy test false positive,0.006,8
+se__C0007868,Cervical dysplasia,0.006,8
+se__C1266194,Hodgkin's disease lymphocyte predominance type stage unspecified,0.006,8
+se__C0235329,Small intestinal obstruction,0.006,8
+se__C0853746,Blood creatinine abnormal,0.006,8
+se__C0024440,Cystoid macular oedema,0.006,8
+se__C0271899,Normochromic normocytic anaemia,0.006,8
+se__C0024137,Cutaneous lupus erythematosus,0.006,8
+se__C0149836,Atrophic vulvovaginitis,0.006,8
+se__C0010823,Cytomegalovirus infection,0.006,8
+se__C0549418,Urine flow decreased,0.006,8
+se__C0549410,Palmar-plantar erythrodysaesthesia syndrome,0.006,8
+se__C0577822,Heart sounds abnormal,0.006,8
+se__C0034212,Pyoderma,0.006,8
+se__C0035304,Retinal degeneration,0.006,8
+se__C0035302,Retinal artery occlusion,0.006,8
+se__C0014848,Oesophageal achalasia,0.006,8
+se__C0852361,Skin haemorrhage,0.006,8
+se__C0232208,Nodal rhythm,0.006,8
+se__C0151464,Injection site abscess,0.006,8
+se__C0343084,Capillary leak syndrome,0.006,8
+se__C0036749,Serositis,0.006,8
+se__C0037926,Spinal cord compression,0.006,8
+se__C0236124,Gastrointestinal obstruction,0.006,8
+se__C0006272,Obliterative bronchiolitis,0.006,8
+se__C0042847,Vitamin B12 deficiency,0.006,8
+se__C0863084,Skin discomfort,0.006,8
+se__C0596170,Binge eating,0.006,8
+se__C0877225,Bone density decreased,0.006,8
+se__C0235522,Vein disorder,0.006,8
+se__C0346156,Benign breast neoplasm,0.006,8
+se__C1868855,Post procedural infection,0.006,8
+se__C0343886,Gastrointestinal candidiasis,0.006,8
+se__C0007193,Congestive cardiomyopathy,0.006,8
+se__C0206160,Reticulocytosis,0.006,8
+se__C0206504,Tympanic membrane perforation,0.006,8
+se__C0152267,Hodgkin's disease lymphocyte depletion type stage unspecified,0.006,8
+se__C1142520,Nail pigmentation,0.006,8
+se__C0027430,Nasal polyps,0.006,8
+se__C1112525,Gastrointestinal ulcer haemorrhage,0.006,8
+se__C0270612,Leukoencephalopathy,0.006,8
+se__C0475765,Nasal oedema,0.006,8
+se__C0854114,Corneal epithelium defect,0.006,8
+se__C3267047,Immune-mediated necrotising myopathy,0.005,7
+se__C0162323,Polyarthritis,0.005,7
+se__C0001127,Respiratory acidosis,0.005,7
+se__C0158350,Tendinous contracture,0.005,7
+se__C0017563,Gingival disorder,0.005,7
+se__C0392548,Cauda equina syndrome,0.005,7
+se__C0521500,Injection site extravasation,0.005,7
+se__C0235746,Saliva altered,0.005,7
+se__C0455769,Energy increased,0.005,7
+se__C0542052,Coronary artery insufficiency,0.005,7
+se__C0742906,C-reactive protein increased,0.005,7
+se__C0018133,Graft versus host disease,0.005,7
+se__C0267941,Pancreatitis necrotising,0.005,7
+se__C0151467,Adrenocortical insufficiency acute,0.005,7
+se__C0878773,Hypertonic bladder,0.005,7
+se__C0151477,Hormone level abnormal,0.005,7
+se__C0011884,Diabetic retinopathy,0.005,7
+se__C0853891,Tumour flare,0.005,7
+se__C0271321,Madarosis,0.005,7
+se__C1442826,Necrotising enterocolitis neonatal,0.005,7
+se__C0032226,Pleural disorder,0.005,7
+se__C0496901,Pituitary tumour benign,0.005,7
+se__C0085166,Vaginitis bacterial,0.005,7
+se__C0009759,Conjunctival disorder,0.005,7
+se__C0151622,Endometrial disorder,0.005,7
+se__C0234936,Application site oedema,0.005,7
+se__C0022603,Seborrhoeic keratosis,0.005,7
+se__C0014553,Petit mal epilepsy,0.005,7
+se__C0221717,Contact lens intolerance,0.005,7
+se__C0427055,Facial paresis,0.005,7
+se__C0546956,Onychoclasis,0.005,7
+se__C0221727,Oesophageal pain,0.005,7
+se__C0023470,Myeloid leukaemia,0.005,7
+se__C0023473,Chronic myeloid leukaemia,0.005,7
+se__C0022667,Renal papillary necrosis,0.005,7
+se__C0030469,Sinus disorder,0.005,7
+se__C0278045,Urine odour abnormal,0.005,7
+se__C1527336,Sjogren's syndrome,0.005,7
+se__C0231441,Immobile,0.005,7
+se__C0853750,Blood magnesium decreased,0.005,7
+se__C0085639,Fall,0.005,7
+se__C0856049,Peripheral embolism,0.005,7
+se__C0024225,Lymphangitis,0.005,7
+se__C0274702,Cholinergic syndrome,0.005,7
+se__C0520463,Hepatitis chronic active,0.005,7
+se__C0031036,Polyarteritis nodosa,0.005,7
+se__C0032300,Lobar pneumonia,0.005,7
+se__C0546959,Atrial tachycardia,0.005,7
+se__C0596240,Cancer pain,0.005,7
+se__C1096355,Electrocardiogram U-wave abnormality,0.005,7
+se__C0239113,Coombs test positive,0.005,7
+se__C0042485,Venous insufficiency,0.005,7
+se__C0152020,Gastric atony,0.005,7
+se__C0877047,Occult blood positive,0.005,7
+se__C0019212,Hepatorenal syndrome,0.005,7
+se__C0019557,Hip fracture,0.005,7
+se__C0521616,Pseudoporphyria,0.005,7
+se__C2747891,Device capturing issue,0.005,7
+se__C0877096,Application site paraesthesia,0.005,7
+se__C0152965,Staphylococcal bacteraemia,0.005,7
+se__C2609183,Abnormal withdrawal bleeding,0.005,7
+se__C0730362,Maculopathy,0.005,7
+se__C0016412,Folate deficiency,0.005,7
+se__C0016479,Food poisoning,0.005,7
+se__C0155919,Acute pulmonary oedema,0.005,7
+se__C0559546,Adverse reaction,0.005,7
+se__C3203457,Procedural haemorrhage,0.005,7
+se__C3248383,Logorrhoea,0.005,7
+se__C1167779,Neutropenic infection,0.005,7
+se__C0040259,Tinea pedis,0.005,7
+se__C0236053,Mucosal ulceration,0.005,7
+se__C0521170,Osteoporotic fracture,0.005,7
+se__C0740409,Psychotic behaviour,0.005,7
+se__C0037188,Sinoatrial block,0.005,7
+se__C0600104,Compulsions,0.005,7
+se__C0037929,Spinal cord injury,0.005,7
+se__C1096340,Dysphemia,0.005,7
+se__C1263846,Attention deficit/hyperactivity disorder,0.005,7
+se__C0043345,Xeroderma,0.005,7
+se__C0235074,Tongue paralysis,0.005,7
+se__C1263960,Diabetic coma,0.005,7
+se__C0852795,Blood insulin increased,0.005,7
+se__C0860901,Protein total decreased,0.005,7
+se__C0007860,Cervicitis,0.005,7
+se__C0152008,Vulvovaginal disorder,0.005,7
+se__C1096267,Injection site discomfort,0.005,7
+se__C0035067,Renal artery stenosis,0.005,7
+se__C0035333,Retinitis,0.005,7
+se__C0006118,Brain neoplasm,0.005,7
+se__C0005697,Neurogenic bladder,0.005,7
+se__C1610049,Application site exfoliation,0.005,7
+se__C0340279,Ventricular hypertrophy,0.005,7
+se__C0424489,Chapped lips,0.005,7
+se__C0521987,Pre-existing disease,0.005,7
+se__C0034530,Radiation injury,0.005,7
+se__C0522178,Self-injurious ideation,0.005,7
+se__C0034735,Raynaud's phenomenon,0.005,7
+se__C0853011,Diabetic hyperglycaemic coma,0.005,7
+se__C0339293,Corneal perforation,0.005,7
+se__C0020624,Hypomenorrhoea,0.005,7
+se__C0020540,Malignant hypertension,0.005,7
+se__C0042996,Vulvitis,0.005,7
+se__C0151726,Injection site hypersensitivity,0.005,7
+se__C0151767,Liver tenderness,0.005,7
+se__C0002963,Prinzmetal angina,0.005,7
+se__C0003028,Anhidrosis,0.005,7
+se__C0853118,Blood testosterone increased,0.005,7
+se__C0853089,Intentional self-injury,0.005,7
+se__C1096460,Infusion site phlebitis,0.004,6
+se__C0242420,Retinal oedema,0.004,6
+se__C0241558,Urethral haemorrhage,0.004,6
+se__C0241669,Venous occlusion,0.004,6
+se__C0241266,Subcutaneous abscess,0.004,6
+se__C0022602,Actinic keratosis,0.004,6
+se__C0853141,Therapeutic response unexpected,0.004,6
+se__C0151718,Hypocholesterolaemia,0.004,6
+se__C0009326,Collagen disorder,0.004,6
+se__C0546947,Choking sensation,0.004,6
+se__C1141938,Ocular icterus,0.004,6
+se__C1535950,Gastrointestinal inflammation,0.004,6
+se__C0302314,Xanthoma,0.004,6
+se__C0031345,Pharyngeal disorder,0.004,6
+se__C0259756,Jarisch-Herxheimer reaction,0.004,6
+se__C0021361,Infertility female,0.004,6
+se__C0919582,Sudden onset of sleep,0.004,6
+se__C1328308,Increased upper airway secretion,0.004,6
+se__C0010032,Corneal abrasion,0.004,6
+se__C0263540,Onychomadesis,0.004,6
+se__C0149707,Haematospermia,0.004,6
+se__C0233528,Asocial behaviour,0.004,6
+se__C0151538,Buccoglossal syndrome,0.004,6
+se__C0234222,Sensation of pressure,0.004,6
+se__C0858765,Vascular pain,0.004,6
+se__C0857494,Unresponsive to stimuli,0.004,6
+se__C2349423,Medication overuse headache,0.004,6
+se__C0008925,Cleft palate,0.004,6
+se__C0031037,Periarthritis,0.004,6
+se__C0259817,Xerosis,0.004,6
+se__C0858794,Application site warmth,0.004,6
+se__C0022876,Premature labour,0.004,6
+se__C0853847,Pathogen resistance,0.004,6
+se__C0024228,Lymphatic disorder,0.004,6
+se__C0027343,Ingrowing nail,0.004,6
+se__C0233523,Antisocial behaviour,0.004,6
+se__C0025958,Microcephaly,0.004,6
+se__C1112443,Male sexual dysfunction,0.004,6
+se__C0854303,Limb discomfort,0.004,6
+se__C0268732,Nephritic syndrome,0.004,6
+se__C0376545,Haematological malignancy,0.004,6
+se__C0376297,Cardiac death,0.004,6
+se__C0948070,Rhinalgia,0.004,6
+se__C0948226,Ureteral spasm,0.004,6
+se__C0156543,Abortion,0.004,6
+se__C1112369,Paranasal sinus hypersecretion,0.004,6
+se__C0392196,Injection site urticaria,0.004,6
+se__C0743668,Limb injury,0.004,6
+se__C1112182,Parkinsonian rest tremor,0.004,6
+se__C0027627,Metastasis,0.004,6
+se__C0027543,Necrosis ischaemic,0.004,6
+se__C0549288,Pelvic venous thrombosis,0.004,6
+se__C0149801,Urosepsis,0.004,6
+se__C0267028,Lip pain,0.004,6
+se__C0013274,Patent ductus arteriosus,0.004,6
+se__C0025281,Meniere's disease,0.004,6
+se__C0011649,Dermoid cyst,0.004,6
+se__C0853895,Mental disorder due to a general medical condition,0.004,6
+se__C1112353,Medical device complication,0.004,6
+se__C1112274,Genital discharge,0.004,6
+se__C0339383,Chorioretinopathy,0.004,6
+se__C0032989,Multiple pregnancy,0.004,6
+se__C0241950,Intestinal infarction,0.004,6
+se__C0700594,Radiculopathy,0.004,6
+se__C1096278,Anterior chamber inflammation,0.004,6
+se__C0342405,Pituitary infarction,0.004,6
+se__C0849916,Generalised erythema,0.004,6
+se__C0014860,Oesophageal perforation,0.004,6
+se__C0034933,Reflexes abnormal,0.004,6
+se__C0014852,Oesophageal disorder,0.004,6
+se__C0036220,Kaposi's sarcoma,0.004,6
+se__C0036358,Schizophreniform disorder,0.004,6
+se__C0036202,Sarcoidosis,0.004,6
+se__C0423271,Scleral hyperaemia,0.004,6
+se__C0423273,Scleral thinning,0.004,6
+se__C0424813,Orbital oedema,0.004,6
+se__C0042994,Vulval disorder,0.004,6
+se__C0860499,Conjunctival follicles,0.004,6
+se__C0852792,Blood cortisol decreased,0.004,6
+se__C0852909,Blood bicarbonate decreased,0.004,6
+se__C0919593,Injection site coldness,0.004,6
+se__C0151738,Large intestine perforation,0.004,6
+se__C0151730,Drug effect increased,0.004,6
+se__C0221333,Hypouricaemia,0.004,6
+se__C0221773,Hyperamylasaemia,0.004,6
+se__C0221264,Cheilosis,0.004,6
+se__C2004435,Intestinal ischaemia,0.004,6
+se__C0003431,Antisocial personality disorder,0.004,6
+se__C0014118,Endocarditis,0.004,6
+se__C0241729,Weight fluctuation,0.004,6
+se__C0020459,Hyperinsulinism,0.004,6
+se__C0919625,Blood phosphorus increased,0.004,6
+se__C0242172,Pelvic inflammatory disease,0.004,6
+se__C0037928,Spinal cord disorder,0.004,6
+se__C0237326,Dyschezia,0.004,6
+se__C0037578,Soft tissue injury,0.004,6
+se__C0595862,Vasodilatation,0.004,6
+se__C0038218,Status asthmaticus,0.004,6
+se__C0235472,Pulse abnormal,0.004,6
+se__C1868752,Procedural nausea,0.004,6
+se__C0877211,General physical health deterioration,0.004,6
+se__C0549419,Skin fragility,0.004,6
+se__C0877306,Iris hyperpigmentation,0.004,6
+se__C0152010,Withdrawal bleed,0.004,6
+se__C0239293,Oesophageal haemorrhage,0.004,6
+se__C0037301,Skin wrinkling,0.004,6
+se__C0239940,Glycosylated haemoglobin increased,0.004,6
+se__C0042063,Congenital genitourinary abnormality,0.004,6
+se__C0042143,Uterine rupture,0.004,6
+se__C0220983,Metabolic alkalosis,0.004,6
+se__C0220994,Hyperammonaemia,0.004,6
+se__C0410256,Muscle injury,0.004,6
+se__C1253936,Joint effusion,0.004,6
+se__C0877167,Psychomotor skills impaired,0.004,6
+se__C0877144,Spontaneous penile erection,0.004,6
+se__C0236048,Gastric polyps,0.004,6
+se__C0019048,Haemoglobinuria,0.004,6
+se__C0018818,Ventricular septal defect,0.004,6
+se__C0221021,Microangiopathic haemolytic anaemia,0.004,6
+se__C0920166,Catheter site haemorrhage,0.004,6
+se__C0015930,Foetal distress syndrome,0.004,6
+se__C0016470,Food allergy,0.004,6
+se__C0409497,Joint injury,0.004,6
+se__C0949103,Catheter site pain,0.004,6
+se__C0001403,Addison's disease,0.004,6
+se__C3241936,Non-cardiogenic pulmonary oedema,0.004,6
+se__C0001364,Acute yellow liver atrophy,0.004,6
+se__C0002624,Retrograde amnesia,0.004,6
+se__C3665444,Neutrophilia,0.004,5
+se__C0000727,Acute abdomen,0.004,5
+se__C0239093,Conjunctival irritation,0.004,5
+se__C0239946,Hepatic fibrosis,0.004,5
+se__C0239725,Genital pain,0.004,5
+se__C0236171,Infection susceptibility increased,0.004,5
+se__C0240066,Iron deficiency,0.004,5
+se__C0034072,Cor pulmonale,0.004,5
+se__C0541923,Lip oedema,0.004,5
+se__C0549124,Embolism arterial,0.004,5
+se__C0949070,Upper respiratory tract congestion,0.004,5
+se__C0005683,Calculus bladder,0.004,5
+se__C0003838,Arterial occlusive disease,0.004,5
+se__C0003834,Arterial insufficiency,0.004,5
+se__C0542313,Sleep talking,0.004,5
+se__C1282609,Granulocytosis,0.004,5
+se__C1279945,Acute interstitial pneumonitis,0.004,5
+se__C0240897,Retinal exudates,0.004,5
+se__C0240840,Pulse pressure decreased,0.004,5
+se__C0033578,Neoplasm prostate,0.004,5
+se__C0038941,Postoperative wound infection,0.004,5
+se__C0032519,Polymenorrhoea,0.004,5
+se__C0522351,Vertigo positional,0.004,5
+se__C0155773,Portal vein thrombosis,0.004,5
+se__C0206063,Radiation pneumonitis,0.004,5
+se__C1096091,Infusion site pruritus,0.004,5
+se__C1096034,Infusion site induration,0.004,5
+se__C0155018,Colour blindness acquired,0.004,5
+se__C1301937,Talipes,0.004,5
+se__C0030922,Peptic ulcer haemorrhage,0.004,5
+se__C0242979,Muscle fatigue,0.004,5
+se__C0040441,Tooth fracture,0.004,5
+se__C0236018,Aura,0.004,5
+se__C0030583,Parotitis,0.004,5
+se__C0858833,Endometrial hypertrophy,0.004,5
+se__C2364164,Fluid imbalance,0.004,5
+se__C0521501,Injection site thrombosis,0.004,5
+se__C0178416,Hypoplastic anaemia,0.004,5
+se__C0220650,Brain cancer metastatic,0.004,5
+se__C0152159,Uterine hypotonus,0.004,5
+se__C0153690,Bone cancer metastatic,0.004,5
+se__C0153676,Lung cancer metastatic,0.004,5
+se__C0521464,Skin oedema,0.004,5
+se__C0521854,Drug tolerance decreased,0.004,5
+se__C2720436,Pleural fibrosis,0.004,5
+se__C0030286,Pancreatic disorder,0.004,5
+se__C0856150,Spinal haematoma,0.004,5
+se__C0264714,Cardiac failure acute,0.004,5
+se__C0027868,Neuromyopathy,0.004,5
+se__C0027145,Myxoedema,0.004,5
+se__C0267033,Lip ulceration,0.004,5
+se__C0026769,Multiple sclerosis,0.004,5
+se__C0221244,Dandruff,0.004,5
+se__C0151966,Duodenal ulcer haemorrhage,0.004,5
+se__C0007780,Cerebral artery embolism,0.004,5
+se__C0007134,Renal cell carcinoma,0.004,5
+se__C0267566,Perirectal abscess,0.004,5
+se__C0854456,Cellulitis gangrenous,0.004,5
+se__C0854381,Genital haemorrhage,0.004,5
+se__C0042135,Uterine atony,0.004,5
+se__C0040517,Tourette's disorder,0.004,5
+se__C0854113,Mucosal dryness,0.004,5
+se__C0270795,Monoparesis,0.004,5
+se__C1456863,Vasoconstriction,0.004,5
+se__C0042900,Vitiligo,0.004,5
+se__C0877203,Respiratory tract infection viral,0.004,5
+se__C0025007,Measles,0.004,5
+se__C0426747,Anal haemorrhage,0.004,5
+se__C0438167,Electrocardiogram T wave abnormal,0.004,5
+se__C0429468,Anovulatory cycle,0.004,5
+se__C0011882,Diabetic neuropathy,0.004,5
+se__C0475746,Light anaesthesia,0.004,5
+se__C0686377,Metastases to central nervous system,0.004,5
+se__C0679048,Obsessive thoughts,0.004,5
+se__C0853945,Oral mucosal blistering,0.004,5
+se__C1504422,Application site hypersensitivity,0.004,5
+se__C0271412,Ear haemorrhage,0.004,5
+se__C0042749,Viraemia,0.004,5
+se__C1142160,Application site discolouration,0.004,5
+se__C0235357,Tooth hypoplasia,0.004,5
+se__C0042251,Vaginal disorder,0.004,5
+se__C0023532,Leukoplakia oral,0.004,5
+se__C0274435,Transfusion reaction,0.004,5
+se__C0700363,Rhythm idioventricular,0.004,5
+se__C0151821,Accidental overdose,0.004,5
+se__C0221395,Erythropenia,0.004,5
+se__C0221745,Depression suicidal,0.004,5
+se__C0013473,Eating disorder,0.004,5
+se__C0014179,Endometritis,0.004,5
+se__C0428886,Mean arterial pressure,0.004,5
+se__C0427458,Red blood cell count increased,0.004,5
+se__C0853698,Lymphocyte count increased,0.004,5
+se__C0023449,Acute lymphocytic leukaemia,0.004,5
+se__C0022572,Keratoacanthoma,0.004,5
+se__C1142015,Blood bilirubin abnormal,0.004,5
+se__C0085082,Fungaemia,0.004,5
+se__C0234918,Rash morbilliform,0.004,5
+se__C1535849,Application site induration,0.004,5
+se__C0021092,Cerumen impaction,0.004,5
+se__C0020877,Ileitis,0.004,5
+se__C0020683,Hypovolaemic shock,0.004,5
+se__C0334044,Dysplasia,0.004,5
+se__C0085271,Self injurious behaviour,0.004,5
+se__C0234547,Drug withdrawal convulsions,0.004,5
+se__C1142028,Peripheral nerve palsy,0.004,5
+se__C0014867,Varices oesophageal,0.004,5
+se__C0014804,Erythromelalgia,0.004,5
+se__C0014583,Episcleritis,0.004,5
+se__C0015395,Eye burns,0.004,5
+se__C0423281,Anterior chamber flare,0.004,5
+se__C0422974,Halo vision,0.004,5
+se__C1096458,Vascular occlusion,0.004,5
+se__C0151702,Muscle haemorrhage,0.004,5
+se__C0020510,Nodular regenerative hyperplasia,0.004,5
+se__C0852990,Blood thromboplastin decreased,0.004,5
+se__C0085642,Livedo reticularis,0.004,5
+se__C0085576,Microcytic anaemia,0.004,5
+se__C1619692,Nephrogenic systemic fibrosis,0.004,5
+se__C0740651,Abdominal symptom,0.004,5
+se__C0740401,Duodenal ulcer perforation,0.004,5
+se__C0015934,Microsomia,0.004,5
+se__C0015929,Foetal disorder,0.004,5
+se__C0015802,Femur fracture,0.004,5
+se__C0919567,Uterine contractions during pregnancy,0.004,5
+se__C0423729,Painful respiration,0.004,5
+se__C0020457,Diabetic hyperosmolar coma,0.004,5
+se__C0341212,Gastrointestinal fistula,0.004,5
+se__C0341245,Duodenitis haemorrhagic,0.004,5
+se__C0849796,Ear congestion,0.004,5
+se__C0019357,Ophthalmic herpes simplex,0.004,5
+se__C0019243,Hereditary angioedema,0.004,5
+se__C0149756,Plantar fasciitis,0.004,5
+se__C0149520,Cholecystitis acute,0.004,5
+se__C0233479,Elevated mood,0.004,5
+se__C0019937,Horner's syndrome,0.004,5
+se__C0019159,Hepatitis A,0.004,5
+se__C1800706,Idiopathic pulmonary fibrosis,0.004,5
+se__C1735864,Administration site infection,0.004,5
+se__C0017567,Gingival hypertrophy,0.004,5
+se__C0403723,Candiduria,0.004,5
+se__C0232352,Vascular insufficiency,0.004,5
+se__C1112256,Peripheral sensorimotor neuropathy,0.004,5
+se__C0740858,Substance abuse,0.004,5
+se__C0740852,Upper airway obstruction,0.004,5
+se__C0019123,Haemothorax,0.004,5
+se__C1696574,Application site erosion,0.004,5
+se__C0848309,Rhinitis perennial,0.004,5
+se__C0747102,Ovarian failure,0.004,5
+se__C0018129,Transplant rejection,0.004,5
+se__C0398370,Lipoedema,0.004,5
+se__C0016579,Formication,0.004,5
+se__C0001361,Acute tonsillitis,0.004,5
+se__C0002928,Spinal anaesthesia,0.004,5
+se__C0002902,Anencephaly,0.004,5
+se__C0037998,Splenic infarction,0.004,5
+se__C0238154,Epidural haemorrhage,0.004,5
+se__C0238124,Necrotising fasciitis,0.004,5
+se__C0239233,Early satiety,0.004,5
+se__C0003486,Aortic aneurysm,0.004,5
+se__C0003868,Gouty arthritis,0.004,5
+se__C0948168,Bone marrow toxicity,0.004,5
+se__C0948643,Hyperuricosuria,0.004,5
+se__C0003079,Pupils unequal,0.004,5
+se__C3160771,Sperm concentration decreased,0.004,5
+se__C0553723,Squamous cell carcinoma of skin,0.004,5
+se__C0553698,Monocyte count increased,0.004,5
+se__C0549398,Meibomianitis,0.003,4
+se__C0003130,Anoxia,0.003,4
+se__C0948521,Oral pruritus,0.003,4
+se__C0948050,Small bowel angioedema,0.003,4
+se__C0158775,Spine malformation,0.003,4
+se__C0159066,Abdominal rigidity,0.003,4
+se__C0549444,Vein discolouration,0.003,4
+se__C0003504,Aortic valve incompetence,0.003,4
+se__C0037997,Spleen disorder,0.003,4
+se__C0555971,Oral infection,0.003,4
+se__C0558148,Yellow skin,0.003,4
+se__C0002395,Dementia Alzheimer's type,0.003,4
+se__C0002726,Amyloidosis,0.003,4
+se__C0001546,Adjustment disorder,0.003,4
+se__C0156308,Penile oedema,0.003,4
+se__C0156369,Uterine polyp,0.003,4
+se__C0001349,Acute phase reaction,0.003,4
+se__C0233469,Blunted affect,0.003,4
+se__C0151463,Breast abscess,0.003,4
+se__C1112565,Pneumatosis intestinalis,0.003,4
+se__C0393444,Meningitis chemical,0.003,4
+se__C0017411,Genital disorder female,0.003,4
+se__C0017665,Glomerulonephritis membranous,0.003,4
+se__C0018839,Heat exhaustion,0.003,4
+se__C0751495,Partial seizures,0.003,4
+se__C1696110,Vessel puncture site haematoma,0.003,4
+se__C0400821,Colitis microscopic,0.003,4
+se__C1112210,Catheter site infection,0.003,4
+se__C0151281,Genital ulceration,0.003,4
+se__C0151490,Congenital central nervous system anomaly,0.003,4
+se__C0151500,Anticholinergic syndrome,0.003,4
+se__C0403639,Chemical cystitis,0.003,4
+se__C0744403,Gingival infection,0.003,4
+se__C0392620,Alcohol poisoning,0.003,4
+se__C0233844,Clumsiness,0.003,4
+se__C0234144,Dysgraphia,0.003,4
+se__C0149678,Epstein-Barr virus infection,0.003,4
+se__C0019342,Genital herpes,0.003,4
+se__C0851807,Aspergillus infection,0.003,4
+se__C0702109,Erythropoiesis abnormal,0.003,4
+se__C0729552,Genital infection,0.003,4
+se__C0740319,Physical assault,0.003,4
+se__C0405479,Nipple disorder,0.003,4
+se__C0151511,Breast atrophy,0.003,4
+se__C0151541,Capillary fragility increased,0.003,4
+se__C0151560,Central nervous system stimulation,0.003,4
+se__C0151585,Deafness permanent,0.003,4
+se__C0151588,Deafness transitory,0.003,4
+se__C1610056,Antinuclear antibody increased,0.003,4
+se__C0877398,Anaemia postoperative,0.003,4
+se__C0877690,Renal graft loss,0.003,4
+se__C0852711,Hand and foot syndrome secondary to sickle cell anaemia,0.003,4
+se__C0852875,Eye allergy,0.003,4
+se__C0852879,Pulmonary alveolar haemorrhage,0.003,4
+se__C0020640,Factor II deficiency,0.003,4
+se__C0020541,Portal hypertension,0.003,4
+se__C0338591,Transient global amnesia,0.003,4
+se__C0333291,Ulcer haemorrhage,0.003,4
+se__C0333516,Tumour necrosis,0.003,4
+se__C0014431,Enzyme induction,0.003,4
+se__C0151598,Drug level decreased,0.003,4
+se__C0231529,Tendon pain,0.003,4
+se__C0221743,Skin reaction,0.003,4
+se__C0014733,Erysipelas,0.003,4
+se__C0014745,Palmar erythema,0.003,4
+se__C0015645,Fasciitis,0.003,4
+se__C1956415,Dyspnoea paroxysmal nocturnal,0.003,4
+se__C1608954,Infusion site extravasation,0.003,4
+se__C1142111,Eyelash discolouration,0.003,4
+se__C0234953,Tongue spasm,0.003,4
+se__C0235002,Head discomfort,0.003,4
+se__C0235013,Hypervigilance,0.003,4
+se__C0234376,Action tremor,0.003,4
+se__C0021290,Neonatal disorder,0.003,4
+se__C0021313,Kidney infection,0.003,4
+se__C0021345,Infectious mononucleosis,0.003,4
+se__C0281913,Muscle swelling,0.003,4
+se__C1535975,Pelvic discomfort,0.003,4
+se__C0235218,Skin warm,0.003,4
+se__C0302592,Cervix carcinoma,0.003,4
+se__C0302813,Lactase deficiency,0.003,4
+se__C0022665,Renal neoplasm,0.003,4
+se__C0022951,Lactose intolerance,0.003,4
+se__C0023434,Chronic lymphocytic leukaemia,0.003,4
+se__C0853662,Oestrogen deficiency,0.003,4
+se__C0428895,Labile blood pressure,0.003,4
+se__C0013418,Abnormal labour,0.003,4
+se__C0013592,Ectropion,0.003,4
+se__C0151685,Growth accelerated,0.003,4
+se__C0221406,Pituitary-dependent Cushing's syndrome,0.003,4
+se__C0151729,Immunoglobulins increased,0.003,4
+se__C0151788,Eosinophilic myocarditis,0.003,4
+se__C1963822,Mucosal pigmentation,0.003,4
+se__C0273482,Nerve compression,0.003,4
+se__C0023801,Lipomatosis,0.003,4
+se__C0079731,B-cell lymphoma,0.003,4
+se__C0080179,Spinal fracture,0.003,4
+se__C0853785,Blood iron decreased,0.003,4
+se__C0024050,Lower gastrointestinal haemorrhage,0.003,4
+se__C1504465,Device malfunction,0.003,4
+se__C0684550,Metastases to spine,0.003,4
+se__C0011057,Sudden hearing loss,0.003,4
+se__C0919643,Urine calcium increased,0.003,4
+se__C0152006,Vitreous opacities,0.003,4
+se__C0438173,Electrocardiogram QRS complex abnormal,0.003,4
+se__C0013369,Dysentery,0.003,4
+se__C0013080,Trisomy 21,0.003,4
+se__C0013240,Alveolar osteitis,0.003,4
+se__C0427160,Parkinsonian gait,0.003,4
+se__C0041974,Urethral stenosis,0.003,4
+se__C0042065,Genitourinary tract neoplasm,0.003,4
+se__C0042880,Vitamin K deficiency,0.003,4
+se__C0042928,Vocal cord paralysis,0.003,4
+se__C0271240,Blindness unilateral,0.003,4
+se__C0853960,Bacterial disease carrier,0.003,4
+se__C0854029,Blood creatine increased,0.003,4
+se__C1444565,Cardiopulmonary failure,0.003,4
+se__C0026884,Mutism,0.003,4
+se__C0026393,Molluscum contagiosum,0.003,4
+se__C0269268,Breast induration,0.003,4
+se__C0270790,Quadriparesis,0.003,4
+se__C0854107,Haemorrhage subcutaneous,0.003,4
+se__C0854121,Gastrointestinal motility disorder,0.003,4
+se__C0040588,Tracheo-oesophageal fistula,0.003,4
+se__C0040797,Traumatic haemorrhage,0.003,4
+se__C0040997,Trigeminal neuralgia,0.003,4
+se__C0235827,Therapeutic response decreased,0.003,4
+se__C0235560,Respiratory tract haemorrhage,0.003,4
+se__C0235573,Haemoglobinaemia,0.003,4
+se__C0269002,Penile haemorrhage,0.003,4
+se__C0595902,Blood chloride decreased,0.003,4
+se__C0520547,Poor peripheral circulation,0.003,4
+se__C0007758,Cerebellar ataxia,0.003,4
+se__C0009062,Clostridial infection,0.003,4
+se__C0007933,Chalazion,0.003,4
+se__C0919883,Puncture site haemorrhage,0.003,4
+se__C0520723,Periorbital haematoma,0.003,4
+se__C0008728,Allergic granulomatous angiitis,0.003,4
+se__C2364082,Hyposmia,0.003,4
+se__C0520532,Subcutaneous haematoma,0.003,4
+se__C0011432,Sensitivity of teeth,0.003,4
+se__C0600327,Toxic shock syndrome,0.003,4
+se__C0027125,Myotonia,0.003,4
+se__C1412000,Mesenteric vascular insufficiency,0.003,4
+se__C0267373,Intestinal haemorrhage,0.003,4
+se__C0855335,Electrocardiogram ST segment abnormal,0.003,4
+se__C0265101,Carotid artery occlusion,0.003,4
+se__C0265935,Congenital arterial malformation,0.003,4
+se__C0855625,Bilirubin conjugated increased,0.003,4
+se__C0855652,Culture negative,0.003,4
+se__C0264383,Organising pneumonia,0.003,4
+se__C0006271,Bronchiolitis,0.003,4
+se__C0521305,Assisted fertilisation,0.003,4
+se__C0521481,Oedema mucosal,0.003,4
+se__C0007384,Cataplexy,0.003,4
+se__C0007102,Colon cancer,0.003,4
+se__C0521172,Eschar,0.003,4
+se__C0857468,Withdrawal hypertension,0.003,4
+se__C0858970,Carcinogenicity,0.003,4
+se__C0030508,Parasomnia,0.003,4
+se__C0877126,Application site inflammation,0.003,4
+se__C0877127,Application site papules,0.003,4
+se__C0040247,Tinea infection,0.003,4
+se__C0242362,Intervertebral disc protrusion,0.003,4
+se__C1306503,Exomphalos,0.003,4
+se__C1306600,Radial nerve palsy,0.003,4
+se__C0004626,Pneumonia bacterial,0.003,4
+se__C1096049,Infusion site swelling,0.003,4
+se__C1096106,Wound complication,0.003,4
+se__C0524909,Chronic hepatitis B,0.003,4
+se__C0005694,Bladder neck obstruction,0.003,4
+se__C0005695,Bladder neoplasm,0.003,4
+se__C0006413,Burkitt's lymphoma,0.003,4
+se__C0005967,Bone neoplasm,0.003,4
+se__C0006107,Concussion,0.003,4
+se__C0580417,International normalised ratio abnormal,0.003,4
+se__C1306889,Peripheral arterial occlusive disease,0.003,4
+se__C0032463,Polycythaemia vera,0.003,4
+se__C0038273,Stereotypy,0.003,4
+se__C0877048,Oral fungal infection,0.003,4
+se__C0877104,Retinal toxicity,0.003,4
+se__C0032768,Post herpetic neuralgia,0.003,4
+se__C0241910,Autoimmune hepatitis,0.003,4
+se__C0241075,Skin induration,0.003,4
+se__C0034887,Rectal polyp,0.003,4
+se__C0549297,Auricular swelling,0.003,4
+se__C0544618,Orthostatic hypertension,0.003,4
+se__C0003855,Arteriovenous fistula,0.003,4
+se__C0948991,Injection site discolouration,0.003,4
+se__C0162627,Skin bacterial infection,0.003,4
+se__C0158252,Intervertebral disc disorder,0.003,4
+se__C0004331,Atrioventricular dissociation,0.003,4
+se__C0541760,Hepatic adenoma,0.003,4
+se__C0004601,Back injury,0.003,4
+se__C1262535,Jaundice hepatocellular,0.003,4
+se__C0035400,Reye's syndrome,0.003,4
+se__C0037268,Congenital skin disorder,0.003,4
+se__C0236151,Renal function test abnormal,0.003,4
+se__C0877042,Graft loss,0.003,4
+se__C0034935,Extensor plantar response,0.003,4
+se__C0035321,Retinal tear,0.003,4
+se__C0035344,Retinopathy of prematurity,0.003,4
+se__C0877035,Oestrogenic effect,0.003,4
+se__C1261473,Sarcoma,0.003,4
+se__C3495832,Rheumatic disorder,0.003,4
+se__C0000772,Multiple congenital abnormalities,0.003,4
+se__C3203356,Hypoprothrombinaemia,0.003,4
+se__C0948268,Haemodynamic instability,0.002,3
+se__C0549453,Traumatic haematoma,0.002,3
+se__C0158328,Trigger finger,0.002,3
+se__C3665818,Medication residue present,0.002,3
+se__C0159028,General symptom,0.002,3
+se__C0038000,Splenic rupture,0.002,3
+se__C0003892,Neuropathic arthropathy,0.002,3
+se__C0549369,Pancreatic enzymes increased,0.002,3
+se__C0542120,Injection site nodule,0.002,3
+se__C2939094,Skin sensitisation,0.002,3
+se__C0239062,Circumoral oedema,0.002,3
+se__C0035522,Rib fracture,0.002,3
+se__C0549478,Device expulsion,0.002,3
+se__C0000814,Abortion missed,0.002,3
+se__C0549634,Lipids abnormal,0.002,3
+se__C0549391,Bladder discomfort,0.002,3
+se__C2945586,Bladder irritation,0.002,3
+se__C2973725,Pulmonary arterial hypertension,0.002,3
+se__C0948824,Haemorrhagic anaemia,0.002,3
+se__C1096001,Application site swelling,0.002,3
+se__C0162565,Porphyria acute,0.002,3
+se__C0162628,Viral skin infection,0.002,3
+se__C0162279,Choroidal detachment,0.002,3
+se__C0004158,Athetosis,0.002,3
+se__C0035085,Renal infarct,0.002,3
+se__C0239729,Genital rash,0.002,3
+se__C0239779,Grimacing,0.002,3
+se__C0035326,Retinal vascular occlusion,0.002,3
+se__C0877027,Joint range of motion decreased,0.002,3
+se__C0238621,Aminoaciduria,0.002,3
+se__C0004659,Bacteriuria,0.002,3
+se__C0004763,Barrett's oesophagus,0.002,3
+se__C0155177,Eczema eyelids,0.002,3
+se__C1096176,Mitochondrial toxicity,0.002,3
+se__C0920193,Photodermatosis,0.002,3
+se__C0936215,Vitamin B6 deficiency,0.002,3
+se__C0936250,Eczema herpeticum,0.002,3
+se__C0006144,Breast cyst,0.002,3
+se__C0005686,Bladder disorder,0.002,3
+se__C0006430,Burning mouth syndrome,0.002,3
+se__C0005959,Marrow hyperplasia,0.002,3
+se__C0006112,Metabolic encephalopathy,0.002,3
+se__C0578455,Abscess limb,0.002,3
+se__C1262281,Thrombosis in device,0.002,3
+se__C0034194,Pyloric stenosis,0.002,3
+se__C0236178,Intra-abdominal haemorrhage,0.002,3
+se__C0038379,Strabismus,0.002,3
+se__C0038395,Streptococcal infection,0.002,3
+se__C0037859,Spermatocele,0.002,3
+se__C0038732,Sulphaemoglobinaemia,0.002,3
+se__C0580546,Blood glucose abnormal,0.002,3
+se__C0521510,Implant site reaction,0.002,3
+se__C2718128,Nasal inflammation,0.002,3
+se__C2747853,Injury associated with device,0.002,3
+se__C0006267,Bronchiectasis,0.002,3
+se__C0521845,Drug effect decreased,0.002,3
+se__C0521492,Application site ulcer,0.002,3
+se__C0034124,Pupillary disorder,0.002,3
+se__C1282799,Penile swelling,0.002,3
+se__C0033817,Pseudomonas infection,0.002,3
+se__C0034372,Quadriplegia,0.002,3
+se__C0034074,Pulmonary infarction,0.002,3
+se__C0860564,Retinoic acid syndrome,0.002,3
+se__C0860711,Carbon dioxide decreased,0.002,3
+se__C0153251,Respiratory moniliasis,0.002,3
+se__C0152427,Polydactyly,0.002,3
+se__C0178879,Urinary tract obstruction,0.002,3
+se__C0205929,Anal fistula,0.002,3
+se__C0520863,Diastolic dysfunction,0.002,3
+se__C0521161,Vasculitic rash,0.002,3
+se__C0595900,Blood chloride increased,0.002,3
+se__C0008449,Chondrodystrophy,0.002,3
+se__C0007766,Intracranial aneurysm,0.002,3
+se__C0007773,Cerebral arteritis,0.002,3
+se__C0007855,Cervical polyp,0.002,3
+se__C1167945,Infusion site rash,0.002,3
+se__C0241619,Vaginal cyst,0.002,3
+se__C0241832,Cerebrovascular insufficiency,0.002,3
+se__C0034011,Puberty,0.002,3
+se__C0008039,Cheyne-Stokes respiration,0.002,3
+se__C0151946,Pulmonary thrombosis,0.002,3
+se__C0221155,Systolic hypertension,0.002,3
+se__C0919882,Incision site haemorrhage,0.002,3
+se__C0919894,Nasal mucosal disorder,0.002,3
+se__C0919936,Therapy naive,0.002,3
+se__C1096257,Dental discomfort,0.002,3
+se__C0152018,Oesophageal carcinoma,0.002,3
+se__C0008313,Cholangitis sclerosing,0.002,3
+se__C0242453,Prostatism,0.002,3
+se__C1306792,Red man syndrome,0.002,3
+se__C1321581,Bezoar,0.002,3
+se__C0038013,Ankylosing spondylitis,0.002,3
+se__C0038353,Gastric dilatation,0.002,3
+se__C0877072,Cytomegalovirus chorioretinitis,0.002,3
+se__C0877094,Application site haemorrhage,0.002,3
+se__C0877095,Application site haematoma,0.002,3
+se__C0520837,Forced expiratory volume decreased,0.002,3
+se__C0497481,Penile pain,0.002,3
+se__C0009595,Obsessive-compulsive personality disorder,0.002,3
+se__C0009663,Anogenital warts,0.002,3
+se__C2242708,Hypertransaminasaemia,0.002,3
+se__C2363829,Semen analysis abnormal,0.002,3
+se__C0031485,Phenylketonuria,0.002,3
+se__C0032019,Pituitary tumour,0.002,3
+se__C0030925,Peptic ulcer perforation,0.002,3
+se__C0031111,Periostitis,0.002,3
+se__C0009377,Colonic pseudo-obstruction,0.002,3
+se__C0520477,Prostatic adenoma,0.002,3
+se__C0011304,Demyelination,0.002,3
+se__C0010417,Cryptorchism,0.002,3
+se__C0684275,Haemophilia,0.002,3
+se__C0456511,Sleep paralysis,0.002,3
+se__C0458219,Complex regional pain syndrome,0.002,3
+se__C0221470,Aphagia,0.002,3
+se__C0919599,Application site eczema,0.002,3
+se__C0221069,Anterior spinal artery syndrome,0.002,3
+se__C0151994,Uterine enlargement,0.002,3
+se__C0438237,Hepatic enzyme abnormal,0.002,3
+se__C0012241,Gastrointestinal malformation,0.002,3
+se__C2004521,Anaemia vitamin B12 deficiency,0.002,3
+se__C0031048,Pericarditis constrictive,0.002,3
+se__C0031090,Periodontal disease,0.002,3
+se__C1258192,Vascular resistance systemic,0.002,3
+se__C0877154,Visual brightness,0.002,3
+se__C0429059,Electrocardiogram T wave amplitude decreased,0.002,3
+se__C0435001,Ligament injury,0.002,3
+se__C0435630,Wrist fracture,0.002,3
+se__C0014034,Enanthema,0.002,3
+se__C0151693,Adrenal haemorrhage,0.002,3
+se__C0221780,Rectal discharge,0.002,3
+se__C0151892,Retinal pigmentation,0.002,3
+se__C0700198,Aspiration,0.002,3
+se__C0423847,Growth of eyelashes,0.002,3
+se__C0424024,Delusional perception,0.002,3
+se__C0263383,Keratosis pilaris,0.002,3
+se__C1328375,Application site discomfort,0.002,3
+se__C0030326,Panniculitis,0.002,3
+se__C0030354,Papilloma,0.002,3
+se__C0858346,Gastrointestinal ulcer perforation,0.002,3
+se__C0858934,Injection site warmth,0.002,3
+se__C1960509,Epidural lipomatosis,0.002,3
+se__C0014488,Epicondylitis,0.002,3
+se__C0221725,Bronchial obstruction,0.002,3
+se__C0151628,Epiphyses premature fusion,0.002,3
+se__C0151629,Fixed eruption,0.002,3
+se__C1096444,Altered visual depth perception,0.002,3
+se__C1096506,Free prostate-specific antigen increased,0.002,3
+se__C1096658,Urine phosphorus increased,0.002,3
+se__C0422980,Oscillopsia,0.002,3
+se__C0423226,Corneal pigmentation,0.002,3
+se__C0015668,Fat necrosis,0.002,3
+se__C0015726,Fear,0.002,3
+se__C1868769,Anaphylactoid syndrome of pregnancy,0.002,3
+se__C0015408,Eye injury,0.002,3
+se__C0015544,Failure to thrive,0.002,3
+se__C0740299,Blood culture positive,0.002,3
+se__C0264909,Defect conduction intraventricular,0.002,3
+se__C0264268,Nasal septum ulceration,0.002,3
+se__C0264490,Acute respiratory failure,0.002,3
+se__C0029429,Osteochondrosis,0.002,3
+se__C0028840,Ocular hypertension,0.002,3
+se__C0857144,Metastatic pain,0.002,3
+se__C0740330,Genital infection fungal,0.002,3
+se__C0919569,Airway complication of anaesthesia,0.002,3
+se__C0919590,Injection site cellulitis,0.002,3
+se__C0919591,Urogenital haemorrhage,0.002,3
+se__C0231451,Joint hyperextension,0.002,3
+se__C0151526,Premature delivery,0.002,3
+se__C0151649,Injection site fibrosis,0.002,3
+se__C0015806,Femoral neck fracture,0.002,3
+se__C0410916,Death neonatal,0.002,3
+se__C1383860,Cardiac hypertrophy,0.002,3
+se__C0027429,Nasal obstruction,0.002,3
+se__C0028841,Hypotony of eye,0.002,3
+se__C0027719,Nephrosclerosis,0.002,3
+se__C0027822,Neurodermatitis,0.002,3
+se__C0410918,Tachycardia foetal,0.002,3
+se__C0740804,Adnexal torsion,0.002,3
+se__C0151574,Cough decreased,0.002,3
+se__C0151465,Renal abscess,0.002,3
+se__C0151472,Albumin globulin ratio abnormal,0.002,3
+se__C0151476,Alkalosis hypochloraemic,0.002,3
+se__C0040262,Tinea versicolour,0.002,3
+se__C0041667,Underweight,0.002,3
+se__C0027022,Myeloproliferative disorder,0.002,3
+se__C0266589,Ear malformation,0.002,3
+se__C0267055,Erosive oesophagitis,0.002,3
+se__C1333984,Hepatosplenic T-cell lymphoma,0.002,3
+se__C1135120,Breakthrough pain,0.002,3
+se__C1141893,Muscle enzyme increased,0.002,3
+se__C0233651,Perseveration,0.002,3
+se__C1112436,QRS axis abnormal,0.002,3
+se__C1112470,Infusion site inflammation,0.002,3
+se__C0149726,Pulmonary mass,0.002,3
+se__C0151512,Injection site atrophy,0.002,3
+se__C0392160,Application site atrophy,0.002,3
+se__C0017677,Tongue geographic,0.002,3
+se__C0376288,Amaurosis,0.002,3
+se__C0392039,Ovarian enlargement,0.002,3
+se__C0019069,Factor VIII deficiency,0.002,3
+se__C0018817,Atrial septal defect,0.002,3
+se__C0748052,Erythrodermic psoriasis,0.002,3
+se__C0748536,Scleral haemorrhage,0.002,3
+se__C0854442,Injection site hypertrophy,0.002,3
+se__C0027531,Neck injury,0.002,3
+se__C0026987,Myelofibrosis,0.002,3
+se__C0027013,Myeloid metaplasia,0.002,3
+se__C0235957,Muscle necrosis,0.002,3
+se__C0235678,Vaginal odour,0.002,3
+se__C0235744,Breath holding,0.002,3
+se__C1696946,Polyomavirus-associated nephropathy,0.002,3
+se__C1697542,Infusion site thrombosis,0.002,3
+se__C0344357,Nocturnal dyspnoea,0.002,3
+se__C0345326,Phimosis,0.002,3
+se__C0349410,Organ failure,0.002,3
+se__C0343026,Nail infection,0.002,3
+se__C0040558,Toxoplasmosis,0.002,3
+se__C1142300,Clostridium colitis,0.002,3
+se__C1142349,Eyelid pain,0.002,3
+se__C1167654,Acute prerenal failure,0.002,3
+se__C0019189,Chronic hepatitis,0.002,3
+se__C0085652,Pyoderma gangrenosum,0.002,3
+se__C0233973,Painful erection,0.002,3
+se__C0086692,Benign neoplasm,0.002,3
+se__C0019284,Diaphragmatic hernia,0.002,3
+se__C0849925,Ventricular failure,0.002,3
+se__C0851140,Cervix carcinoma stage 0,0.002,3
+se__C0341702,Fanconi syndrome acquired,0.002,3
+se__C0342311,Neuroglycopenia,0.002,3
+se__C0340515,Myocardial depression,0.002,3
+se__C1611167,Waist circumference increased,0.002,3
+se__C0853959,Device breakage,0.002,3
+se__C1412002,Atypical pneumonia,0.002,3
+se__C1456329,Stomach dilation procedure,0.002,3
+se__C1456865,Calculus ureteric,0.002,3
+se__C0025286,Meningioma,0.002,3
+se__C0026948,Mycosis fungoides,0.002,3
+se__C0269842,Uterine hypertonus,0.002,3
+se__C1611174,Post-traumatic pain,0.002,3
+se__C1619718,Partner stress,0.002,3
+se__C1692886,Arthritis bacterial,0.002,3
+se__C0234665,Eyelid retraction,0.002,3
+se__C0877336,Blood bilirubin decreased,0.002,3
+se__C0085653,Pyogenic granuloma,0.002,3
+se__C0085655,Polymyositis,0.002,3
+se__C0085607,Volume blood increased,0.002,3
+se__C0272285,Heparin-induced thrombocytopenia,0.002,3
+se__C0853800,Contrast media reaction,0.002,3
+se__C0853942,Tongue blistering,0.002,3
+se__C0025322,Premature menopause,0.002,3
+se__C0877195,Feminisation acquired,0.002,3
+se__C0235324,Gingival swelling,0.002,3
+se__C0042138,Uterine neoplasm,0.002,3
+se__C0852566,Sleep phase rhythm disturbance,0.002,3
+se__C0020532,Hypersplenism,0.002,3
+se__C0020302,Developmental glaucoma,0.002,3
+se__C0020581,Hyphaema,0.002,3
+se__C0020503,Hyperparathyroidism secondary,0.002,3
+se__C0020626,Hypoparathyroidism,0.002,3
+se__C0338480,Migraine without aura,0.002,3
+se__C0333472,Epidermolysis,0.002,3
+se__C1542178,Lower limb fracture,0.002,3
+se__C1608397,Device occlusion,0.002,3
+se__C0080233,Tooth loss,0.002,3
+se__C0085436,Meningitis cryptococcal,0.002,3
+se__C0085437,Meningitis bacterial,0.002,3
+se__C0853021,Blood oestrogen decreased,0.002,3
+se__C0853776,Blood albumin increased,0.002,3
+se__C0853784,Blood iron increased,0.002,3
+se__C0271429,Otitis media acute,0.002,3
+se__C0271468,Eustachian tube disorder,0.002,3
+se__C0023976,Long QT syndrome,0.002,3
+se__C1510412,Vascular pseudoaneurysm,0.002,3
+se__C0853023,Blood parathyroid hormone increased,0.002,3
+se__C0853068,Glomerular filtration rate decreased,0.002,3
+se__C0853084,High density lipoprotein increased,0.002,3
+se__C0311245,Congenital cystic kidney disease,0.002,3
+se__C0021061,Immunology test,0.002,3
+se__C0022353,Jaundice neonatal,0.002,3
+se__C0021294,Premature baby,0.002,3
+se__C0332573,Macule,0.002,3
+se__C0021933,Intussusception,0.002,3
+se__C0274312,Graft complication,0.002,3
+se__C0235338,Salivary gland pain,0.002,3
+se__C0235433,Fat tissue increased,0.002,3
+se__C1142172,Incision site complication,0.002,3
+se__C0079744,Diffuse large B-cell lymphoma,0.002,3
+se__C0079924,Oligohydramnios,0.002,3
+se__C0853754,Blood osmolarity increased,0.002,3
+se__C0235222,Diastolic hypertension,0.002,3
+se__C0234952,Oropharyngeal spasm,0.002,3
+se__C0079035,Bradyarrhythmia,0.002,3
+se__C0282193,Iron overload,0.002,3
+se__C0278107,Painful ejaculation,0.002,3
+se__C0278151,Facial spasm,0.002,3
+se__C0278488,Breast cancer stage IV,0.002,3
+se__C0277889,Blood pressure diastolic increased,0.002,3
+se__C1527348,Brain hypoxia,0.002,3
+se__C0272426,Mouth injury,0.002,3
+se__C0272774,Foot fracture,0.002,3
+se__C0567085,Uterine pain,0.002,3
+se__C0576702,Lhermitte's sign,0.002,3
+se__C0238033,Breast cancer male,0.002,3
+se__C0238425,Sickle cell anaemia with crisis,0.002,3
+se__C0037320,Sleep terror,0.002,3
+se__C0948779,Gastrointestinal hypomotility,0.002,3
+se__C0948815,Catheter site erythema,0.002,3
+se__C0948299,Application site discharge,0.002,3
+se__C0001396,Adams-Stokes syndrome,0.002,3
+se__C3665888,Reproductive toxicity,0.001,2
+se__C3495797,Peripheral artery stenosis,0.001,2
+se__C0000735,Abdominal neoplasm,0.001,2
+se__C0948425,Large intestinal haemorrhage,0.001,2
+se__C0948300,Application site scab,0.001,2
+se__C0002896,Sideroblastic anaemia,0.001,2
+se__C0002895,Sickle cell anaemia,0.001,2
+se__C0002894,Refractory anaemia with an excess of blasts,0.001,2
+se__C0001818,Agoraphobia,0.001,2
+se__C0948245,Cytokine release syndrome,0.001,2
+se__C0549253,Bladder dilatation,0.001,2
+se__C0549262,Rebound effect,0.001,2
+se__C0549315,Benign hydatidiform mole,0.001,2
+se__C2939062,Respiratory tract oedema,0.001,2
+se__C2945558,Vulvovaginitis trichomonal,0.001,2
+se__C0238634,Anal inflammation,0.001,2
+se__C1261470,Meningocele,0.001,2
+se__C1262010,Post lumbar puncture syndrome,0.001,2
+se__C1262109,Procedural hypotension,0.001,2
+se__C0001916,Albinism,0.001,2
+se__C0549400,Apgar score low,0.001,2
+se__C2955673,Urate nephropathy,0.001,2
+se__C3160754,Atypical femur fracture,0.001,2
+se__C0004114,Astrocytoma,0.001,2
+se__C0948856,Orgasmic sensation decreased,0.001,2
+se__C0949690,Spinal osteoarthritis,0.001,2
+se__C0279637,Anal cancer,0.001,2
+se__C0281778,Anal abscess,0.001,2
+se__C0281784,Meningioma benign,0.001,2
+se__C0281803,Endotracheal intubation complication,0.001,2
+se__C0023487,Acute promyelocytic leukaemia,0.001,2
+se__C0023055,Laryngeal neoplasm,0.001,2
+se__C0023182,Cerebrospinal fluid leakage,0.001,2
+se__C0276684,Balanitis candida,0.001,2
+se__C0276908,Pneumocystis jirovecii infection,0.001,2
+se__C0277899,Pulse absent,0.001,2
+se__C0277919,Post thrombotic syndrome,0.001,2
+se__C0853347,Venous thrombosis limb,0.001,2
+se__C1510450,Dysacusis,0.001,2
+se__C1510475,Diverticulum intestinal,0.001,2
+se__C1527249,Colorectal cancer,0.001,2
+se__C0853592,Blood antidiuretic hormone abnormal,0.001,2
+se__C1535893,Orthostatic intolerance,0.001,2
+se__C1536052,Oral mucosal exfoliation,0.001,2
+se__C1536055,Drug administration error,0.001,2
+se__C0043167,Pertussis,0.001,2
+se__C0235113,Emotional poverty,0.001,2
+se__C0235229,Ciliary muscle spasm,0.001,2
+se__C0234943,Application site anaesthesia,0.001,2
+se__C0085207,Gestational diabetes,0.001,2
+se__C0043541,Zygomycosis,0.001,2
+se__C0079487,Helicobacter infection,0.001,2
+se__C1141948,Troponin increased,0.001,2
+se__C1141949,Troponin I increased,0.001,2
+se__C1536075,Sudden unexplained death in epilepsy,0.001,2
+se__C1536145,Eyelash hyperpigmentation,0.001,2
+se__C0022548,Keloid scar,0.001,2
+se__C0282488,Cystitis interstitial,0.001,2
+se__C0332579,Lividity,0.001,2
+se__C0332687,Burns second degree,0.001,2
+se__C0853226,International normalised ratio decreased,0.001,2
+se__C0281982,Skin swelling,0.001,2
+se__C0021807,Intertrigo,0.001,2
+se__C0023501,Leukaemoid reaction,0.001,2
+se__C0023529,Periventricular leukomalacia,0.001,2
+se__C0023531,Leukoplakia,0.001,2
+se__C0042341,Varicocele,0.001,2
+se__C0235068,Scintillating scotoma,0.001,2
+se__C1142117,Adnexa uteri pain,0.001,2
+se__C1142158,Hepatic vein occlusion,0.001,2
+se__C0042961,Volvulus,0.001,2
+se__C0023885,Liver abscess,0.001,2
+se__C0022078,Iris disorder,0.001,2
+se__C1535879,Vessel puncture site bruise,0.001,2
+se__C1142068,Arcus lipoides,0.001,2
+se__C1142112,Eyelash thickening,0.001,2
+se__C0234962,Pulmonary vasculitis,0.001,2
+se__C0085383,Hypocapnia,0.001,2
+se__C0853759,Blood potassium abnormal,0.001,2
+se__C0853772,Blood calcium abnormal,0.001,2
+se__C0024121,Lung neoplasm,0.001,2
+se__C0025274,Menarche,0.001,2
+se__C1504343,Acarodermatitis,0.001,2
+se__C1504379,Coagulation test abnormal,0.001,2
+se__C1504383,Radiation skin injury,0.001,2
+se__C1504431,Idiopathic pneumonia syndrome,0.001,2
+se__C0024248,Lymphocele,0.001,2
+se__C0271623,Secondary hypogonadism,0.001,2
+se__C0853028,Blood pH decreased,0.001,2
+se__C0311277,Central obesity,0.001,2
+se__C0041972,Urethral obstruction,0.001,2
+se__C0042850,Vitamin B complex deficiency,0.001,2
+se__C0086438,Hypogammaglobulinaemia,0.001,2
+se__C0085648,Synovial cyst,0.001,2
+se__C0852932,Arthropod sting,0.001,2
+se__C0852952,Optic nerve cupping,0.001,2
+se__C0020579,Hypervitaminosis A,0.001,2
+se__C0339961,Pneumonia fungal,0.001,2
+se__C0333494,Phlebosclerosis,0.001,2
+se__C0333559,Lacunar infarction,0.001,2
+se__C1557335,Ocular surface disease,0.001,2
+se__C1561230,Soft tissue necrosis,0.001,2
+se__C1608410,Head titubation,0.001,2
+se__C1608950,Device dislocation,0.001,2
+se__C1609538,Latent tuberculosis,0.001,2
+se__C1142017,Glabellar reflex abnormal,0.001,2
+se__C0269993,Suppressed lactation,0.001,2
+se__C1619700,Renal aplasia,0.001,2
+se__C1621958,Glioblastoma multiforme,0.001,2
+se__C0019655,Histoplasmosis,0.001,2
+se__C0085569,Acidosis hyperchloraemic,0.001,2
+se__C0877584,Tumour haemorrhage,0.001,2
+se__C0877635,Cytomegalovirus viraemia,0.001,2
+se__C0877792,Circadian rhythm sleep disorder,0.001,2
+se__C0085654,Injection site granuloma,0.001,2
+se__C0853890,Blood gastrin increased,0.001,2
+se__C0853958,Blood creatine phosphokinase MB increased,0.001,2
+se__C0025568,Metaplasia,0.001,2
+se__C0877217,Abasia,0.001,2
+se__C0877266,Upper respiratory tract inflammation,0.001,2
+se__C0877305,Postoperative wound complication,0.001,2
+se__C0877314,Blood glucose fluctuation,0.001,2
+se__C0848548,Hypertensive nephropathy,0.001,2
+se__C0849835,Lip haemorrhage,0.001,2
+se__C0849907,Ear pruritus,0.001,2
+se__C0341335,Cytomegalovirus colitis,0.001,2
+se__C0341753,Pelvic fibrosis,0.001,2
+se__C0342257,Diabetic complication,0.001,2
+se__C0340861,Pulseless electrical activity,0.001,2
+se__C0341163,Gastric ulcer perforation,0.001,2
+se__C0042170,Vogt-Koyanagi-Harada syndrome,0.001,2
+se__C0270922,Demyelinating polyneuropathy,0.001,2
+se__C0271308,Blepharitis allergic,0.001,2
+se__C0271355,VIth nerve paralysis,0.001,2
+se__C0026919,Atypical mycobacterial infection,0.001,2
+se__C0026265,Mitral valve disease,0.001,2
+se__C0026640,Oral neoplasm,0.001,2
+se__C0269596,Haemorrhage in pregnancy,0.001,2
+se__C0268948,Scrotal ulcer,0.001,2
+se__C0854425,Sputum discoloured,0.001,2
+se__C0854431,Injection site vesicles,0.001,2
+se__C0343494,Risus sardonicus,0.001,2
+se__C0019364,Ophthalmic herpes zoster,0.001,2
+se__C0019385,Meningoencephalitis herpetic,0.001,2
+se__C0019187,Hepatitis alcoholic,0.001,2
+se__C0020162,Humerus fracture,0.001,2
+se__C0233818,Judgement impaired,0.001,2
+se__C0233488,Feeling of despair,0.001,2
+se__C0149504,Toxic encephalopathy,0.001,2
+se__C0149516,Chronic sinusitis,0.001,2
+se__C0149521,Pancreatitis chronic,0.001,2
+se__C0085694,Cholecystitis chronic,0.001,2
+se__C0149778,Soft tissue infection,0.001,2
+se__C0019322,Umbilical hernia,0.001,2
+se__C0751466,Phonophobia,0.001,2
+se__C1695897,Infusion site irritation,0.001,2
+se__C1696157,Gastrointestinal stoma complication,0.001,2
+se__C1696685,Intentional drug misuse,0.001,2
+se__C0018995,Haemochromatosis,0.001,2
+se__C0345996,Milia,0.001,2
+se__C0342892,Hypolipidaemia,0.001,2
+se__C0270629,Extradural abscess,0.001,2
+se__C0854134,Blood bilirubin unconjugated increased,0.001,2
+se__C0854144,Septic arthritis streptobacillus,0.001,2
+se__C0854268,Foetal damage,0.001,2
+se__C0235832,Hernia congenital,0.001,2
+se__C0235551,Laryngotracheal oedema,0.001,2
+se__C0235649,Breast oedema,0.001,2
+se__C0041466,Typhoid fever,0.001,2
+se__C0268379,Pseudocholinesterase deficiency,0.001,2
+se__C0392034,Gastrooesophagitis,0.001,2
+se__C0392106,Hepatic artery thrombosis,0.001,2
+se__C0018949,Spinal cord haemorrhage,0.001,2
+se__C0018811,Foetal heart rate,0.001,2
+se__C0854438,Blepharal pigmentation,0.001,2
+se__C0854453,Escherichia sepsis,0.001,2
+se__C0040127,Thyrotoxic crisis,0.001,2
+se__C0235880,Mononeuritis,0.001,2
+se__C0235884,Gastric perforation,0.001,2
+se__C0235942,Skull malformation,0.001,2
+se__C0235946,Cerebral atrophy,0.001,2
+se__C0235653,Breast cancer female,0.001,2
+se__C0235821,Therapeutic response increased,0.001,2
+se__C0748725,Sinus operation,0.001,2
+se__C0748726,Allergic sinusitis,0.001,2
+se__C0749389,Pharyngeal lesion,0.001,2
+se__C0392167,Drug effect prolonged,0.001,2
+se__C0392168,Emprosthotonus,0.001,2
+se__C0392185,Repetitive speech,0.001,2
+se__C0392390,Hepatitis B e antigen positive,0.001,2
+se__C1698394,Acute promyelocytic leukaemia differentiation syndrome,0.001,2
+se__C1698400,Incision site oedema,0.001,2
+se__C1698480,Supraventricular tachyarrhythmia,0.001,2
+se__C1704320,Glomerulonephritis minimal lesion,0.001,2
+se__C0017185,Gastrointestinal neoplasm,0.001,2
+se__C0017551,Gilbert's syndrome,0.001,2
+se__C0017668,Focal segmental glomerulosclerosis,0.001,2
+se__C0349702,Corneal scar,0.001,2
+se__C0349705,Haemoglobin abnormal,0.001,2
+se__C0349782,Ischaemic cardiomyopathy,0.001,2
+se__C0373705,Progesterone,0.001,2
+se__C0391839,PCO2,0.001,2
+se__C0266011,Supernumerary nipple,0.001,2
+se__C0266648,Blighted ovum,0.001,2
+se__C0267166,Gastroduodenitis,0.001,2
+se__C0745528,Klebsiella sepsis,0.001,2
+se__C0016689,Ephelides,0.001,2
+se__C0016325,Fluorosis,0.001,2
+se__C0017572,Gingival recession,0.001,2
+se__C0017638,Glioma,0.001,2
+se__C1737224,Post procedural swelling,0.001,2
+se__C1867423,Vascular resistance pulmonary increased,0.001,2
+se__C0149793,Amaurosis fugax,0.001,2
+se__C1140716,Hypoxic-ischaemic encephalopathy,0.001,2
+se__C0233697,Obsessive rumination,0.001,2
+se__C0232831,Hyposthenuria,0.001,2
+se__C0232861,Penile discharge,0.001,2
+se__C1112489,Corneal irritation,0.001,2
+se__C0740457,Renal cancer,0.001,2
+se__C0741453,Bedridden,0.001,2
+se__C1112192,Erythrosis,0.001,2
+se__C1112303,Facial wasting,0.001,2
+se__C1112346,Prostate induration,0.001,2
+se__C0877854,Cerebral arteriosclerosis,0.001,2
+se__C0151468,Thyroid adenoma,0.001,2
+se__C0151491,Congenital musculoskeletal anomaly,0.001,2
+se__C0400839,Rectal ulcer,0.001,2
+se__C1167699,Lymphostasis,0.001,2
+se__C1167732,Pleuropericarditis,0.001,2
+se__C1167750,Hoigne's syndrome,0.001,2
+se__C1167785,Haemorrhagic urticaria,0.001,2
+se__C0267716,Incisional hernia,0.001,2
+se__C0267821,Hepatic congestion,0.001,2
+se__C0267988,Hyperproteinaemia,0.001,2
+se__C0919578,Idiosyncratic drug reaction,0.001,2
+se__C0231471,Posture abnormal,0.001,2
+se__C0151569,Coombs direct test positive,0.001,2
+se__C0015786,Female sexual arousal disorder,0.001,2
+se__C1384489,Scratch,0.001,2
+se__C1384589,Tinea cruris,0.001,2
+se__C0027404,Narcolepsy,0.001,2
+se__C0267356,Duodenal perforation,0.001,2
+se__C0267412,Thrombosis mesenteric vessel,0.001,2
+se__C0267465,Intestinal stenosis,0.001,2
+se__C0854725,Cyanopsia,0.001,2
+se__C0855237,Social avoidant behaviour,0.001,2
+se__C0855247,Sleep attacks,0.001,2
+se__C0855304,Glycosylated haemoglobin decreased,0.001,2
+se__C0264863,Subacute endocarditis,0.001,2
+se__C0410959,Foetal acidosis,0.001,2
+se__C0015409,Eye penetration,0.001,2
+se__C0015459,Face injury,0.001,2
+se__C0730345,Microalbuminuria,0.001,2
+se__C0027858,Neuroma,0.001,2
+se__C1331543,Puerperal pyrexia,0.001,2
+se__C0265547,Limb reduction defect,0.001,2
+se__C0855644,Blood uric acid decreased,0.001,2
+se__C0263912,Rotator cuff syndrome,0.001,2
+se__C0263978,Soft tissue disorder,0.001,2
+se__C0856069,Vasculitis gastrointestinal,0.001,2
+se__C0856120,Multiple sclerosis relapse,0.001,2
+se__C0856761,Budd-Chiari syndrome,0.001,2
+se__C0856825,Acute graft versus host disease,0.001,2
+se__C0016508,Congenital foot malformation,0.001,2
+se__C0016514,Foot and mouth disease,0.001,2
+se__C0919267,Ovarian neoplasm,0.001,2
+se__C0030299,Pancreatic pseudocyst,0.001,2
+se__C0858751,Lip blister,0.001,2
+se__C0858867,Reticulocytopenia,0.001,2
+se__C0424091,Decreased interest,0.001,2
+se__C1963789,Genital swelling,0.001,2
+se__C1963897,Low birth weight baby,0.001,2
+se__C2004487,Vaginismus,0.001,2
+se__C2004491,Scar,0.001,2
+se__C0231592,Joint crepitation,0.001,2
+se__C0232115,Venous pressure increased,0.001,2
+se__C0221733,Paradoxical pressor response,0.001,2
+se__C1096448,Bronchopneumopathy,0.001,2
+se__C1096657,Prostate examination abnormal,0.001,2
+se__C0423282,Anterior chamber cell,0.001,2
+se__C0014858,Oesophageal motility disorder,0.001,2
+se__C0015944,Premature rupture of membranes,0.001,2
+se__C1096668,Instillation site irritation,0.001,2
+se__C0221271,Elastosis perforans,0.001,2
+se__C0221278,Anisocytosis,0.001,2
+se__C0151815,Mesenteric occlusion,0.001,2
+se__C0151919,Bladder stenosis,0.001,2
+se__C0151790,Nasal septum disorder,0.001,2
+se__C0700201,Dyssomnia,0.001,2
+se__C0700502,Primary hypothyroidism,0.001,2
+se__C0700572,Mobility decreased,0.001,2
+se__C0263338,Urticaria chronic,0.001,2
+se__C1322253,Eczema infected,0.001,2
+se__C1328291,Dysaesthesia pharynx,0.001,2
+se__C1328332,Procedural hypertension,0.001,2
+se__C1328411,Post procedural haematoma,0.001,2
+se__C0029463,Osteosarcoma,0.001,2
+se__C0030297,Pancreatic neoplasm,0.001,2
+se__C0039614,Tetanus,0.001,2
+se__C0262469,Embolic stroke,0.001,2
+se__C0262593,Peripheral nerve injury,0.001,2
+se__C0456495,Ear canal erythema,0.001,2
+se__C0429028,Electrocardiogram QT interval,0.001,2
+se__C0429774,Residual urine volume,0.001,2
+se__C0432487,Post transplant lymphoproliferative disorder,0.001,2
+se__C0436503,Chest X-ray abnormal,0.001,2
+se__C0013608,Oedema due to cardiac disease,0.001,2
+se__C0013312,Dupuytren's contracture,0.001,2
+se__C0013336,Dwarfism,0.001,2
+se__C0426498,Tongue dry,0.001,2
+se__C0428167,Fraction of inspired oxygen,0.001,2
+se__C0013528,Echolalia,0.001,2
+se__C0014527,Epidermolysis bullosa,0.001,2
+se__C0014065,Encephalocele,0.001,2
+se__C2242494,Haemorrhagic erosive gastritis,0.001,2
+se__C2242575,Compulsive shopping,0.001,2
+se__C2242576,Oropharyngeal blistering,0.001,2
+se__C2242577,Oromandibular dystonia,0.001,2
+se__C2242582,Cholestatic liver injury,0.001,2
+se__C0011881,Diabetic nephropathy,0.001,2
+se__C0455899,Pharyngeal erythema,0.001,2
+se__C0859032,Moaning,0.001,2
+se__C1175175,Severe acute respiratory syndrome,0.001,2
+se__C0236023,Periodontal destruction,0.001,2
+se__C0877172,Spinal epidural haematoma,0.001,2
+se__C0040188,Tic,0.001,2
+se__C0039242,Tachyphylaxis,0.001,2
+se__C0039437,Teething,0.001,2
+se__C0039496,Temporomandibular joint syndrome,0.001,2
+se__C0040436,Tooth erosion,0.001,2
+se__C0679403,Vascular stenosis,0.001,2
+se__C0460048,Large intestinal obstruction,0.001,2
+se__C0221436,Melanoderma,0.001,2
+se__C0919600,Application site hyperaesthesia,0.001,2
+se__C0919620,Electrocardiogram ST-T change,0.001,2
+se__C0919702,Ventricular hypokinesia,0.001,2
+se__C0152002,Renal vasculitis,0.001,2
+se__C0151859,Polyserositis,0.001,2
+se__C0151891,Retinal depigmentation,0.001,2
+se__C0152063,Streptobacillary fever,0.001,2
+se__C0152086,Traumatic arthropathy,0.001,2
+se__C0152096,Trisomy 18,0.001,2
+se__C0438235,Liver function test normal,0.001,2
+se__C0438242,Blood urea abnormal,0.001,2
+se__C0441713,Chemical injury,0.001,2
+se__C0442856,Hypoperfusion,0.001,2
+se__C0031925,Pilonidal cyst,0.001,2
+se__C0032230,Pleural rub,0.001,2
+se__C0032320,Pneumoperitoneum,0.001,2
+se__C0032371,Poliomyelitis,0.001,2
+se__C0031157,Peritonsillar abscess,0.001,2
+se__C0519030,Pneumonia klebsiella,0.001,2
+se__C0476254,Dyslexia,0.001,2
+se__C0476337,Blood gases abnormal,0.001,2
+se__C0494491,Mononeuropathy,0.001,2
+se__C0009918,Joint contracture,0.001,2
+se__C0009952,Febrile convulsion,0.001,2
+se__C0010054,Arteriosclerosis coronary artery,0.001,2
+se__C0010418,Cryptosporidiosis infection,0.001,2
+se__C0010666,Acne cystic,0.001,2
+se__C0496899,Brain neoplasm benign,0.001,2
+se__C0677658,Breast disorder female,0.001,2
+se__C0497209,Conjunctivitis infective,0.001,2
+se__C0497538,Benign gastrointestinal neoplasm,0.001,2
+se__C0008513,Chorioretinitis,0.001,2
+se__C0008526,Choroiditis,0.001,2
+se__C0008909,Claustrophobia,0.001,2
+se__C0008924,Cleft lip,0.001,2
+se__C2243088,Gastritis erosive,0.001,2
+se__C2267227,Bulimia nervosa,0.001,2
+se__C2363949,Injection site exfoliation,0.001,2
+se__C0262666,Vulval abscess,0.001,2
+se__C0242784,Food interaction,0.001,2
+se__C0242891,Tooth injury,0.001,2
+se__C0242966,Systemic inflammatory response syndrome,0.001,2
+se__C0243001,Abdominal abscess,0.001,2
+se__C0243010,Encephalitis viral,0.001,2
+se__C0031736,Polymorphic light eruption,0.001,2
+se__C0151945,Cerebral venous thrombosis,0.001,2
+se__C0919909,Tonic clonic movements,0.001,2
+se__C0152964,Streptococcal sepsis,0.001,2
+se__C1096311,Mucosal discolouration,0.001,2
+se__C1096185,Dacryostenosis acquired,0.001,2
+se__C1096225,Vessel puncture site haemorrhage,0.001,2
+se__C0520758,Neuromuscular block prolonged,0.001,2
+se__C0032962,Complication of pregnancy,0.001,2
+se__C1299624,Postural orthostatic tachycardia syndrome,0.001,2
+se__C0038986,Sweat gland disorder,0.001,2
+se__C0877056,Hypoglycaemic seizure,0.001,2
+se__C0877077,Myocardial haemorrhage,0.001,2
+se__C0877089,Vaginal mucosal blistering,0.001,2
+se__C0235974,Pancreatic carcinoma,0.001,2
+se__C0235980,Scleral discolouration,0.001,2
+se__C0520821,Pleurothotonus,0.001,2
+se__C2609199,Product taste abnormal,0.001,2
+se__C0597457,Skeletal injury,0.001,2
+se__C0520571,Biliary fibrosis,0.001,2
+se__C0009193,Coccydynia,0.001,2
+se__C0032529,Genetic polymorphism,0.001,2
+se__C0032633,Dyshidrotic eczema,0.001,2
+se__C0032797,Postpartum haemorrhage,0.001,2
+se__C0032914,Pre-eclampsia,0.001,2
+se__C0242459,Loeffler's syndrome,0.001,2
+se__C0242584,Autoimmune thrombocytopenia,0.001,2
+se__C0241254,Mucous stools,0.001,2
+se__C0033931,Psychosomatic disease,0.001,2
+se__C0033953,Psychosexual disorder,0.001,2
+se__C0034012,Delayed puberty,0.001,2
+se__C0240972,Scrotal erythema,0.001,2
+se__C0241013,Serum ferritin increased,0.001,2
+se__C0007280,Carotid bruit,0.001,2
+se__C0153567,Uterine cancer,0.001,2
+se__C0154251,Lipid metabolism disorder,0.001,2
+se__C0152154,Prolonged labour,0.001,2
+se__C0206698,Cholangiocarcinoma,0.001,2
+se__C0178829,Reproductive tract disorder,0.001,2
+se__C0205990,Vaginal prolapse,0.001,2
+se__C0155002,Sudden visual loss,0.001,2
+se__C0007302,Chondropathy,0.001,2
+se__C0006848,Mucocutaneous candidiasis,0.001,2
+se__C0006905,Capillary fragility,0.001,2
+se__C0007078,Carbuncle,0.001,2
+se__C0520878,Electrocardiogram PR shortened,0.001,2
+se__C0521158,Neoplasm recurrence,0.001,2
+se__C0521169,Compression fracture,0.001,2
+se__C2607947,Deafness unilateral,0.001,2
+se__C0587094,Breast calcifications,0.001,2
+se__C0521540,Brain stem haemorrhage,0.001,2
+se__C2712122,Blood pressure normal,0.001,2
+se__C2721559,Osmotic demyelination syndrome,0.001,2
+se__C2747793,Acute phosphate nephropathy,0.001,2
+se__C0521626,Bladder fibrosis,0.001,2
+se__C0241028,Sexually active,0.001,2
+se__C0241235,Sputum purulent,0.001,2
+se__C0241237,Dysstasia,0.001,2
+se__C0860160,Diabetes mellitus inadequate control,0.001,2
+se__C0034103,Pulpitis dental,0.001,2
+se__C0034091,Pulmonary veno-occlusive disease,0.001,2
+se__C0860700,Prothrombin level abnormal,0.001,2
+se__C0860811,Antidiuretic hormone abnormality,0.001,2
+se__C0860851,Oestradiol increased,0.001,2
+se__C0007196,Restrictive cardiomyopathy,0.001,2
+se__C0005956,Bone marrow disorder,0.001,2
+se__C0006079,Bowen's disease,0.001,2
+se__C0006105,Brain abscess,0.001,2
+se__C0578050,Lymph node pain,0.001,2
+se__C1262170,Herpes dermatitis,0.001,2
+se__C1269955,Tumour invasion,0.001,2
+se__C0037293,Acrochordon,0.001,2
+se__C0236073,Cerebellar infarction,0.001,2
+se__C0236078,Scrotal pain,0.001,2
+se__C0236663,Alcohol withdrawal syndrome,0.001,2
+se__C0236826,Expressive language disorder,0.001,2
+se__C0037650,Somatoform disorder,0.001,2
+se__C0038644,Sudden infant death syndrome,0.001,2
+se__C0580317,Platelet count abnormal,0.001,2
+se__C0580550,Lymphocyte count abnormal,0.001,2
+se__C0581395,Penile infection,0.001,2
+se__C0877014,Sympathomimetic effect,0.001,2
+se__C0541865,Deposit eye,0.001,2
+se__C0541896,Spermatozoa abnormal,0.001,2
+se__C0005826,Blood pressure abnormal,0.001,2
+se__C0005944,Bone metabolism disorder,0.001,2
+se__C0005424,Biliary tract disorder,0.001,2
+se__C0155118,Corneal degeneration,0.001,2
+se__C1096116,Acquired haemophilia,0.001,2
+se__C0920103,Haematotoxicity,0.001,2
+se__C0948002,Crystal urine present,0.001,2
+se__C0542007,Cerebral haematoma,0.001,2
+se__C0542027,Hypercoagulation,0.001,2
+se__C0542044,Incoherent,0.001,2
+se__C0522165,Feeling of relaxation,0.001,2
+se__C0524620,Metabolic syndrome,0.001,2
+se__C0005699,Blast cell crisis,0.001,2
+se__C0949691,Spondyloarthropathy,0.001,2
+se__C0154933,Iris adhesions,0.001,2
+se__C0154983,Cataract traumatic,0.001,2
+se__C0162291,Retinal ischaemia,0.001,2
+se__C0158026,Monarthritis,0.001,2
+se__C2826318,Refractory cytopenia with unilineage dysplasia,0.001,2
+se__C0541772,Ammonia increased,0.001,2
+se__C0035460,Vasomotor rhinitis,0.001,2
+se__C0035235,Respiratory syncytial virus infection,0.001,2
+se__C0240520,Nipple swelling,0.001,2
+se__C0240802,Pregnancy test positive,0.001,2
+se__C0240811,Prostate infection,0.001,2
+se__C0240812,Prostatic pain,0.001,2
+se__C0239296,Oesophageal obstruction,0.001,2
+se__C0239816,Hand dermatitis,0.001,2
+se__C0867389,Chronic graft versus host disease,0.001,2
+se__C0948818,Catheter site phlebitis,0.001,2
+se__C0158281,Cervicobrachial syndrome,0.001,2
+se__C3160944,Vulvovaginal swelling,0.001,2
+se__C0158687,Congenital genital malformation,0.001,2
+se__C3495801,Granulomatosis with polyangiitis,0.001,2
+se__C0159321,Facial bones fracture,0.001,2
+se__C0549430,Procedural site reaction,0.001,2
+se__C0563238,Gastritis viral,0.001,2
+se__C0564622,Albumin urine present,0.001,2
+se__C0566951,Vaginal ulceration,0.001,2
+se__C0036651,Solar lentigo,0.001,2
+se__C0036916,Sexually transmitted disease,0.001,2
+se__C0553737,Cervical discharge,0.001,2
+se__C0558348,Gastroenteritis bacterial,0.001,2
+se__C0001621,Adrenal disorder,0.001,2
+se__C0003869,Arthritis infective,0.001,2
+se__C0853595,Blood cholesterol abnormal,0.001,2
+se__C0853737,Blood bicarbonate increased,0.001,2
+se__C0273115,Traumatic lung injury,0.001,2
+se__C0574960,Sacroiliitis,0.001,2
+se__C0576995,Pharyngeal haemorrhage,0.001,2
+se__C0577730,Family stress,0.001,2
+se__C0549201,Asteatosis,0.001,2
+se__C0035579,Rickets,0.001,2
+se__C0036093,Salivary gland disorder,0.001,2
+se__C0239234,Low set ears,0.001,2
+se__C0238198,Gastrointestinal stromal tumour,0.001,2
+se__C0238309,Ischaemic neuropathy,0.001,2
+se__C0238463,Papillary thyroid cancer,0.001,2
+se__C0036439,Scoliosis,0.001,2
+se__C3160830,Prostatic dysplasia,0.001,2
+se__C0003044,Animal bite,0.001,2
+se__C3495700,Atypical fracture,0.001,1
+se__C0000889,Acanthosis nigricans,0.001,1
+se__C0000924,Accident,0.001,1
+se__C0001198,Acrodynia,0.001,1
+se__C0002891,Anaemia neonatal,0.001,1
+se__C3160891,Hormone-dependent prostate cancer,0.001,1
+se__C3160840,Macular pigmentation,0.001,1
+se__C3160759,Tumour cell mobilisation,0.001,1
+se__C2987469,Substance-induced psychotic disorder,0.001,1
+se__C0003466,Anal atresia,0.001,1
+se__C0003175,Anthrax,0.001,1
+se__C0003119,Anophthalmos,0.001,1
+se__C0003534,Aphakia,0.001,1
+se__C0003496,Aortic rupture,0.001,1
+se__C0003493,Aortic disorder,0.001,1
+se__C0003492,Coarctation of the aorta,0.001,1
+se__C0003950,Ascariasis,0.001,1
+se__C0003910,Phonological disorder,0.001,1
+se__C0003872,Psoriatic arthropathy,0.001,1
+se__C0549334,Parotid duct obstruction,0.001,1
+se__C0549322,Eyelid infection,0.001,1
+se__C0549264,Sensation of blood flow,0.001,1
+se__C0549229,Nail discomfort,0.001,1
+se__C0576091,Knee deformity,0.001,1
+se__C0574785,Lower urinary tract symptoms,0.001,1
+se__C0564768,Genital infection male,0.001,1
+se__C0560637,Genital injury,0.001,1
+se__C0559938,Ileal perforation,0.001,1
+se__C0549397,Nasal septum deviation,0.001,1
+se__C0549395,Blood urea decreased,0.001,1
+se__C0549393,Alcohol problem,0.001,1
+se__C0549384,Hypotonic-hyporesponsive episode,0.001,1
+se__C0553690,Reversible ischaemic neurological deficit,0.001,1
+se__C0553686,Brain herniation,0.001,1
+se__C0553681,Hypofibrinogenaemia,0.001,1
+se__C0521546,Congenital joint malformation,0.001,1
+se__C0521507,Injection site ulcer,0.001,1
+se__C0589616,Genitourinary chlamydia infection,0.001,1
+se__C0580531,White blood cell count abnormal,0.001,1
+se__C0580412,Prothrombin time abnormal,0.001,1
+se__C0580181,Jessner's lymphocytic infiltration,0.001,1
+se__C0522757,Exposure to toxic agent,0.001,1
+se__C0522214,Visual evoked potentials abnormal,0.001,1
+se__C0522171,Sense of oppression,0.001,1
+se__C0522042,Loss of control of legs,0.001,1
+se__C0541767,Platelet aggregation abnormal,0.001,1
+se__C0541754,Abscess sterile,0.001,1
+se__C0549150,Pseudofolliculitis barbae,0.001,1
+se__C0547000,Joint lock,0.001,1
+se__C0546343,Mucosal erosion,0.001,1
+se__C0549357,Abdominal adhesions,0.001,1
+se__C0520575,Pyelonephritis acute,0.001,1
+se__C0520564,Ileal ulcer,0.001,1
+se__C0520563,Toxic dilatation of intestine,0.001,1
+se__C0595876,Calcium intoxication,0.001,1
+se__C0521208,Accident at home,0.001,1
+se__C0521008,Screaming,0.001,1
+se__C0520933,Spermatogenesis abnormal,0.001,1
+se__C0520872,Stroke volume increased,0.001,1
+se__C0520861,Venous pressure jugular increased,0.001,1
+se__C0521506,Injection site paraesthesia,0.001,1
+se__C0521496,Application site infection,0.001,1
+se__C0521476,Nail bed infection,0.001,1
+se__C0521471,Systemic lupus erythematosus rash,0.001,1
+se__C0521620,Hydroureter,0.001,1
+se__C0521619,Pelvi-ureteric obstruction,0.001,1
+se__C0521554,Congenital vesicoureteric reflux,0.001,1
+se__C0473117,Ischaemic hepatitis,0.001,1
+se__C0685341,Congenital limb hyperextension,0.001,1
+se__C0679429,Platelet dysfunction,0.001,1
+se__C0679401,Vascular rupture,0.001,1
+se__C0679254,Disease recurrence,0.001,1
+se__C0677865,Brain stem glioma,0.001,1
+se__C0496870,Benign hepatic neoplasm,0.001,1
+se__C0483455,Prothrombin time ratio,0.001,1
+se__C0476405,Pulmonary function test abnormal,0.001,1
+se__C0476369,Echocardiogram abnormal,0.001,1
+se__C0520546,Pulmonary microemboli,0.001,1
+se__C0520854,Mean arterial pressure decreased,0.001,1
+se__C0520757,Delayed recovery from anaesthesia,0.001,1
+se__C0520736,Coombs positive haemolytic anaemia,0.001,1
+se__C0520729,Subconjunctival cyst,0.001,1
+se__C0695236,Tracheostomy infection,0.001,1
+se__C0694575,Macular fibrosis,0.001,1
+se__C0427564,Platelet count normal,0.001,1
+se__C0427144,Toe walking,0.001,1
+se__C0426959,Akinaesthesia,0.001,1
+se__C0426900,Tibial torsion,0.001,1
+se__C0426597,Fluid intake reduced,0.001,1
+se__C0435632,Hand fracture,0.001,1
+se__C0456103,Sepsis neonatal,0.001,1
+se__C0438254,Urine electrolytes abnormal,0.001,1
+se__C0438241,Blood urea normal,0.001,1
+se__C0475319,Pelvic haematoma,0.001,1
+se__C0474529,Haemoglobin normal,0.001,1
+se__C0473311,Haemorrhagic ovarian cyst,0.001,1
+se__C0473120,Intra-abdominal haematoma,0.001,1
+se__C0406305,Eosinophilic pustular folliculitis,0.001,1
+se__C0406209,Photoonycholysis,0.001,1
+se__C0405139,Obstetric procedure complication,0.001,1
+se__C0740314,Ultrasound breast abnormal,0.001,1
+se__C0740292,5'nucleotidase increased,0.001,1
+se__C0740281,Multiple allergies,0.001,1
+se__C0740279,Cerebellar atrophy,0.001,1
+se__C0740277,Bile duct cancer,0.001,1
+se__C0729549,Gastrointestinal fungal infection,0.001,1
+se__C0702163,Trichorrhexis,0.001,1
+se__C0423701,Urinary tract pain,0.001,1
+se__C0423172,Dacryocanaliculitis,0.001,1
+se__C0424786,Postoperative fever,0.001,1
+se__C0424082,Hypnopompic hallucination,0.001,1
+se__C0423820,Nail ridging,0.001,1
+se__C0401013,Fungal peritonitis,0.001,1
+se__C0400877,Postoperative ileus,0.001,1
+se__C0742545,Colonic abscess,0.001,1
+se__C0742224,Candida cervicitis,0.001,1
+se__C0741921,Cardiac enzymes increased,0.001,1
+se__C0741165,Aortic embolus,0.001,1
+se__C0741160,Aortic aneurysm rupture,0.001,1
+se__C0741132,Antibody test positive,0.001,1
+se__C0740832,End stage AIDS,0.001,1
+se__C0412784,Analgesic therapy,0.001,1
+se__C0410919,Bradycardia foetal,0.001,1
+se__C0410740,Finger deformity,0.001,1
+se__C0406650,Linear IgA disease,0.001,1
+se__C0406484,Sebaceous hyperplasia,0.001,1
+se__C0406458,Diffuse alopecia,0.001,1
+se__C0393615,Familial tremor,0.001,1
+se__C0392788,"Extranodal NK/T-cell lymphoma, nasal type",0.001,1
+se__C0392707,Atopy,0.001,1
+se__C0745103,Type IIa hyperlipidaemia,0.001,1
+se__C0744369,Genital lesion,0.001,1
+se__C0744235,Fungal sepsis,0.001,1
+se__C0744130,Diabetic foot infection,0.001,1
+se__C0743575,Oesophageal irritation,0.001,1
+se__C0743525,Enterobacter sepsis,0.001,1
+se__C0743295,Drug screen positive,0.001,1
+se__C0742965,Eosinophilic cystitis,0.001,1
+se__C0405106,Retained placenta or membranes,0.001,1
+se__C0404445,Ovarian atrophy,0.001,1
+se__C0403645,Atonic urinary bladder,0.001,1
+se__C0403592,Chronic allograft nephropathy,0.001,1
+se__C0403529,Goodpasture's syndrome,0.001,1
+se__C0749106,Submandibular mass,0.001,1
+se__C0748538,Scleral pigmentation,0.001,1
+se__C0748055,Psychiatric decompensation,0.001,1
+se__C0748023,Bacterial prostatitis,0.001,1
+se__C0748019,Prostatic acid phosphatase increased,0.001,1
+se__C0391996,Hepatic atrophy,0.001,1
+se__C0376670,Alcoholic pancreatitis,0.001,1
+se__C0392557,Cataract nuclear,0.001,1
+se__C0392519,Calcium deficiency,0.001,1
+se__C0392378,Gingival ulceration,0.001,1
+se__C0399461,Oral mucosa erosion,0.001,1
+se__C0398625,Protein C deficiency,0.001,1
+se__C0395005,Polydipsia psychogenic,0.001,1
+se__C0347197,Oral neoplasm benign,0.001,1
+se__C0346989,Metastases to peritoneum,0.001,1
+se__C0346421,Chronic eosinophilic leukaemia,0.001,1
+se__C0345907,Hepatic angiosarcoma,0.001,1
+se__C0345903,Anal skin tags,0.001,1
+se__C0345217,Cloacal exstrophy,0.001,1
+se__C0848377,Abdominal injury,0.001,1
+se__C0847403,Infective tenosynovitis,0.001,1
+se__C0812470,Abortion incomplete,0.001,1
+se__C0752347,Dementia with Lewy bodies,0.001,1
+se__C0751908,Vestibular neuronitis,0.001,1
+se__C0751576,Vocal cord paresis,0.001,1
+se__C0751436,Tetrahydrobiopterin deficiency,0.001,1
+se__C0751265,Learning disability,0.001,1
+se__C0750887,Adrenal gland cancer,0.001,1
+se__C0341503,Peritonitis bacterial,0.001,1
+se__C0341318,Enterocutaneous fistula,0.001,1
+se__C0851647,Muscle tone disorder,0.001,1
+se__C0851302,Shock hypoglycaemic,0.001,1
+se__C0851043,Lipids increased,0.001,1
+se__C0850638,Infected bites,0.001,1
+se__C0848383,Eye ulcer,0.001,1
+se__C0343869,Anal candidiasis,0.001,1
+se__C0343378,Helicobacter gastritis,0.001,1
+se__C0343361,Gastroenteritis adenovirus,0.001,1
+se__C0343263,Chondrolysis,0.001,1
+se__C0343065,Urticaria physical,0.001,1
+se__C0342649,Vascular calcification,0.001,1
+se__C0342592,Anion gap increased,0.001,1
+se__C0349464,Wernicke-Korsakoff syndrome,0.001,1
+se__C0347602,Retinal injury,0.001,1
+se__C0852793,Blood cortisol increased,0.001,1
+se__C0852696,Glucocorticoids decreased,0.001,1
+se__C0852203,Fluoride increased,0.001,1
+se__C0851883,Neisseria infection,0.001,1
+se__C0851881,Enterococcal infection,0.001,1
+se__C0340909,Arteriovenous fistula thrombosis,0.001,1
+se__C0340643,Aortic dissection,0.001,1
+se__C0340278,Atrial hypertrophy,0.001,1
+se__C0340274,Gestational hypertension,0.001,1
+se__C0342548,Early menarche,0.001,1
+se__C0342490,Adrenal atrophy,0.001,1
+se__C0341858,Adenomyosis,0.001,1
+se__C0341751,Bladder necrosis,0.001,1
+se__C0341512,Retroperitoneal haematoma,0.001,1
+se__C0341505,Chemical peritonitis,0.001,1
+se__C0339807,House dust allergy,0.001,1
+se__C0339478,Arteriosclerotic retinopathy,0.001,1
+se__C0339467,Retinopathy proliferative,0.001,1
+se__C0339434,Choroidal effusion,0.001,1
+se__C0338575,Superior sagittal sinus thrombosis,0.001,1
+se__C0338573,Intracranial venous sinus thrombosis,0.001,1
+se__C0338113,Sarcoma uterus,0.001,1
+se__C0334634,Mantle cell lymphoma,0.001,1
+se__C0853018,Blood thyroid stimulating hormone decreased,0.001,1
+se__C0853015,Blood growth hormone increased,0.001,1
+se__C0853013,Diverticular perforation,0.001,1
+se__C0852970,Dacryoadenitis acquired,0.001,1
+se__C0852962,Complication of delivery,0.001,1
+se__C0852949,Arterial disorder,0.001,1
+se__C0852921,Blood fibrinogen increased,0.001,1
+se__C0852919,Animal scratch,0.001,1
+se__C0333139,Pneumatosis,0.001,1
+se__C0302858,Protein-losing gastroenteropathy,0.001,1
+se__C0853050,Blood acid phosphatase increased,0.001,1
+se__C0853040,Reaction to drug excipients,0.001,1
+se__C0853035,Blood creatinine normal,0.001,1
+se__C0853020,Blood oestrogen increased,0.001,1
+se__C0334579,Anaplastic astrocytoma,0.001,1
+se__C0334492,Malignant mesenchymoma,0.001,1
+se__C0334082,Epidermal naevus,0.001,1
+se__C0334040,Extraskeletal ossification,0.001,1
+se__C0333912,Hypochromasia,0.001,1
+se__C0333604,Chrysiasis,0.001,1
+se__C0333582,Dystrophic calcification,0.001,1
+se__C0333286,Splinter haemorrhages,0.001,1
+se__C0340214,Tracheal fistula,0.001,1
+se__C0281914,Musculoskeletal deformity,0.001,1
+se__C0281863,Hepatitis C antibody positive,0.001,1
+se__C0281860,Wound haematoma,0.001,1
+se__C0853314,Soft tissue inflammation,0.001,1
+se__C0853289,Blood bilirubin normal,0.001,1
+se__C0853277,Pseudo-Bartter syndrome,0.001,1
+se__C0853263,Blood bicarbonate,0.001,1
+se__C0853227,Blood iron abnormal,0.001,1
+se__C0853224,Activated partial thromboplastin time shortened,0.001,1
+se__C0853203,Smear cervix normal,0.001,1
+se__C0853198,Gastroenteritis yersinia,0.001,1
+se__C0853150,Nerve conduction studies abnormal,0.001,1
+se__C0853142,CD4 lymphocytes decreased,0.001,1
+se__C0333271,Bloody discharge,0.001,1
+se__C0853710,Blood prolactin decreased,0.001,1
+se__C0853705,Blood immunoglobulin G decreased,0.001,1
+se__C0853644,Eosinophil count abnormal,0.001,1
+se__C0277986,Gingival oedema,0.001,1
+se__C0277934,Aortic bruit,0.001,1
+se__C0276651,Aspergilloma,0.001,1
+se__C0281839,Oesophageal rupture,0.001,1
+se__C0281361,Adenocarcinoma pancreas,0.001,1
+se__C0280313,Oropharyngeal squamous cell carcinoma,0.001,1
+se__C0278678,Metastatic renal cell carcinoma,0.001,1
+se__C0278512,Osteosarcoma metastatic,0.001,1
+se__C0278147,Radicular pain,0.001,1
+se__C0302507,Parainfluenzae virus infection,0.001,1
+se__C0282548,Leukostasis,0.001,1
+se__C0282160,Aplasia cutis congenita,0.001,1
+se__C0282005,Scrotal swelling,0.001,1
+se__C0272118,Warm type haemolytic anaemia,0.001,1
+se__C0271686,Diabetic autonomic neuropathy,0.001,1
+se__C0271441,Otitis media chronic,0.001,1
+se__C0853786,Blood sodium abnormal,0.001,1
+se__C0853782,Blood creatine phosphokinase abnormal,0.001,1
+se__C0853755,Blood osmolarity decreased,0.001,1
+se__C0853749,Blood magnesium increased,0.001,1
+se__C0276253,Pneumonia cytomegaloviral,0.001,1
+se__C0276252,Cytomegalovirus hepatitis,0.001,1
+se__C0276226,Herpes simplex encephalitis,0.001,1
+se__C0276143,Viral pharyngitis,0.001,1
+se__C0276141,Bronchitis viral,0.001,1
+se__C0275378,Tobacco poisoning,0.001,1
+se__C0274869,Metal poisoning,0.001,1
+se__C0274714,Adrenergic syndrome,0.001,1
+se__C0272396,Lymph node abscess,0.001,1
+se__C0271093,Stargardt's disease,0.001,1
+se__C0271036,Retinal scar,0.001,1
+se__C0270971,Floppy infant,0.001,1
+se__C0270934,Toxic neuropathy,0.001,1
+se__C0270921,Axonal neuropathy,0.001,1
+se__C0270844,Tonic convulsion,0.001,1
+se__C0853939,Oral mucosal discolouration,0.001,1
+se__C0853893,Device interaction,0.001,1
+se__C0853885,Blood electrolytes decreased,0.001,1
+se__C0853857,Cellulitis staphylococcal,0.001,1
+se__C0853811,Croup infectious,0.001,1
+se__C0272386,Tonsillar hypertrophy,0.001,1
+se__C0272380,Tonsillar disorder,0.001,1
+se__C0272315,Coagulation factor decreased,0.001,1
+se__C0272195,Eosinopenia,0.001,1
+se__C0272126,Evans syndrome,0.001,1
+se__C0270736,Essential tremor,0.001,1
+se__C0270639,Transverse sinus thrombosis,0.001,1
+se__C0270549,Generalised anxiety disorder,0.001,1
+se__C0270276,Grey syndrome neonatal,0.001,1
+se__C0270274,Vomiting neonatal,0.001,1
+se__C0269806,Failed induction of labour,0.001,1
+se__C0854101,Urine sodium increased,0.001,1
+se__C0854095,Drug level changed,0.001,1
+se__C0854062,Blood fibrinogen decreased,0.001,1
+se__C0854059,pH urine decreased,0.001,1
+se__C0854058,pH urine increased,0.001,1
+se__C0854028,Blood copper decreased,0.001,1
+se__C0853974,Blood gonadotrophin decreased,0.001,1
+se__C0853973,Blood gonadotrophin increased,0.001,1
+se__C0271211,Erythropsia,0.001,1
+se__C0271160,Cataract cortical,0.001,1
+se__C0268854,Contracted bladder,0.001,1
+se__C0268800,Congenital renal cyst,0.001,1
+se__C0268621,Hypermethioninaemia,0.001,1
+se__C0268543,N-acetylglutamate synthase deficiency,0.001,1
+se__C0268407,Cardiac amyloidosis,0.001,1
+se__C0268104,Purine metabolism disorder,0.001,1
+se__C0854372,Mastication disorder,0.001,1
+se__C0854359,Insulin autoimmune syndrome,0.001,1
+se__C0854286,Eyelid function disorder,0.001,1
+se__C0854210,Incomplete precocious puberty,0.001,1
+se__C0854171,Temperature regulation disorder,0.001,1
+se__C0854146,Blood test abnormal,0.001,1
+se__C0854131,Vaginal wall congestion,0.001,1
+se__C0854111,Blood triglycerides decreased,0.001,1
+se__C0270769,Radiation myelopathy,0.001,1
+se__C0267953,Pancreatic necrosis,0.001,1
+se__C0267925,Bile duct stenosis,0.001,1
+se__C0267834,Hepatic cyst,0.001,1
+se__C0267491,Large intestinal ulcer,0.001,1
+se__C0854693,Anaesthetic complication neurological,0.001,1
+se__C0854567,Complications of transplant surgery,0.001,1
+se__C0854532,Myopericarditis,0.001,1
+se__C0854530,Human herpesvirus 6 infection,0.001,1
+se__C0854504,Enterococcal bacteraemia,0.001,1
+se__C0854495,Hepatitis F,0.001,1
+se__C0854380,Blood insulin decreased,0.001,1
+se__C0854375,Mucosal haemorrhage,0.001,1
+se__C0269190,Uterine cervical squamous metaplasia,0.001,1
+se__C0269188,Uterine cyst,0.001,1
+se__C0269173,Fallopian tube cyst,0.001,1
+se__C0268919,Scrotal disorder,0.001,1
+se__C0265050,Vena cava thrombosis,0.001,1
+se__C0264734,Dilatation atrial,0.001,1
+se__C0855506,Red blood cells semen positive,0.001,1
+se__C0855440,Pancreatic enzymes abnormal,0.001,1
+se__C0855246,Abnormal sleep-related event,0.001,1
+se__C0855235,Feelings of worthlessness,0.001,1
+se__C0855217,Lack of spontaneous speech,0.001,1
+se__C0854985,Lung adenocarcinoma stage I,0.001,1
+se__C0854954,Ovarian germ cell teratoma benign,0.001,1
+se__C0854706,Neonatal infection,0.001,1
+se__C0267410,Mesenteric artery thrombosis,0.001,1
+se__C0267158,Reflux gastritis,0.001,1
+se__C0266316,Congenital hydronephrosis,0.001,1
+se__C0266241,Congenital absence of bile ducts,0.001,1
+se__C0266008,Breast malformation,0.001,1
+se__C0268070,Copper deficiency,0.001,1
+se__C0855677,Blood creatine phosphokinase MM increased,0.001,1
+se__C0855675,Blood zinc decreased,0.001,1
+se__C0855642,Blood uric acid abnormal,0.001,1
+se__C0855624,Aspartate aminotransferase normal,0.001,1
+se__C0855622,Aspartate aminotransferase decreased,0.001,1
+se__C0855620,Alanine aminotransferase normal,0.001,1
+se__C0855619,Alanine aminotransferase abnormal,0.001,1
+se__C0855618,Alanine aminotransferase decreased,0.001,1
+se__C0855521,Semen volume decreased,0.001,1
+se__C0265962,Netherton's syndrome,0.001,1
+se__C0265783,Pulmonary hypoplasia,0.001,1
+se__C0265294,Metaphyseal dysplasia,0.001,1
+se__C0265122,Pericardial disease,0.001,1
+se__C0265072,Inferior vena cava syndrome,0.001,1
+se__C2938972,Penile haematoma,0.001,1
+se__C2938970,Penile curvature,0.001,1
+se__C2937228,Tunnel vision,0.001,1
+se__C2937222,Proctitis ulcerative,0.001,1
+se__C2937220,Malformation venous,0.001,1
+se__C0004377,Automatism,0.001,1
+se__C0004352,Autism,0.001,1
+se__C0004161,Sports injury,0.001,1
+se__C0004903,Beckwith-Wiedemann syndrome,0.001,1
+se__C0004767,Bartholin's cyst,0.001,1
+se__C0005716,Blastomycosis,0.001,1
+se__C0006261,Bronchial disorder,0.001,1
+se__C0006157,Breech presentation,0.001,1
+se__C0006705,Calcium metabolism disorder,0.001,1
+se__C0006666,Calciphylaxis,0.001,1
+se__C0006287,Bronchopulmonary dysplasia,0.001,1
+se__C0263008,Skin fibrosis,0.001,1
+se__C0856604,Rubber sensitivity,0.001,1
+se__C0856152,Buccal mucosal roughening,0.001,1
+se__C0856050,Diet refusal,0.001,1
+se__C0855977,Carotene decreased,0.001,1
+se__C0855931,Cardioactive drug level above therapeutic,0.001,1
+se__C0855791,Mean cell volume increased,0.001,1
+se__C0264733,Dilatation ventricular,0.001,1
+se__C0264588,Spasmodic dysphonia,0.001,1
+se__C0264523,Pulmonary ossification,0.001,1
+se__C0264352,Bronchial ulceration,0.001,1
+se__C0264344,Bronchitis bacterial,0.001,1
+se__C0264309,Vocal cord disorder,0.001,1
+se__C0264009,Osteodystrophy,0.001,1
+se__C0263888,Back disorder,0.001,1
+se__C0263634,Excessive granulation tissue,0.001,1
+se__C0262428,Collagen-vascular disease,0.001,1
+se__C0262414,Cervical vertebral fracture,0.001,1
+se__C0262380,Asymptomatic bacteriuria,0.001,1
+se__C0262365,Mammogram abnormal,0.001,1
+se__C0259972,Ketogenic diet,0.001,1
+se__C0859978,Amylase decreased,0.001,1
+se__C0858318,Plasmodium falciparum infection,0.001,1
+se__C0263536,Nail hypertrophy,0.001,1
+se__C0263492,Ingrown hair,0.001,1
+se__C0263445,Acne fulminans,0.001,1
+se__C0263443,Acne pustular,0.001,1
+se__C0263437,Acne infantile,0.001,1
+se__C0263367,Koebner phenomenon,0.001,1
+se__C0263355,Rash scarlatiniform,0.001,1
+se__C0263111,Perineal abscess,0.001,1
+se__C0263105,Abdominal wall abscess,0.001,1
+se__C0861021,Insulin C-peptide increased,0.001,1
+se__C0861020,Insulin C-peptide decreased,0.001,1
+se__C0860805,Urine ketone body present,0.001,1
+se__C0860594,Metastatic malignant melanoma,0.001,1
+se__C0860514,Dreamy state,0.001,1
+se__C0241228,Spleen palpable,0.001,1
+se__C0241069,Skin erosion,0.001,1
+se__C0241012,Serum ferritin decreased,0.001,1
+se__C0240846,Pupillary deformity,0.001,1
+se__C0241310,Suprapubic pain,0.001,1
+se__C0242645,Blue toe syndrome,0.001,1
+se__C0242231,Coronary artery stenosis,0.001,1
+se__C0242648,Vertical infection transmission,0.001,1
+se__C0262627,Seroma,0.001,1
+se__C0262613,Renal mass,0.001,1
+se__C0262493,Gallbladder polyp,0.001,1
+se__C0238796,Bone marrow granuloma,0.001,1
+se__C0238792,Bone lesion,0.001,1
+se__C0877009,Muscle fibrosis,0.001,1
+se__C0876998,Intracardiac thrombus,0.001,1
+se__C0876991,Histiocytosis haematophagic,0.001,1
+se__C0872380,Food craving,0.001,1
+se__C0869523,Carditis,0.001,1
+se__C0863087,Decreased immune responsiveness,0.001,1
+se__C0863070,Catheter site related reaction,0.001,1
+se__C0861111,Cardioactive drug level increased,0.001,1
+se__C0239735,Gingival erythema,0.001,1
+se__C0239549,Fat intolerance,0.001,1
+se__C0239337,Limb deformity,0.001,1
+se__C0240773,Plantar erythema,0.001,1
+se__C0240173,Shift to the left,0.001,1
+se__C0240059,Intraventricular haemorrhage,0.001,1
+se__C0235984,Salivary duct obstruction,0.001,1
+se__C0235972,Retinal deposits,0.001,1
+se__C0235963,Rhinitis ulcerative,0.001,1
+se__C0877107,Sinobronchitis,0.001,1
+se__C0236816,Acute stress disorder,0.001,1
+se__C0236174,Reticuloendothelial system stimulated,0.001,1
+se__C0238461,Anaplastic thyroid cancer,0.001,1
+se__C0238334,Pancreatic abscess,0.001,1
+se__C0238113,Radiation oesophagitis,0.001,1
+se__C0238097,Encephalitis cytomegalovirus,0.001,1
+se__C0238051,Vasculitis cerebral,0.001,1
+se__C0239279,Epididymal tenderness,0.001,1
+se__C0239161,Dactylitis,0.001,1
+se__C0239026,Chest X-ray normal,0.001,1
+se__C0238874,Antineutrophil cytoplasmic antibody positive,0.001,1
+se__C0235883,Uterine inflammation,0.001,1
+se__C0235863,Delayed delivery,0.001,1
+se__C0235849,Stomatitis necrotising,0.001,1
+se__C0235839,Fever neonatal,0.001,1
+se__C0235834,Upper motor neurone lesion,0.001,1
+se__C0877183,Nail bed tenderness,0.001,1
+se__C0877179,Injection site joint pain,0.001,1
+se__C0877173,Food aversion,0.001,1
+se__C0877169,Neonatal hyponatraemia,0.001,1
+se__C0877134,Hernia pain,0.001,1
+se__C0877131,Urinary tract infection fungal,0.001,1
+se__C0877128,Application site pustules,0.001,1
+se__C0877117,Cytomegalovirus gastritis,0.001,1
+se__C0877113,Scar pain,0.001,1
+se__C0236061,Haptoglobin increased,0.001,1
+se__C0236036,Oculomucocutaneous syndrome,0.001,1
+se__C0877325,Anal sphincter atony,0.001,1
+se__C0877324,Urinary sediment present,0.001,1
+se__C0877267,Peritonsillitis,0.001,1
+se__C0877237,Traumatic fracture,0.001,1
+se__C0877187,Ureterostomy site discomfort,0.001,1
+se__C0235634,Costovertebral angle tenderness,0.001,1
+se__C0235557,Pulmonary granuloma,0.001,1
+se__C0235475,Electrocardiogram QRS complex prolonged,0.001,1
+se__C0235833,Congenital diaphragmatic hernia,0.001,1
+se__C0235802,Pupillary reflex impaired,0.001,1
+se__C0235774,Somnolence neonatal,0.001,1
+se__C0235770,Malignant ovarian cyst,0.001,1
+se__C0235753,Haemangioma congenital,0.001,1
+se__C0235950,Zinc deficiency,0.001,1
+se__C0235927,Vestibular ataxia,0.001,1
+se__C0235912,Hepatic haemorrhage,0.001,1
+se__C0233774,Somatic hallucination,0.001,1
+se__C0233773,Hypnagogic hallucination,0.001,1
+se__C0233767,"Hallucination, tactile",0.001,1
+se__C0877645,Urinary bladder polyp,0.001,1
+se__C0877639,Gingival blister,0.001,1
+se__C0877406,Performance status decreased,0.001,1
+se__C0877339,Cardio-respiratory distress,0.001,1
+se__C0877331,Abnormal clotting factor,0.001,1
+se__C0234906,Erythema annulare,0.001,1
+se__C0234543,Postictal state,0.001,1
+se__C0234507,Anosognosia,0.001,1
+se__C0234988,Dizziness exertional,0.001,1
+se__C0234938,Injection site abscess sterile,0.001,1
+se__C0234934,Urticaria vesiculosa,0.001,1
+se__C0235260,Chloropsia,0.001,1
+se__C0231255,Body mass index decreased,0.001,1
+se__C0231246,Weight gain poor,0.001,1
+se__C0919572,Agitation postoperative,0.001,1
+se__C0919568,Impatience,0.001,1
+se__C0878588,Sphincter of Oddi dysfunction,0.001,1
+se__C0232267,Pericardial rub,0.001,1
+se__C0232201,Sinus rhythm,0.001,1
+se__C0233467,Inappropriate affect,0.001,1
+se__C0233415,Distractibility,0.001,1
+se__C0233718,Pressure of speech,0.001,1
+se__C0233660,Thought blocking,0.001,1
+se__C0233657,Flight of ideas,0.001,1
+se__C0233612,Waxy flexibility,0.001,1
+se__C0233519,Suspiciousness,0.001,1
+se__C0233976,Clitoral engorgement,0.001,1
+se__C0233931,Nocturnal emission,0.001,1
+se__C0221239,Glomerulonephritis rapidly progressive,0.001,1
+se__C0221204,Osteolysis,0.001,1
+se__C0221147,Platelet production decreased,0.001,1
+se__C0221046,Carotid sinus syndrome,0.001,1
+se__C0919737,Platelet aggregation inhibition,0.001,1
+se__C0919691,Anastomotic leak,0.001,1
+se__C0919661,Heart alternation,0.001,1
+se__C0919603,Application site urticaria,0.001,1
+se__C0221348,Yellow nail syndrome,0.001,1
+se__C0221281,Poikilocytosis,0.001,1
+se__C0221265,Microcytosis,0.001,1
+se__C0221260,Nail dystrophy,0.001,1
+se__C0221255,Calcification metastatic,0.001,1
+se__C0221782,Uterine mass,0.001,1
+se__C0231557,Bone development abnormal,0.001,1
+se__C0221030,Hyperviscosity syndrome,0.001,1
+se__C0221002,Hyperparathyroidism primary,0.001,1
+se__C0206762,Limb malformation,0.001,1
+se__C0206633,Angiomyolipoma,0.001,1
+se__C0206624,Hepatoblastoma,0.001,1
+se__C0206180,Anaplastic large-cell lymphoma,0.001,1
+se__C0919913,Nasal odour,0.001,1
+se__C0919907,Pleural infection,0.001,1
+se__C0919892,Blood pressure inadequately controlled,0.001,1
+se__C0919890,Hyperfibrinogenaemia,0.001,1
+se__C0919866,Eye naevus,0.001,1
+se__C0919840,Osteocalcin increased,0.001,1
+se__C0919777,Band neutrophil count increased,0.001,1
+se__C0919768,Extremity contracture,0.001,1
+se__C0221248,Gouty tophus,0.001,1
+se__C0162810,Hypertrophic scar,0.001,1
+se__C0162739,HELLP syndrome,0.001,1
+se__C0162678,Neurofibromatosis,0.001,1
+se__C0162638,Apoptosis,0.001,1
+se__C0936223,Prostate cancer metastatic,0.001,1
+se__C0920114,Urinary sediment abnormal,0.001,1
+se__C0920016,Adnexa uteri cyst,0.001,1
+se__C0919986,Infusion site oedema,0.001,1
+se__C0919947,Thoracic vertebral fracture,0.001,1
+se__C0206171,Community acquired infection,0.001,1
+se__C0206093,Neuroectodermal neoplasm,0.001,1
+se__C0178874,Neoplasm progression,0.001,1
+se__C0178703,Hypertrophic osteoarthropathy,0.001,1
+se__C0178417,Anhedonia,0.001,1
+se__C0221045,Cardiac failure high output,0.001,1
+se__C0221032,Congenital generalised lipodystrophy,0.001,1
+se__C0158986,Hypoglycaemia neonatal,0.001,1
+se__C0158353,Infective myositis,0.001,1
+se__C0948277,Hydrometra,0.001,1
+se__C0948266,Latent tetany,0.001,1
+se__C0948257,Immunosuppressant drug level increased,0.001,1
+se__C0948240,Thyroxine free decreased,0.001,1
+se__C0948085,Corneal defect,0.001,1
+se__C0948048,Malignant neoplasm progression,0.001,1
+se__C0948036,Gastric ulcer helicobacter,0.001,1
+se__C0948014,Red cell distribution width increased,0.001,1
+se__C0948011,Cervix haemorrhage uterine,0.001,1
+se__C0161446,Brachial plexus injury,0.001,1
+se__C0178316,Upper limb fracture,0.001,1
+se__C0178282,Abdominal hernia,0.001,1
+se__C0175683,Argininosuccinate synthetase deficiency,0.001,1
+se__C0162852,Pityriasis lichenoides et varioliformis acuta,0.001,1
+se__C0156279,Urethral syndrome,0.001,1
+se__C0156273,Bladder diverticulum,0.001,1
+se__C0156181,Peritoneal adhesions,0.001,1
+se__C0948395,Gastrointestinal hypermotility,0.001,1
+se__C0948380,Colorectal cancer metastatic,0.001,1
+se__C0948376,Electrocardiogram ST-T segment abnormal,0.001,1
+se__C0948342,Citrate toxicity,0.001,1
+se__C0948333,Neutrophil percentage increased,0.001,1
+se__C0948309,Pseudohyperkalaemia,0.001,1
+se__C0948298,Tympanic membrane hyperaemia,0.001,1
+se__C0948284,Corneal decompensation,0.001,1
+se__C0948282,Conjunctival bleb,0.001,1
+se__C0159877,Ankle fracture,0.001,1
+se__C0159658,Clavicle fracture,0.001,1
+se__C0159076,Choluria,0.001,1
+se__C0159020,Convulsion neonatal,0.001,1
+se__C0155713,Papillary muscle rupture,0.001,1
+se__C0155616,Secondary hypertension,0.001,1
+se__C0155540,Otorrhoea,0.001,1
+se__C0155503,Vertigo CNS origin,0.001,1
+se__C0155428,Otosalpingitis,0.001,1
+se__C0155388,External ear disorder,0.001,1
+se__C0948817,Catheter site inflammation,0.001,1
+se__C0948693,Post procedural discharge,0.001,1
+se__C0948610,Abdominal strangulated hernia,0.001,1
+se__C0948522,Ocular vascular disorder,0.001,1
+se__C0948447,Chromosomal mutation,0.001,1
+se__C0158266,Intervertebral disc degeneration,0.001,1
+se__C0156384,Vaginal dysplasia,0.001,1
+se__C0156353,Uterovaginal prolapse,0.001,1
+se__C0156339,Vulval ulceration,0.001,1
+se__C0156318,Breast fibrosis,0.001,1
+se__C0155216,Eyelid bleeding,0.001,1
+se__C0155170,Conjunctival cyst,0.001,1
+se__C0154769,Myopathy toxic,0.001,1
+se__C1095967,Psychiatric evaluation abnormal,0.001,1
+se__C1095923,Febrile bone marrow aplasia,0.001,1
+se__C0949091,Candida sepsis,0.001,1
+se__C0948978,Catheter site cellulitis,0.001,1
+se__C0948976,Leukaemia cutis,0.001,1
+se__C0948862,Detachment of retinal pigment epithelium,0.001,1
+se__C0948857,Electrocardiogram repolarisation abnormality,0.001,1
+se__C0155964,Atrophic glossitis,0.001,1
+se__C0155947,Dentofacial anomaly,0.001,1
+se__C0155866,Pneumonia anthrax,0.001,1
+se__C0155796,Varicose veins vulval,0.001,1
+se__C0155789,Oesophageal varices haemorrhage,0.001,1
+se__C0155765,Microangiopathy,0.001,1
+se__C0153619,Ureteric cancer,0.001,1
+se__C0153618,Malignant neoplasm of renal pelvis,0.001,1
+se__C0153594,Testis cancer,0.001,1
+se__C0153452,Gallbladder cancer,0.001,1
+se__C0153392,Nasopharyngeal cancer,0.001,1
+se__C0153349,Tongue neoplasm malignant stage unspecified,0.001,1
+se__C0153252,Systemic candida,0.001,1
+se__C0152972,Pseudomonal sepsis,0.001,1
+se__C1096252,Cardiac discomfort,0.001,1
+se__C1096195,Thyroglobulin increased,0.001,1
+se__C1096188,Puncture site reaction,0.001,1
+se__C1096119,Cardiac valve replacement complication,0.001,1
+se__C1096082,Oesophageal discomfort,0.001,1
+se__C1096036,Infusion site warmth,0.001,1
+se__C0155369,Vitreous prolapse,0.001,1
+se__C1096368,Mean platelet volume decreased,0.001,1
+se__C1096303,Lipase abnormal,0.001,1
+se__C1096286,Transaminases decreased,0.001,1
+se__C1096275,Increased viscosity of bronchial secretion,0.001,1
+se__C1096272,Vanishing bile duct syndrome,0.001,1
+se__C1096262,Escherichia bacteraemia,0.001,1
+se__C1096256,Cryptococcal cutaneous infection,0.001,1
+se__C0152915,Disseminated tuberculosis,0.001,1
+se__C0152486,Salmonella sepsis,0.001,1
+se__C0152447,Urethral discharge,0.001,1
+se__C0152436,Imperforate hymen,0.001,1
+se__C0152173,Ventricular flutter,0.001,1
+se__C0152167,Anal spasm,0.001,1
+se__C0154041,Parathyroid tumour benign,0.001,1
+se__C0154002,Benign vaginal neoplasm,0.001,1
+se__C1096708,Vessel puncture site inflammation,0.001,1
+se__C1096701,Medical device discomfort,0.001,1
+se__C1096691,BK virus infection,0.001,1
+se__C1096670,Antitussive therapy,0.001,1
+se__C1096529,Carotid pulse,0.001,1
+se__C1096496,Blood testosterone free increased,0.001,1
+se__C1096393,Body fat disorder,0.001,1
+se__C1096387,Chemical eye injury,0.001,1
+se__C0151757,Lenticular pigmentation,0.001,1
+se__C0151739,Small intestinal perforation,0.001,1
+se__C0151728,Immunoglobulins decreased,0.001,1
+se__C0151879,Electrocardiogram QT shortened,0.001,1
+se__C0151977,Small intestine ulcer,0.001,1
+se__C0151964,Conjunctival ulcer,0.001,1
+se__C0152149,Ovulation pain,0.001,1
+se__C0149911,Hypercalcaemia of malignancy,0.001,1
+se__C1112349,Spinal cord paralysis,0.001,1
+se__C1112341,Connective tissue inflammation,0.001,1
+se__C1112261,Gaze palsy,0.001,1
+se__C1112257,Oral pustule,0.001,1
+se__C1112209,Abdominal infection,0.001,1
+se__C1096714,Infusion site infection,0.001,1
+se__C0151478,Neurotransmitter level altered,0.001,1
+se__C0151555,Cinchonism,0.001,1
+se__C0151536,Bronchostenosis,0.001,1
+se__C0151584,Injection site cyst,0.001,1
+se__C0151665,Globulins decreased,0.001,1
+se__C0151650,Kidney fibrosis,0.001,1
+se__C0151620,Hypertensive encephalopathy,0.001,1
+se__C0151614,Electrolyte depletion,0.001,1
+se__C0151684,Granuloma skin,0.001,1
+se__C0149770,Rectal abscess,0.001,1
+se__C0149766,Purpura senile,0.001,1
+se__C0149732,Muscle rupture,0.001,1
+se__C1112616,Loss of proprioception,0.001,1
+se__C1112613,Neonatal tachypnoea,0.001,1
+se__C1112537,Neurological examination abnormal,0.001,1
+se__C1112469,Cytomegalovirus syndrome,0.001,1
+se__C1112413,Peripheral artery aneurysm,0.001,1
+se__C1112376,Optic disc vascular disorder,0.001,1
+se__C1112371,Anterior chamber pigmentation,0.001,1
+se__C0151190,Palpable purpura,0.001,1
+se__C0150045,Urge incontinence,0.001,1
+se__C0149985,Secondary syphilis,0.001,1
+se__C0149976,Proctitis herpes,0.001,1
+se__C0149958,Complex partial seizures,0.001,1
+se__C0149925,Small cell lung cancer,0.001,1
+se__C0149709,Hepatitis B surface antigen positive,0.001,1
+se__C0149651,Clubbing,0.001,1
+se__C0149531,Pelvic fracture,0.001,1
+se__C1141926,Abdominal sepsis,0.001,1
+se__C1141890,Long QT syndrome congenital,0.001,1
+se__C1141885,Sclerosing encapsulating peritonitis,0.001,1
+se__C1141884,Head lag abnormal,0.001,1
+se__C1141863,Lymphocyte transformation test positive,0.001,1
+se__C1136085,Monoclonal gammopathy,0.001,1
+se__C1112789,Rectal spasm,0.001,1
+se__C1112773,Post procedural diarrhoea,0.001,1
+se__C1112762,Blood methaemoglobin present,0.001,1
+se__C1112712,Haematology test abnormal,0.001,1
+se__C0149892,Gingival abscess,0.001,1
+se__C0149782,Squamous cell carcinoma of lung,0.001,1
+se__C0149771,Rectocele,0.001,1
+se__C0085128,Cardiac output increased,0.001,1
+se__C0085084,Motor neurone disease,0.001,1
+se__C0085074,Granuloma annulare,0.001,1
+se__C1142113,Hyperalbuminaemia,0.001,1
+se__C1142086,Vitamin E decreased,0.001,1
+se__C1142072,Oral toxicity,0.001,1
+se__C1142034,Tandem gait test abnormal,0.001,1
+se__C1141959,ECG signs of myocardial ischaemia,0.001,1
+se__C1141936,Purple glove syndrome,0.001,1
+se__C0085273,Erythema infectiosum,0.001,1
+se__C0085621,Spastic paralysis,0.001,1
+se__C0085650,Purpura fulminans,0.001,1
+se__C0086227,Enterobiasis,0.001,1
+se__C0085740,Mendelson's syndrome,0.001,1
+se__C0085697,Pyelonephritis chronic,0.001,1
+se__C0149721,Left ventricular hypertrophy,0.001,1
+se__C1142272,Neutrophilic dermatosis,0.001,1
+se__C1142249,Infected cyst,0.001,1
+se__C1142248,Pseudomononucleosis,0.001,1
+se__C1142175,Shunt thrombosis,0.001,1
+se__C1142166,Brugada syndrome,0.001,1
+se__C1142163,Intestinal mass,0.001,1
+se__C1142151,Scleromalacia,0.001,1
+se__C1142133,Adnexa uteri mass,0.001,1
+se__C1142115,Enterocolitis infectious,0.001,1
+se__C0043325,Xanthomatosis,0.001,1
+se__C0080178,Spina bifida,0.001,1
+se__C0080174,Spina bifida occulta,0.001,1
+se__C0079772,T-cell lymphoma,0.001,1
+se__C0078911,HIV associated nephropathy,0.001,1
+se__C0085160,Hidradenitis,0.001,1
+se__C0041601,Ulna fracture,0.001,1
+se__C0041428,Conjoined twins,0.001,1
+se__C0041408,Turner's syndrome,0.001,1
+se__C1167661,Cerebral vasoconstriction,0.001,1
+se__C1153706,Endometrial adenocarcinoma,0.001,1
+se__C1142530,Vitamin K decreased,0.001,1
+se__C1142523,Hypothrombinaemia,0.001,1
+se__C1142492,Postinfarction angina,0.001,1
+se__C1142470,Suture related complication,0.001,1
+se__C1142459,Application site scar,0.001,1
+se__C1142446,Bicytopenia,0.001,1
+se__C1142397,Myoglobinaemia,0.001,1
+se__C0042258,Vaginal neoplasm,0.001,1
+se__C0042140,Uterine prolapse,0.001,1
+se__C0042139,Uterine perforation,0.001,1
+se__C0042568,Vertebrobasilar insufficiency,0.001,1
+se__C1167863,Retinogram abnormal,0.001,1
+se__C1167842,Tobacco withdrawal symptoms,0.001,1
+se__C1167783,Mucosal excoriation,0.001,1
+se__C1167761,Fungal test positive,0.001,1
+se__C1167760,Bacterial test positive,0.001,1
+se__C1167745,Extremity necrosis,0.001,1
+se__C1167686,Nail toxicity,0.001,1
+se__C1167677,Infrequent bowel movements,0.001,1
+se__C1167675,Application site folliculitis,0.001,1
+se__C0041307,Bovine tuberculosis,0.001,1
+se__C0040961,Tricuspid valve incompetence,0.001,1
+se__C0040953,Trichotillomania,0.001,1
+se__C0040580,Tracheal disorder,0.001,1
+se__C0041959,Ureteritis,0.001,1
+se__C0041825,Tympanic membrane disorder,0.001,1
+se__C0041782,Deficiency anaemia,0.001,1
+se__C0038538,Subdural effusion,0.001,1
+se__C0038463,Strongyloidiasis,0.001,1
+se__C1261167,Sperm concentration,0.001,1
+se__C1260871,Acetonaemia,0.001,1
+se__C1168175,Incision site haematoma,0.001,1
+se__C1168134,Anti-thyroid antibody positive,0.001,1
+se__C1167870,Graft dysfunction,0.001,1
+se__C0039504,Tendon injury,0.001,1
+se__C0039128,Syphilis,0.001,1
+se__C0039075,Syndactyly,0.001,1
+se__C0040028,Essential thrombocythaemia,0.001,1
+se__C0039685,Fallot's tetralogy,0.001,1
+se__C0040427,Tooth malformation,0.001,1
+se__C0040411,Tongue neoplasm,0.001,1
+se__C0040252,Body tinea,0.001,1
+se__C1262091,Lymphocytic infiltration,0.001,1
+se__C1262044,Antibody test negative,0.001,1
+se__C1262022,Freezing phenomenon,0.001,1
+se__C1262018,Transplant failure,0.001,1
+se__C1262006,Sinusitis bacterial,0.001,1
+se__C1262005,Ischaemic cerebral infarction,0.001,1
+se__C1261989,Hepatic enzyme decreased,0.001,1
+se__C0036982,Shock haemorrhagic,0.001,1
+se__C0036502,Sebaceous gland disorder,0.001,1
+se__C0038012,Spondylitis,0.001,1
+se__C0037933,Spinal disorder,0.001,1
+se__C0038166,Staphylococcal skin infection,0.001,1
+se__C0038165,Staphylococcal scalded skin syndrome,0.001,1
+se__C0038987,Sweat gland tumour,0.001,1
+se__C0038833,Superior vena cava syndrome,0.001,1
+se__C0034215,Pyometra,0.001,1
+se__C1271398,Pigment dispersion syndrome,0.001,1
+se__C1263855,Lumbar radiculopathy,0.001,1
+se__C1262299,Oral papilloma,0.001,1
+se__C1262168,Cholecystitis infective,0.001,1
+se__C1262165,High turnover osteopathy,0.001,1
+se__C1262149,Vaginal erosion,0.001,1
+se__C0035127,Repetitive strain injury,0.001,1
+se__C0035126,Reperfusion injury,0.001,1
+se__C0035021,Relapsing fever,0.001,1
+se__C0035459,Rhinitis atrophic,0.001,1
+se__C0036412,Scleral disorder,0.001,1
+se__C0036337,Schizoaffective disorder,0.001,1
+se__C0036203,Cutaneous sarcoidosis,0.001,1
+se__C0036117,Salmonellosis,0.001,1
+se__C0036114,Gastroenteritis salmonella,0.001,1
+se__C0033797,Pseudodementia,0.001,1
+se__C1295585,Decreased vibratory sense,0.001,1
+se__C1292769,B-cell type acute leukaemia,0.001,1
+se__C1285373,Respiratory disorder neonatal,0.001,1
+se__C1283048,Iron binding capacity total,0.001,1
+se__C1279296,Chronic leukaemia,0.001,1
+se__C1279247,Genitourinary tract infection,0.001,1
+se__C1276146,Lymphoma cutis,0.001,1
+se__C1275515,Venomous bite,0.001,1
+se__C1272092,Impaired fasting glucose,0.001,1
+se__C0034088,Pulmonary valve incompetence,0.001,1
+se__C0034050,Alveolar proteinosis,0.001,1
+se__C0034040,Postpartum disorder,0.001,1
+se__C0034888,Rectal prolapse,0.001,1
+se__C0034628,Radius fracture,0.001,1
+se__C0034544,Radiculitis,0.001,1
+se__C0032319,Pneumopericardium,0.001,1
+se__C0032302,Pneumonia mycoplasmal,0.001,1
+se__C0032045,Placental disorder,0.001,1
+se__C1321587,Respiratory depth increased,0.001,1
+se__C1321523,Wandering pacemaker,0.001,1
+se__C1321133,Bronchial haemorrhage,0.001,1
+se__C1319200,Confusion postoperative,0.001,1
+se__C1295666,Thyroxine decreased,0.001,1
+se__C0032776,Postmenopausal haemorrhage,0.001,1
+se__C0032739,Tuberculin test positive,0.001,1
+se__C0033375,Prolactinoma,0.001,1
+se__C0033075,Presbyopia,0.001,1
+se__C0033999,Pterygium,0.001,1
+se__C0033949,Male orgasmic disorder,0.001,1
+se__C0033948,Female orgasmic disorder,0.001,1
+se__C0033936,Alcoholic psychosis,0.001,1
+se__C1328447,Brain stem syndrome,0.001,1
+se__C1328428,Mycobacterium test,0.001,1
+se__C1328386,Breast fibroma,0.001,1
+se__C1328358,Pedal pulse decreased,0.001,1
+se__C1328327,Gastrooesophageal sphincter insufficiency,0.001,1
+se__C0030409,Paracoccidioides infection,0.001,1
+se__C0030293,Pancreatic insufficiency,0.001,1
+se__C0030790,Pelvic infection,0.001,1
+se__C0030785,Pelvic abscess,0.001,1
+se__C0030783,Nicotinic acid deficiency,0.001,1
+se__C0030521,Parathyroid tumour,0.001,1
+se__C0030489,Paraproteinaemia,0.001,1
+se__C0030793,Pelvic neoplasm,0.001,1
+se__C0031873,Pica,0.001,1
+se__C0031190,Persistent foetal circulation,0.001,1
+se__C0032460,Polycystic ovaries,0.001,1
+se__C1411873,Ovulation disorder,0.001,1
+se__C1407280,Peripheral artery thrombosis,0.001,1
+se__C1388177,Aortic arteriosclerosis,0.001,1
+se__C1384670,Single umbilical artery,0.001,1
+se__C1328519,Retinal pigment epithelial tear,0.001,1
+se__C0027830,Neurofibroma,0.001,1
+se__C0027794,Neural tube defect,0.001,1
+se__C0028817,Ochronosis,0.001,1
+se__C0028432,Nasal disorder,0.001,1
+se__C0028242,Nocardiosis,0.001,1
+se__C0028043,Nicotine dependence,0.001,1
+se__C0029405,Brown tumour,0.001,1
+se__C0029400,Osteitis,0.001,1
+se__C0029883,Middle ear effusion,0.001,1
+se__C0029464,Osteosclerosis,0.001,1
+se__C0029434,Osteogenesis imperfecta,0.001,1
+se__C0025312,Meningomyelocele,0.001,1
+se__C0025297,Meningitis viral,0.001,1
+se__C1455780,Aortic valve sclerosis,0.001,1
+se__C1444680,Posterior capsule opacification,0.001,1
+se__C1442998,Colpocele,0.001,1
+se__C1442968,Anastomotic ulcer,0.001,1
+se__C1442839,Hypervitaminosis D,0.001,1
+se__C1442835,Solar dermatitis,0.001,1
+se__C0026751,Multiparous,0.001,1
+se__C0026633,Congenital oral malformation,0.001,1
+se__C0026272,Mixed connective tissue disease,0.001,1
+se__C0026918,Mycobacterial infection,0.001,1
+se__C0026916,Mycobacterium avium complex infection,0.001,1
+se__C0027134,Myringitis,0.001,1
+se__C0027073,Myofascial pain syndrome,0.001,1
+se__C0027562,Negativism,0.001,1
+se__C0024441,Macular hole,0.001,1
+se__C1504561,Hypophagia,0.001,1
+se__C1504452,Implant site pain,0.001,1
+se__C1504438,Cerebral artery stenosis,0.001,1
+se__C1504435,Electrocardiogram QT interval abnormal,0.001,1
+se__C1504419,Pelvic haemorrhage,0.001,1
+se__C1504411,Post procedural oedema,0.001,1
+se__C1504405,Pyramidal tract syndrome,0.001,1
+se__C1504363,Body temperature fluctuation,0.001,1
+se__C0025064,Mediastinitis,0.001,1
+se__C0025063,Mediastinum neoplasm,0.001,1
+se__C0025062,Pneumomediastinum,0.001,1
+se__C0024904,Mastoiditis,0.001,1
+se__C0024899,Mastocytosis,0.001,1
+se__C0025500,Mesothelioma,0.001,1
+se__C0025319,Menopausal disorder,0.001,1
+se__C0023321,Lentigo,0.001,1
+se__C0023267,Leiomyoma,0.001,1
+se__C1527410,Renal rickets,0.001,1
+se__C1527383,Morphoea,0.001,1
+se__C1510586,Autism spectrum disorder,0.001,1
+se__C0023860,Listeriosis,0.001,1
+se__C0023794,Lipidosis,0.001,1
+se__C0023653,Lichenification,0.001,1
+se__C0024198,Lyme disease,0.001,1
+se__C0024110,Lung abscess,0.001,1
+se__C0024003,Lordosis,0.001,1
+se__C0023891,Cirrhosis alcoholic,0.001,1
+se__C0024790,Paroxysmal nocturnal haemoglobinuria,0.001,1
+se__C0024633,Mallory-Weiss syndrome,0.001,1
+se__C0024623,Gastric cancer,0.001,1
+se__C0024530,Malaria,0.001,1
+se__C0022410,Joint instability,0.001,1
+se__C0022362,Jaw disorder,0.001,1
+se__C1536916,Blood cholesterol decreased,0.001,1
+se__C1536009,Oesophageal oedema,0.001,1
+se__C1535970,Blood count abnormal,0.001,1
+se__C1535948,Retinal aneurysm,0.001,1
+se__C1535919,Foetal chromosome abnormality,0.001,1
+se__C0023186,Learning disorder,0.001,1
+se__C0023051,Laryngeal disorder,0.001,1
+se__C0022821,Kyphosis,0.001,1
+se__C0022735,Klinefelter's syndrome,0.001,1
+se__C0023484,Plasma cell leukaemia,0.001,1
+se__C0023480,Chronic myelomonocytic leukaemia,0.001,1
+se__C0023448,Lymphocytic leukaemia,0.001,1
+se__C0023440,Erythroleukaemia,0.001,1
+se__C0023370,Leriche syndrome,0.001,1
+se__C0020604,Hypochondriasis,0.001,1
+se__C0020599,Hypocalciuria,0.001,1
+se__C1609496,Eyelid exfoliation,0.001,1
+se__C1608953,Intestinal diaphragm disease,0.001,1
+se__C1608942,Complication of device insertion,0.001,1
+se__C1608408,Malignant transformation,0.001,1
+se__C1608399,Dark circles under eyes,0.001,1
+se__C0021100,Bullous impetigo,0.001,1
+se__C0021080,Immunosuppression,0.001,1
+se__C0020981,Angioimmunoblastic T-cell lymphoma,0.001,1
+se__C0021670,Insulinoma,0.001,1
+se__C0021776,Intermittent explosive disorder,0.001,1
+se__C0022656,Renal cortical necrosis,0.001,1
+se__C0022578,Keratoconus,0.001,1
+se__C0022541,Kearns-Sayre syndrome,0.001,1
+se__C0022504,Kaposi's varicelliform eruption,0.001,1
+se__C0019621,Langerhans' cell histiocytosis,0.001,1
+se__C0019569,Congenital megacolon,0.001,1
+se__C1695895,Angiodermatitis,0.001,1
+se__C1695782,Cerebral hypoperfusion,0.001,1
+se__C1611162,Plateletcrit decreased,0.001,1
+se__C1611157,Hepatic infiltration eosinophilic,0.001,1
+se__C1610622,Coital bleeding,0.001,1
+se__C0020455,Hypergammaglobulinaemia,0.001,1
+se__C0020450,Hyperemesis gravidarum,0.001,1
+se__C0020312,Hydrothorax,0.001,1
+se__C0020305,Hydrops foetalis,0.001,1
+se__C0020498,Senile ankylosing vertebral hyperostosis,0.001,1
+se__C0020595,Hypoaldosteronism,0.001,1
+se__C0020545,Renovascular hypertension,0.001,1
+se__C0020641,Hypopyon,0.001,1
+se__C0018975,Blindness day,0.001,1
+se__C1697747,Laryngeal haemorrhage,0.001,1
+se__C1697642,Puncture site pain,0.001,1
+se__C1696942,Application site cellulitis,0.001,1
+se__C1696708,Prehypertension,0.001,1
+se__C1696704,Ovarian haemorrhage,0.001,1
+se__C1696701,Dermatillomania,0.001,1
+se__C1695896,Infusion site hypersensitivity,0.001,1
+se__C0019154,Hepatic vein thrombosis,0.001,1
+se__C0019555,Developmental hip dysplasia,0.001,1
+se__C0019338,Herpangina,0.001,1
+se__C0020224,Polyhydramnios,0.001,1
+se__C0019880,Homocystinuria,0.001,1
+se__C0019623,Malignant histiocytosis,0.001,1
+se__C0017412,Genital disorder male,0.001,1
+se__C1735322,Injection site pallor,0.001,1
+se__C1720771,Hydrocele,0.001,1
+se__C1710632,Vessel perforation,0.001,1
+se__C1704375,Hypophosphataemic rickets,0.001,1
+se__C1704327,Bone sarcoma,0.001,1
+se__C1704202,Aspermia,0.001,1
+se__C1698976,Infusion site urticaria,0.001,1
+se__C1697973,Infusion site paraesthesia,0.001,1
+se__C1697943,Epidermal growth factor receptor decreased,0.001,1
+se__C0018128,Vascular graft occlusion,0.001,1
+se__C0018081,Gonorrhoea,0.001,1
+se__C0017662,Glomerulonephritis membranoproliferative,0.001,1
+se__C0018552,Hamartoma,0.001,1
+se__C0018816,Cardiac septal defect,0.001,1
+se__C0018994,Haemobilia,0.001,1
+se__C0016842,Pectus excavatum,0.001,1
+se__C0016770,Frustration,0.001,1
+se__C0016751,Fructose intolerance,0.001,1
+se__C0016664,Stress fracture,0.001,1
+se__C1863751,Wound healing normal,0.001,1
+se__C1859270,Slow speech,0.001,1
+se__C1744601,Heart rate abnormal,0.001,1
+se__C1740793,Post-tussive vomiting,0.001,1
+se__C1739111,Foetal anticonvulsant syndrome,0.001,1
+se__C1737329,Dysmorphism,0.001,1
+se__C1737214,Injection site injury,0.001,1
+se__C1737211,Hypoglycaemic unconsciousness,0.001,1
+se__C1735647,Mixed liver injury,0.001,1
+se__C0017416,Female reproductive neoplasm,0.001,1
+se__C1956391,Temporal arteritis,0.001,1
+se__C1955743,Mineralocorticoid deficiency,0.001,1
+se__C1868998,Cytotoxic oedema,0.001,1
+se__C1868843,Injection site dryness,0.001,1
+se__C1868829,Ultrasound ovary abnormal,0.001,1
+se__C1868821,Immediate post-injection reaction,0.001,1
+se__C1868790,Intranasal hypoaesthesia,0.001,1
+se__C1868771,Peritoneal cloudy effluent,0.001,1
+se__C1868730,Genital discomfort,0.001,1
+se__C1868710,Bronchial secretion retention,0.001,1
+se__C1868709,Activation syndrome,0.001,1
+se__C0016045,Fibroma,0.001,1
+se__C0015923,Foetal alcohol syndrome,0.001,1
+se__C0016542,Foreign body,0.001,1
+se__C0017150,Gastrinoma,0.001,1
+se__C0017105,Gas gangrene,0.001,1
+se__C1963864,Myelodysplastic syndrome transformation,0.001,1
+se__C1963824,Shortened cervix,0.001,1
+se__C1963775,Cytarabine syndrome,0.001,1
+se__C1963747,Herpes simplex hepatitis,0.001,1
+se__C1963718,Oculorespiratory syndrome,0.001,1
+se__C1959797,Allergic hepatitis,0.001,1
+se__C0014859,Oesophageal neoplasm,0.001,1
+se__C0014850,Oesophageal atresia,0.001,1
+se__C0014752,Erythrasma,0.001,1
+se__C0014718,Intertrigo candida,0.001,1
+se__C0014714,Ergot poisoning,0.001,1
+se__C0015401,Foreign body in eye,0.001,1
+se__C0015674,Chronic fatigue syndrome,0.001,1
+se__C0015523,Factor XI deficiency,0.001,1
+se__C0015467,Facial neuralgia,0.001,1
+se__C0015407,Eye infection viral,0.001,1
+se__C0011757,Developmental coordination disorder,0.001,1
+se__C0011636,Dermatophytosis,0.001,1
+se__C2242595,Mucosal atrophy,0.001,1
+se__C2242574,Compulsive sexual behaviour,0.001,1
+se__C2242496,Parotid gland inflammation,0.001,1
+se__C0012746,Dissociative disorder,0.001,1
+se__C0012624,Intervertebral discitis,0.001,1
+se__C0011876,Cataract diabetic,0.001,1
+se__C0011875,Diabetic vascular disorder,0.001,1
+se__C0013537,Eclampsia,0.001,1
+se__C0014170,Endometrial neoplasm,0.001,1
+se__C0014059,Acute disseminated encephalomyelitis,0.001,1
+se__C0014571,Epiphysiolysis,0.001,1
+se__C0014550,Myoclonic epilepsy,0.001,1
+se__C0014541,Epiglottitis,0.001,1
+se__C0014306,Enophthalmos,0.001,1
+se__C2363914,Post procedural constipation,0.001,1
+se__C2350530,Bronchopulmonary aspergillosis,0.001,1
+se__C2314994,Spinal cord infarction,0.001,1
+se__C2267233,Hypotonia neonatal,0.001,1
+se__C2242727,Tumour compression,0.001,1
+se__C0010036,Corneal dystrophy,0.001,1
+se__C0010695,Cystocele,0.001,1
+se__C0010598,Cyclothymic disorder,0.001,1
+se__C0010495,Cutis laxa,0.001,1
+se__C0010278,Craniosynostosis,0.001,1
+se__C0010266,Cranial nerve disorder,0.001,1
+se__C0011269,Vascular dementia,0.001,1
+se__C0010930,Dacryocystitis,0.001,1
+se__C0011854,Type 1 diabetes mellitus,0.001,1
+se__C2752009,White matter lesion,0.001,1
+se__C2748362,Vulvovaginal erythema,0.001,1
+se__C2747852,Device related sepsis,0.001,1
+se__C2745924,Platelet aggregation increased,0.001,1
+se__C2732728,Body height decreased,0.001,1
+se__C2721578,Pulmonary oil microembolism,0.001,1
+se__C2712054,Dyspnoea at rest,0.001,1
+se__C0007131,Non-small cell lung cancer,0.001,1
+se__C0007120,Bronchioloalveolar carcinoma,0.001,1
+se__C0007115,Thyroid cancer,0.001,1
+se__C0007113,Rectal cancer,0.001,1
+se__C0007107,Laryngeal cancer,0.001,1
+se__C0007099,Carcinoma in situ,0.001,1
+se__C0007095,Carcinoid tumour,0.001,1
+se__C0007282,Carotid artery stenosis,0.001,1
+se__C0007274,Carotid artery thrombosis,0.001,1
+se__C2609176,Kounis syndrome,0.001,1
+se__C2609174,Tongue pigmentation,0.001,1
+se__C2609148,Barium impaction,0.001,1
+se__C2609096,Genital hypoaesthesia,0.001,1
+se__C2609073,Splenic peliosis,0.001,1
+se__C2609041,Mechanical urticaria,0.001,1
+se__C0007863,Occipital neuralgia,0.001,1
+se__C0007684,Central nervous system infection,0.001,1
+se__C0008149,Chlamydial infection,0.001,1
+se__C0007873,Cervix neoplasm,0.001,1
+se__C0007871,Cervical incompetence,0.001,1
+se__C0009088,Cluster headache,0.001,1
+se__C0008733,Chylothorax,0.001,1
+se__C0008626,Cytogenetic abnormality,0.001,1
+se__C0008497,Choriocarcinoma,0.001,1
+se__C0009768,Conjunctivitis bacterial,0.001,1
+se__C0001206,Acromegaly,0.001,1
+se__C3495559,Juvenile idiopathic arthritis,0.001,1
+se__C3267019,Central nervous system haemorrhage,0.001,1
+se__C3203695,Noninfectious peritonitis,0.001,1
+se__C3203690,Deficiency of bile secretion,0.001,1
+se__C3203531,Post-traumatic neck syndrome,0.001,1
+se__C0001849,AIDS dementia complex,0.001,1
+se__C0001816,Agnosia,0.001,1
+se__C0001733,Factor I deficiency,0.001,1
+se__C0001707,Aerophagia,0.001,1
+se__C0001511,Adhesion,0.001,1
+se__C0001486,Adenovirus infection,0.001,1
+se__C0002631,Amniotic cavity infection,0.001,1
+se__C0001957,Delirium tremens,0.001,1
+se__C0002949,Artery dissection,0.001,1
+se__C0553576,Systemic mycosis,0.001,1
+se__C0549536,Monocyte count decreased,0.001,1
+se__C0558919,Stress at work,0.001,1
+se__C0558143,Skin maceration,0.001,1
+se__C0555358,Morbid thoughts,0.001,1
+se__C0553980,Endocardial fibrosis,0.001,1
+se__C0553730,Chondrocalcinosis,0.001,1
+se__C0000832,Premature separation of placenta,0.001,1
+se__C3665795,Microembolism,0.001,1
+se__C3665770,Acquired lipoatrophic diabetes,0.001,1
+se__C3665473,Deafness bilateral,0.001,1
+se__C3665418,Labile hypertension,0.001,1
+se__C3665356,Food intolerance,0.001,1
+se__C3544174,Perineal injury,0.001,1
+se__C3495827,Lid sulcus deepened,0.001,1
+se__C0001231,Ectopic ACTH syndrome,0.001,1
+se__C3495442,Phantom pain,0.0,0
+se__C0010308,Congenital hypothyroidism,0.0,0
+se__C2363784,Recurrence of neuromuscular blockade,0.0,0
+se__C0017636,Glioblastoma,0.0,0
+se__C1868693,Localised intraabdominal fluid collection,0.0,0
+se__C1697438,Cystitis viral,0.0,0
+se__C1697453,Spontaneous haematoma,0.0,0
+se__C0019618,Histiocytosis,0.0,0
+se__C1262106,Neuromuscular toxicity,0.0,0
+se__C1167868,Perinephric collection,0.0,0
+se__C1142257,Incision site pain,0.0,0
+se__C0151721,Hypogonadism male,0.0,0
+se__C1096300,Genital burning sensation,0.0,0
+se__C1096071,Type III immune complex mediated reaction,0.0,0
+se__C0919939,Graft thrombosis,0.0,0
+se__C0919728,Unwanted awareness during anaesthesia,0.0,0
+se__C0877401,Sensorimotor disorder,0.0,0
+se__C0238457,Renal vein thrombosis,0.0,0
+se__C0855565,Beta 2 microglobulin increased,0.0,0
+se__C0855573,Beta 2 microglobulin urine increased,0.0,0
+se__C0268731,Glomerulonephropathy,0.0,0
+se__C0333258,Lymphorrhoea,0.0,0
+se__C0853124,Blood follicle stimulating hormone increased,0.0,0
+se__C0853123,Blood luteinising hormone increased,0.0,0
+se__C0340608,Renal artery thrombosis,0.0,0
+se__C0751674,Lymphangioleiomyomatosis,0.0,0
+se__C0393847,Multifocal motor neuropathy,0.0,0
+se__C0392175,Renal haemorrhage,0.0,0
+se__C0392008,Anaesthetic complication,0.0,0
+se__C0400930,Chronic hepatic failure,0.0,0
+se__C0423086,Staring,0.0,0
+se__C0473124,Perirenal haematoma,0.0,0
+se__C0458247,Allodynia,0.0,0
+se__C3160756,Infection reactivation,0.0,0
+se__C0000817,Abortion infected,0.0,0

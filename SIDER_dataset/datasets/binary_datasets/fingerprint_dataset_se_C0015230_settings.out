@@ -1,0 +1,833 @@
+Clus run ['se_C0015230']
+************************
+
+Date: 27/04/2025, 10:44
+File: fingerprint_dataset_se_C0015230_settings.out
+Attributes: 541 (input: 540, output: 1)
+Missing values: No
+
+[General]
+Verbose = 1
+RandomSeed = 43
+ResourceInfoLoaded = No
+DoNotInduce = No
+LoggingProperties = logging.properties
+
+[Data]
+File = C:\Users\KostasVoror\Projects\sep\SIDER_dataset\binary_datasets\fingerprint_dataset_se_C0015230.arff
+TestSet = None
+PruneSet = None
+XVal = 10
+RemoveMissingTarget = No
+NormalizeData = None
+
+[Attributes]
+Target = 541
+Clustering = 541
+Descriptive = 1-540
+Key = None
+Disable = None
+Weights = Normalize
+ClusteringWeights = 1.0
+ReduceMemoryNominalAttrs = No
+GIS = None
+
+[Constraints]
+Syntactic = None
+MaxSize = Infinity
+MaxError = 0.0
+MaxDepth = Infinity
+
+[Nominal]
+MEstimate = 1.0
+
+[Model]
+MinimalWeight = 2.0
+MinimalNumberExamples = 0
+MinimalKnownWeight = 0.0
+ParamTuneNumberFolds = 3
+NominalSubsetTests = Yes
+LoadFromModelFile = No
+
+[Tree]
+Heuristic = VarianceReduction
+HeuristicComplexity = N2
+SetDistance = GSMDistance
+TupleDistance = Euclidean
+TSDistance = DTW
+PruningMethod = C45
+FTest = 1.0
+BinarySplit = Yes
+ConvertToRules = No
+AlternativeSplits = No
+Optimize = []
+MSENominal = No
+SplitSampling = None
+MissingClusteringAttrHandling = EstimateFromParentNode
+MissingTargetAttrHandling = ParentNode
+InductionOrder = DepthFirst
+EntropyType = StandardEntropy
+ConsiderUnlableInstancesInIGCalc = No
+SpatialMatrix = Binary
+SpatialMeasure = GlobalMoran
+Bandwidth = 0.001
+Longlat = No
+NumNeightbours = 0.0
+Alpha = 1.0
+SplitPosition = Exact
+
+[SemiSupervised]
+SemiSupervisedMethod = PCT
+StoppingCriteria = NoneAdded
+UnlabeledCriteria = Threshold
+ConfidenceThreshold = 0.8
+ConfidenceMeasure = Variance
+Iterations = 10
+K = 5
+UnlabeledData = 
+PercentageLabeled = 5
+UseWeights = No
+AirbagTrials = 0
+ExhaustiveSearchThresholds = [0.5,0.6,0.7,0.8,0.9,0.99]
+OOBErrorCalculation = LabeledOnly
+Normalization = MinMaxNormalization
+Aggregation = Average
+CalibrateHmcThreshold = No
+PruningWhenTuning = No
+InternalFolds = 5
+WeightScoresFile = NO
+PossibleWeights = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+IterationsSupervisionOptimisation = 0
+ForceInternalXValOptimisation = No
+ImputeMissingTargetValues = No
+InternalFold = -1234
+ProceedToMain = Yes
+
+[Output]
+ShowModels = [Default, Pruned, Others]
+TrainErrors = Yes
+ValidErrors = Yes
+TestErrors = Yes
+AllFoldModels = Yes
+AllFoldErrors = No
+AllFoldDatasets = No
+UnknownFrequency = No
+BranchFrequency = No
+ShowInfo = [Count]
+PrintModelAndExamples = No
+WriteErrorFile = No
+WriteModelFile = No
+WritePerBagModelFile = Yes
+WriteOOBFile = No
+WritePredictions = []
+GzipOutput = No
+ModelIDFiles = No
+WriteCurves = No
+OutputPythonModel = No
+PythonModelType = Object
+OutputROSSubspaces = No
+OutputJSONModel = No
+OutputDatabaseQueries = No
+OutputClowdFlowsJSON = No
+ComputeSpearman = No
+
+Run: 01
+*******
+
+Statistics
+----------
+
+FTValue (FTest): 1.0
+Induction Time: 1.5100E-1 sec
+Pruning Time: 2.0000E-3 sec
+Prediction Time (total for ClusModel.Original): 
+	0 microsecs
+	0 millisecs
+	0 secs
+Prediction Time (average for ClusModel.Original): 0 microsecs
+Model information:
+     Default: Nodes = 1; Leaves = 1; Depth = 1
+     Original: Nodes = 397; Leaves = 199; Depth = 20
+     Pruned: Nodes = 169; Leaves = 85; Depth = 15
+
+Training error
+--------------
+
+Number of examples: 1327
+Classification Error
+   Default: 
+   Attribute: se_C0015230
+     REAL\PRED |    1 | 0 |
+     ---------------------------
+             1 | 1021 | 0 | 1021
+             0 |  306 | 0 |  306
+     ---------------------------
+               | 1327 | 0 | 1327
+     Accuracy: 7.694047E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0015230
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 | 1006 |  15 | 1021
+             0 |   71 | 235 |  306
+     -----------------------------
+               | 1077 | 250 | 1327
+     Accuracy: 9.351922E-1
+     Cramer's coefficient: 8.114346E-1
+
+   Pruned: 
+   Attribute: se_C0015230
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 |  994 |  27 | 1021
+             0 |  127 | 179 |  306
+     -----------------------------
+               | 1121 | 206 | 1327
+     Accuracy: 8.839488E-1
+     Cramer's coefficient: 6.496478E-1
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.818])
+   Default        : [1]
+   Original       : [2.6126E-1]
+   Pruned         : [5.3998E-1]
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 9.716813E-1
+   Pruned         : 8.599716E-1
+averageAUPRC
+   Default        : 7.694047E-1
+   Original       : 9.904193E-1
+   Pruned         : 9.440565E-1
+
+Testing error
+-------------
+
+Number of examples: 1327
+Classification Error
+   Default: 
+   Attribute: se_C0015230
+     REAL\PRED |    1 | 0 |
+     ---------------------------
+             1 | 1021 | 0 | 1021
+             0 |  306 | 0 |  306
+     ---------------------------
+               | 1327 | 0 | 1327
+     Accuracy: 7.694047E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0015230
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 |  828 | 193 | 1021
+             0 |  232 |  74 |  306
+     -----------------------------
+               | 1060 | 267 | 1327
+     Accuracy: 6.797287E-1
+     Cramer's coefficient: 5.547490E-2
+
+   Pruned: 
+   Attribute: se_C0015230
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 |  853 | 168 | 1021
+             0 |  237 |  69 |  306
+     -----------------------------
+               | 1090 | 237 | 1327
+     Accuracy: 6.948003E-1
+     Cramer's coefficient: 6.702375E-2
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.818])
+   Default        : [1.0022]
+   Original       : [1.6724]
+   Pruned         : [1.4058]
+averageAUROC
+   Default        : 4.359400E-1
+   Original       : 5.508328E-1
+   Pruned         : 5.529437E-1
+averageAUPRC
+   Default        : 7.387258E-1
+   Original       : 7.922662E-1
+   Pruned         : 7.931946E-1
+
+Default Model
+*************
+
+[1] [1021.0]: 1327
+
+Original Model
+**************
+
+f_15 > 0.0
++--yes: f_19 > 0.0
+|      +--yes: f_129 > 0.0
+|      |      +--yes: [1] [39.0]: 39
+|      |      +--no:  f_180 > 0.0
+|      |             +--yes: f_262 > 0.0
+|      |             |      +--yes: f_12 > 0.0
+|      |             |      |      +--yes: f_3 > 0.0
+|      |             |      |      |      +--yes: [1] [1.0]: 2
+|      |             |      |      |      +--no:  [0] [2.0]: 2
+|      |             |      |      +--no:  [1] [2.0]: 2
+|      |             |      +--no:  f_560 > 0.0
+|      |             |             +--yes: f_340 > 0.0
+|      |             |             |      +--yes: [1] [94.0]: 96
+|      |             |             |      +--no:  f_612 > 0.0
+|      |             |             |             +--yes: [0] [2.0]: 3
+|      |             |             |             +--no:  [1] [10.0]: 11
+|      |             |             +--no:  f_735 > 0.0
+|      |             |                    +--yes: [1] [24.0]: 24
+|      |             |                    +--no:  f_620 > 0.0
+|      |             |                           +--yes: f_569 > 0.0
+|      |             |                           |      +--yes: [1] [4.0]: 4
+|      |             |                           |      +--no:  [0] [5.0]: 5
+|      |             |                           +--no:  f_713 > 0.0
+|      |             |                                  +--yes: [0] [2.0]: 3
+|      |             |                                  +--no:  f_16 > 0.0
+|      |             |                                         +--yes: f_637 > 0.0
+|      |             |                                         |      +--yes: f_462 > 0.0
+|      |             |                                         |      |      +--yes: f_250 > 0.0
+|      |             |                                         |      |      |      +--yes: [1] [2.0]: 2
+|      |             |                                         |      |      |      +--no:  f_528 > 0.0
+|      |             |                                         |      |      |             +--yes: [0] [2.0]: 2
+|      |             |                                         |      |      |             +--no:  [1] [2.0]: 3
+|      |             |                                         |      |      +--no:  [1] [13.0]: 13
+|      |             |                                         |      +--no:  f_335 > 0.0
+|      |             |                                         |             +--yes: [1] [2.0]: 2
+|      |             |                                         |             +--no:  [0] [3.0]: 3
+|      |             |                                         +--no:  f_533 > 0.0
+|      |             |                                                +--yes: [1] [1.0]: 2
+|      |             |                                                +--no:  f_340 > 0.0
+|      |             |                                                       +--yes: [1] [39.0]: 39
+|      |             |                                                       +--no:  f_335 > 0.0
+|      |             |                                                              +--yes: [0] [2.0]: 2
+|      |             |                                                              +--no:  [1] [7.0]: 7
+|      |             +--no:  f_454 > 0.0
+|      |                    +--yes: [1] [28.0]: 29
+|      |                    +--no:  f_377 > 0.0
+|      |                           +--yes: f_613 > 0.0
+|      |                           |      +--yes: f_695 > 0.0
+|      |                           |      |      +--yes: f_213 > 0.0
+|      |                           |      |      |      +--yes: [0] [3.0]: 3
+|      |                           |      |      |      +--no:  f_432 > 0.0
+|      |                           |      |      |             +--yes: [1] [8.0]: 8
+|      |                           |      |      |             +--no:  f_617 > 0.0
+|      |                           |      |      |                    +--yes: f_157 > 0.0
+|      |                           |      |      |                    |      +--yes: f_405 > 0.0
+|      |                           |      |      |                    |      |      +--yes: [1] [7.0]: 7
+|      |                           |      |      |                    |      |      +--no:  f_548 > 0.0
+|      |                           |      |      |                    |      |             +--yes: [1] [6.0]: 7
+|      |                           |      |      |                    |      |             +--no:  [0] [2.0]: 3
+|      |                           |      |      |                    |      +--no:  f_667 > 0.0
+|      |                           |      |      |                    |             +--yes: f_22 > 0.0
+|      |                           |      |      |                    |             |      +--yes: [1] [1.0]: 2
+|      |                           |      |      |                    |             |      +--no:  [0] [4.0]: 4
+|      |                           |      |      |                    |             +--no:  f_681 > 0.0
+|      |                           |      |      |                    |                    +--yes: [0] [3.0]: 3
+|      |                           |      |      |                    |                    +--no:  [1] [11.0]: 12
+|      |                           |      |      |                    +--no:  f_516 > 0.0
+|      |                           |      |      |                           +--yes: [0] [4.0]: 4
+|      |                           |      |      |                           +--no:  [1] [1.0]: 2
+|      |                           |      |      +--no:  f_13 > 0.0
+|      |                           |      |             +--yes: f_397 > 0.0
+|      |                           |      |             |      +--yes: [1] [4.0]: 4
+|      |                           |      |             |      +--no:  [0] [3.0]: 3
+|      |                           |      |             +--no:  f_299 > 0.0
+|      |                           |      |                    +--yes: f_710 > 0.0
+|      |                           |      |                    |      +--yes: [1] [53.0]: 56
+|      |                           |      |                    |      +--no:  f_2 > 0.0
+|      |                           |      |                    |             +--yes: [0] [2.0]: 2
+|      |                           |      |                    |             +--no:  [1] [3.0]: 3
+|      |                           |      |                    +--no:  f_555 > 0.0
+|      |                           |      |                           +--yes: f_2 > 0.0
+|      |                           |      |                           |      +--yes: [0] [2.0]: 2
+|      |                           |      |                           |      +--no:  [1] [1.0]: 2
+|      |                           |      |                           +--no:  [1] [3.0]: 3
+|      |                           |      +--no:  f_20 > 0.0
+|      |                           |             +--yes: [1] [2.0]: 2
+|      |                           |             +--no:  [0] [7.0]: 7
+|      |                           +--no:  f_423 > 0.0
+|      |                                  +--yes: f_11 > 0.0
+|      |                                  |      +--yes: [0] [4.0]: 4
+|      |                                  |      +--no:  [1] [3.0]: 3
+|      |                                  +--no:  f_202 > 0.0
+|      |                                         +--yes: [0] [2.0]: 3
+|      |                                         +--no:  f_698 > 0.0
+|      |                                                +--yes: f_374 > 0.0
+|      |                                                |      +--yes: [1] [66.0]: 68
+|      |                                                |      +--no:  f_611 > 0.0
+|      |                                                |             +--yes: f_3 > 0.0
+|      |                                                |             |      +--yes: [0] [2.0]: 2
+|      |                                                |             |      +--no:  [1] [1.0]: 2
+|      |                                                |             +--no:  [1] [5.0]: 5
+|      |                                                +--no:  f_559 > 0.0
+|      |                                                       +--yes: f_308 > 0.0
+|      |                                                       |      +--yes: [1] [1.0]: 2
+|      |                                                       |      +--no:  [0] [4.0]: 4
+|      |                                                       +--no:  f_159 > 0.0
+|      |                                                              +--yes: [0] [2.0]: 2
+|      |                                                              +--no:  f_803 > 0.0
+|      |                                                                     +--yes: f_3 > 0.0
+|      |                                                                     |      +--yes: [1] [3.0]: 4
+|      |                                                                     |      +--no:  [0] [2.0]: 2
+|      |                                                                     +--no:  f_489 > 0.0
+|      |                                                                            +--yes: f_374 > 0.0
+|      |                                                                            |      +--yes: [0] [2.0]: 3
+|      |                                                                            |      +--no:  [1] [2.0]: 2
+|      |                                                                            +--no:  f_3 > 0.0
+|      |                                                                                   +--yes: f_679 > 0.0
+|      |                                                                                   |      +--yes: f_339 > 0.0
+|      |                                                                                   |      |      +--yes: f_178 > 0.0
+|      |                                                                                   |      |      |      +--yes: [0] [2.0]: 3
+|      |                                                                                   |      |      |      +--no:  [1] [3.0]: 3
+|      |                                                                                   |      |      +--no:  [1] [6.0]: 6
+|      |                                                                                   |      +--no:  [0] [2.0]: 3
+|      |                                                                                   +--no:  f_639 > 0.0
+|      |                                                                                          +--yes: f_333 > 0.0
+|      |                                                                                          |      +--yes: f_682 > 0.0
+|      |                                                                                          |      |      +--yes: [1] [4.0]: 5
+|      |                                                                                          |      |      +--no:  [0] [2.0]: 2
+|      |                                                                                          |      +--no:  [1] [11.0]: 12
+|      |                                                                                          +--no:  [1] [52.0]: 53
+|      +--no:  f_742 > 0.0
+|             +--yes: [0] [3.0]: 3
+|             +--no:  f_436 > 0.0
+|                    +--yes: [0] [2.0]: 2
+|                    +--no:  f_547 > 0.0
+|                           +--yes: f_717 > 0.0
+|                           |      +--yes: f_18 > 0.0
+|                           |      |      +--yes: [1] [1.0]: 2
+|                           |      |      +--no:  [0] [2.0]: 2
+|                           |      +--no:  [1] [31.0]: 31
+|                           +--no:  f_707 > 0.0
+|                                  +--yes: [0] [2.0]: 2
+|                                  +--no:  f_439 > 0.0
+|                                         +--yes: f_602 > 0.0
+|                                         |      +--yes: f_338 > 0.0
+|                                         |      |      +--yes: [0] [2.0]: 2
+|                                         |      |      +--no:  [1] [2.0]: 2
+|                                         |      +--no:  f_419 > 0.0
+|                                         |             +--yes: f_579 > 0.0
+|                                         |             |      +--yes: [0] [2.0]: 2
+|                                         |             |      +--no:  [1] [3.0]: 3
+|                                         |             +--no:  [1] [23.0]: 24
+|                                         +--no:  f_257 > 0.0
+|                                                +--yes: f_179 > 0.0
+|                                                |      +--yes: f_419 > 0.0
+|                                                |      |      +--yes: [1] [6.0]: 6
+|                                                |      |      +--no:  f_213 > 0.0
+|                                                |      |             +--yes: f_2 > 0.0
+|                                                |      |             |      +--yes: [1] [9.0]: 9
+|                                                |      |             |      +--no:  f_16 > 0.0
+|                                                |      |             |             +--yes: [1] [2.0]: 3
+|                                                |      |             |             +--no:  [0] [2.0]: 3
+|                                                |      |             +--no:  f_251 > 0.0
+|                                                |      |                    +--yes: f_338 > 0.0
+|                                                |      |                    |      +--yes: [1] [6.0]: 6
+|                                                |      |                    |      +--no:  f_340 > 0.0
+|                                                |      |                    |             +--yes: f_18 > 0.0
+|                                                |      |                    |             |      +--yes: [0] [2.0]: 2
+|                                                |      |                    |             |      +--no:  [1] [2.0]: 3
+|                                                |      |                    |             +--no:  [1] [2.0]: 2
+|                                                |      |                    +--no:  f_145 > 0.0
+|                                                |      |                           +--yes: f_186 > 0.0
+|                                                |      |                           |      +--yes: f_261 > 0.0
+|                                                |      |                           |      |      +--yes: [0] [2.0]: 2
+|                                                |      |                           |      |      +--no:  [1] [1.0]: 2
+|                                                |      |                           |      +--no:  [1] [5.0]: 6
+|                                                |      |                           +--no:  [0] [9.0]: 9
+|                                                |      +--no:  [0] [3.0]: 3
+|                                                +--no:  f_555 > 0.0
+|                                                       +--yes: [1] [13.0]: 13
+|                                                       +--no:  f_33 > 0.0
+|                                                              +--yes: [1] [4.0]: 4
+|                                                              +--no:  f_37 > 0.0
+|                                                                     +--yes: [1] [6.0]: 7
+|                                                                     +--no:  f_549 > 0.0
+|                                                                            +--yes: [1] [3.0]: 3
+|                                                                            +--no:  f_2 > 0.0
+|                                                                                   +--yes: f_178 > 0.0
+|                                                                                   |      +--yes: [0] [2.0]: 2
+|                                                                                   |      +--no:  [1] [1.0]: 2
+|                                                                                   +--no:  f_560 > 0.0
+|                                                                                          +--yes: [1] [2.0]: 2
+|                                                                                          +--no:  f_390 > 0.0
+|                                                                                                 +--yes: [0] [2.0]: 2
+|                                                                                                 +--no:  [1] [4.0]: 6
++--no:  f_332 > 0.0
+       +--yes: f_631 > 0.0
+       |      +--yes: f_528 > 0.0
+       |      |      +--yes: [0] [8.0]: 8
+       |      |      +--no:  f_659 > 0.0
+       |      |             +--yes: f_335 > 0.0
+       |      |             |      +--yes: [1] [2.0]: 4
+       |      |             |      +--no:  [0] [2.0]: 2
+       |      |             +--no:  f_20 > 0.0
+       |      |                    +--yes: [1] [6.0]: 6
+       |      |                    +--no:  f_143 > 0.0
+       |      |                           +--yes: [1] [2.0]: 2
+       |      |                           +--no:  [0] [2.0]: 2
+       |      +--no:  f_803 > 0.0
+       |             +--yes: [1] [24.0]: 26
+       |             +--no:  f_815 > 0.0
+       |                    +--yes: f_1 > 0.0
+       |                    |      +--yes: [1] [2.0]: 3
+       |                    |      +--no:  [0] [3.0]: 3
+       |                    +--no:  f_602 > 0.0
+       |                           +--yes: [1] [20.0]: 21
+       |                           +--no:  f_694 > 0.0
+       |                                  +--yes: f_614 > 0.0
+       |                                  |      +--yes: f_493 > 0.0
+       |                                  |      |      +--yes: [0] [2.0]: 3
+       |                                  |      |      +--no:  [1] [3.0]: 3
+       |                                  |      +--no:  f_143 > 0.0
+       |                                  |             +--yes: [1] [1.0]: 2
+       |                                  |             +--no:  [0] [4.0]: 4
+       |                                  +--no:  f_366 > 0.0
+       |                                         +--yes: f_452 > 0.0
+       |                                         |      +--yes: f_430 > 0.0
+       |                                         |      |      +--yes: f_575 > 0.0
+       |                                         |      |      |      +--yes: [0] [2.0]: 2
+       |                                         |      |      |      +--no:  f_214 > 0.0
+       |                                         |      |      |             +--yes: f_20 > 0.0
+       |                                         |      |      |             |      +--yes: [0] [2.0]: 2
+       |                                         |      |      |             |      +--no:  [1] [3.0]: 4
+       |                                         |      |      |             +--no:  f_662 > 0.0
+       |                                         |      |      |                    +--yes: f_334 > 0.0
+       |                                         |      |      |                    |      +--yes: f_3 > 0.0
+       |                                         |      |      |                    |      |      +--yes: [1] [2.0]: 3
+       |                                         |      |      |                    |      |      +--no:  [0] [2.0]: 2
+       |                                         |      |      |                    |      +--no:  f_566 > 0.0
+       |                                         |      |      |                    |             +--yes: f_143 > 0.0
+       |                                         |      |      |                    |             |      +--yes: [1] [2.0]: 2
+       |                                         |      |      |                    |             |      +--no:  [0] [2.0]: 3
+       |                                         |      |      |                    |             +--no:  [1] [11.0]: 11
+       |                                         |      |      |                    +--no:  f_374 > 0.0
+       |                                         |      |      |                           +--yes: f_23 > 0.0
+       |                                         |      |      |                           |      +--yes: f_3 > 0.0
+       |                                         |      |      |                           |      |      +--yes: f_14 > 0.0
+       |                                         |      |      |                           |      |      |      +--yes: [1] [2.0]: 2
+       |                                         |      |      |                           |      |      |      +--no:  [0] [2.0]: 3
+       |                                         |      |      |                           |      |      +--no:  [1] [4.0]: 4
+       |                                         |      |      |                           |      +--no:  [1] [36.0]: 36
+       |                                         |      |      |                           +--no:  [1] [1.0]: 2
+       |                                         |      |      +--no:  f_242 > 0.0
+       |                                         |      |             +--yes: [0] [2.0]: 2
+       |                                         |      |             +--no:  f_594 > 0.0
+       |                                         |      |                    +--yes: f_143 > 0.0
+       |                                         |      |                    |      +--yes: [0] [4.0]: 4
+       |                                         |      |                    |      +--no:  [1] [3.0]: 4
+       |                                         |      |                    +--no:  f_337 > 0.0
+       |                                         |      |                           +--yes: [1] [6.0]: 6
+       |                                         |      |                           +--no:  f_681 > 0.0
+       |                                         |      |                                  +--yes: f_432 > 0.0
+       |                                         |      |                                  |      +--yes: [0] [2.0]: 2
+       |                                         |      |                                  |      +--no:  f_3 > 0.0
+       |                                         |      |                                  |             +--yes: [1] [3.0]: 4
+       |                                         |      |                                  |             +--no:  f_374 > 0.0
+       |                                         |      |                                  |                    +--yes: [0] [3.0]: 3
+       |                                         |      |                                  |                    +--no:  [1] [3.0]: 4
+       |                                         |      |                                  +--no:  f_308 > 0.0
+       |                                         |      |                                         +--yes: [1] [7.0]: 7
+       |                                         |      |                                         +--no:  f_3 > 0.0
+       |                                         |      |                                                +--yes: [1] [2.0]: 2
+       |                                         |      |                                                +--no:  [0] [2.0]: 3
+       |                                         |      +--no:  f_339 > 0.0
+       |                                         |             +--yes: f_615 > 0.0
+       |                                         |             |      +--yes: f_299 > 0.0
+       |                                         |             |      |      +--yes: [1] [3.0]: 3
+       |                                         |             |      |      +--no:  [0] [6.0]: 6
+       |                                         |             |      +--no:  f_686 > 0.0
+       |                                         |             |             +--yes: f_3 > 0.0
+       |                                         |             |             |      +--yes: [1] [1.0]: 2
+       |                                         |             |             |      +--no:  [0] [2.0]: 2
+       |                                         |             |             +--no:  f_405 > 0.0
+       |                                         |             |                    +--yes: f_591 > 0.0
+       |                                         |             |                    |      +--yes: [0] [2.0]: 3
+       |                                         |             |                    |      +--no:  f_663 > 0.0
+       |                                         |             |                    |             +--yes: f_186 > 0.0
+       |                                         |             |                    |             |      +--yes: [1] [7.0]: 7
+       |                                         |             |                    |             |      +--no:  f_714 > 0.0
+       |                                         |             |                    |             |             +--yes: [1] [3.0]: 3
+       |                                         |             |                    |             |             +--no:  f_20 > 0.0
+       |                                         |             |                    |             |                    +--yes: [1] [6.0]: 8
+       |                                         |             |                    |             |                    +--no:  [0] [2.0]: 2
+       |                                         |             |                    |             +--no:  [1] [19.0]: 19
+       |                                         |             |                    +--no:  f_37 > 0.0
+       |                                         |             |                           +--yes: [1] [6.0]: 6
+       |                                         |             |                           +--no:  f_255 > 0.0
+       |                                         |             |                                  +--yes: f_735 > 0.0
+       |                                         |             |                                  |      +--yes: f_3 > 0.0
+       |                                         |             |                                  |      |      +--yes: [1] [2.0]: 2
+       |                                         |             |                                  |      |      +--no:  [0] [2.0]: 3
+       |                                         |             |                                  |      +--no:  [1] [6.0]: 6
+       |                                         |             |                                  +--no:  f_20 > 0.0
+       |                                         |             |                                         +--yes: f_23 > 0.0
+       |                                         |             |                                         |      +--yes: f_639 > 0.0
+       |                                         |             |                                         |      |      +--yes: f_24 > 0.0
+       |                                         |             |                                         |      |      |      +--yes: [0] [2.0]: 2
+       |                                         |             |                                         |      |      |      +--no:  [1] [2.0]: 4
+       |                                         |             |                                         |      |      +--no:  [1] [2.0]: 3
+       |                                         |             |                                         |      +--no:  [1] [5.0]: 6
+       |                                         |             |                                         +--no:  f_2 > 0.0
+       |                                         |             |                                                +--yes: [0] [4.0]: 4
+       |                                         |             |                                                +--no:  [1] [1.0]: 2
+       |                                         |             +--no:  f_391 > 0.0
+       |                                         |                    +--yes: f_338 > 0.0
+       |                                         |                    |      +--yes: [0] [4.0]: 4
+       |                                         |                    |      +--no:  f_776 > 0.0
+       |                                         |                    |             +--yes: [0] [2.0]: 2
+       |                                         |                    |             +--no:  [1] [11.0]: 11
+       |                                         |                    +--no:  f_19 > 0.0
+       |                                         |                           +--yes: f_385 > 0.0
+       |                                         |                           |      +--yes: [1] [2.0]: 3
+       |                                         |                           |      +--no:  f_293 > 0.0
+       |                                         |                           |             +--yes: [1] [1.0]: 2
+       |                                         |                           |             +--no:  [0] [13.0]: 13
+       |                                         |                           +--no:  f_637 > 0.0
+       |                                         |                                  +--yes: [1] [3.0]: 3
+       |                                         |                                  +--no:  [0] [2.0]: 2
+       |                                         +--no:  f_777 > 0.0
+       |                                                +--yes: f_193 > 0.0
+       |                                                |      +--yes: [1] [7.0]: 8
+       |                                                |      +--no:  f_340 > 0.0
+       |                                                |             +--yes: f_46 > 0.0
+       |                                                |             |      +--yes: [1] [1.0]: 2
+       |                                                |             |      +--no:  [0] [4.0]: 4
+       |                                                |             +--no:  f_693 > 0.0
+       |                                                |                    +--yes: [0] [2.0]: 2
+       |                                                |                    +--no:  [1] [4.0]: 4
+       |                                                +--no:  f_43 > 0.0
+       |                                                       +--yes: [0] [2.0]: 2
+       |                                                       +--no:  f_383 > 0.0
+       |                                                              +--yes: f_257 > 0.0
+       |                                                              |      +--yes: f_186 > 0.0
+       |                                                              |      |      +--yes: [1] [4.0]: 4
+       |                                                              |      |      +--no:  f_712 > 0.0
+       |                                                              |      |             +--yes: [0] [2.0]: 3
+       |                                                              |      |             +--no:  [1] [3.0]: 3
+       |                                                              |      +--no:  [0] [3.0]: 3
+       |                                                              +--no:  f_628 > 0.0
+       |                                                                     +--yes: f_391 > 0.0
+       |                                                                     |      +--yes: f_374 > 0.0
+       |                                                                     |      |      +--yes: f_37 > 0.0
+       |                                                                     |      |      |      +--yes: [1] [2.0]: 2
+       |                                                                     |      |      |      +--no:  f_417 > 0.0
+       |                                                                     |      |      |             +--yes: [1] [2.0]: 2
+       |                                                                     |      |      |             +--no:  f_439 > 0.0
+       |                                                                     |      |      |                    +--yes: [1] [2.0]: 2
+       |                                                                     |      |      |                    +--no:  [0] [4.0]: 4
+       |                                                                     |      |      +--no:  [0] [2.0]: 2
+       |                                                                     |      +--no:  [1] [10.0]: 10
+       |                                                                     +--no:  f_697 > 0.0
+       |                                                                            +--yes: [1] [48.0]: 51
+       |                                                                            +--no:  f_179 > 0.0
+       |                                                                                   +--yes: f_430 > 0.0
+       |                                                                                   |      +--yes: [1] [9.0]: 11
+       |                                                                                   |      +--no:  [0] [2.0]: 2
+       |                                                                                   +--no:  [1] [19.0]: 21
+       +--no:  f_292 > 0.0
+              +--yes: [1] [5.0]: 6
+              +--no:  f_413 > 0.0
+                     +--yes: [1] [2.0]: 2
+                     +--no:  f_440 > 0.0
+                            +--yes: [0] [6.0]: 6
+                            +--no:  f_21 > 0.0
+                                   +--yes: [0] [3.0]: 3
+                                   +--no:  f_380 > 0.0
+                                          +--yes: [1] [3.0]: 4
+                                          +--no:  f_423 > 0.0
+                                                 +--yes: [0] [3.0]: 3
+                                                 +--no:  f_33 > 0.0
+                                                        +--yes: f_18 > 0.0
+                                                        |      +--yes: [0] [4.0]: 4
+                                                        |      +--no:  [1] [1.0]: 2
+                                                        +--no:  f_366 > 0.0
+                                                               +--yes: f_37 > 0.0
+                                                               |      +--yes: [1] [1.0]: 2
+                                                               |      +--no:  [0] [3.0]: 3
+                                                               +--no:  f_9 > 0.0
+                                                                      +--yes: [1] [2.0]: 2
+                                                                      +--no:  f_18 > 0.0
+                                                                             +--yes: [1] [2.0]: 3
+                                                                             +--no:  f_26 > 0.0
+                                                                                    +--yes: [1] [2.0]: 2
+                                                                                    +--no:  f_37 > 0.0
+                                                                                           +--yes: [1] [1.0]: 2
+                                                                                           +--no:  [0] [3.0]: 3
+
+Pruned Model
+************
+
+f_15 > 0.0
++--yes: f_19 > 0.0
+|      +--yes: f_129 > 0.0
+|      |      +--yes: [1] [39.0]: 39
+|      |      +--no:  f_180 > 0.0
+|      |             +--yes: [1] [203.0]: 227
+|      |             +--no:  f_454 > 0.0
+|      |                    +--yes: [1] [28.0]: 29
+|      |                    +--no:  f_377 > 0.0
+|      |                           +--yes: f_613 > 0.0
+|      |                           |      +--yes: f_695 > 0.0
+|      |                           |      |      +--yes: f_432 > 0.0
+|      |                           |      |      |      +--yes: [1] [8.0]: 9
+|      |                           |      |      |      +--no:  f_617 > 0.0
+|      |                           |      |      |             +--yes: f_157 > 0.0
+|      |                           |      |      |             |      +--yes: [1] [14.0]: 17
+|      |                           |      |      |             |      +--no:  f_667 > 0.0
+|      |                           |      |      |             |             +--yes: [0] [6.0]: 7
+|      |                           |      |      |             |             +--no:  f_681 > 0.0
+|      |                           |      |      |             |                    +--yes: [0] [3.0]: 3
+|      |                           |      |      |             |                    +--no:  [1] [11.0]: 12
+|      |                           |      |      |             +--no:  [0] [6.0]: 7
+|      |                           |      |      +--no:  f_13 > 0.0
+|      |                           |      |             +--yes: f_397 > 0.0
+|      |                           |      |             |      +--yes: [1] [4.0]: 4
+|      |                           |      |             |      +--no:  [0] [3.0]: 3
+|      |                           |      |             +--no:  f_299 > 0.0
+|      |                           |      |                    +--yes: f_710 > 0.0
+|      |                           |      |                    |      +--yes: [1] [53.0]: 56
+|      |                           |      |                    |      +--no:  f_2 > 0.0
+|      |                           |      |                    |             +--yes: [0] [2.0]: 2
+|      |                           |      |                    |             +--no:  [1] [3.0]: 3
+|      |                           |      |                    +--no:  f_555 > 0.0
+|      |                           |      |                           +--yes: [0] [3.0]: 4
+|      |                           |      |                           +--no:  [1] [3.0]: 3
+|      |                           |      +--no:  f_20 > 0.0
+|      |                           |             +--yes: [1] [2.0]: 2
+|      |                           |             +--no:  [0] [7.0]: 7
+|      |                           +--no:  f_423 > 0.0
+|      |                                  +--yes: f_11 > 0.0
+|      |                                  |      +--yes: [0] [4.0]: 4
+|      |                                  |      +--no:  [1] [3.0]: 3
+|      |                                  +--no:  f_202 > 0.0
+|      |                                         +--yes: [0] [2.0]: 3
+|      |                                         +--no:  f_698 > 0.0
+|      |                                                +--yes: [1] [72.0]: 77
+|      |                                                +--no:  f_559 > 0.0
+|      |                                                       +--yes: [0] [5.0]: 6
+|      |                                                       +--no:  f_159 > 0.0
+|      |                                                              +--yes: [0] [2.0]: 2
+|      |                                                              +--no:  [1] [84.0]: 98
+|      +--no:  f_742 > 0.0
+|             +--yes: [0] [3.0]: 3
+|             +--no:  f_436 > 0.0
+|                    +--yes: [0] [2.0]: 2
+|                    +--no:  f_547 > 0.0
+|                           +--yes: f_717 > 0.0
+|                           |      +--yes: [0] [3.0]: 4
+|                           |      +--no:  [1] [31.0]: 31
+|                           +--no:  f_707 > 0.0
+|                                  +--yes: [0] [2.0]: 2
+|                                  +--no:  f_439 > 0.0
+|                                         +--yes: f_602 > 0.0
+|                                         |      +--yes: f_338 > 0.0
+|                                         |      |      +--yes: [0] [2.0]: 2
+|                                         |      |      +--no:  [1] [2.0]: 2
+|                                         |      +--no:  f_419 > 0.0
+|                                         |             +--yes: f_579 > 0.0
+|                                         |             |      +--yes: [0] [2.0]: 2
+|                                         |             |      +--no:  [1] [3.0]: 3
+|                                         |             +--no:  [1] [23.0]: 24
+|                                         +--no:  f_257 > 0.0
+|                                                +--yes: f_179 > 0.0
+|                                                |      +--yes: f_419 > 0.0
+|                                                |      |      +--yes: [1] [6.0]: 6
+|                                                |      |      +--no:  f_213 > 0.0
+|                                                |      |             +--yes: [1] [12.0]: 15
+|                                                |      |             +--no:  f_251 > 0.0
+|                                                |      |                    +--yes: [1] [10.0]: 13
+|                                                |      |                    +--no:  f_145 > 0.0
+|                                                |      |                           +--yes: f_186 > 0.0
+|                                                |      |                           |      +--yes: [0] [3.0]: 4
+|                                                |      |                           |      +--no:  [1] [5.0]: 6
+|                                                |      |                           +--no:  [0] [9.0]: 9
+|                                                |      +--no:  [0] [3.0]: 3
+|                                                +--no:  [1] [33.0]: 41
++--no:  f_332 > 0.0
+       +--yes: f_631 > 0.0
+       |      +--yes: f_528 > 0.0
+       |      |      +--yes: [0] [8.0]: 8
+       |      |      +--no:  f_659 > 0.0
+       |      |             +--yes: [0] [4.0]: 6
+       |      |             +--no:  f_20 > 0.0
+       |      |                    +--yes: [1] [6.0]: 6
+       |      |                    +--no:  f_143 > 0.0
+       |      |                           +--yes: [1] [2.0]: 2
+       |      |                           +--no:  [0] [2.0]: 2
+       |      +--no:  f_803 > 0.0
+       |             +--yes: [1] [24.0]: 26
+       |             +--no:  f_815 > 0.0
+       |                    +--yes: f_1 > 0.0
+       |                    |      +--yes: [1] [2.0]: 3
+       |                    |      +--no:  [0] [3.0]: 3
+       |                    +--no:  f_694 > 0.0
+       |                           +--yes: f_614 > 0.0
+       |                           |      +--yes: [1] [5.0]: 7
+       |                           |      +--no:  [0] [5.0]: 6
+       |                           +--no:  f_366 > 0.0
+       |                                  +--yes: f_452 > 0.0
+       |                                  |      +--yes: f_430 > 0.0
+       |                                  |      |      +--yes: f_575 > 0.0
+       |                                  |      |      |      +--yes: [0] [2.0]: 2
+       |                                  |      |      |      +--no:  [1] [69.0]: 80
+       |                                  |      |      +--no:  f_242 > 0.0
+       |                                  |      |             +--yes: [0] [2.0]: 2
+       |                                  |      |             +--no:  f_594 > 0.0
+       |                                  |      |                    +--yes: f_143 > 0.0
+       |                                  |      |                    |      +--yes: [0] [4.0]: 4
+       |                                  |      |                    |      +--no:  [1] [3.0]: 4
+       |                                  |      |                    +--no:  [1] [23.0]: 32
+       |                                  |      +--no:  f_339 > 0.0
+       |                                  |             +--yes: f_615 > 0.0
+       |                                  |             |      +--yes: f_299 > 0.0
+       |                                  |             |      |      +--yes: [1] [3.0]: 3
+       |                                  |             |      |      +--no:  [0] [6.0]: 6
+       |                                  |             |      +--no:  f_686 > 0.0
+       |                                  |             |             +--yes: [0] [3.0]: 4
+       |                                  |             |             +--no:  f_405 > 0.0
+       |                                  |             |                    +--yes: f_591 > 0.0
+       |                                  |             |                    |      +--yes: [0] [2.0]: 3
+       |                                  |             |                    |      +--no:  [1] [35.0]: 39
+       |                                  |             |                    +--no:  f_255 > 0.0
+       |                                  |             |                           +--yes: [1] [9.0]: 11
+       |                                  |             |                           +--no:  f_20 > 0.0
+       |                                  |             |                                  +--yes: [1] [15.0]: 21
+       |                                  |             |                                  +--no:  [0] [5.0]: 6
+       |                                  |             +--no:  f_391 > 0.0
+       |                                  |                    +--yes: f_338 > 0.0
+       |                                  |                    |      +--yes: [0] [4.0]: 4
+       |                                  |                    |      +--no:  f_776 > 0.0
+       |                                  |                    |             +--yes: [0] [2.0]: 2
+       |                                  |                    |             +--no:  [1] [11.0]: 11
+       |                                  |                    +--no:  f_19 > 0.0
+       |                                  |                           +--yes: f_385 > 0.0
+       |                                  |                           |      +--yes: [1] [2.0]: 3
+       |                                  |                           |      +--no:  [0] [14.0]: 15
+       |                                  |                           +--no:  f_637 > 0.0
+       |                                  |                                  +--yes: [1] [3.0]: 3
+       |                                  |                                  +--no:  [0] [2.0]: 2
+       |                                  +--no:  f_777 > 0.0
+       |                                         +--yes: f_193 > 0.0
+       |                                         |      +--yes: [1] [7.0]: 8
+       |                                         |      +--no:  f_340 > 0.0
+       |                                         |             +--yes: [0] [5.0]: 6
+       |                                         |             +--no:  f_693 > 0.0
+       |                                         |                    +--yes: [0] [2.0]: 2
+       |                                         |                    +--no:  [1] [4.0]: 4
+       |                                         +--no:  f_43 > 0.0
+       |                                                +--yes: [0] [2.0]: 2
+       |                                                +--no:  f_383 > 0.0
+       |                                                       +--yes: f_257 > 0.0
+       |                                                       |      +--yes: [1] [9.0]: 11
+       |                                                       |      +--no:  [0] [3.0]: 3
+       |                                                       +--no:  [1] [103.0]: 119
+       +--no:  f_292 > 0.0
+              +--yes: [1] [5.0]: 6
+              +--no:  f_413 > 0.0
+                     +--yes: [1] [2.0]: 2
+                     +--no:  [0] [27.0]: 39
+

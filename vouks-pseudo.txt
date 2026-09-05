@@ -1,0 +1,46 @@
+prediction_model ← XGBoost(training_instances)
+explain_class ← minority class
+explanation_method ← SHAP (for classification)
+thr_upper ← 0.4, thr_lower ← 0.8, step ← 0.1
+noise_thr ← num_inst / 100 	// num_inst: number of instances of the explained (minority) class
+feature_depth ← { 3, 2 } // For logical ^ and v feature_depth = 3, for other logical operators feature_depth = 2. For experiments with XofN feature_depth is set to 5
+pci ← 0.9 // percentage of covered instances threshold for stopping the feature construction process
+freq_groups ← {}
+instances_explanations ← {}
+for each instance E minority class in training_instances:
+    instances_explanations[instance] ← getExplanations(instance, prediction_model, explain_class, explanation_method)
+for each current_threshold in range(thr_lower, thr_upper, +step):
+    used_features ← 0   // set all “used features” flags to 0
+    instances_explanations ← |instances_explanations|                 // get absolute values
+    for each instance_explanations in instances_explanations:
+        normalised_instance_explanations ← ||instance_explanations||
+        ordered_instance_explanations ← sort(normalised_instance_explanations, desc)
+        current_sum ← 0
+        for each ordered_instance_explanation in ordered_instance_explanations:
+            if current_sum < current_threshold:
+                current_sum ← current_sum + ordered_instance_explanation.score
+                used_features[ordered_instance_explanation] ← 1
+            else:
+                break and continue from line 14 // to the next instance
+    temporary_groups ← {}
+    for each feature in used_feature:
+        for each instance_explanations in instances_explanations:
+            if used_features[instance_explanations] == 1:
+                ADD feature to temporary_groups[instance_explanations]
+    frequency_map = getFrequencyMap(Gtemp)
+    sort(frequency_map, desc)
+    REMOVE subsets temporary_groups where frequency_map[group].frequency < noise_thr OR |group| = 1  // remove subsets below the noise threshold and subsets with only one attribute
+    ADD temporary_groups to freq_groups
+final_features ← {}
+for group in freq_groups:
+    constructed_features ← FURIA(group, feature_depth)
+    for each constructed_feature in constructed_features:
+        ADD constructed_feature to final_features
+        REMOVE instances covered by constructed_feature from instances where Y = minority class
+        if constructed_feature contains ^: // if the constructed feature contains a logical AND operator
+            conditions ← getConditions(constructed_feature)
+            final_features ← createThresholdFeatures(conditions) // XofN generation
+    if # covered instances >= pci: 
+        break
+evaluate(final_features, training_instances) // Optional evaluation for knowledge discovery phase. This step is not performed for the XofN experiments
+return final_features

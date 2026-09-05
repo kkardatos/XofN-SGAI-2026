@@ -1,0 +1,8 @@
+,XofN_none N/A,XofN Jac-max Ung,XofN Jac-max Org,XofN VarRed Ung,XofN VarRed Org,XofN Vouk Ung,XofN Vouk Org
+XofN_none N/A,1.0,0.934,0.999,0.962,1.0,0.808,0.436
+XofN Jac-max Ung,0.934,1.0,0.694,1.0,0.975,0.171,0.037
+XofN Jac-max Org,0.999,0.694,1.0,0.765,0.993,0.975,0.765
+XofN VarRed Ung,0.962,1.0,0.765,1.0,0.988,0.219,0.052
+XofN VarRed Org,1.0,0.975,0.993,0.988,1.0,0.694,0.317
+XofN Vouk Ung,0.808,0.171,0.975,0.219,0.694,1.0,0.997
+XofN Vouk Org,0.436,0.037,0.765,0.052,0.317,0.997,1.0

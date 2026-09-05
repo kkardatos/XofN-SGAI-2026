@@ -1,0 +1,19 @@
+Dataset,XofN_none N/A,XofN Jac-max Ung,XofN Jac-max Org,XofN VarRed Ung,XofN VarRed Org,XofN Vouk Ung,XofN Vouk Org
+fingerprint_high_freq,,0.0,0.0,2.05,2.05,469.8,469.8
+fingerprint_mid_freq,,0.0,0.0,1.57,1.57,461.2,461.2
+fingerprint_low_freq,,0.0,0.0,0.92,0.92,413.1,413.1
+fingerprint_cardiac,,0.0,0.0,2.57,2.57,446.2,446.2
+fingerprint_ten,,0.0,0.0,0.96,0.96,449.0,449.0
+fingerprint_ten_mid,,0.0,0.0,1.48,1.48,408.1,408.1
+CPI_high_freq,,0.0,0.0,9.27,9.27,1551.6,1551.6
+CPI_mid_freq,,0.0,0.0,33.04,33.04,1528.5,1528.5
+CPI_low_freq,,0.0,0.0,2.06,2.06,1456.7,1456.7
+CPI_cardiac,,0.0,0.0,25.0,25.0,1476.7,1476.7
+CPI_ten,,0.0,0.0,6.53,6.53,1509.5,1509.5
+CPI_ten_mid,,0.0,0.0,28.89,28.89,1481.3,1481.3
+CPI+fingerprint_high_freq,,0.0,0.0,8.63,8.63,2077.3,2077.3
+CPI+fingerprint_mid_freq,,0.0,0.0,28.59,28.59,2043.8,2043.8
+CPI+fingerprint_low_freq,,0.0,0.0,3.04,3.04,1982.6,1982.6
+CPI+fingerprint_cardiac,,0.0,0.0,17.58,17.58,2018.9,2018.9
+CPI+fingerprint_ten,,0.0,0.0,6.1,6.1,2040.4,2040.4
+CPI+fingerprint_ten_mid,,0.0,0.0,30.18,30.18,1997.2,1997.2

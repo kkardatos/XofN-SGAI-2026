@@ -1,0 +1,3 @@
+Holm's test (control: XofN VarRed Org):
+XofN VarRed Org vs XofN_none N/A -> p:0.0011 < adj_a:0.025 (Significant)
+XofN VarRed Org vs XofN Vouk Org -> p:0.0058 < adj_a:0.05 (Significant)

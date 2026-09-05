@@ -1,0 +1,3 @@
+Holm's test (control: XofN_none N/A):
+XofN_none N/A vs XofN Vouk Org -> p:0.002 < adj_a:0.0167 (Significant)
+XofN_none N/A vs XofN Jac-max Org -> p:0.1563 >= adj_a:0.025 (Not Significant)

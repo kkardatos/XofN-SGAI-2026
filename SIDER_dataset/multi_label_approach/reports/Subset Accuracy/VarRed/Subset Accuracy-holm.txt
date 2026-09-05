@@ -1,0 +1,4 @@
+Holm's test (control: XofN VarRed Ung):
+XofN VarRed Ung vs XofN Vouk Org -> p:0.0026 < adj_a:0.0125 (Significant)
+XofN VarRed Ung vs XofN Vouk Ung -> p:0.0129 < adj_a:0.0167 (Significant)
+XofN VarRed Ung vs XofN_none N/A -> p:0.3146 >= adj_a:0.025 (Not Significant)

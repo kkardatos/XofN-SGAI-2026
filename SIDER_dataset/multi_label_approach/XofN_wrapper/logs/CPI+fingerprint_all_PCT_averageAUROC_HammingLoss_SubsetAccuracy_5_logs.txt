@@ -1,0 +1,656 @@
+2025-11-13 19:10:35,671 - INFO - CPI+fingerprint_all_PCT_averageAUROC_HammingLoss_SubsetAccuracy_5
+2025-11-13 19:10:37,747 - INFO - 
+\U0001f50d 1/2146 - Starting new group cpi_9606.ENSP00000337915 with [cpi_9606.ENSP00000337915] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 19:12:44,504 - INFO - \u2705 Added f_555 to group \u2192 New group: ['cpi_9606.ENSP00000337915', 'f_555'].
+2025-11-13 19:14:54,070 - INFO - \u2705 Added cpi_9606.ENSP00000338345 to group \u2192 New group: ['cpi_9606.ENSP00000337915', 'f_555', 'cpi_9606.ENSP00000338345'].
+2025-11-13 19:17:06,538 - INFO - \u2705 Added cpi_9606.ENSP00000296350 to group \u2192 New group: ['cpi_9606.ENSP00000337915', 'f_555', 'cpi_9606.ENSP00000338345', 'cpi_9606.ENSP00000296350'].
+2025-11-13 19:19:19,026 - INFO - \u2705 Added cpi_9606.ENSP00000223095 to group \u2192 New group: ['cpi_9606.ENSP00000337915', 'f_555', 'cpi_9606.ENSP00000338345', 'cpi_9606.ENSP00000296350', 'cpi_9606.ENSP00000223095'].
+2025-11-13 19:19:19,026 - INFO - \U0001f4be Group saved: ['cpi_9606.ENSP00000337915', 'f_555', 'cpi_9606.ENSP00000338345', 'cpi_9606.ENSP00000296350', 'cpi_9606.ENSP00000223095']
+2025-11-13 19:19:19,391 - INFO - 
+\U0001f50d 2/2141 - Starting new group f_374 with [f_374] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 19:21:26,877 - INFO - \u2705 Added cpi_9606.ENSP00000222982 to group \u2192 New group: ['f_374', 'cpi_9606.ENSP00000222982'].
+2025-11-13 19:23:37,865 - INFO - \u2705 Added f_15 to group \u2192 New group: ['f_374', 'cpi_9606.ENSP00000222982', 'f_15'].
+2025-11-13 19:25:51,575 - INFO - \u2705 Added cpi_9606.ENSP00000356438 to group \u2192 New group: ['f_374', 'cpi_9606.ENSP00000222982', 'f_15', 'cpi_9606.ENSP00000356438'].
+2025-11-13 19:28:05,763 - INFO - \u2705 Added cpi_9606.ENSP00000360773 to group \u2192 New group: ['f_374', 'cpi_9606.ENSP00000222982', 'f_15', 'cpi_9606.ENSP00000356438', 'cpi_9606.ENSP00000360773'].
+2025-11-13 19:28:05,764 - INFO - \U0001f4be Group saved: ['f_374', 'cpi_9606.ENSP00000222982', 'f_15', 'cpi_9606.ENSP00000356438', 'cpi_9606.ENSP00000360773']
+2025-11-13 19:28:06,140 - INFO - 
+\U0001f50d 3/2136 - Starting new group f_308 with [f_308] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 19:30:13,292 - INFO - \u2705 Added cpi_9606.ENSP00000296370 to group \u2192 New group: ['f_308', 'cpi_9606.ENSP00000296370'].
+2025-11-13 19:32:22,344 - INFO - \u2705 Added f_11 to group \u2192 New group: ['f_308', 'cpi_9606.ENSP00000296370', 'f_11'].
+2025-11-13 19:34:32,747 - INFO - \u2705 Added cpi_9606.ENSP00000229135 to group \u2192 New group: ['f_308', 'cpi_9606.ENSP00000296370', 'f_11', 'cpi_9606.ENSP00000229135'].
+2025-11-13 19:36:46,050 - INFO - \u2705 Added cpi_9606.ENSP00000304283 to group \u2192 New group: ['f_308', 'cpi_9606.ENSP00000296370', 'f_11', 'cpi_9606.ENSP00000229135', 'cpi_9606.ENSP00000304283'].
+2025-11-13 19:36:46,050 - INFO - \U0001f4be Group saved: ['f_308', 'cpi_9606.ENSP00000296370', 'f_11', 'cpi_9606.ENSP00000229135', 'cpi_9606.ENSP00000304283']
+2025-11-13 19:36:46,494 - INFO - 
+\U0001f50d 4/2131 - Starting new group f_20 with [f_20] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 19:38:53,084 - INFO - \u2705 Added cpi_9606.ENSP00000342007 to group \u2192 New group: ['f_20', 'cpi_9606.ENSP00000342007'].
+2025-11-13 19:41:03,891 - INFO - \u2705 Added cpi_9606.ENSP00000398698 to group \u2192 New group: ['f_20', 'cpi_9606.ENSP00000342007', 'cpi_9606.ENSP00000398698'].
+2025-11-13 19:43:16,213 - INFO - \u2705 Added f_391 to group \u2192 New group: ['f_20', 'cpi_9606.ENSP00000342007', 'cpi_9606.ENSP00000398698', 'f_391'].
+2025-11-13 19:45:28,572 - INFO - \u2705 Added f_1 to group \u2192 New group: ['f_20', 'cpi_9606.ENSP00000342007', 'cpi_9606.ENSP00000398698', 'f_391', 'f_1'].
+2025-11-13 19:45:28,572 - INFO - \U0001f4be Group saved: ['f_20', 'cpi_9606.ENSP00000342007', 'cpi_9606.ENSP00000398698', 'f_391', 'f_1']
+2025-11-13 19:45:28,914 - INFO - 
+\U0001f50d 5/2126 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 19:47:37,535 - INFO - \u2705 Added cpi_9606.ENSP00000353820 to group \u2192 New group: ['f_3', 'cpi_9606.ENSP00000353820'].
+2025-11-13 19:49:47,657 - INFO - \u2705 Added f_199 to group \u2192 New group: ['f_3', 'cpi_9606.ENSP00000353820', 'f_199'].
+2025-11-13 19:51:55,129 - INFO - \u2705 Added cpi_9606.ENSP00000338018 to group \u2192 New group: ['f_3', 'cpi_9606.ENSP00000353820', 'f_199', 'cpi_9606.ENSP00000338018'].
+2025-11-13 19:54:08,284 - INFO - \u2705 Added f_540 to group \u2192 New group: ['f_3', 'cpi_9606.ENSP00000353820', 'f_199', 'cpi_9606.ENSP00000338018', 'f_540'].
+2025-11-13 19:54:08,284 - INFO - \U0001f4be Group saved: ['f_3', 'cpi_9606.ENSP00000353820', 'f_199', 'cpi_9606.ENSP00000338018', 'f_540']
+2025-11-13 19:54:08,698 - INFO - 
+\U0001f50d 6/2121 - Starting new group f_299 with [f_299] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 19:56:17,915 - INFO - \u2705 Added cpi_9606.ENSP00000337450 to group \u2192 New group: ['f_299', 'cpi_9606.ENSP00000337450'].
+2025-11-13 19:58:29,528 - INFO - \u2705 Added cpi_9606.ENSP00000277120 to group \u2192 New group: ['f_299', 'cpi_9606.ENSP00000337450', 'cpi_9606.ENSP00000277120'].
+2025-11-13 20:00:39,426 - INFO - \u2705 Added cpi_9606.ENSP00000219833 to group \u2192 New group: ['f_299', 'cpi_9606.ENSP00000337450', 'cpi_9606.ENSP00000277120', 'cpi_9606.ENSP00000219833'].
+2025-11-13 20:02:49,911 - INFO - \u2705 Added f_791 to group \u2192 New group: ['f_299', 'cpi_9606.ENSP00000337450', 'cpi_9606.ENSP00000277120', 'cpi_9606.ENSP00000219833', 'f_791'].
+2025-11-13 20:02:49,911 - INFO - \U0001f4be Group saved: ['f_299', 'cpi_9606.ENSP00000337450', 'cpi_9606.ENSP00000277120', 'cpi_9606.ENSP00000219833', 'f_791']
+2025-11-13 20:02:50,268 - INFO - 
+\U0001f50d 7/2116 - Starting new group f_452 with [f_452] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 20:04:57,101 - INFO - \u2705 Added cpi_9606.ENSP00000264498 to group \u2192 New group: ['f_452', 'cpi_9606.ENSP00000264498'].
+2025-11-13 20:07:04,570 - INFO - \u2705 Added f_178 to group \u2192 New group: ['f_452', 'cpi_9606.ENSP00000264498', 'f_178'].
+2025-11-13 20:09:14,196 - INFO - \u2705 Added f_14 to group \u2192 New group: ['f_452', 'cpi_9606.ENSP00000264498', 'f_178', 'f_14'].
+2025-11-13 20:11:28,568 - INFO - \u2705 Added cpi_9606.ENSP00000241453 to group \u2192 New group: ['f_452', 'cpi_9606.ENSP00000264498', 'f_178', 'f_14', 'cpi_9606.ENSP00000241453'].
+2025-11-13 20:11:28,568 - INFO - \U0001f4be Group saved: ['f_452', 'cpi_9606.ENSP00000264498', 'f_178', 'f_14', 'cpi_9606.ENSP00000241453']
+2025-11-13 20:11:28,995 - INFO - 
+\U0001f50d 8/2111 - Starting new group f_672 with [f_672] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 20:13:37,933 - INFO - \u2705 Added cpi_9606.ENSP00000304845 to group \u2192 New group: ['f_672', 'cpi_9606.ENSP00000304845'].
+2025-11-13 20:15:45,580 - INFO - \u2705 Added cpi_9606.ENSP00000277508 to group \u2192 New group: ['f_672', 'cpi_9606.ENSP00000304845', 'cpi_9606.ENSP00000277508'].
+2025-11-13 20:17:52,236 - INFO - \u2705 Added f_420 to group \u2192 New group: ['f_672', 'cpi_9606.ENSP00000304845', 'cpi_9606.ENSP00000277508', 'f_420'].
+2025-11-13 20:20:00,033 - INFO - \u2705 Added cpi_9606.ENSP00000379110 to group \u2192 New group: ['f_672', 'cpi_9606.ENSP00000304845', 'cpi_9606.ENSP00000277508', 'f_420', 'cpi_9606.ENSP00000379110'].
+2025-11-13 20:20:00,033 - INFO - \U0001f4be Group saved: ['f_672', 'cpi_9606.ENSP00000304845', 'cpi_9606.ENSP00000277508', 'f_420', 'cpi_9606.ENSP00000379110']
+2025-11-13 20:20:00,393 - INFO - 
+\U0001f50d 9/2106 - Starting new group f_23 with [f_23] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 20:22:09,532 - INFO - \u2705 Added cpi_9606.ENSP00000354612 to group \u2192 New group: ['f_23', 'cpi_9606.ENSP00000354612'].
+2025-11-13 20:24:22,694 - INFO - \u2705 Added cpi_9606.ENSP00000263341 to group \u2192 New group: ['f_23', 'cpi_9606.ENSP00000354612', 'cpi_9606.ENSP00000263341'].
+2025-11-13 20:26:31,254 - INFO - \u2705 Added cpi_9606.ENSP00000263339 to group \u2192 New group: ['f_23', 'cpi_9606.ENSP00000354612', 'cpi_9606.ENSP00000263341', 'cpi_9606.ENSP00000263339'].
+2025-11-13 20:28:41,891 - INFO - \u2705 Added f_803 to group \u2192 New group: ['f_23', 'cpi_9606.ENSP00000354612', 'cpi_9606.ENSP00000263341', 'cpi_9606.ENSP00000263339', 'f_803'].
+2025-11-13 20:28:41,891 - INFO - \U0001f4be Group saved: ['f_23', 'cpi_9606.ENSP00000354612', 'cpi_9606.ENSP00000263341', 'cpi_9606.ENSP00000263339', 'f_803']
+2025-11-13 20:28:42,286 - INFO - 
+\U0001f50d 10/2101 - Starting new group f_393 with [f_393] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 20:30:49,378 - INFO - \u2705 Added cpi_9606.ENSP00000261707 to group \u2192 New group: ['f_393', 'cpi_9606.ENSP00000261707'].
+2025-11-13 20:32:59,821 - INFO - \u2705 Added cpi_9606.ENSP00000366307 to group \u2192 New group: ['f_393', 'cpi_9606.ENSP00000261707', 'cpi_9606.ENSP00000366307'].
+2025-11-13 20:35:06,223 - INFO - \u2705 Added f_365 to group \u2192 New group: ['f_393', 'cpi_9606.ENSP00000261707', 'cpi_9606.ENSP00000366307', 'f_365'].
+2025-11-13 20:37:16,956 - INFO - \u2705 Added cpi_9606.ENSP00000244137 to group \u2192 New group: ['f_393', 'cpi_9606.ENSP00000261707', 'cpi_9606.ENSP00000366307', 'f_365', 'cpi_9606.ENSP00000244137'].
+2025-11-13 20:37:16,956 - INFO - \U0001f4be Group saved: ['f_393', 'cpi_9606.ENSP00000261707', 'cpi_9606.ENSP00000366307', 'f_365', 'cpi_9606.ENSP00000244137']
+2025-11-13 20:37:17,745 - INFO - 
+\U0001f50d 11/2096 - Starting new group f_380 with [f_380] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 20:39:29,575 - INFO - \u2705 Added cpi_9606.ENSP00000261937 to group \u2192 New group: ['f_380', 'cpi_9606.ENSP00000261937'].
+2025-11-13 20:41:36,124 - INFO - \u2705 Added f_443 to group \u2192 New group: ['f_380', 'cpi_9606.ENSP00000261937', 'f_443'].
+2025-11-13 20:43:43,707 - INFO - \u2705 Added cpi_9606.ENSP00000357255 to group \u2192 New group: ['f_380', 'cpi_9606.ENSP00000261937', 'f_443', 'cpi_9606.ENSP00000357255'].
+2025-11-13 20:45:48,069 - INFO - \u2705 Added f_335 to group \u2192 New group: ['f_380', 'cpi_9606.ENSP00000261937', 'f_443', 'cpi_9606.ENSP00000357255', 'f_335'].
+2025-11-13 20:45:48,069 - INFO - \U0001f4be Group saved: ['f_380', 'cpi_9606.ENSP00000261937', 'f_443', 'cpi_9606.ENSP00000357255', 'f_335']
+2025-11-13 20:45:48,466 - INFO - 
+\U0001f50d 12/2091 - Starting new group f_366 with [f_366] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 20:47:53,107 - INFO - \u2705 Added cpi_9606.ENSP00000296412 to group \u2192 New group: ['f_366', 'cpi_9606.ENSP00000296412'].
+2025-11-13 20:50:01,913 - INFO - \u2705 Added cpi_9606.ENSP00000347549 to group \u2192 New group: ['f_366', 'cpi_9606.ENSP00000296412', 'cpi_9606.ENSP00000347549'].
+2025-11-13 20:52:07,485 - INFO - \u2705 Added f_327 to group \u2192 New group: ['f_366', 'cpi_9606.ENSP00000296412', 'cpi_9606.ENSP00000347549', 'f_327'].
+2025-11-13 20:54:12,979 - INFO - \u2705 Added f_831 to group \u2192 New group: ['f_366', 'cpi_9606.ENSP00000296412', 'cpi_9606.ENSP00000347549', 'f_327', 'f_831'].
+2025-11-13 20:54:12,979 - INFO - \U0001f4be Group saved: ['f_366', 'cpi_9606.ENSP00000296412', 'cpi_9606.ENSP00000347549', 'f_327', 'f_831']
+2025-11-13 20:54:13,836 - INFO - 
+\U0001f50d 13/2086 - Starting new group f_346 with [f_346] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 20:56:19,404 - INFO - \u2705 Added cpi_9606.ENSP00000216465 to group \u2192 New group: ['f_346', 'cpi_9606.ENSP00000216465'].
+2025-11-13 20:58:27,521 - INFO - \u2705 Added cpi_9606.ENSP00000386284 to group \u2192 New group: ['f_346', 'cpi_9606.ENSP00000216465', 'cpi_9606.ENSP00000386284'].
+2025-11-13 21:00:34,305 - INFO - \u2705 Added f_768 to group \u2192 New group: ['f_346', 'cpi_9606.ENSP00000216465', 'cpi_9606.ENSP00000386284', 'f_768'].
+2025-11-13 21:02:40,604 - INFO - \u2705 Added cpi_9606.ENSP00000279178 to group \u2192 New group: ['f_346', 'cpi_9606.ENSP00000216465', 'cpi_9606.ENSP00000386284', 'f_768', 'cpi_9606.ENSP00000279178'].
+2025-11-13 21:02:40,604 - INFO - \U0001f4be Group saved: ['f_346', 'cpi_9606.ENSP00000216465', 'cpi_9606.ENSP00000386284', 'f_768', 'cpi_9606.ENSP00000279178']
+2025-11-13 21:02:40,956 - INFO - 
+\U0001f50d 14/2081 - Starting new group f_440 with [f_440] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 21:04:47,104 - INFO - \u2705 Added f_839 to group \u2192 New group: ['f_440', 'f_839'].
+2025-11-13 21:06:56,479 - INFO - \u2705 Added f_339 to group \u2192 New group: ['f_440', 'f_839', 'f_339'].
+2025-11-13 21:09:05,902 - INFO - \u2705 Added f_658 to group \u2192 New group: ['f_440', 'f_839', 'f_339', 'f_658'].
+2025-11-13 21:11:16,307 - INFO - \u2705 Added f_709 to group \u2192 New group: ['f_440', 'f_839', 'f_339', 'f_658', 'f_709'].
+2025-11-13 21:11:16,307 - INFO - \U0001f4be Group saved: ['f_440', 'f_839', 'f_339', 'f_658', 'f_709']
+2025-11-13 21:11:16,668 - INFO - 
+\U0001f50d 15/2076 - Starting new group f_451 with [f_451] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 21:13:22,399 - INFO - \u2705 Added cpi_9606.ENSP00000306512 to group \u2192 New group: ['f_451', 'cpi_9606.ENSP00000306512'].
+2025-11-13 21:15:30,993 - INFO - \u2705 Added cpi_9606.ENSP00000258743 to group \u2192 New group: ['f_451', 'cpi_9606.ENSP00000306512', 'cpi_9606.ENSP00000258743'].
+2025-11-13 21:17:42,152 - INFO - \u2705 Added cpi_9606.ENSP00000355317 to group \u2192 New group: ['f_451', 'cpi_9606.ENSP00000306512', 'cpi_9606.ENSP00000258743', 'cpi_9606.ENSP00000355317'].
+2025-11-13 21:19:50,385 - INFO - \u2705 Added f_647 to group \u2192 New group: ['f_451', 'cpi_9606.ENSP00000306512', 'cpi_9606.ENSP00000258743', 'cpi_9606.ENSP00000355317', 'f_647'].
+2025-11-13 21:19:50,385 - INFO - \U0001f4be Group saved: ['f_451', 'cpi_9606.ENSP00000306512', 'cpi_9606.ENSP00000258743', 'cpi_9606.ENSP00000355317', 'f_647']
+2025-11-13 21:19:50,754 - INFO - 
+\U0001f50d 16/2071 - Starting new group f_185 with [f_185] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 21:21:59,740 - INFO - \u2705 Added cpi_9606.ENSP00000343838 to group \u2192 New group: ['f_185', 'cpi_9606.ENSP00000343838'].
+2025-11-13 21:24:07,106 - INFO - \u2705 Added f_617 to group \u2192 New group: ['f_185', 'cpi_9606.ENSP00000343838', 'f_617'].
+2025-11-13 21:26:16,693 - INFO - \u2705 Added f_712 to group \u2192 New group: ['f_185', 'cpi_9606.ENSP00000343838', 'f_617', 'f_712'].
+2025-11-13 21:28:24,218 - INFO - \u2705 Added cpi_9606.ENSP00000354610 to group \u2192 New group: ['f_185', 'cpi_9606.ENSP00000343838', 'f_617', 'f_712', 'cpi_9606.ENSP00000354610'].
+2025-11-13 21:28:24,218 - INFO - \U0001f4be Group saved: ['f_185', 'cpi_9606.ENSP00000343838', 'f_617', 'f_712', 'cpi_9606.ENSP00000354610']
+2025-11-13 21:28:24,639 - INFO - 
+\U0001f50d 17/2066 - Starting new group f_643 with [f_643] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 21:30:32,983 - INFO - \u2705 Added f_588 to group \u2192 New group: ['f_643', 'f_588'].
+2025-11-13 21:32:41,253 - INFO - \u2705 Added cpi_9606.ENSP00000435591 to group \u2192 New group: ['f_643', 'f_588', 'cpi_9606.ENSP00000435591'].
+2025-11-13 21:34:48,086 - INFO - \u2705 Added cpi_9606.ENSP00000334198 to group \u2192 New group: ['f_643', 'f_588', 'cpi_9606.ENSP00000435591', 'cpi_9606.ENSP00000334198'].
+2025-11-13 21:36:56,862 - INFO - \u2705 Added f_740 to group \u2192 New group: ['f_643', 'f_588', 'cpi_9606.ENSP00000435591', 'cpi_9606.ENSP00000334198', 'f_740'].
+2025-11-13 21:36:56,862 - INFO - \U0001f4be Group saved: ['f_643', 'f_588', 'cpi_9606.ENSP00000435591', 'cpi_9606.ENSP00000334198', 'f_740']
+2025-11-13 21:36:57,224 - INFO - 
+\U0001f50d 18/2061 - Starting new group f_406 with [f_406] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 21:39:00,343 - INFO - \u2705 Added cpi_9606.ENSP00000362525 to group \u2192 New group: ['f_406', 'cpi_9606.ENSP00000362525'].
+2025-11-13 21:41:07,440 - INFO - \u2705 Added cpi_9606.ENSP00000265572 to group \u2192 New group: ['f_406', 'cpi_9606.ENSP00000362525', 'cpi_9606.ENSP00000265572'].
+2025-11-13 21:43:12,417 - INFO - \u2705 Added f_582 to group \u2192 New group: ['f_406', 'cpi_9606.ENSP00000362525', 'cpi_9606.ENSP00000265572', 'f_582'].
+2025-11-13 21:45:18,486 - INFO - \u2705 Added cpi_9606.ENSP00000443194 to group \u2192 New group: ['f_406', 'cpi_9606.ENSP00000362525', 'cpi_9606.ENSP00000265572', 'f_582', 'cpi_9606.ENSP00000443194'].
+2025-11-13 21:45:18,486 - INFO - \U0001f4be Group saved: ['f_406', 'cpi_9606.ENSP00000362525', 'cpi_9606.ENSP00000265572', 'f_582', 'cpi_9606.ENSP00000443194']
+2025-11-13 21:45:18,831 - INFO - 
+\U0001f50d 19/2056 - Starting new group f_192 with [f_192] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 21:47:21,534 - INFO - \u2705 Added cpi_9606.ENSP00000431418 to group \u2192 New group: ['f_192', 'cpi_9606.ENSP00000431418'].
+2025-11-13 21:49:29,798 - INFO - \u2705 Added f_12 to group \u2192 New group: ['f_192', 'cpi_9606.ENSP00000431418', 'f_12'].
+2025-11-13 21:51:35,198 - INFO - \u2705 Added cpi_9606.ENSP00000246337 to group \u2192 New group: ['f_192', 'cpi_9606.ENSP00000431418', 'f_12', 'cpi_9606.ENSP00000246337'].
+2025-11-13 21:53:38,912 - INFO - \u2705 Added cpi_9606.ENSP00000335657 to group \u2192 New group: ['f_192', 'cpi_9606.ENSP00000431418', 'f_12', 'cpi_9606.ENSP00000246337', 'cpi_9606.ENSP00000335657'].
+2025-11-13 21:53:38,912 - INFO - \U0001f4be Group saved: ['f_192', 'cpi_9606.ENSP00000431418', 'f_12', 'cpi_9606.ENSP00000246337', 'cpi_9606.ENSP00000335657']
+2025-11-13 21:53:39,971 - INFO - 
+\U0001f50d 20/2051 - Starting new group f_186 with [f_186] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 21:55:39,398 - INFO - \u2705 Added f_815 to group \u2192 New group: ['f_186', 'f_815'].
+2025-11-13 21:57:42,898 - INFO - \u2705 Added cpi_9606.ENSP00000312286 to group \u2192 New group: ['f_186', 'f_815', 'cpi_9606.ENSP00000312286'].
+2025-11-13 21:59:44,362 - INFO - \u2705 Added f_860 to group \u2192 New group: ['f_186', 'f_815', 'cpi_9606.ENSP00000312286', 'f_860'].
+2025-11-13 22:01:49,135 - INFO - \u2705 Added f_349 to group \u2192 New group: ['f_186', 'f_815', 'cpi_9606.ENSP00000312286', 'f_860', 'f_349'].
+2025-11-13 22:01:49,135 - INFO - \U0001f4be Group saved: ['f_186', 'f_815', 'cpi_9606.ENSP00000312286', 'f_860', 'f_349']
+2025-11-13 22:01:49,496 - INFO - 
+\U0001f50d 21/2046 - Starting new group f_614 with [f_614] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 22:03:52,848 - INFO - \u2705 Added cpi_9606.ENSP00000394624 to group \u2192 New group: ['f_614', 'cpi_9606.ENSP00000394624'].
+2025-11-13 22:05:56,586 - INFO - \u2705 Added cpi_9606.ENSP00000256119 to group \u2192 New group: ['f_614', 'cpi_9606.ENSP00000394624', 'cpi_9606.ENSP00000256119'].
+2025-11-13 22:07:59,134 - INFO - \u2705 Added f_836 to group \u2192 New group: ['f_614', 'cpi_9606.ENSP00000394624', 'cpi_9606.ENSP00000256119', 'f_836'].
+2025-11-13 22:10:02,579 - INFO - \u2705 Added f_681 to group \u2192 New group: ['f_614', 'cpi_9606.ENSP00000394624', 'cpi_9606.ENSP00000256119', 'f_836', 'f_681'].
+2025-11-13 22:10:02,579 - INFO - \U0001f4be Group saved: ['f_614', 'cpi_9606.ENSP00000394624', 'cpi_9606.ENSP00000256119', 'f_836', 'f_681']
+2025-11-13 22:10:02,953 - INFO - 
+\U0001f50d 22/2041 - Starting new group f_659 with [f_659] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 22:12:03,275 - INFO - \u2705 Added cpi_9606.ENSP00000306662 to group \u2192 New group: ['f_659', 'cpi_9606.ENSP00000306662'].
+2025-11-13 22:14:06,951 - INFO - \u2705 Added cpi_9606.ENSP00000274547 to group \u2192 New group: ['f_659', 'cpi_9606.ENSP00000306662', 'cpi_9606.ENSP00000274547'].
+2025-11-13 22:16:09,709 - INFO - \u2705 Added cpi_9606.ENSP00000332296 to group \u2192 New group: ['f_659', 'cpi_9606.ENSP00000306662', 'cpi_9606.ENSP00000274547', 'cpi_9606.ENSP00000332296'].
+2025-11-13 22:18:11,830 - INFO - \u2705 Added f_345 to group \u2192 New group: ['f_659', 'cpi_9606.ENSP00000306662', 'cpi_9606.ENSP00000274547', 'cpi_9606.ENSP00000332296', 'f_345'].
+2025-11-13 22:18:11,830 - INFO - \U0001f4be Group saved: ['f_659', 'cpi_9606.ENSP00000306662', 'cpi_9606.ENSP00000274547', 'cpi_9606.ENSP00000332296', 'f_345']
+2025-11-13 22:18:12,184 - INFO - 
+\U0001f50d 23/2036 - Starting new group f_566 with [f_566] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 22:20:18,296 - INFO - \u2705 Added cpi_9606.ENSP00000264708 to group \u2192 New group: ['f_566', 'cpi_9606.ENSP00000264708'].
+2025-11-13 22:22:21,132 - INFO - \u2705 Added cpi_9606.ENSP00000352900 to group \u2192 New group: ['f_566', 'cpi_9606.ENSP00000264708', 'cpi_9606.ENSP00000352900'].
+2025-11-13 22:24:21,742 - INFO - \u2705 Added cpi_9606.ENSP00000264318 to group \u2192 New group: ['f_566', 'cpi_9606.ENSP00000264708', 'cpi_9606.ENSP00000352900', 'cpi_9606.ENSP00000264318'].
+2025-11-13 22:26:19,536 - INFO - \u2705 Added cpi_9606.ENSP00000023897 to group \u2192 New group: ['f_566', 'cpi_9606.ENSP00000264708', 'cpi_9606.ENSP00000352900', 'cpi_9606.ENSP00000264318', 'cpi_9606.ENSP00000023897'].
+2025-11-13 22:26:19,536 - INFO - \U0001f4be Group saved: ['f_566', 'cpi_9606.ENSP00000264708', 'cpi_9606.ENSP00000352900', 'cpi_9606.ENSP00000264318', 'cpi_9606.ENSP00000023897']
+2025-11-13 22:26:19,893 - INFO - 
+\U0001f50d 28/2031 - Starting new group f_33 with [f_33] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 22:28:20,861 - INFO - \u2705 Added cpi_9606.ENSP00000356958 to group \u2192 New group: ['f_33', 'cpi_9606.ENSP00000356958'].
+2025-11-13 22:30:26,164 - INFO - \u2705 Added cpi_9606.ENSP00000357283 to group \u2192 New group: ['f_33', 'cpi_9606.ENSP00000356958', 'cpi_9606.ENSP00000357283'].
+2025-11-13 22:32:26,614 - INFO - \u2705 Added f_2 to group \u2192 New group: ['f_33', 'cpi_9606.ENSP00000356958', 'cpi_9606.ENSP00000357283', 'f_2'].
+2025-11-13 22:34:30,379 - INFO - \u2705 Added f_428 to group \u2192 New group: ['f_33', 'cpi_9606.ENSP00000356958', 'cpi_9606.ENSP00000357283', 'f_2', 'f_428'].
+2025-11-13 22:34:30,379 - INFO - \U0001f4be Group saved: ['f_33', 'cpi_9606.ENSP00000356958', 'cpi_9606.ENSP00000357283', 'f_2', 'f_428']
+2025-11-13 22:34:30,742 - INFO - 
+\U0001f50d 29/2026 - Starting new group f_571 with [f_571] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 22:36:32,064 - INFO - \u2705 Added cpi_9606.ENSP00000381607 to group \u2192 New group: ['f_571', 'cpi_9606.ENSP00000381607'].
+2025-11-13 22:38:34,225 - INFO - \u2705 Added f_359 to group \u2192 New group: ['f_571', 'cpi_9606.ENSP00000381607', 'f_359'].
+2025-11-13 22:40:34,958 - INFO - \u2705 Added cpi_9606.ENSP00000282397 to group \u2192 New group: ['f_571', 'cpi_9606.ENSP00000381607', 'f_359', 'cpi_9606.ENSP00000282397'].
+2025-11-13 22:42:37,716 - INFO - \u2705 Added cpi_9606.ENSP00000270474 to group \u2192 New group: ['f_571', 'cpi_9606.ENSP00000381607', 'f_359', 'cpi_9606.ENSP00000282397', 'cpi_9606.ENSP00000270474'].
+2025-11-13 22:42:37,716 - INFO - \U0001f4be Group saved: ['f_571', 'cpi_9606.ENSP00000381607', 'f_359', 'cpi_9606.ENSP00000282397', 'cpi_9606.ENSP00000270474']
+2025-11-13 22:42:38,085 - INFO - 
+\U0001f50d 30/2021 - Starting new group f_146 with [f_146] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 22:44:39,207 - INFO - \u2705 Added cpi_9606.ENSP00000269305 to group \u2192 New group: ['f_146', 'cpi_9606.ENSP00000269305'].
+2025-11-13 22:46:41,760 - INFO - \u2705 Added cpi_9606.ENSP00000324648 to group \u2192 New group: ['f_146', 'cpi_9606.ENSP00000269305', 'cpi_9606.ENSP00000324648'].
+2025-11-13 22:48:45,638 - INFO - \u2705 Added f_784 to group \u2192 New group: ['f_146', 'cpi_9606.ENSP00000269305', 'cpi_9606.ENSP00000324648', 'f_784'].
+2025-11-13 22:50:47,275 - INFO - \u2705 Added cpi_9606.ENSP00000229264 to group \u2192 New group: ['f_146', 'cpi_9606.ENSP00000269305', 'cpi_9606.ENSP00000324648', 'f_784', 'cpi_9606.ENSP00000229264'].
+2025-11-13 22:50:47,275 - INFO - \U0001f4be Group saved: ['f_146', 'cpi_9606.ENSP00000269305', 'cpi_9606.ENSP00000324648', 'f_784', 'cpi_9606.ENSP00000229264']
+2025-11-13 22:50:47,809 - INFO - 
+\U0001f50d 31/2016 - Starting new group f_405 with [f_405] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 22:52:47,689 - INFO - \u2705 Added f_131 to group \u2192 New group: ['f_405', 'f_131'].
+2025-11-13 22:54:48,856 - INFO - \u2705 Added f_145 to group \u2192 New group: ['f_405', 'f_131', 'f_145'].
+2025-11-13 22:56:48,927 - INFO - \u2705 Added f_536 to group \u2192 New group: ['f_405', 'f_131', 'f_145', 'f_536'].
+2025-11-13 22:58:50,658 - INFO - \u2705 Added f_338 to group \u2192 New group: ['f_405', 'f_131', 'f_145', 'f_536', 'f_338'].
+2025-11-13 22:58:50,658 - INFO - \U0001f4be Group saved: ['f_405', 'f_131', 'f_145', 'f_536', 'f_338']
+2025-11-13 22:58:51,036 - INFO - 
+\U0001f50d 32/2011 - Starting new group f_37 with [f_37] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:00:48,201 - INFO - \u2705 Added f_249 to group \u2192 New group: ['f_37', 'f_249'].
+2025-11-13 23:02:48,954 - INFO - \u2705 Added cpi_9606.ENSP00000237014 to group \u2192 New group: ['f_37', 'f_249', 'cpi_9606.ENSP00000237014'].
+2025-11-13 23:04:51,399 - INFO - \u2705 Added cpi_9606.ENSP00000222002 to group \u2192 New group: ['f_37', 'f_249', 'cpi_9606.ENSP00000237014', 'cpi_9606.ENSP00000222002'].
+2025-11-13 23:06:54,476 - INFO - \u2705 Added cpi_9606.ENSP00000264382 to group \u2192 New group: ['f_37', 'f_249', 'cpi_9606.ENSP00000237014', 'cpi_9606.ENSP00000222002', 'cpi_9606.ENSP00000264382'].
+2025-11-13 23:06:54,476 - INFO - \U0001f4be Group saved: ['f_37', 'f_249', 'cpi_9606.ENSP00000237014', 'cpi_9606.ENSP00000222002', 'cpi_9606.ENSP00000264382']
+2025-11-13 23:06:54,872 - INFO - 
+\U0001f50d 33/2006 - Starting new group f_143 with [f_143] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:08:58,344 - INFO - \u2705 Added cpi_9606.ENSP00000216117 to group \u2192 New group: ['f_143', 'cpi_9606.ENSP00000216117'].
+2025-11-13 23:10:59,301 - INFO - \u2705 Added cpi_9606.ENSP00000360493 to group \u2192 New group: ['f_143', 'cpi_9606.ENSP00000216117', 'cpi_9606.ENSP00000360493'].
+2025-11-13 23:13:00,694 - INFO - \u2705 Added f_690 to group \u2192 New group: ['f_143', 'cpi_9606.ENSP00000216117', 'cpi_9606.ENSP00000360493', 'f_690'].
+2025-11-13 23:15:01,929 - INFO - \u2705 Added cpi_9606.ENSP00000347942 to group \u2192 New group: ['f_143', 'cpi_9606.ENSP00000216117', 'cpi_9606.ENSP00000360493', 'f_690', 'cpi_9606.ENSP00000347942'].
+2025-11-13 23:15:01,929 - INFO - \U0001f4be Group saved: ['f_143', 'cpi_9606.ENSP00000216117', 'cpi_9606.ENSP00000360493', 'f_690', 'cpi_9606.ENSP00000347942']
+2025-11-13 23:15:02,312 - INFO - 
+\U0001f50d 35/2001 - Starting new group cpi_9606.ENSP00000311032 with [cpi_9606.ENSP00000311032] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:17:04,988 - INFO - \u2705 Added f_153 to group \u2192 New group: ['cpi_9606.ENSP00000311032', 'f_153'].
+2025-11-13 23:19:06,769 - INFO - \u2705 Added cpi_9606.ENSP00000270349 to group \u2192 New group: ['cpi_9606.ENSP00000311032', 'f_153', 'cpi_9606.ENSP00000270349'].
+2025-11-13 23:21:07,653 - INFO - \u2705 Added cpi_9606.ENSP00000260682 to group \u2192 New group: ['cpi_9606.ENSP00000311032', 'f_153', 'cpi_9606.ENSP00000270349', 'cpi_9606.ENSP00000260682'].
+2025-11-13 23:23:06,946 - INFO - \u2705 Added cpi_9606.ENSP00000261799 to group \u2192 New group: ['cpi_9606.ENSP00000311032', 'f_153', 'cpi_9606.ENSP00000270349', 'cpi_9606.ENSP00000260682', 'cpi_9606.ENSP00000261799'].
+2025-11-13 23:23:06,946 - INFO - \U0001f4be Group saved: ['cpi_9606.ENSP00000311032', 'f_153', 'cpi_9606.ENSP00000270349', 'cpi_9606.ENSP00000260682', 'cpi_9606.ENSP00000261799']
+2025-11-13 23:23:07,293 - INFO - 
+\U0001f50d 36/1996 - Starting new group f_287 with [f_287] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:25:03,461 - INFO - \u2705 Added f_715 to group \u2192 New group: ['f_287', 'f_715'].
+2025-11-13 23:27:04,227 - INFO - \u2705 Added cpi_9606.ENSP00000396308 to group \u2192 New group: ['f_287', 'f_715', 'cpi_9606.ENSP00000396308'].
+2025-11-13 23:29:04,621 - INFO - \u2705 Added cpi_9606.ENSP00000337335 to group \u2192 New group: ['f_287', 'f_715', 'cpi_9606.ENSP00000396308', 'cpi_9606.ENSP00000337335'].
+2025-11-13 23:31:01,130 - INFO - \u2705 Added cpi_9606.ENSP00000353362 to group \u2192 New group: ['f_287', 'f_715', 'cpi_9606.ENSP00000396308', 'cpi_9606.ENSP00000337335', 'cpi_9606.ENSP00000353362'].
+2025-11-13 23:31:01,130 - INFO - \U0001f4be Group saved: ['f_287', 'f_715', 'cpi_9606.ENSP00000396308', 'cpi_9606.ENSP00000337335', 'cpi_9606.ENSP00000353362']
+2025-11-13 23:31:01,462 - INFO - 
+\U0001f50d 38/1991 - Starting new group f_392 with [f_392] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:33:00,341 - INFO - \u2705 Added cpi_9606.ENSP00000324173 to group \u2192 New group: ['f_392', 'cpi_9606.ENSP00000324173'].
+2025-11-13 23:34:58,197 - INFO - \u2705 Added cpi_9606.ENSP00000302665 to group \u2192 New group: ['f_392', 'cpi_9606.ENSP00000324173', 'cpi_9606.ENSP00000302665'].
+2025-11-13 23:37:00,780 - INFO - \u2705 Added cpi_9606.ENSP00000301178 to group \u2192 New group: ['f_392', 'cpi_9606.ENSP00000324173', 'cpi_9606.ENSP00000302665', 'cpi_9606.ENSP00000301178'].
+2025-11-13 23:39:00,001 - INFO - \u2705 Added f_229 to group \u2192 New group: ['f_392', 'cpi_9606.ENSP00000324173', 'cpi_9606.ENSP00000302665', 'cpi_9606.ENSP00000301178', 'f_229'].
+2025-11-13 23:39:00,001 - INFO - \U0001f4be Group saved: ['f_392', 'cpi_9606.ENSP00000324173', 'cpi_9606.ENSP00000302665', 'cpi_9606.ENSP00000301178', 'f_229']
+2025-11-13 23:39:00,369 - INFO - 
+\U0001f50d 39/1986 - Starting new group f_535 with [f_535] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:40:59,330 - INFO - \u2705 Added cpi_9606.ENSP00000301141 to group \u2192 New group: ['f_535', 'cpi_9606.ENSP00000301141'].
+2025-11-13 23:42:57,776 - INFO - \u2705 Added cpi_9606.ENSP00000354394 to group \u2192 New group: ['f_535', 'cpi_9606.ENSP00000301141', 'cpi_9606.ENSP00000354394'].
+2025-11-13 23:44:56,912 - INFO - \u2705 Added cpi_9606.ENSP00000255008 to group \u2192 New group: ['f_535', 'cpi_9606.ENSP00000301141', 'cpi_9606.ENSP00000354394', 'cpi_9606.ENSP00000255008'].
+2025-11-13 23:46:54,816 - INFO - \u2705 Added cpi_9606.ENSP00000200676 to group \u2192 New group: ['f_535', 'cpi_9606.ENSP00000301141', 'cpi_9606.ENSP00000354394', 'cpi_9606.ENSP00000255008', 'cpi_9606.ENSP00000200676'].
+2025-11-13 23:46:54,816 - INFO - \U0001f4be Group saved: ['f_535', 'cpi_9606.ENSP00000301141', 'cpi_9606.ENSP00000354394', 'cpi_9606.ENSP00000255008', 'cpi_9606.ENSP00000200676']
+2025-11-13 23:46:55,198 - INFO - 
+\U0001f50d 41/1981 - Starting new group f_639 with [f_639] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:48:53,329 - INFO - \u2705 Added cpi_9606.ENSP00000234961 to group \u2192 New group: ['f_639', 'cpi_9606.ENSP00000234961'].
+2025-11-13 23:50:51,124 - INFO - \u2705 Added f_656 to group \u2192 New group: ['f_639', 'cpi_9606.ENSP00000234961', 'f_656'].
+2025-11-13 23:52:53,961 - INFO - \u2705 Added cpi_9606.ENSP00000267101 to group \u2192 New group: ['f_639', 'cpi_9606.ENSP00000234961', 'f_656', 'cpi_9606.ENSP00000267101'].
+2025-11-13 23:54:54,384 - INFO - \u2705 Added f_351 to group \u2192 New group: ['f_639', 'cpi_9606.ENSP00000234961', 'f_656', 'cpi_9606.ENSP00000267101', 'f_351'].
+2025-11-13 23:54:54,384 - INFO - \U0001f4be Group saved: ['f_639', 'cpi_9606.ENSP00000234961', 'f_656', 'cpi_9606.ENSP00000267101', 'f_351']
+2025-11-13 23:54:54,755 - INFO - 
+\U0001f50d 43/1976 - Starting new group f_697 with [f_697] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-13 23:56:52,260 - INFO - \u2705 Added cpi_9606.ENSP00000400175 to group \u2192 New group: ['f_697', 'cpi_9606.ENSP00000400175'].
+2025-11-13 23:58:55,134 - INFO - \u2705 Added f_728 to group \u2192 New group: ['f_697', 'cpi_9606.ENSP00000400175', 'f_728'].
+2025-11-14 00:00:52,888 - INFO - \u2705 Added cpi_9606.ENSP00000297261 to group \u2192 New group: ['f_697', 'cpi_9606.ENSP00000400175', 'f_728', 'cpi_9606.ENSP00000297261'].
+2025-11-14 00:02:52,062 - INFO - \u2705 Added f_388 to group \u2192 New group: ['f_697', 'cpi_9606.ENSP00000400175', 'f_728', 'cpi_9606.ENSP00000297261', 'f_388'].
+2025-11-14 00:02:52,062 - INFO - \U0001f4be Group saved: ['f_697', 'cpi_9606.ENSP00000400175', 'f_728', 'cpi_9606.ENSP00000297261', 'f_388']
+2025-11-14 00:02:52,438 - INFO - 
+\U0001f50d 44/1971 - Starting new group f_19 with [f_19] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:04:49,179 - INFO - \u2705 Added f_285 to group \u2192 New group: ['f_19', 'f_285'].
+2025-11-14 00:06:50,392 - INFO - \u2705 Added cpi_9606.ENSP00000412237 to group \u2192 New group: ['f_19', 'f_285', 'cpi_9606.ENSP00000412237'].
+2025-11-14 00:08:50,843 - INFO - \u2705 Added cpi_9606.ENSP00000296411 to group \u2192 New group: ['f_19', 'f_285', 'cpi_9606.ENSP00000412237', 'cpi_9606.ENSP00000296411'].
+2025-11-14 00:10:52,258 - INFO - \u2705 Added cpi_9606.ENSP00000252723 to group \u2192 New group: ['f_19', 'f_285', 'cpi_9606.ENSP00000412237', 'cpi_9606.ENSP00000296411', 'cpi_9606.ENSP00000252723'].
+2025-11-14 00:10:52,258 - INFO - \U0001f4be Group saved: ['f_19', 'f_285', 'cpi_9606.ENSP00000412237', 'cpi_9606.ENSP00000296411', 'cpi_9606.ENSP00000252723']
+2025-11-14 00:10:54,890 - INFO - 
+\U0001f50d 45/1966 - Starting new group f_390 with [f_390] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:12:55,628 - INFO - \u2705 Added cpi_9606.ENSP00000360266 to group \u2192 New group: ['f_390', 'cpi_9606.ENSP00000360266'].
+2025-11-14 00:14:55,342 - INFO - \u2705 Added f_646 to group \u2192 New group: ['f_390', 'cpi_9606.ENSP00000360266', 'f_646'].
+2025-11-14 00:16:56,703 - INFO - \u2705 Added cpi_9606.ENSP00000354558 to group \u2192 New group: ['f_390', 'cpi_9606.ENSP00000360266', 'f_646', 'cpi_9606.ENSP00000354558'].
+2025-11-14 00:18:55,862 - INFO - \u2705 Added cpi_9606.ENSP00000362329 to group \u2192 New group: ['f_390', 'cpi_9606.ENSP00000360266', 'f_646', 'cpi_9606.ENSP00000354558', 'cpi_9606.ENSP00000362329'].
+2025-11-14 00:18:55,862 - INFO - \U0001f4be Group saved: ['f_390', 'cpi_9606.ENSP00000360266', 'f_646', 'cpi_9606.ENSP00000354558', 'cpi_9606.ENSP00000362329']
+2025-11-14 00:18:56,226 - INFO - 
+\U0001f50d 47/1961 - Starting new group f_613 with [f_613] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:20:52,291 - INFO - \u2705 Added cpi_9606.ENSP00000297494 to group \u2192 New group: ['f_613', 'cpi_9606.ENSP00000297494'].
+2025-11-14 00:22:48,816 - INFO - \u2705 Added f_352 to group \u2192 New group: ['f_613', 'cpi_9606.ENSP00000297494', 'f_352'].
+2025-11-14 00:24:48,279 - INFO - \u2705 Added cpi_9606.ENSP00000360968 to group \u2192 New group: ['f_613', 'cpi_9606.ENSP00000297494', 'f_352', 'cpi_9606.ENSP00000360968'].
+2025-11-14 00:26:47,797 - INFO - \u2705 Added cpi_9606.ENSP00000388648 to group \u2192 New group: ['f_613', 'cpi_9606.ENSP00000297494', 'f_352', 'cpi_9606.ENSP00000360968', 'cpi_9606.ENSP00000388648'].
+2025-11-14 00:26:47,797 - INFO - \U0001f4be Group saved: ['f_613', 'cpi_9606.ENSP00000297494', 'f_352', 'cpi_9606.ENSP00000360968', 'cpi_9606.ENSP00000388648']
+2025-11-14 00:26:49,586 - INFO - 
+\U0001f50d 48/1956 - Starting new group f_181 with [f_181] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:28:46,998 - INFO - \u2705 Added f_160 to group \u2192 New group: ['f_181', 'f_160'].
+2025-11-14 00:30:44,447 - INFO - \u2705 Added cpi_9606.ENSP00000379213 to group \u2192 New group: ['f_181', 'f_160', 'cpi_9606.ENSP00000379213'].
+2025-11-14 00:32:39,791 - INFO - \u2705 Added cpi_9606.ENSP00000329623 to group \u2192 New group: ['f_181', 'f_160', 'cpi_9606.ENSP00000379213', 'cpi_9606.ENSP00000329623'].
+2025-11-14 00:34:38,182 - INFO - \u2705 Added cpi_9606.ENSP00000263980 to group \u2192 New group: ['f_181', 'f_160', 'cpi_9606.ENSP00000379213', 'cpi_9606.ENSP00000329623', 'cpi_9606.ENSP00000263980'].
+2025-11-14 00:34:38,182 - INFO - \U0001f4be Group saved: ['f_181', 'f_160', 'cpi_9606.ENSP00000379213', 'cpi_9606.ENSP00000329623', 'cpi_9606.ENSP00000263980']
+2025-11-14 00:34:38,582 - INFO - 
+\U0001f50d 50/1951 - Starting new group f_569 with [f_569] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:36:33,549 - INFO - \u2705 Added cpi_9606.ENSP00000306245 to group \u2192 New group: ['f_569', 'cpi_9606.ENSP00000306245'].
+2025-11-14 00:38:32,380 - INFO - \u2705 Added f_18 to group \u2192 New group: ['f_569', 'cpi_9606.ENSP00000306245', 'f_18'].
+2025-11-14 00:40:30,840 - INFO - \u2705 Added cpi_9606.ENSP00000343925 to group \u2192 New group: ['f_569', 'cpi_9606.ENSP00000306245', 'f_18', 'cpi_9606.ENSP00000343925'].
+2025-11-14 00:42:28,374 - INFO - \u2705 Added f_10 to group \u2192 New group: ['f_569', 'cpi_9606.ENSP00000306245', 'f_18', 'cpi_9606.ENSP00000343925', 'f_10'].
+2025-11-14 00:42:28,374 - INFO - \U0001f4be Group saved: ['f_569', 'cpi_9606.ENSP00000306245', 'f_18', 'cpi_9606.ENSP00000343925', 'f_10']
+2025-11-14 00:42:28,731 - INFO - 
+\U0001f50d 52/1946 - Starting new group f_579 with [f_579] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:44:25,271 - INFO - \u2705 Added cpi_9606.ENSP00000357204 to group \u2192 New group: ['f_579', 'cpi_9606.ENSP00000357204'].
+2025-11-14 00:46:22,129 - INFO - \u2705 Added cpi_9606.ENSP00000373477 to group \u2192 New group: ['f_579', 'cpi_9606.ENSP00000357204', 'cpi_9606.ENSP00000373477'].
+2025-11-14 00:48:20,598 - INFO - \u2705 Added cpi_9606.ENSP00000254488 to group \u2192 New group: ['f_579', 'cpi_9606.ENSP00000357204', 'cpi_9606.ENSP00000373477', 'cpi_9606.ENSP00000254488'].
+2025-11-14 00:50:20,485 - INFO - \u2705 Added f_726 to group \u2192 New group: ['f_579', 'cpi_9606.ENSP00000357204', 'cpi_9606.ENSP00000373477', 'cpi_9606.ENSP00000254488', 'f_726'].
+2025-11-14 00:50:20,485 - INFO - \U0001f4be Group saved: ['f_579', 'cpi_9606.ENSP00000357204', 'cpi_9606.ENSP00000373477', 'cpi_9606.ENSP00000254488', 'f_726']
+2025-11-14 00:50:20,855 - INFO - 
+\U0001f50d 53/1941 - Starting new group f_638 with [f_638] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:52:14,517 - INFO - \u2705 Added cpi_9606.ENSP00000361405 to group \u2192 New group: ['f_638', 'cpi_9606.ENSP00000361405'].
+2025-11-14 00:54:10,903 - INFO - \u2705 Added f_616 to group \u2192 New group: ['f_638', 'cpi_9606.ENSP00000361405', 'f_616'].
+2025-11-14 00:56:05,462 - INFO - \u2705 Added f_533 to group \u2192 New group: ['f_638', 'cpi_9606.ENSP00000361405', 'f_616', 'f_533'].
+2025-11-14 00:58:01,214 - INFO - \u2705 Added cpi_9606.ENSP00000226730 to group \u2192 New group: ['f_638', 'cpi_9606.ENSP00000361405', 'f_616', 'f_533', 'cpi_9606.ENSP00000226730'].
+2025-11-14 00:58:01,214 - INFO - \U0001f4be Group saved: ['f_638', 'cpi_9606.ENSP00000361405', 'f_616', 'f_533', 'cpi_9606.ENSP00000226730']
+2025-11-14 00:58:01,581 - INFO - 
+\U0001f50d 54/1936 - Starting new group f_696 with [f_696] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 00:59:54,395 - INFO - \u2705 Added cpi_9606.ENSP00000360372 to group \u2192 New group: ['f_696', 'cpi_9606.ENSP00000360372'].
+2025-11-14 01:01:52,252 - INFO - \u2705 Added cpi_9606.ENSP00000220809 to group \u2192 New group: ['f_696', 'cpi_9606.ENSP00000360372', 'cpi_9606.ENSP00000220809'].
+2025-11-14 01:03:48,424 - INFO - \u2705 Added f_336 to group \u2192 New group: ['f_696', 'cpi_9606.ENSP00000360372', 'cpi_9606.ENSP00000220809', 'f_336'].
+2025-11-14 01:05:44,587 - INFO - \u2705 Added cpi_9606.ENSP00000359663 to group \u2192 New group: ['f_696', 'cpi_9606.ENSP00000360372', 'cpi_9606.ENSP00000220809', 'f_336', 'cpi_9606.ENSP00000359663'].
+2025-11-14 01:05:44,587 - INFO - \U0001f4be Group saved: ['f_696', 'cpi_9606.ENSP00000360372', 'cpi_9606.ENSP00000220809', 'f_336', 'cpi_9606.ENSP00000359663']
+2025-11-14 01:05:44,942 - INFO - 
+\U0001f50d 57/1931 - Starting new group f_341 with [f_341] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 01:07:43,570 - INFO - \u2705 Added f_749 to group \u2192 New group: ['f_341', 'f_749'].
+2025-11-14 01:09:38,748 - INFO - \u2705 Added f_580 to group \u2192 New group: ['f_341', 'f_749', 'f_580'].
+2025-11-14 01:11:37,164 - INFO - \u2705 Added f_812 to group \u2192 New group: ['f_341', 'f_749', 'f_580', 'f_812'].
+2025-11-14 01:13:34,322 - INFO - \u2705 Added cpi_9606.ENSP00000296871 to group \u2192 New group: ['f_341', 'f_749', 'f_580', 'f_812', 'cpi_9606.ENSP00000296871'].
+2025-11-14 01:13:34,322 - INFO - \U0001f4be Group saved: ['f_341', 'f_749', 'f_580', 'f_812', 'cpi_9606.ENSP00000296871']
+2025-11-14 01:13:34,811 - INFO - 
+\U0001f50d 58/1926 - Starting new group f_257 with [f_257] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 01:15:29,730 - INFO - \u2705 Added f_752 to group \u2192 New group: ['f_257', 'f_752'].
+2025-11-14 01:17:24,011 - INFO - \u2705 Added cpi_9606.ENSP00000254066 to group \u2192 New group: ['f_257', 'f_752', 'cpi_9606.ENSP00000254066'].
+2025-11-14 01:19:16,699 - INFO - \u2705 Added f_507 to group \u2192 New group: ['f_257', 'f_752', 'cpi_9606.ENSP00000254066', 'f_507'].
+2025-11-14 01:21:10,539 - INFO - \u2705 Added f_826 to group \u2192 New group: ['f_257', 'f_752', 'cpi_9606.ENSP00000254066', 'f_507', 'f_826'].
+2025-11-14 01:21:10,539 - INFO - \U0001f4be Group saved: ['f_257', 'f_752', 'cpi_9606.ENSP00000254066', 'f_507', 'f_826']
+2025-11-14 01:21:10,906 - INFO - 
+\U0001f50d 59/1921 - Starting new group f_683 with [f_683] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 01:23:04,491 - INFO - \u2705 Added cpi_9606.ENSP00000257290 to group \u2192 New group: ['f_683', 'cpi_9606.ENSP00000257290'].
+2025-11-14 01:24:59,200 - INFO - \u2705 Added f_442 to group \u2192 New group: ['f_683', 'cpi_9606.ENSP00000257290', 'f_442'].
+2025-11-14 01:26:56,516 - INFO - \u2705 Added cpi_9606.ENSP00000368104 to group \u2192 New group: ['f_683', 'cpi_9606.ENSP00000257290', 'f_442', 'cpi_9606.ENSP00000368104'].
+2025-11-14 01:28:52,869 - INFO - \u2705 Added f_756 to group \u2192 New group: ['f_683', 'cpi_9606.ENSP00000257290', 'f_442', 'cpi_9606.ENSP00000368104', 'f_756'].
+2025-11-14 01:28:52,869 - INFO - \U0001f4be Group saved: ['f_683', 'cpi_9606.ENSP00000257290', 'f_442', 'cpi_9606.ENSP00000368104', 'f_756']
+2025-11-14 01:28:53,219 - INFO - 
+\U0001f50d 60/1916 - Starting new group f_180 with [f_180] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 01:30:45,397 - INFO - \u2705 Added f_159 to group \u2192 New group: ['f_180', 'f_159'].
+2025-11-14 01:32:40,803 - INFO - \u2705 Added cpi_9606.ENSP00000361125 to group \u2192 New group: ['f_180', 'f_159', 'cpi_9606.ENSP00000361125'].
+2025-11-14 01:34:33,590 - INFO - \u2705 Added cpi_9606.ENSP00000355629 to group \u2192 New group: ['f_180', 'f_159', 'cpi_9606.ENSP00000361125', 'cpi_9606.ENSP00000355629'].
+2025-11-14 01:36:32,426 - INFO - \u2705 Added cpi_9606.ENSP00000267163 to group \u2192 New group: ['f_180', 'f_159', 'cpi_9606.ENSP00000361125', 'cpi_9606.ENSP00000355629', 'cpi_9606.ENSP00000267163'].
+2025-11-14 01:36:32,426 - INFO - \U0001f4be Group saved: ['f_180', 'f_159', 'cpi_9606.ENSP00000361125', 'cpi_9606.ENSP00000355629', 'cpi_9606.ENSP00000267163']
+2025-11-14 01:36:32,796 - INFO - 
+\U0001f50d 61/1911 - Starting new group f_516 with [f_516] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 01:38:28,492 - INFO - \u2705 Added cpi_9606.ENSP00000385834 to group \u2192 New group: ['f_516', 'cpi_9606.ENSP00000385834'].
+2025-11-14 01:40:27,490 - INFO - \u2705 Added f_129 to group \u2192 New group: ['f_516', 'cpi_9606.ENSP00000385834', 'f_129'].
+2025-11-14 01:42:24,749 - INFO - \u2705 Added f_602 to group \u2192 New group: ['f_516', 'cpi_9606.ENSP00000385834', 'f_129', 'f_602'].
+2025-11-14 01:44:20,388 - INFO - \u2705 Added f_300 to group \u2192 New group: ['f_516', 'cpi_9606.ENSP00000385834', 'f_129', 'f_602', 'f_300'].
+2025-11-14 01:44:20,388 - INFO - \U0001f4be Group saved: ['f_516', 'cpi_9606.ENSP00000385834', 'f_129', 'f_602', 'f_300']
+2025-11-14 01:44:20,836 - INFO - 
+\U0001f50d 62/1906 - Starting new group f_682 with [f_682] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 01:46:12,289 - INFO - \u2705 Added cpi_9606.ENSP00000387281 to group \u2192 New group: ['f_682', 'cpi_9606.ENSP00000387281'].
+2025-11-14 01:48:05,808 - INFO - \u2705 Added f_387 to group \u2192 New group: ['f_682', 'cpi_9606.ENSP00000387281', 'f_387'].
+2025-11-14 01:50:05,554 - INFO - \u2705 Added cpi_9606.ENSP00000363822 to group \u2192 New group: ['f_682', 'cpi_9606.ENSP00000387281', 'f_387', 'cpi_9606.ENSP00000363822'].
+2025-11-14 01:51:58,949 - INFO - \u2705 Added f_645 to group \u2192 New group: ['f_682', 'cpi_9606.ENSP00000387281', 'f_387', 'cpi_9606.ENSP00000363822', 'f_645'].
+2025-11-14 01:51:58,949 - INFO - \U0001f4be Group saved: ['f_682', 'cpi_9606.ENSP00000387281', 'f_387', 'cpi_9606.ENSP00000363822', 'f_645']
+2025-11-14 01:51:59,326 - INFO - 
+\U0001f50d 64/1901 - Starting new group f_16 with [f_16] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 01:53:51,557 - INFO - \u2705 Added cpi_9606.ENSP00000386069 to group \u2192 New group: ['f_16', 'cpi_9606.ENSP00000386069'].
+2025-11-14 01:55:46,520 - INFO - \u2705 Added f_202 to group \u2192 New group: ['f_16', 'cpi_9606.ENSP00000386069', 'f_202'].
+2025-11-14 01:57:39,425 - INFO - \u2705 Added cpi_9606.ENSP00000348069 to group \u2192 New group: ['f_16', 'cpi_9606.ENSP00000386069', 'f_202', 'cpi_9606.ENSP00000348069'].
+2025-11-14 01:59:32,486 - INFO - \u2705 Added cpi_9606.ENSP00000000442 to group \u2192 New group: ['f_16', 'cpi_9606.ENSP00000386069', 'f_202', 'cpi_9606.ENSP00000348069', 'cpi_9606.ENSP00000000442'].
+2025-11-14 01:59:32,486 - INFO - \U0001f4be Group saved: ['f_16', 'cpi_9606.ENSP00000386069', 'f_202', 'cpi_9606.ENSP00000348069', 'cpi_9606.ENSP00000000442']
+2025-11-14 01:59:32,835 - INFO - 
+\U0001f50d 66/1896 - Starting new group f_340 with [f_340] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:01:26,684 - INFO - \u2705 Added cpi_9606.ENSP00000337459 to group \u2192 New group: ['f_340', 'cpi_9606.ENSP00000337459'].
+2025-11-14 02:03:19,241 - INFO - \u2705 Added f_286 to group \u2192 New group: ['f_340', 'cpi_9606.ENSP00000337459', 'f_286'].
+2025-11-14 02:05:15,407 - INFO - \u2705 Added cpi_9606.ENSP00000308032 to group \u2192 New group: ['f_340', 'cpi_9606.ENSP00000337459', 'f_286', 'cpi_9606.ENSP00000308032'].
+2025-11-14 02:07:11,806 - INFO - \u2705 Added cpi_9606.ENSP00000309124 to group \u2192 New group: ['f_340', 'cpi_9606.ENSP00000337459', 'f_286', 'cpi_9606.ENSP00000308032', 'cpi_9606.ENSP00000309124'].
+2025-11-14 02:07:11,806 - INFO - \U0001f4be Group saved: ['f_340', 'cpi_9606.ENSP00000337459', 'f_286', 'cpi_9606.ENSP00000308032', 'cpi_9606.ENSP00000309124']
+2025-11-14 02:07:12,187 - INFO - 
+\U0001f50d 67/1891 - Starting new group f_611 with [f_611] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:09:03,169 - INFO - \u2705 Added cpi_9606.ENSP00000288135 to group \u2192 New group: ['f_611', 'cpi_9606.ENSP00000288135'].
+2025-11-14 02:10:54,389 - INFO - \u2705 Added f_592 to group \u2192 New group: ['f_611', 'cpi_9606.ENSP00000288135', 'f_592'].
+2025-11-14 02:12:46,085 - INFO - \u2705 Added cpi_9606.ENSP00000350767 to group \u2192 New group: ['f_611', 'cpi_9606.ENSP00000288135', 'f_592', 'cpi_9606.ENSP00000350767'].
+2025-11-14 02:14:39,177 - INFO - \u2705 Added cpi_9606.ENSP00000206249 to group \u2192 New group: ['f_611', 'cpi_9606.ENSP00000288135', 'f_592', 'cpi_9606.ENSP00000350767', 'cpi_9606.ENSP00000206249'].
+2025-11-14 02:14:39,177 - INFO - \U0001f4be Group saved: ['f_611', 'cpi_9606.ENSP00000288135', 'f_592', 'cpi_9606.ENSP00000350767', 'cpi_9606.ENSP00000206249']
+2025-11-14 02:14:39,538 - INFO - 
+\U0001f50d 69/1886 - Starting new group f_21 with [f_21] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:16:28,599 - INFO - \u2705 Added f_395 to group \u2192 New group: ['f_21', 'f_395'].
+2025-11-14 02:18:22,434 - INFO - \u2705 Added cpi_9606.ENSP00000366084 to group \u2192 New group: ['f_21', 'f_395', 'cpi_9606.ENSP00000366084'].
+2025-11-14 02:20:13,423 - INFO - \u2705 Added f_422 to group \u2192 New group: ['f_21', 'f_395', 'cpi_9606.ENSP00000366084', 'f_422'].
+2025-11-14 02:22:05,119 - INFO - \u2705 Added cpi_9606.ENSP00000255030 to group \u2192 New group: ['f_21', 'f_395', 'cpi_9606.ENSP00000366084', 'f_422', 'cpi_9606.ENSP00000255030'].
+2025-11-14 02:22:05,129 - INFO - \U0001f4be Group saved: ['f_21', 'f_395', 'cpi_9606.ENSP00000366084', 'f_422', 'cpi_9606.ENSP00000255030']
+2025-11-14 02:22:05,513 - INFO - 
+\U0001f50d 71/1881 - Starting new group f_684 with [f_684] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:23:58,165 - INFO - \u2705 Added f_489 to group \u2192 New group: ['f_684', 'f_489'].
+2025-11-14 02:25:51,260 - INFO - \u2705 Added f_564 to group \u2192 New group: ['f_684', 'f_489', 'f_564'].
+2025-11-14 02:27:46,745 - INFO - \u2705 Added cpi_9606.ENSP00000466799 to group \u2192 New group: ['f_684', 'f_489', 'f_564', 'cpi_9606.ENSP00000466799'].
+2025-11-14 02:29:40,799 - INFO - \u2705 Added f_583 to group \u2192 New group: ['f_684', 'f_489', 'f_564', 'cpi_9606.ENSP00000466799', 'f_583'].
+2025-11-14 02:29:40,799 - INFO - \U0001f4be Group saved: ['f_684', 'f_489', 'f_564', 'cpi_9606.ENSP00000466799', 'f_583']
+2025-11-14 02:29:41,159 - INFO - 
+\U0001f50d 72/1876 - Starting new group cpi_9606.ENSP00000265724 with [cpi_9606.ENSP00000265724] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:31:33,216 - INFO - \u2705 Added cpi_9606.ENSP00000248935 to group \u2192 New group: ['cpi_9606.ENSP00000265724', 'cpi_9606.ENSP00000248935'].
+2025-11-14 02:33:27,860 - INFO - \u2705 Added cpi_9606.ENSP00000286479 to group \u2192 New group: ['cpi_9606.ENSP00000265724', 'cpi_9606.ENSP00000248935', 'cpi_9606.ENSP00000286479'].
+2025-11-14 02:35:18,467 - INFO - \u2705 Added cpi_9606.ENSP00000218099 to group \u2192 New group: ['cpi_9606.ENSP00000265724', 'cpi_9606.ENSP00000248935', 'cpi_9606.ENSP00000286479', 'cpi_9606.ENSP00000218099'].
+2025-11-14 02:37:10,898 - INFO - \u2705 Added cpi_9606.ENSP00000353483 to group \u2192 New group: ['cpi_9606.ENSP00000265724', 'cpi_9606.ENSP00000248935', 'cpi_9606.ENSP00000286479', 'cpi_9606.ENSP00000218099', 'cpi_9606.ENSP00000353483'].
+2025-11-14 02:37:10,898 - INFO - \U0001f4be Group saved: ['cpi_9606.ENSP00000265724', 'cpi_9606.ENSP00000248935', 'cpi_9606.ENSP00000286479', 'cpi_9606.ENSP00000218099', 'cpi_9606.ENSP00000353483']
+2025-11-14 02:37:11,270 - INFO - 
+\U0001f50d 74/1871 - Starting new group f_293 with [f_293] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:39:00,388 - INFO - \u2705 Added cpi_9606.ENSP00000410294 to group \u2192 New group: ['f_293', 'cpi_9606.ENSP00000410294'].
+2025-11-14 02:40:50,543 - INFO - \u2705 Added cpi_9606.ENSP00000355759 to group \u2192 New group: ['f_293', 'cpi_9606.ENSP00000410294', 'cpi_9606.ENSP00000355759'].
+2025-11-14 02:42:43,217 - INFO - \u2705 Added f_521 to group \u2192 New group: ['f_293', 'cpi_9606.ENSP00000410294', 'cpi_9606.ENSP00000355759', 'f_521'].
+2025-11-14 02:44:33,577 - INFO - \u2705 Added f_344 to group \u2192 New group: ['f_293', 'cpi_9606.ENSP00000410294', 'cpi_9606.ENSP00000355759', 'f_521', 'f_344'].
+2025-11-14 02:44:33,577 - INFO - \U0001f4be Group saved: ['f_293', 'cpi_9606.ENSP00000410294', 'cpi_9606.ENSP00000355759', 'f_521', 'f_344']
+2025-11-14 02:44:33,915 - INFO - 
+\U0001f50d 75/1866 - Starting new group f_698 with [f_698] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:46:24,238 - INFO - \u2705 Added cpi_9606.ENSP00000418532 to group \u2192 New group: ['f_698', 'cpi_9606.ENSP00000418532'].
+2025-11-14 02:48:18,840 - INFO - \u2705 Added cpi_9606.ENSP00000359424 to group \u2192 New group: ['f_698', 'cpi_9606.ENSP00000418532', 'cpi_9606.ENSP00000359424'].
+2025-11-14 02:50:10,254 - INFO - \u2705 Added cpi_9606.ENSP00000304915 to group \u2192 New group: ['f_698', 'cpi_9606.ENSP00000418532', 'cpi_9606.ENSP00000359424', 'cpi_9606.ENSP00000304915'].
+2025-11-14 02:52:02,338 - INFO - \u2705 Added f_511 to group \u2192 New group: ['f_698', 'cpi_9606.ENSP00000418532', 'cpi_9606.ENSP00000359424', 'cpi_9606.ENSP00000304915', 'f_511'].
+2025-11-14 02:52:02,338 - INFO - \U0001f4be Group saved: ['f_698', 'cpi_9606.ENSP00000418532', 'cpi_9606.ENSP00000359424', 'cpi_9606.ENSP00000304915', 'f_511']
+2025-11-14 02:52:02,743 - INFO - 
+\U0001f50d 77/1861 - Starting new group f_691 with [f_691] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 02:53:55,294 - INFO - \u2705 Added cpi_9606.ENSP00000313661 to group \u2192 New group: ['f_691', 'cpi_9606.ENSP00000313661'].
+2025-11-14 02:55:46,331 - INFO - \u2705 Added f_377 to group \u2192 New group: ['f_691', 'cpi_9606.ENSP00000313661', 'f_377'].
+2025-11-14 02:57:38,764 - INFO - \u2705 Added f_227 to group \u2192 New group: ['f_691', 'cpi_9606.ENSP00000313661', 'f_377', 'f_227'].
+2025-11-14 02:59:30,003 - INFO - \u2705 Added f_431 to group \u2192 New group: ['f_691', 'cpi_9606.ENSP00000313661', 'f_377', 'f_227', 'f_431'].
+2025-11-14 02:59:30,003 - INFO - \U0001f4be Group saved: ['f_691', 'cpi_9606.ENSP00000313661', 'f_377', 'f_227', 'f_431']
+2025-11-14 02:59:30,414 - INFO - 
+\U0001f50d 78/1856 - Starting new group f_628 with [f_628] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:01:19,713 - INFO - \u2705 Added cpi_9606.ENSP00000393312 to group \u2192 New group: ['f_628', 'cpi_9606.ENSP00000393312'].
+2025-11-14 03:03:07,798 - INFO - \u2705 Added cpi_9606.ENSP00000355657 to group \u2192 New group: ['f_628', 'cpi_9606.ENSP00000393312', 'cpi_9606.ENSP00000355657'].
+2025-11-14 03:04:56,283 - INFO - \u2705 Added cpi_9606.ENSP00000216037 to group \u2192 New group: ['f_628', 'cpi_9606.ENSP00000393312', 'cpi_9606.ENSP00000355657', 'cpi_9606.ENSP00000216037'].
+2025-11-14 03:06:47,039 - INFO - \u2705 Added f_26 to group \u2192 New group: ['f_628', 'cpi_9606.ENSP00000393312', 'cpi_9606.ENSP00000355657', 'cpi_9606.ENSP00000216037', 'f_26'].
+2025-11-14 03:06:47,039 - INFO - \U0001f4be Group saved: ['f_628', 'cpi_9606.ENSP00000393312', 'cpi_9606.ENSP00000355657', 'cpi_9606.ENSP00000216037', 'f_26']
+2025-11-14 03:06:47,399 - INFO - 
+\U0001f50d 79/1851 - Starting new group f_686 with [f_686] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:08:35,832 - INFO - \u2705 Added f_378 to group \u2192 New group: ['f_686', 'f_378'].
+2025-11-14 03:10:26,953 - INFO - \u2705 Added cpi_9606.ENSP00000262186 to group \u2192 New group: ['f_686', 'f_378', 'cpi_9606.ENSP00000262186'].
+2025-11-14 03:12:15,970 - INFO - \u2705 Added f_702 to group \u2192 New group: ['f_686', 'f_378', 'cpi_9606.ENSP00000262186', 'f_702'].
+2025-11-14 03:14:08,235 - INFO - \u2705 Added cpi_9606.ENSP00000231751 to group \u2192 New group: ['f_686', 'f_378', 'cpi_9606.ENSP00000262186', 'f_702', 'cpi_9606.ENSP00000231751'].
+2025-11-14 03:14:08,235 - INFO - \U0001f4be Group saved: ['f_686', 'f_378', 'cpi_9606.ENSP00000262186', 'f_702', 'cpi_9606.ENSP00000231751']
+2025-11-14 03:14:08,639 - INFO - 
+\U0001f50d 81/1846 - Starting new group f_594 with [f_594] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:15:58,499 - INFO - \u2705 Added cpi_9606.ENSP00000360317 to group \u2192 New group: ['f_594', 'cpi_9606.ENSP00000360317'].
+2025-11-14 03:17:50,905 - INFO - \u2705 Added f_397 to group \u2192 New group: ['f_594', 'cpi_9606.ENSP00000360317', 'f_397'].
+2025-11-14 03:19:43,105 - INFO - \u2705 Added f_157 to group \u2192 New group: ['f_594', 'cpi_9606.ENSP00000360317', 'f_397', 'f_157'].
+2025-11-14 03:21:34,451 - INFO - \u2705 Added cpi_9606.ENSP00000356954 to group \u2192 New group: ['f_594', 'cpi_9606.ENSP00000360317', 'f_397', 'f_157', 'cpi_9606.ENSP00000356954'].
+2025-11-14 03:21:34,454 - INFO - \U0001f4be Group saved: ['f_594', 'cpi_9606.ENSP00000360317', 'f_397', 'f_157', 'cpi_9606.ENSP00000356954']
+2025-11-14 03:21:34,810 - INFO - 
+\U0001f50d 82/1841 - Starting new group f_439 with [f_439] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:23:25,414 - INFO - \u2705 Added cpi_9606.ENSP00000225831 to group \u2192 New group: ['f_439', 'cpi_9606.ENSP00000225831'].
+2025-11-14 03:25:12,709 - INFO - \u2705 Added cpi_9606.ENSP00000225577 to group \u2192 New group: ['f_439', 'cpi_9606.ENSP00000225831', 'cpi_9606.ENSP00000225577'].
+2025-11-14 03:27:03,890 - INFO - \u2705 Added cpi_9606.ENSP00000263431 to group \u2192 New group: ['f_439', 'cpi_9606.ENSP00000225831', 'cpi_9606.ENSP00000225577', 'cpi_9606.ENSP00000263431'].
+2025-11-14 03:28:55,369 - INFO - \u2705 Added f_47 to group \u2192 New group: ['f_439', 'cpi_9606.ENSP00000225831', 'cpi_9606.ENSP00000225577', 'cpi_9606.ENSP00000263431', 'f_47'].
+2025-11-14 03:28:55,369 - INFO - \U0001f4be Group saved: ['f_439', 'cpi_9606.ENSP00000225831', 'cpi_9606.ENSP00000225577', 'cpi_9606.ENSP00000263431', 'f_47']
+2025-11-14 03:28:55,732 - INFO - 
+\U0001f50d 83/1836 - Starting new group f_528 with [f_528] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:30:43,884 - INFO - \u2705 Added cpi_9606.ENSP00000354511 to group \u2192 New group: ['f_528', 'cpi_9606.ENSP00000354511'].
+2025-11-14 03:32:34,929 - INFO - \u2705 Added cpi_9606.ENSP00000359998 to group \u2192 New group: ['f_528', 'cpi_9606.ENSP00000354511', 'cpi_9606.ENSP00000359998'].
+2025-11-14 03:34:23,575 - INFO - \u2705 Added cpi_9606.ENSP00000332256 to group \u2192 New group: ['f_528', 'cpi_9606.ENSP00000354511', 'cpi_9606.ENSP00000359998', 'cpi_9606.ENSP00000332256'].
+2025-11-14 03:36:12,837 - INFO - \u2705 Added f_861 to group \u2192 New group: ['f_528', 'cpi_9606.ENSP00000354511', 'cpi_9606.ENSP00000359998', 'cpi_9606.ENSP00000332256', 'f_861'].
+2025-11-14 03:36:12,837 - INFO - \U0001f4be Group saved: ['f_528', 'cpi_9606.ENSP00000354511', 'cpi_9606.ENSP00000359998', 'cpi_9606.ENSP00000332256', 'f_861']
+2025-11-14 03:36:13,206 - INFO - 
+\U0001f50d 84/1831 - Starting new group f_553 with [f_553] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:38:00,373 - INFO - \u2705 Added cpi_9606.ENSP00000260630 to group \u2192 New group: ['f_553', 'cpi_9606.ENSP00000260630'].
+2025-11-14 03:39:48,825 - INFO - \u2705 Added cpi_9606.ENSP00000343040 to group \u2192 New group: ['f_553', 'cpi_9606.ENSP00000260630', 'cpi_9606.ENSP00000343040'].
+2025-11-14 03:41:37,008 - INFO - \u2705 Added cpi_9606.ENSP00000353427 to group \u2192 New group: ['f_553', 'cpi_9606.ENSP00000260630', 'cpi_9606.ENSP00000343040', 'cpi_9606.ENSP00000353427'].
+2025-11-14 03:43:22,756 - INFO - \U0001f6ab No further improvement found for group: ['f_553', 'cpi_9606.ENSP00000260630', 'cpi_9606.ENSP00000343040', 'cpi_9606.ENSP00000353427'].
+2025-11-14 03:43:22,756 - INFO - \U0001f4be Group saved: ['f_553', 'cpi_9606.ENSP00000260630', 'cpi_9606.ENSP00000343040', 'cpi_9606.ENSP00000353427']
+2025-11-14 03:43:23,122 - INFO - 
+\U0001f50d 86/1827 - Starting new group f_704 with [f_704] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:45:12,684 - INFO - \u2705 Added f_486 to group \u2192 New group: ['f_704', 'f_486'].
+2025-11-14 03:47:03,116 - INFO - \u2705 Added cpi_9606.ENSP00000256383 to group \u2192 New group: ['f_704', 'f_486', 'cpi_9606.ENSP00000256383'].
+2025-11-14 03:48:50,567 - INFO - \u2705 Added cpi_9606.ENSP00000264896 to group \u2192 New group: ['f_704', 'f_486', 'cpi_9606.ENSP00000256383', 'cpi_9606.ENSP00000264896'].
+2025-11-14 03:50:39,420 - INFO - \u2705 Added cpi_9606.ENSP00000358730 to group \u2192 New group: ['f_704', 'f_486', 'cpi_9606.ENSP00000256383', 'cpi_9606.ENSP00000264896', 'cpi_9606.ENSP00000358730'].
+2025-11-14 03:50:39,420 - INFO - \U0001f4be Group saved: ['f_704', 'f_486', 'cpi_9606.ENSP00000256383', 'cpi_9606.ENSP00000264896', 'cpi_9606.ENSP00000358730']
+2025-11-14 03:50:39,793 - INFO - 
+\U0001f50d 87/1822 - Starting new group f_573 with [f_573] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:52:26,241 - INFO - \u2705 Added cpi_9606.ENSP00000351273 to group \u2192 New group: ['f_573', 'cpi_9606.ENSP00000351273'].
+2025-11-14 03:54:15,164 - INFO - \u2705 Added cpi_9606.ENSP00000356436 to group \u2192 New group: ['f_573', 'cpi_9606.ENSP00000351273', 'cpi_9606.ENSP00000356436'].
+2025-11-14 03:56:05,661 - INFO - \u2705 Added cpi_9606.ENSP00000334145 to group \u2192 New group: ['f_573', 'cpi_9606.ENSP00000351273', 'cpi_9606.ENSP00000356436', 'cpi_9606.ENSP00000334145'].
+2025-11-14 03:57:53,444 - INFO - \u2705 Added cpi_9606.ENSP00000253004 to group \u2192 New group: ['f_573', 'cpi_9606.ENSP00000351273', 'cpi_9606.ENSP00000356436', 'cpi_9606.ENSP00000334145', 'cpi_9606.ENSP00000253004'].
+2025-11-14 03:57:53,444 - INFO - \U0001f4be Group saved: ['f_573', 'cpi_9606.ENSP00000351273', 'cpi_9606.ENSP00000356436', 'cpi_9606.ENSP00000334145', 'cpi_9606.ENSP00000253004']
+2025-11-14 03:57:53,822 - INFO - 
+\U0001f50d 88/1817 - Starting new group f_615 with [f_615] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 03:59:39,554 - INFO - \u2705 Added f_515 to group \u2192 New group: ['f_615', 'f_515'].
+2025-11-14 04:01:29,050 - INFO - \u2705 Added f_474 to group \u2192 New group: ['f_615', 'f_515', 'f_474'].
+2025-11-14 04:03:15,998 - INFO - \u2705 Added cpi_9606.ENSP00000229794 to group \u2192 New group: ['f_615', 'f_515', 'f_474', 'cpi_9606.ENSP00000229794'].
+2025-11-14 04:05:02,603 - INFO - \u2705 Added f_558 to group \u2192 New group: ['f_615', 'f_515', 'f_474', 'cpi_9606.ENSP00000229794', 'f_558'].
+2025-11-14 04:05:02,603 - INFO - \U0001f4be Group saved: ['f_615', 'f_515', 'f_474', 'cpi_9606.ENSP00000229794', 'f_558']
+2025-11-14 04:05:02,970 - INFO - 
+\U0001f50d 89/1812 - Starting new group f_637 with [f_637] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:06:49,263 - INFO - \u2705 Added cpi_9606.ENSP00000304811 to group \u2192 New group: ['f_637', 'cpi_9606.ENSP00000304811'].
+2025-11-14 04:08:36,126 - INFO - \u2705 Added cpi_9606.ENSP00000414303 to group \u2192 New group: ['f_637', 'cpi_9606.ENSP00000304811', 'cpi_9606.ENSP00000414303'].
+2025-11-14 04:10:25,799 - INFO - \u2705 Added cpi_9606.ENSP00000233242 to group \u2192 New group: ['f_637', 'cpi_9606.ENSP00000304811', 'cpi_9606.ENSP00000414303', 'cpi_9606.ENSP00000233242'].
+2025-11-14 04:12:15,969 - INFO - \U0001f6ab No further improvement found for group: ['f_637', 'cpi_9606.ENSP00000304811', 'cpi_9606.ENSP00000414303', 'cpi_9606.ENSP00000233242'].
+2025-11-14 04:12:15,969 - INFO - \U0001f4be Group saved: ['f_637', 'cpi_9606.ENSP00000304811', 'cpi_9606.ENSP00000414303', 'cpi_9606.ENSP00000233242']
+2025-11-14 04:12:16,383 - INFO - 
+\U0001f50d 90/1808 - Starting new group f_671 with [f_671] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:14:03,626 - INFO - \u2705 Added cpi_9606.ENSP00000261769 to group \u2192 New group: ['f_671', 'cpi_9606.ENSP00000261769'].
+2025-11-14 04:15:48,729 - INFO - \u2705 Added cpi_9606.ENSP00000346534 to group \u2192 New group: ['f_671', 'cpi_9606.ENSP00000261769', 'cpi_9606.ENSP00000346534'].
+2025-11-14 04:17:35,078 - INFO - \u2705 Added cpi_9606.ENSP00000233146 to group \u2192 New group: ['f_671', 'cpi_9606.ENSP00000261769', 'cpi_9606.ENSP00000346534', 'cpi_9606.ENSP00000233146'].
+2025-11-14 04:19:22,701 - INFO - \u2705 Added cpi_9606.ENSP00000333212 to group \u2192 New group: ['f_671', 'cpi_9606.ENSP00000261769', 'cpi_9606.ENSP00000346534', 'cpi_9606.ENSP00000233146', 'cpi_9606.ENSP00000333212'].
+2025-11-14 04:19:22,701 - INFO - \U0001f4be Group saved: ['f_671', 'cpi_9606.ENSP00000261769', 'cpi_9606.ENSP00000346534', 'cpi_9606.ENSP00000233146', 'cpi_9606.ENSP00000333212']
+2025-11-14 04:19:23,066 - INFO - 
+\U0001f50d 92/1803 - Starting new group f_567 with [f_567] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:21:07,640 - INFO - \u2705 Added f_399 to group \u2192 New group: ['f_567', 'f_399'].
+2025-11-14 04:22:55,596 - INFO - \u2705 Added cpi_9606.ENSP00000355778 to group \u2192 New group: ['f_567', 'f_399', 'cpi_9606.ENSP00000355778'].
+2025-11-14 04:24:40,875 - INFO - \u2705 Added f_716 to group \u2192 New group: ['f_567', 'f_399', 'cpi_9606.ENSP00000355778', 'f_716'].
+2025-11-14 04:26:31,035 - INFO - \u2705 Added f_375 to group \u2192 New group: ['f_567', 'f_399', 'cpi_9606.ENSP00000355778', 'f_716', 'f_375'].
+2025-11-14 04:26:31,035 - INFO - \U0001f4be Group saved: ['f_567', 'f_399', 'cpi_9606.ENSP00000355778', 'f_716', 'f_375']
+2025-11-14 04:26:31,399 - INFO - 
+\U0001f50d 93/1798 - Starting new group f_368 with [f_368] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:28:18,888 - INFO - \u2705 Added f_132 to group \u2192 New group: ['f_368', 'f_132'].
+2025-11-14 04:30:06,327 - INFO - \u2705 Added f_355 to group \u2192 New group: ['f_368', 'f_132', 'f_355'].
+2025-11-14 04:31:54,703 - INFO - \u2705 Added cpi_9606.ENSP00000297316 to group \u2192 New group: ['f_368', 'f_132', 'f_355', 'cpi_9606.ENSP00000297316'].
+2025-11-14 04:33:44,024 - INFO - \u2705 Added cpi_9606.ENSP00000320709 to group \u2192 New group: ['f_368', 'f_132', 'f_355', 'cpi_9606.ENSP00000297316', 'cpi_9606.ENSP00000320709'].
+2025-11-14 04:33:44,024 - INFO - \U0001f4be Group saved: ['f_368', 'f_132', 'f_355', 'cpi_9606.ENSP00000297316', 'cpi_9606.ENSP00000320709']
+2025-11-14 04:33:44,422 - INFO - 
+\U0001f50d 95/1793 - Starting new group f_294 with [f_294] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:35:28,747 - INFO - \u2705 Added f_798 to group \u2192 New group: ['f_294', 'f_798'].
+2025-11-14 04:37:16,313 - INFO - \u2705 Added cpi_9606.ENSP00000420168 to group \u2192 New group: ['f_294', 'f_798', 'cpi_9606.ENSP00000420168'].
+2025-11-14 04:39:02,680 - INFO - \u2705 Added cpi_9606.ENSP00000360141 to group \u2192 New group: ['f_294', 'f_798', 'cpi_9606.ENSP00000420168', 'cpi_9606.ENSP00000360141'].
+2025-11-14 04:40:49,778 - INFO - \u2705 Added cpi_9606.ENSP00000364212 to group \u2192 New group: ['f_294', 'f_798', 'cpi_9606.ENSP00000420168', 'cpi_9606.ENSP00000360141', 'cpi_9606.ENSP00000364212'].
+2025-11-14 04:40:49,778 - INFO - \U0001f4be Group saved: ['f_294', 'f_798', 'cpi_9606.ENSP00000420168', 'cpi_9606.ENSP00000360141', 'cpi_9606.ENSP00000364212']
+2025-11-14 04:40:50,141 - INFO - 
+\U0001f50d 96/1788 - Starting new group f_641 with [f_641] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:42:36,930 - INFO - \u2705 Added cpi_9606.ENSP00000417281 to group \u2192 New group: ['f_641', 'cpi_9606.ENSP00000417281'].
+2025-11-14 04:44:23,420 - INFO - \u2705 Added cpi_9606.ENSP00000252486 to group \u2192 New group: ['f_641', 'cpi_9606.ENSP00000417281', 'cpi_9606.ENSP00000252486'].
+2025-11-14 04:46:07,614 - INFO - \u2705 Added f_708 to group \u2192 New group: ['f_641', 'cpi_9606.ENSP00000417281', 'cpi_9606.ENSP00000252486', 'f_708'].
+2025-11-14 04:47:51,887 - INFO - \u2705 Added f_416 to group \u2192 New group: ['f_641', 'cpi_9606.ENSP00000417281', 'cpi_9606.ENSP00000252486', 'f_708', 'f_416'].
+2025-11-14 04:47:51,887 - INFO - \U0001f4be Group saved: ['f_641', 'cpi_9606.ENSP00000417281', 'cpi_9606.ENSP00000252486', 'f_708', 'f_416']
+2025-11-14 04:47:52,229 - INFO - 
+\U0001f50d 97/1783 - Starting new group f_666 with [f_666] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:49:37,219 - INFO - \u2705 Added cpi_9606.ENSP00000241052 to group \u2192 New group: ['f_666', 'cpi_9606.ENSP00000241052'].
+2025-11-14 04:51:21,832 - INFO - \u2705 Added f_24 to group \u2192 New group: ['f_666', 'cpi_9606.ENSP00000241052', 'f_24'].
+2025-11-14 04:53:07,730 - INFO - \u2705 Added cpi_9606.ENSP00000374219 to group \u2192 New group: ['f_666', 'cpi_9606.ENSP00000241052', 'f_24', 'cpi_9606.ENSP00000374219'].
+2025-11-14 04:54:53,808 - INFO - \u2705 Added cpi_9606.ENSP00000368349 to group \u2192 New group: ['f_666', 'cpi_9606.ENSP00000241052', 'f_24', 'cpi_9606.ENSP00000374219', 'cpi_9606.ENSP00000368349'].
+2025-11-14 04:54:53,809 - INFO - \U0001f4be Group saved: ['f_666', 'cpi_9606.ENSP00000241052', 'f_24', 'cpi_9606.ENSP00000374219', 'cpi_9606.ENSP00000368349']
+2025-11-14 04:54:54,160 - INFO - 
+\U0001f50d 98/1778 - Starting new group f_692 with [f_692] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 04:56:37,730 - INFO - \u2705 Added f_38 to group \u2192 New group: ['f_692', 'f_38'].
+2025-11-14 04:58:23,527 - INFO - \u2705 Added f_357 to group \u2192 New group: ['f_692', 'f_38', 'f_357'].
+2025-11-14 05:00:09,325 - INFO - \u2705 Added f_449 to group \u2192 New group: ['f_692', 'f_38', 'f_357', 'f_449'].
+2025-11-14 05:01:55,353 - INFO - \u2705 Added f_623 to group \u2192 New group: ['f_692', 'f_38', 'f_357', 'f_449', 'f_623'].
+2025-11-14 05:01:55,353 - INFO - \U0001f4be Group saved: ['f_692', 'f_38', 'f_357', 'f_449', 'f_623']
+2025-11-14 05:01:55,731 - INFO - 
+\U0001f50d 99/1773 - Starting new group f_699 with [f_699] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:03:40,728 - INFO - \u2705 Added f_822 to group \u2192 New group: ['f_699', 'f_822'].
+2025-11-14 05:05:22,201 - INFO - \u2705 Added cpi_9606.ENSP00000347046 to group \u2192 New group: ['f_699', 'f_822', 'cpi_9606.ENSP00000347046'].
+2025-11-14 05:07:04,904 - INFO - \u2705 Added cpi_9606.ENSP00000364731 to group \u2192 New group: ['f_699', 'f_822', 'cpi_9606.ENSP00000347046', 'cpi_9606.ENSP00000364731'].
+2025-11-14 05:08:48,294 - INFO - \u2705 Added f_497 to group \u2192 New group: ['f_699', 'f_822', 'cpi_9606.ENSP00000347046', 'cpi_9606.ENSP00000364731', 'f_497'].
+2025-11-14 05:08:48,294 - INFO - \U0001f4be Group saved: ['f_699', 'f_822', 'cpi_9606.ENSP00000347046', 'cpi_9606.ENSP00000364731', 'f_497']
+2025-11-14 05:08:48,648 - INFO - 
+\U0001f50d 100/1768 - Starting new group f_353 with [f_353] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:10:32,700 - INFO - \u2705 Added f_448 to group \u2192 New group: ['f_353', 'f_448'].
+2025-11-14 05:12:19,450 - INFO - \u2705 Added f_493 to group \u2192 New group: ['f_353', 'f_448', 'f_493'].
+2025-11-14 05:14:04,113 - INFO - \u2705 Added cpi_9606.ENSP00000411532 to group \u2192 New group: ['f_353', 'f_448', 'f_493', 'cpi_9606.ENSP00000411532'].
+2025-11-14 05:15:48,643 - INFO - \u2705 Added cpi_9606.ENSP00000382659 to group \u2192 New group: ['f_353', 'f_448', 'f_493', 'cpi_9606.ENSP00000411532', 'cpi_9606.ENSP00000382659'].
+2025-11-14 05:15:48,643 - INFO - \U0001f4be Group saved: ['f_353', 'f_448', 'f_493', 'cpi_9606.ENSP00000411532', 'cpi_9606.ENSP00000382659']
+2025-11-14 05:15:49,038 - INFO - 
+\U0001f50d 101/1763 - Starting new group f_667 with [f_667] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:17:31,239 - INFO - \u2705 Added cpi_9606.ENSP00000368766 to group \u2192 New group: ['f_667', 'cpi_9606.ENSP00000368766'].
+2025-11-14 05:19:17,149 - INFO - \u2705 Added f_650 to group \u2192 New group: ['f_667', 'cpi_9606.ENSP00000368766', 'f_650'].
+2025-11-14 05:21:01,396 - INFO - \u2705 Added cpi_9606.ENSP00000368632 to group \u2192 New group: ['f_667', 'cpi_9606.ENSP00000368766', 'f_650', 'cpi_9606.ENSP00000368632'].
+2025-11-14 05:22:44,703 - INFO - \u2705 Added f_350 to group \u2192 New group: ['f_667', 'cpi_9606.ENSP00000368766', 'f_650', 'cpi_9606.ENSP00000368632', 'f_350'].
+2025-11-14 05:22:44,703 - INFO - \U0001f4be Group saved: ['f_667', 'cpi_9606.ENSP00000368766', 'f_650', 'cpi_9606.ENSP00000368632', 'f_350']
+2025-11-14 05:22:45,036 - INFO - 
+\U0001f50d 103/1758 - Starting new group f_693 with [f_693] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:24:26,070 - INFO - \u2705 Added cpi_9606.ENSP00000256958 to group \u2192 New group: ['f_693', 'cpi_9606.ENSP00000256958'].
+2025-11-14 05:26:13,151 - INFO - \u2705 Added cpi_9606.ENSP00000331736 to group \u2192 New group: ['f_693', 'cpi_9606.ENSP00000256958', 'cpi_9606.ENSP00000331736'].
+2025-11-14 05:27:56,021 - INFO - \u2705 Added f_25 to group \u2192 New group: ['f_693', 'cpi_9606.ENSP00000256958', 'cpi_9606.ENSP00000331736', 'f_25'].
+2025-11-14 05:29:38,433 - INFO - \u2705 Added f_509 to group \u2192 New group: ['f_693', 'cpi_9606.ENSP00000256958', 'cpi_9606.ENSP00000331736', 'f_25', 'f_509'].
+2025-11-14 05:29:38,433 - INFO - \U0001f4be Group saved: ['f_693', 'cpi_9606.ENSP00000256958', 'cpi_9606.ENSP00000331736', 'f_25', 'f_509']
+2025-11-14 05:29:38,796 - INFO - 
+\U0001f50d 104/1753 - Starting new group f_248 with [f_248] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:31:23,213 - INFO - \u2705 Added cpi_9606.ENSP00000318820 to group \u2192 New group: ['f_248', 'cpi_9606.ENSP00000318820'].
+2025-11-14 05:33:08,910 - INFO - \u2705 Added cpi_9606.ENSP00000451040 to group \u2192 New group: ['f_248', 'cpi_9606.ENSP00000318820', 'cpi_9606.ENSP00000451040'].
+2025-11-14 05:34:52,425 - INFO - \u2705 Added cpi_9606.ENSP00000361359 to group \u2192 New group: ['f_248', 'cpi_9606.ENSP00000318820', 'cpi_9606.ENSP00000451040', 'cpi_9606.ENSP00000361359'].
+2025-11-14 05:36:39,222 - INFO - \u2705 Added cpi_9606.ENSP00000255465 to group \u2192 New group: ['f_248', 'cpi_9606.ENSP00000318820', 'cpi_9606.ENSP00000451040', 'cpi_9606.ENSP00000361359', 'cpi_9606.ENSP00000255465'].
+2025-11-14 05:36:39,222 - INFO - \U0001f4be Group saved: ['f_248', 'cpi_9606.ENSP00000318820', 'cpi_9606.ENSP00000451040', 'cpi_9606.ENSP00000361359', 'cpi_9606.ENSP00000255465']
+2025-11-14 05:36:39,560 - INFO - 
+\U0001f50d 105/1748 - Starting new group f_593 with [f_593] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:38:22,168 - INFO - \u2705 Added cpi_9606.ENSP00000264426 to group \u2192 New group: ['f_593', 'cpi_9606.ENSP00000264426'].
+2025-11-14 05:40:06,330 - INFO - \u2705 Added f_560 to group \u2192 New group: ['f_593', 'cpi_9606.ENSP00000264426', 'f_560'].
+2025-11-14 05:41:48,691 - INFO - \u2705 Added cpi_9606.ENSP00000410076 to group \u2192 New group: ['f_593', 'cpi_9606.ENSP00000264426', 'f_560', 'cpi_9606.ENSP00000410076'].
+2025-11-14 05:43:33,831 - INFO - \u2705 Added cpi_9606.ENSP00000349078 to group \u2192 New group: ['f_593', 'cpi_9606.ENSP00000264426', 'f_560', 'cpi_9606.ENSP00000410076', 'cpi_9606.ENSP00000349078'].
+2025-11-14 05:43:33,831 - INFO - \U0001f4be Group saved: ['f_593', 'cpi_9606.ENSP00000264426', 'f_560', 'cpi_9606.ENSP00000410076', 'cpi_9606.ENSP00000349078']
+2025-11-14 05:43:34,241 - INFO - 
+\U0001f50d 107/1743 - Starting new group f_642 with [f_642] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:45:14,046 - INFO - \u2705 Added f_467 to group \u2192 New group: ['f_642', 'f_467'].
+2025-11-14 05:46:58,964 - INFO - \u2705 Added cpi_9606.ENSP00000341189 to group \u2192 New group: ['f_642', 'f_467', 'cpi_9606.ENSP00000341189'].
+2025-11-14 05:48:42,284 - INFO - \u2705 Added cpi_9606.ENSP00000277010 to group \u2192 New group: ['f_642', 'f_467', 'cpi_9606.ENSP00000341189', 'cpi_9606.ENSP00000277010'].
+2025-11-14 05:50:24,394 - INFO - \u2705 Added cpi_9606.ENSP00000286648 to group \u2192 New group: ['f_642', 'f_467', 'cpi_9606.ENSP00000341189', 'cpi_9606.ENSP00000277010', 'cpi_9606.ENSP00000286648'].
+2025-11-14 05:50:24,395 - INFO - \U0001f4be Group saved: ['f_642', 'f_467', 'cpi_9606.ENSP00000341189', 'cpi_9606.ENSP00000277010', 'cpi_9606.ENSP00000286648']
+2025-11-14 05:50:24,736 - INFO - 
+\U0001f50d 110/1738 - Starting new group f_597 with [f_597] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:52:08,268 - INFO - \u2705 Added cpi_9606.ENSP00000330237 to group \u2192 New group: ['f_597', 'cpi_9606.ENSP00000330237'].
+2025-11-14 05:53:52,816 - INFO - \u2705 Added f_517 to group \u2192 New group: ['f_597', 'cpi_9606.ENSP00000330237', 'f_517'].
+2025-11-14 05:55:36,266 - INFO - \u2705 Added cpi_9606.ENSP00000221972 to group \u2192 New group: ['f_597', 'cpi_9606.ENSP00000330237', 'f_517', 'cpi_9606.ENSP00000221972'].
+2025-11-14 05:57:21,381 - INFO - \u2705 Added cpi_9606.ENSP00000332816 to group \u2192 New group: ['f_597', 'cpi_9606.ENSP00000330237', 'f_517', 'cpi_9606.ENSP00000221972', 'cpi_9606.ENSP00000332816'].
+2025-11-14 05:57:21,381 - INFO - \U0001f4be Group saved: ['f_597', 'cpi_9606.ENSP00000330237', 'f_517', 'cpi_9606.ENSP00000221972', 'cpi_9606.ENSP00000332816']
+2025-11-14 05:57:21,742 - INFO - 
+\U0001f50d 112/1733 - Starting new group f_586 with [f_586] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 05:59:01,247 - INFO - \u2705 Added cpi_9606.ENSP00000264381 to group \u2192 New group: ['f_586', 'cpi_9606.ENSP00000264381'].
+2025-11-14 06:00:44,795 - INFO - \u2705 Added f_785 to group \u2192 New group: ['f_586', 'cpi_9606.ENSP00000264381', 'f_785'].
+2025-11-14 06:02:26,563 - INFO - \u2705 Added f_635 to group \u2192 New group: ['f_586', 'cpi_9606.ENSP00000264381', 'f_785', 'f_635'].
+2025-11-14 06:04:07,937 - INFO - \u2705 Added f_675 to group \u2192 New group: ['f_586', 'cpi_9606.ENSP00000264381', 'f_785', 'f_635', 'f_675'].
+2025-11-14 06:04:07,937 - INFO - \U0001f4be Group saved: ['f_586', 'cpi_9606.ENSP00000264381', 'f_785', 'f_635', 'f_675']
+2025-11-14 06:04:08,748 - INFO - 
+\U0001f50d 113/1728 - Starting new group f_689 with [f_689] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:05:49,080 - INFO - \u2705 Added f_518 to group \u2192 New group: ['f_689', 'f_518'].
+2025-11-14 06:07:31,843 - INFO - \u2705 Added cpi_9606.ENSP00000228872 to group \u2192 New group: ['f_689', 'f_518', 'cpi_9606.ENSP00000228872'].
+2025-11-14 06:09:12,545 - INFO - \u2705 Added cpi_9606.ENSP00000293288 to group \u2192 New group: ['f_689', 'f_518', 'cpi_9606.ENSP00000228872', 'cpi_9606.ENSP00000293288'].
+2025-11-14 06:10:55,800 - INFO - \u2705 Added cpi_9606.ENSP00000216911 to group \u2192 New group: ['f_689', 'f_518', 'cpi_9606.ENSP00000228872', 'cpi_9606.ENSP00000293288', 'cpi_9606.ENSP00000216911'].
+2025-11-14 06:10:55,800 - INFO - \U0001f4be Group saved: ['f_689', 'f_518', 'cpi_9606.ENSP00000228872', 'cpi_9606.ENSP00000293288', 'cpi_9606.ENSP00000216911']
+2025-11-14 06:10:56,159 - INFO - 
+\U0001f50d 115/1723 - Starting new group f_680 with [f_680] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:12:38,875 - INFO - \u2705 Added cpi_9606.ENSP00000337949 to group \u2192 New group: ['f_680', 'cpi_9606.ENSP00000337949'].
+2025-11-14 06:14:23,314 - INFO - \u2705 Added f_441 to group \u2192 New group: ['f_680', 'cpi_9606.ENSP00000337949', 'f_441'].
+2025-11-14 06:16:07,779 - INFO - \u2705 Added cpi_9606.ENSP00000365807 to group \u2192 New group: ['f_680', 'cpi_9606.ENSP00000337949', 'f_441', 'cpi_9606.ENSP00000365807'].
+2025-11-14 06:17:51,366 - INFO - \u2705 Added cpi_9606.ENSP00000268171 to group \u2192 New group: ['f_680', 'cpi_9606.ENSP00000337949', 'f_441', 'cpi_9606.ENSP00000365807', 'cpi_9606.ENSP00000268171'].
+2025-11-14 06:17:51,366 - INFO - \U0001f4be Group saved: ['f_680', 'cpi_9606.ENSP00000337949', 'f_441', 'cpi_9606.ENSP00000365807', 'cpi_9606.ENSP00000268171']
+2025-11-14 06:17:51,743 - INFO - 
+\U0001f50d 117/1718 - Starting new group f_581 with [f_581] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:19:32,720 - INFO - \u2705 Added f_477 to group \u2192 New group: ['f_581', 'f_477'].
+2025-11-14 06:21:16,781 - INFO - \u2705 Added f_418 to group \u2192 New group: ['f_581', 'f_477', 'f_418'].
+2025-11-14 06:23:00,845 - INFO - \u2705 Added cpi_9606.ENSP00000312029 to group \u2192 New group: ['f_581', 'f_477', 'f_418', 'cpi_9606.ENSP00000312029'].
+2025-11-14 06:24:42,819 - INFO - \u2705 Added cpi_9606.ENSP00000276198 to group \u2192 New group: ['f_581', 'f_477', 'f_418', 'cpi_9606.ENSP00000312029', 'cpi_9606.ENSP00000276198'].
+2025-11-14 06:24:42,819 - INFO - \U0001f4be Group saved: ['f_581', 'f_477', 'f_418', 'cpi_9606.ENSP00000312029', 'cpi_9606.ENSP00000276198']
+2025-11-14 06:24:43,179 - INFO - 
+\U0001f50d 118/1713 - Starting new group f_604 with [f_604] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:26:23,897 - INFO - \u2705 Added f_454 to group \u2192 New group: ['f_604', 'f_454'].
+2025-11-14 06:28:06,691 - INFO - \u2705 Added f_256 to group \u2192 New group: ['f_604', 'f_454', 'f_256'].
+2025-11-14 06:29:51,220 - INFO - \u2705 Added cpi_9606.ENSP00000252029 to group \u2192 New group: ['f_604', 'f_454', 'f_256', 'cpi_9606.ENSP00000252029'].
+2025-11-14 06:31:32,488 - INFO - \u2705 Added cpi_9606.ENSP00000262999 to group \u2192 New group: ['f_604', 'f_454', 'f_256', 'cpi_9606.ENSP00000252029', 'cpi_9606.ENSP00000262999'].
+2025-11-14 06:31:32,488 - INFO - \U0001f4be Group saved: ['f_604', 'f_454', 'f_256', 'cpi_9606.ENSP00000252029', 'cpi_9606.ENSP00000262999']
+2025-11-14 06:31:32,849 - INFO - 
+\U0001f50d 119/1708 - Starting new group f_777 with [f_777] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:33:12,557 - INFO - \u2705 Added cpi_9606.ENSP00000345728 to group \u2192 New group: ['f_777', 'cpi_9606.ENSP00000345728'].
+2025-11-14 06:34:53,676 - INFO - \u2705 Added cpi_9606.ENSP00000367851 to group \u2192 New group: ['f_777', 'cpi_9606.ENSP00000345728', 'cpi_9606.ENSP00000367851'].
+2025-11-14 06:36:37,669 - INFO - \u2705 Added f_214 to group \u2192 New group: ['f_777', 'cpi_9606.ENSP00000345728', 'cpi_9606.ENSP00000367851', 'f_214'].
+2025-11-14 06:38:17,501 - INFO - \u2705 Added f_529 to group \u2192 New group: ['f_777', 'cpi_9606.ENSP00000345728', 'cpi_9606.ENSP00000367851', 'f_214', 'f_529'].
+2025-11-14 06:38:17,501 - INFO - \U0001f4be Group saved: ['f_777', 'cpi_9606.ENSP00000345728', 'cpi_9606.ENSP00000367851', 'f_214', 'f_529']
+2025-11-14 06:38:17,895 - INFO - 
+\U0001f50d 120/1703 - Starting new group f_663 with [f_663] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:40:00,649 - INFO - \u2705 Added f_527 to group \u2192 New group: ['f_663', 'f_527'].
+2025-11-14 06:41:40,539 - INFO - \u2705 Added cpi_9606.ENSP00000232219 to group \u2192 New group: ['f_663', 'f_527', 'cpi_9606.ENSP00000232219'].
+2025-11-14 06:43:22,468 - INFO - \u2705 Added f_425 to group \u2192 New group: ['f_663', 'f_527', 'cpi_9606.ENSP00000232219', 'f_425'].
+2025-11-14 06:45:00,805 - INFO - \u2705 Added cpi_9606.ENSP00000319591 to group \u2192 New group: ['f_663', 'f_527', 'cpi_9606.ENSP00000232219', 'f_425', 'cpi_9606.ENSP00000319591'].
+2025-11-14 06:45:00,805 - INFO - \U0001f4be Group saved: ['f_663', 'f_527', 'cpi_9606.ENSP00000232219', 'f_425', 'cpi_9606.ENSP00000319591']
+2025-11-14 06:45:01,171 - INFO - 
+\U0001f50d 123/1698 - Starting new group cpi_9606.ENSP00000295897 with [cpi_9606.ENSP00000295897] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:46:40,323 - INFO - \u2705 Added cpi_9606.ENSP00000372326 to group \u2192 New group: ['cpi_9606.ENSP00000295897', 'cpi_9606.ENSP00000372326'].
+2025-11-14 06:48:23,581 - INFO - \u2705 Added cpi_9606.ENSP00000353679 to group \u2192 New group: ['cpi_9606.ENSP00000295897', 'cpi_9606.ENSP00000372326', 'cpi_9606.ENSP00000353679'].
+2025-11-14 06:50:02,368 - INFO - \u2705 Added f_187 to group \u2192 New group: ['cpi_9606.ENSP00000295897', 'cpi_9606.ENSP00000372326', 'cpi_9606.ENSP00000353679', 'f_187'].
+2025-11-14 06:51:44,219 - INFO - \u2705 Added cpi_9606.ENSP00000285930 to group \u2192 New group: ['cpi_9606.ENSP00000295897', 'cpi_9606.ENSP00000372326', 'cpi_9606.ENSP00000353679', 'f_187', 'cpi_9606.ENSP00000285930'].
+2025-11-14 06:51:44,219 - INFO - \U0001f4be Group saved: ['cpi_9606.ENSP00000295897', 'cpi_9606.ENSP00000372326', 'cpi_9606.ENSP00000353679', 'f_187', 'cpi_9606.ENSP00000285930']
+2025-11-14 06:51:44,591 - INFO - 
+\U0001f50d 124/1693 - Starting new group f_432 with [f_432] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 06:53:24,251 - INFO - \u2705 Added f_358 to group \u2192 New group: ['f_432', 'f_358'].
+2025-11-14 06:55:06,620 - INFO - \u2705 Added cpi_9606.ENSP00000290349 to group \u2192 New group: ['f_432', 'f_358', 'cpi_9606.ENSP00000290349'].
+2025-11-14 06:56:47,196 - INFO - \u2705 Added cpi_9606.ENSP00000303522 to group \u2192 New group: ['f_432', 'f_358', 'cpi_9606.ENSP00000290349', 'cpi_9606.ENSP00000303522'].
+2025-11-14 06:58:27,328 - INFO - \u2705 Added f_510 to group \u2192 New group: ['f_432', 'f_358', 'cpi_9606.ENSP00000290349', 'cpi_9606.ENSP00000303522', 'f_510'].
+2025-11-14 06:58:27,328 - INFO - \U0001f4be Group saved: ['f_432', 'f_358', 'cpi_9606.ENSP00000290349', 'cpi_9606.ENSP00000303522', 'f_510']
+2025-11-14 06:58:27,666 - INFO - 
+\U0001f50d 126/1688 - Starting new group f_776 with [f_776] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 07:00:06,310 - INFO - \u2705 Added f_559 to group \u2192 New group: ['f_776', 'f_559'].
+2025-11-14 07:01:46,501 - INFO - \u2705 Added cpi_9606.ENSP00000400376 to group \u2192 New group: ['f_776', 'f_559', 'cpi_9606.ENSP00000400376'].
+2025-11-14 07:03:26,907 - INFO - \u2705 Added cpi_9606.ENSP00000369375 to group \u2192 New group: ['f_776', 'f_559', 'cpi_9606.ENSP00000400376', 'cpi_9606.ENSP00000369375'].
+2025-11-14 07:05:08,146 - INFO - \u2705 Added f_328 to group \u2192 New group: ['f_776', 'f_559', 'cpi_9606.ENSP00000400376', 'cpi_9606.ENSP00000369375', 'f_328'].
+2025-11-14 07:05:08,146 - INFO - \U0001f4be Group saved: ['f_776', 'f_559', 'cpi_9606.ENSP00000400376', 'cpi_9606.ENSP00000369375', 'f_328']
+2025-11-14 07:05:08,584 - INFO - 
+\U0001f50d 127/1683 - Starting new group f_342 with [f_342] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20233, 'SubsetAccuracy': 0.112}).
+2025-11-14 07:06:46,769 - INFO - \u2705 Added f_537 to group \u2192 New group: ['f_342', 'f_537'].
+2025-11-14 07:08:27,171 - INFO - \u2705 Added f_409 to group \u2192 New group: ['f_342', 'f_537', 'f_409'].

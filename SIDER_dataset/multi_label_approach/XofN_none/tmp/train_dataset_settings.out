@@ -1,0 +1,2101 @@
+Clus run se_C0009676_se_C0041657_se_C0002994_se_C0042571_se_C0004604_se_C0041834_se_C0085631_se_C0040822_se_C0042373_se_C0021053
+********************************************************************************************************************************
+
+Date: 3/29/26, 7:39 PM
+File: train_dataset_settings.out
+Attributes: 550 (input: 540, output: 10)
+Missing values: No
+
+[General]
+Verbose = 1
+RandomSeed = 43
+ResourceInfoLoaded = No
+DoNotInduce = No
+LoggingProperties = logging.properties
+
+[Data]
+File = XofN_none/tmp/train_dataset.arff
+TestSet = XofN_none/tmp/test_dataset.arff
+PruneSet = None
+XVal = 10
+RemoveMissingTarget = No
+NormalizeData = None
+
+[Attributes]
+Target = 541-550
+Clustering = 541-550
+Descriptive = 1-540
+Key = None
+Disable = None
+Weights = Normalize
+ClusteringWeights = 1.0
+ReduceMemoryNominalAttrs = No
+GIS = None
+
+[Constraints]
+Syntactic = None
+MaxSize = Infinity
+MaxError = 0.0
+MaxDepth = Infinity
+
+[Nominal]
+MEstimate = 1.0
+
+[Model]
+MinimalWeight = 2.0
+MinimalNumberExamples = 0
+MinimalKnownWeight = 0.0
+ParamTuneNumberFolds = 3
+NominalSubsetTests = Yes
+LoadFromModelFile = No
+
+[Tree]
+Heuristic = VarianceReduction
+HeuristicComplexity = N2
+SetDistance = GSMDistance
+TupleDistance = Euclidean
+TSDistance = DTW
+PruningMethod = C45
+FTest = 1.0
+BinarySplit = Yes
+ConvertToRules = No
+AlternativeSplits = No
+Optimize = []
+MSENominal = No
+SplitSampling = None
+MissingClusteringAttrHandling = EstimateFromParentNode
+MissingTargetAttrHandling = ParentNode
+InductionOrder = DepthFirst
+EntropyType = StandardEntropy
+ConsiderUnlableInstancesInIGCalc = No
+SpatialMatrix = Binary
+SpatialMeasure = GlobalMoran
+Bandwidth = 0.001
+Longlat = No
+NumNeightbours = 0.0
+Alpha = 1.0
+SplitPosition = Exact
+
+[Multilabel]
+MLCThreshold = 0.5
+OptimizeThresholds = No
+MultiLabelRankingMeasure = [HammingLoss]
+ShowThresholds = Yes
+
+[SemiSupervised]
+SemiSupervisedMethod = PCT
+StoppingCriteria = NoneAdded
+UnlabeledCriteria = Threshold
+ConfidenceThreshold = 0.8
+ConfidenceMeasure = Variance
+Iterations = 10
+K = 5
+UnlabeledData = 
+PercentageLabeled = 5
+UseWeights = No
+AirbagTrials = 0
+ExhaustiveSearchThresholds = [0.5,0.6,0.7,0.8,0.9,0.99]
+OOBErrorCalculation = LabeledOnly
+Normalization = MinMaxNormalization
+Aggregation = Average
+CalibrateHmcThreshold = No
+PruningWhenTuning = No
+InternalFolds = 5
+WeightScoresFile = NO
+PossibleWeights = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+IterationsSupervisionOptimisation = 0
+ForceInternalXValOptimisation = No
+ImputeMissingTargetValues = No
+InternalFold = -1234
+ProceedToMain = Yes
+
+[Output]
+ShowModels = [Default, Pruned, Others]
+TrainErrors = Yes
+ValidErrors = Yes
+TestErrors = Yes
+AllFoldModels = Yes
+AllFoldErrors = No
+AllFoldDatasets = No
+UnknownFrequency = No
+BranchFrequency = No
+ShowInfo = [Count]
+PrintModelAndExamples = No
+WriteErrorFile = No
+WriteModelFile = No
+WritePerBagModelFile = Yes
+WriteOOBFile = No
+WritePredictions = []
+GzipOutput = No
+ModelIDFiles = No
+WriteCurves = No
+OutputPythonModel = No
+PythonModelType = Object
+OutputROSSubspaces = No
+OutputJSONModel = No
+OutputDatabaseQueries = No
+OutputClowdFlowsJSON = No
+ComputeSpearman = No
+
+Run: 01
+*******
+
+Statistics
+----------
+
+FTValue (FTest): 1.0
+Induction Time: 3.3300E-1 sec
+Pruning Time: 9.0000E-3 sec
+Prediction Time (total for ClusModel.Original): 
+	0 microsecs
+	0 millisecs
+	0 secs
+Prediction Time (average for ClusModel.Original): 0 microsecs
+Model information:
+     Default: Nodes = 1; Leaves = 1; Depth = 1
+     Original: Nodes = 991; Leaves = 496; Depth = 27
+     Pruned: Nodes = 87; Leaves = 44; Depth = 13
+
+MultiLabelThresholds:
+---------------------
+Default
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+Original
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+Pruned
+[5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1, 5.0000E-1]
+
+
+Training error
+--------------
+
+Number of examples: 1180
+Classification Error
+   Default: 
+   Attribute: se_C0009676
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  454 |  454
+             0 | 0 |  726 |  726
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.152542E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041657
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  439 |  439
+             0 | 0 |  741 |  741
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.279661E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0002994
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  433 |  433
+             0 | 0 |  747 |  747
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.330508E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042571
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  416 |  416
+             0 | 0 |  764 |  764
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.474576E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0004604
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  409 |  409
+             0 | 0 |  771 |  771
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.533898E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041834
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  392 |  392
+             0 | 0 |  788 |  788
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.677966E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0085631
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  395 |  395
+             0 | 0 |  785 |  785
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.652542E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0040822
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  385 |  385
+             0 | 0 |  795 |  795
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.737288E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042373
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  383 |  383
+             0 | 0 |  797 |  797
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.754237E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0021053
+     REAL\PRED | 1 |    0 |
+     ---------------------------
+             1 | 0 |  362 |  362
+             0 | 0 |  818 |  818
+     ---------------------------
+               | 0 | 1180 | 1180
+     Accuracy: 6.932203E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0009676
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 428 |  26 |  454
+             0 | 127 | 599 |  726
+     ----------------------------
+               | 555 | 625 | 1180
+     Accuracy: 8.703390E-1
+     Cramer's coefficient: 7.484416E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 408 |  31 |  439
+             0 | 113 | 628 |  741
+     ----------------------------
+               | 521 | 659 | 1180
+     Accuracy: 8.779661E-1
+     Cramer's coefficient: 7.562030E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 392 |  41 |  433
+             0 | 127 | 620 |  747
+     ----------------------------
+               | 519 | 661 | 1180
+     Accuracy: 8.576271E-1
+     Cramer's coefficient: 7.139757E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 377 |  39 |  416
+             0 | 101 | 663 |  764
+     ----------------------------
+               | 478 | 702 | 1180
+     Accuracy: 8.813559E-1
+     Cramer's coefficient: 7.533216E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 375 |  34 |  409
+             0 | 114 | 657 |  771
+     ----------------------------
+               | 489 | 691 | 1180
+     Accuracy: 8.745763E-1
+     Cramer's coefficient: 7.428954E-1
+
+
+   Attribute: se_C0041834
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 343 |  49 |  392
+             0 | 101 | 687 |  788
+     ----------------------------
+               | 444 | 736 | 1180
+     Accuracy: 8.728814E-1
+     Cramer's coefficient: 7.260993E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 372 |  23 |  395
+             0 |  97 | 688 |  785
+     ----------------------------
+               | 469 | 711 | 1180
+     Accuracy: 8.983051E-1
+     Cramer's coefficient: 7.889953E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 353 |  32 |  385
+             0 |  97 | 698 |  795
+     ----------------------------
+               | 450 | 730 | 1180
+     Accuracy: 8.906780E-1
+     Cramer's coefficient: 7.672601E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 350 |  33 |  383
+             0 | 108 | 689 |  797
+     ----------------------------
+               | 458 | 722 | 1180
+     Accuracy: 8.805085E-1
+     Cramer's coefficient: 7.478095E-1
+
+
+   Attribute: se_C0021053
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 329 |  33 |  362
+             0 | 121 | 697 |  818
+     ----------------------------
+               | 450 | 730 | 1180
+     Accuracy: 8.694915E-1
+     Cramer's coefficient: 7.224389E-1
+
+   Pruned: 
+   Attribute: se_C0009676
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 170 | 284 |  454
+             0 |  63 | 663 |  726
+     ----------------------------
+               | 233 | 947 | 1180
+     Accuracy: 7.059322E-1
+     Cramer's coefficient: 3.515941E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 155 | 284 |  439
+             0 |  46 | 695 |  741
+     ----------------------------
+               | 201 | 979 | 1180
+     Accuracy: 7.203390E-1
+     Cramer's coefficient: 3.741453E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 141 | 292 |  433
+             0 |  88 | 659 |  747
+     ----------------------------
+               | 229 | 951 | 1180
+     Accuracy: 6.779661E-1
+     Cramer's coefficient: 2.532828E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 | 118 |  298 |  416
+             0 |  43 |  721 |  764
+     -----------------------------
+               | 161 | 1019 | 1180
+     Accuracy: 7.110169E-1
+     Cramer's coefficient: 3.164671E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 135 | 274 |  409
+             0 |  58 | 713 |  771
+     ----------------------------
+               | 193 | 987 | 1180
+     Accuracy: 7.186441E-1
+     Cramer's coefficient: 3.278914E-1
+
+
+   Attribute: se_C0041834
+     REAL\PRED |   1 |    0 |
+     -----------------------------
+             1 |  86 |  306 |  392
+             0 |  32 |  756 |  788
+     -----------------------------
+               | 118 | 1062 | 1180
+     Accuracy: 7.135593E-1
+     Cramer's coefficient: 2.806845E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 139 | 256 |  395
+             0 |  54 | 731 |  785
+     ----------------------------
+               | 193 | 987 | 1180
+     Accuracy: 7.372881E-1
+     Cramer's coefficient: 3.612016E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 149 | 236 |  385
+             0 |  57 | 738 |  795
+     ----------------------------
+               | 206 | 974 | 1180
+     Accuracy: 7.516949E-1
+     Cramer's coefficient: 3.894443E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 132 | 251 |  383
+             0 |  55 | 742 |  797
+     ----------------------------
+               | 187 | 993 | 1180
+     Accuracy: 7.406780E-1
+     Cramer's coefficient: 3.534056E-1
+
+
+   Attribute: se_C0021053
+     REAL\PRED |   1 |   0 |
+     ----------------------------
+             1 | 134 | 228 |  362
+             0 |  70 | 748 |  818
+     ----------------------------
+               | 204 | 976 | 1180
+     Accuracy: 7.474576E-1
+     Cramer's coefficient: 3.470662E-1
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.112,2.14,2.152,2.191,2.208,2.254,2.245,2.275,2.281,2.351])
+   Default        : [1.0000E0,1.0000E0,1.0000E0,1,1,1.0000E0,1.0000E0,1.0000E0,1,1]: 1.0000E0
+   Original       : [3.0848E-1,2.9805E-1,3.5296E-1,2.9640E-1,3.1246E-1,3.3171E-1,2.5751E-1,2.8208E-1,3.0797E-1,3.4171E-1]: 3.0893E-1
+   Pruned         : [8.4327E-1,8.3395E-1,8.9692E-1,8.6823E-1,8.4502E-1,8.8703E-1,8.2519E-1,7.9783E-1,8.4189E-1,8.4256E-1]: 8.4819E-1
+HammingLoss
+   Default        : 3.4475E-1
+   Original       : 1.2263E-1
+   Pruned         : 2.7754E-1
+RankingLoss
+   Default        : 3.8352E-1
+   Original       : 3.2033E-2
+   Pruned         : 2.7509E-1
+OneError
+   Default        : 3.8475E-1
+   Original       : 1.1525E-1
+   Pruned         : 3.1780E-1
+Coverage
+   Default        : 7.8754(label cardinality: 4.0237)
+   Original       : 4.8259(label cardinality: 4.0237)
+   Pruned         : 7.185(label cardinality: 4.0237)
+AveragePrecision
+   Default        : NaN
+   Original       : NaN
+   Pruned         : NaN
+MLAccuracy
+   Default        : 1.4322E-1
+   Original       : 7.0487E-1
+   Pruned         : 2.8858E-1
+MLPrecision
+   Default        : 1.4322E-1
+   Original       : 7.5285E-1
+   Pruned         : 3.4004E-1
+MLRecall
+   Default        : 1.4322E-1
+   Original       : 8.5536E-1
+   Pruned         : 3.3653E-1
+MLFOneMeasure
+   Default        : 1.4322E-1
+   Original       : 7.7312E-1
+   Pruned         : 3.2303E-1
+SubsetAccuracy
+   Default        : 1.4322E-1
+   Original       : 3.7203E-1
+   Pruned         : 1.5085E-1
+MacroPrecision
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [7.7117E-1, 7.8311E-1, 7.5530E-1, 7.8870E-1, 7.6687E-1, 7.7252E-1, 7.9318E-1, 7.8444E-1, 7.6419E-1, 7.3111E-1]: 7.7106E-1
+   Pruned         : [7.2961E-1, 7.7114E-1, 6.1572E-1, 7.3292E-1, 6.9948E-1, 7.2881E-1, 7.2021E-1, 7.2330E-1, 7.0588E-1, 6.5686E-1]: 7.0839E-1
+MacroRecall
+   Default        : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: 0
+   Original       : [9.4273E-1, 9.2938E-1, 9.0531E-1, 9.0625E-1, 9.1687E-1, 8.7500E-1, 9.4177E-1, 9.1688E-1, 9.1384E-1, 9.0884E-1]: 9.1569E-1
+   Pruned         : [3.7445E-1, 3.5308E-1, 3.2564E-1, 2.8365E-1, 3.3007E-1, 2.1939E-1, 3.5190E-1, 3.8701E-1, 3.4465E-1, 3.7017E-1]: 3.3400E-1
+MacroFOne
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [8.4836E-1, 8.5000E-1, 8.2353E-1, 8.4340E-1, 8.3519E-1, 8.2057E-1, 8.6111E-1, 8.4551E-1, 8.3234E-1, 8.1034E-1]: 8.3704E-1
+   Pruned         : [4.9491E-1, 4.8437E-1, 4.2598E-1, 4.0901E-1, 4.4850E-1, 3.3725E-1, 4.7279E-1, 5.0423E-1, 4.6316E-1, 4.7350E-1]: 4.5137E-1
+MicroPrecision
+   Default        : NaN
+   Original       : 7.7116E-1
+   Pruned         : 7.0597E-1
+MicroRecall
+   Default        : 0
+   Original       : 9.1618E-1
+   Pruned         : 3.3407E-1
+MicroFOne
+   Default        : NaN
+   Original       : 8.3743E-1
+   Pruned         : 4.5353E-1
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 9.635272E-1
+   Pruned         : 6.957061E-1
+averageAUPRC
+   Default        : 3.447458E-1
+   Original       : 9.366014E-1
+   Pruned         : 6.027924E-1
+weightedAUPRC
+   Default        : 3.462973E-1
+   Original       : 9.369061E-1
+   Pruned         : 6.036828E-1
+pooledAUPRC
+   Default        : 3.658743E-1
+   Original       : 9.375216E-1
+   Pruned         : 6.108759E-1
+
+Testing error
+-------------
+
+Number of examples: 131
+Classification Error
+   Default: 
+   Attribute: se_C0009676
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  51 |  51
+             0 | 0 |  80 |  80
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.106870E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041657
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  54 |  54
+             0 | 0 |  77 |  77
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0002994
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  59 |  59
+             0 | 0 |  72 |  72
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.496183E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042571
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  55 |  55
+             0 | 0 |  76 |  76
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0004604
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  55 |  55
+             0 | 0 |  76 |  76
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0041834
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  47 |  47
+             0 | 0 |  84 |  84
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.412214E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0085631
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  52 |  52
+             0 | 0 |  79 |  79
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0040822
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  50 |  50
+             0 | 0 |  81 |  81
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.183206E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0042373
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  43 |  43
+             0 | 0 |  88 |  88
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.717557E-1
+     Cramer's coefficient: 0
+
+
+   Attribute: se_C0021053
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 0 |  52 |  52
+             0 | 0 |  79 |  79
+     -------------------------
+               | 0 | 131 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0009676
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 32 | 19 |  51
+             0 | 24 | 56 |  80
+     -------------------------
+               | 56 | 75 | 131
+     Accuracy: 6.717557E-1
+     Cramer's coefficient: 3.227392E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 27 | 27 |  54
+             0 | 26 | 51 |  77
+     -------------------------
+               | 53 | 78 | 131
+     Accuracy: 5.954198E-1
+     Cramer's coefficient: 1.628082E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 32 | 27 |  59
+             0 | 28 | 44 |  72
+     -------------------------
+               | 60 | 71 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 1.532677E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 23 | 32 |  55
+             0 | 19 | 57 |  76
+     -------------------------
+               | 42 | 89 | 131
+     Accuracy: 6.106870E-1
+     Cramer's coefficient: 1.778474E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 29 | 26 |  55
+             0 | 29 | 47 |  76
+     -------------------------
+               | 58 | 73 | 131
+     Accuracy: 5.801527E-1
+     Cramer's coefficient: 1.447617E-1
+
+
+   Attribute: se_C0041834
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 20 | 27 |  47
+             0 | 25 | 59 |  84
+     -------------------------
+               | 45 | 86 | 131
+     Accuracy: 6.030534E-1
+     Cramer's coefficient: 1.291955E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 26 | 26 |  52
+             0 | 18 | 61 |  79
+     -------------------------
+               | 44 | 87 | 131
+     Accuracy: 6.641221E-1
+     Cramer's coefficient: 2.819296E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 25 | 25 |  50
+             0 | 16 | 65 |  81
+     -------------------------
+               | 41 | 90 | 131
+     Accuracy: 6.870229E-1
+     Cramer's coefficient: 3.168804E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 19 | 24 |  43
+             0 | 30 | 58 |  88
+     -------------------------
+               | 49 | 82 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 9.796768E-2
+
+
+   Attribute: se_C0021053
+     REAL\PRED |  1 |  0 |
+     -------------------------
+             1 | 21 | 31 |  52
+             0 | 33 | 46 |  79
+     -------------------------
+               | 54 | 77 | 131
+     Accuracy: 5.114504E-1
+     Cramer's coefficient: 1.379169E-2
+
+   Pruned: 
+   Attribute: se_C0009676
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 16 |  35 |  51
+             0 |  7 |  73 |  80
+     --------------------------
+               | 23 | 108 | 131
+     Accuracy: 6.793893E-1
+     Cramer's coefficient: 2.899318E-1
+
+
+   Attribute: se_C0041657
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 15 |  39 |  54
+             0 |  4 |  73 |  77
+     --------------------------
+               | 19 | 112 | 131
+     Accuracy: 6.717557E-1
+     Cramer's coefficient: 3.156731E-1
+
+
+   Attribute: se_C0002994
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 14 |  45 |  59
+             0 |  9 |  63 |  72
+     --------------------------
+               | 23 | 108 | 131
+     Accuracy: 5.877863E-1
+     Cramer's coefficient: 1.468420E-1
+
+
+   Attribute: se_C0042571
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 14 |  41 |  55
+             0 |  2 |  74 |  76
+     --------------------------
+               | 16 | 115 | 131
+     Accuracy: 6.717557E-1
+     Cramer's coefficient: 3.439944E-1
+
+
+   Attribute: se_C0004604
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  6 |  49 |  55
+             0 |  9 |  67 |  76
+     --------------------------
+               | 15 | 116 | 131
+     Accuracy: 5.572519E-1
+     Cramer's coefficient: 1.446112E-2
+
+
+   Attribute: se_C0041834
+     REAL\PRED | 1 |   0 |
+     -------------------------
+             1 | 5 |  42 |  47
+             0 | 4 |  80 |  84
+     -------------------------
+               | 9 | 122 | 131
+     Accuracy: 6.488550E-1
+     Cramer's coefficient: 1.114290E-1
+
+
+   Attribute: se_C0085631
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 13 |  39 |  52
+             0 |  7 |  72 |  79
+     --------------------------
+               | 20 | 111 | 131
+     Accuracy: 6.488550E-1
+     Cramer's coefficient: 2.195441E-1
+
+
+   Attribute: se_C0040822
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 17 |  33 |  50
+             0 |  4 |  77 |  81
+     --------------------------
+               | 21 | 110 | 131
+     Accuracy: 7.175573E-1
+     Cramer's coefficient: 3.848070E-1
+
+
+   Attribute: se_C0042373
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 |  6 |  37 |  43
+             0 | 12 |  76 |  88
+     --------------------------
+               | 18 | 113 | 131
+     Accuracy: 6.259542E-1
+     Cramer's coefficient: 4.325439E-3
+
+
+   Attribute: se_C0021053
+     REAL\PRED |  1 |   0 |
+     --------------------------
+             1 | 12 |  40 |  52
+             0 |  7 |  72 |  79
+     --------------------------
+               | 19 | 112 | 131
+     Accuracy: 6.412214E-1
+     Cramer's coefficient: 1.975203E-1
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.112,2.14,2.152,2.191,2.208,2.254,2.245,2.275,2.281,2.351])
+   Default        : [1.0044,1.044,1.0956,1.087,1.0992,1.0402,1.0923,1.0876,1.0059,1.1638]: 1.072
+   Original       : [1.0662,1.4622,1.4495,1.387,1.5262,1.4605,1.3045,1.2203,1.3861,1.8855]: 1.4148
+   Pruned         : [9.4168E-1,9.4748E-1,1.1016,9.8138E-1,1.2804,1.0609,1.0453,9.8108E-1,1.0607,1.1547]: 1.0555
+HammingLoss
+   Default        : 3.9542E-1
+   Original       : 3.9084E-1
+   Pruned         : 3.5496E-1
+RankingLoss
+   Default        : 3.7347E-1
+   Original       : 3.4499E-1
+   Pruned         : 3.4000E-1
+OneError
+   Default        : 3.8931E-1
+   Original       : 5.0382E-1
+   Pruned         : 3.6641E-1
+Coverage
+   Default        : 8.1667(label cardinality: 4.5439)
+   Original       : 8.9912(label cardinality: 4.5439)
+   Pruned         : 7.9912(label cardinality: 4.5439)
+AveragePrecision
+   Default        : NaN
+   Original       : NaN
+   Pruned         : NaN
+MLAccuracy
+   Default        : 1.2977E-1
+   Original       : 2.9832E-1
+   Pruned         : 2.3330E-1
+MLPrecision
+   Default        : 1.2977E-1
+   Original       : 4.2281E-1
+   Pruned         : 2.8596E-1
+MLRecall
+   Default        : 1.2977E-1
+   Original       : 4.2454E-1
+   Pruned         : 2.7917E-1
+MLFOneMeasure
+   Default        : 1.2977E-1
+   Original       : 3.8279E-1
+   Pruned         : 2.6417E-1
+SubsetAccuracy
+   Default        : 1.2977E-1
+   Original       : 5.3435E-2
+   Pruned         : 1.2214E-1
+MacroPrecision
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [5.7143E-1, 5.0943E-1, 5.3333E-1, 5.4762E-1, 5.0000E-1, 4.4444E-1, 5.9091E-1, 6.0976E-1, 3.8776E-1, 3.8889E-1]: 5.0836E-1
+   Pruned         : [6.9565E-1, 7.8947E-1, 6.0870E-1, 8.7500E-1, 4.0000E-1, 5.5556E-1, 6.5000E-1, 8.0952E-1, 3.3333E-1, 6.3158E-1]: 6.3488E-1
+MacroRecall
+   Default        : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]: 0
+   Original       : [6.2745E-1, 5.0000E-1, 5.4237E-1, 4.1818E-1, 5.2727E-1, 4.2553E-1, 5.0000E-1, 5.0000E-1, 4.4186E-1, 4.0385E-1]: 4.8865E-1
+   Pruned         : [3.1373E-1, 2.7778E-1, 2.3729E-1, 2.5455E-1, 1.0909E-1, 1.0638E-1, 2.5000E-1, 3.4000E-1, 1.3953E-1, 2.3077E-1]: 2.2591E-1
+MacroFOne
+   Default        : [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN]: NaN
+   Original       : [5.9813E-1, 5.0467E-1, 5.3782E-1, 4.7423E-1, 5.1327E-1, 4.3478E-1, 5.4167E-1, 5.4945E-1, 4.1304E-1, 3.9623E-1]: 4.9633E-1
+   Pruned         : [4.3243E-1, 4.1096E-1, 3.4146E-1, 3.9437E-1, 1.7143E-1, 1.7857E-1, 3.6111E-1, 4.7887E-1, 1.9672E-1, 3.3803E-1]: 3.3040E-1
+MicroPrecision
+   Default        : NaN
+   Original       : 5.0598E-1
+   Pruned         : 6.4481E-1
+MicroRecall
+   Default        : 0
+   Original       : 4.9035E-1
+   Pruned         : 2.2780E-1
+MicroFOne
+   Default        : NaN
+   Original       : 4.9804E-1
+   Pruned         : 3.3666E-1
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 6.037264E-1
+   Pruned         : 5.929201E-1
+averageAUPRC
+   Default        : 3.954198E-1
+   Original       : 5.023614E-1
+   Pruned         : 5.286011E-1
+weightedAUPRC
+   Default        : 3.980960E-1
+   Original       : 5.046207E-1
+   Pruned         : 5.316538E-1
+pooledAUPRC
+   Default        : 4.060957E-1
+   Original       : 4.965405E-1
+   Pruned         : 5.231813E-1
+
+Default Model
+*************
+
+[0,0,0,0,0,0,0,0,0,0] [726.0,741.0,747.0,764.0,771.0,788.0,785.0,795.0,797.0,818.0]: 1180
+
+Original Model
+**************
+
+f_683 > 0.0
++--yes: f_20 > 0.0
+|      +--yes: f_496 > 0.0
+|      |      +--yes: f_567 > 0.0
+|      |      |      +--yes: f_12 > 0.0
+|      |      |      |      +--yes: [1,1,1,1,1,0,0,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |      |      |      +--no:  [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |      |      +--no:  [1,1,0,1,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |      +--no:  f_22 > 0.0
+|      |             +--yes: f_567 > 0.0
+|      |             |      +--yes: f_185 > 0.0
+|      |             |      |      +--yes: f_615 > 0.0
+|      |             |      |      |      +--yes: f_408 > 0.0
+|      |             |      |      |      |      +--yes: f_3 > 0.0
+|      |             |      |      |      |      |      +--yes: [1,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |      |      |      |      +--no:  [1,0,1,0,1,1,0,0,1,1] [1.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |             |      |      |      |      +--no:  f_392 > 0.0
+|      |             |      |      |      |             +--yes: f_37 > 0.0
+|      |             |      |      |      |             |      +--yes: [0,0,1,1,0,1,0,0,0,1] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|      |             |      |      |      |             |      +--no:  [0,0,1,0,0,1,0,0,1,1] [3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |             |      |      |      |             +--no:  [1,1,1,1,1,1,0,0,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |      |      +--no:  f_713 > 0.0
+|      |             |      |      |             +--yes: [1,0,0,0,1,1,0,1,1,1] [3.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |             |      |      |             +--no:  [0,0,1,0,1,1,0,0,0,0] [2.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|      |             |      |      +--no:  f_439 > 0.0
+|      |             |      |             +--yes: [1,0,1,1,1,1,0,1,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |      |             +--no:  [1,1,1,0,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |             |      +--no:  f_258 > 0.0
+|      |             |             +--yes: f_35 > 0.0
+|      |             |             |      +--yes: f_413 > 0.0
+|      |             |             |      |      +--yes: [1,1,1,0,1,1,0,1,0,1] [1.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0]: 2
+|      |             |             |      |      +--no:  [1,1,1,0,1,1,1,1,0,1] [2.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0]: 3
+|      |             |             |      +--no:  f_199 > 0.0
+|      |             |             |             +--yes: f_691 > 0.0
+|      |             |             |             |      +--yes: [0,0,1,1,0,1,0,0,1,1] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |             |             |             |      +--no:  [0,0,0,1,1,0,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             |             |             +--no:  f_689 > 0.0
+|      |             |             |                    +--yes: [0,1,1,1,1,1,0,0,1,0] [2.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0]: 3
+|      |             |             |                    +--no:  [0,1,0,0,0,0,0,0,1,0] [3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+|      |             |             +--no:  f_35 > 0.0
+|      |             |                    +--yes: f_380 > 0.0
+|      |             |                    |      +--yes: f_152 > 0.0
+|      |             |                    |      |      +--yes: [1,0,0,0,0,0,1,0,1,1] [3.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+|      |             |                    |      |      +--no:  [0,0,0,0,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |             |                    |      +--no:  [0,0,0,1,0,0,0,1,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0]: 2
+|      |             |                    +--no:  f_37 > 0.0
+|      |             |                           +--yes: [0,0,0,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |             |                           +--no:  f_150 > 0.0
+|      |             |                                  +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |             |                                  +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |             +--no:  f_230 > 0.0
+|      |                    +--yes: f_597 > 0.0
+|      |                    |      +--yes: f_667 > 0.0
+|      |                    |      |      +--yes: [1,1,0,0,1,1,0,0,1,1] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|      |                    |      |      +--no:  [1,1,1,1,1,1,1,1,1,1] [3.0,2.0,2.0,4.0,4.0,4.0,2.0,2.0,4.0,4.0]: 4
+|      |                    |      +--no:  f_335 > 0.0
+|      |                    |             +--yes: f_346 > 0.0
+|      |                    |             |      +--yes: f_115 > 0.0
+|      |                    |             |      |      +--yes: [1,1,1,0,1,1,1,1,1,1] [1.0,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,1.0]: 2
+|      |                    |             |      |      +--no:  [1,1,1,1,0,1,1,1,0,1] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0]: 3
+|      |                    |             |      +--no:  [0,1,1,1,0,0,0,1,0,0] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                    |             +--no:  f_464 > 0.0
+|      |                    |                    +--yes: [0,0,0,0,0,0,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                    |                    +--no:  [1,1,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |                    +--no:  f_539 > 0.0
+|      |                           +--yes: f_797 > 0.0
+|      |                           |      +--yes: f_153 > 0.0
+|      |                           |      |      +--yes: f_193 > 0.0
+|      |                           |      |      |      +--yes: f_707 > 0.0
+|      |                           |      |      |      |      +--yes: [0,0,0,1,0,0,1,0,0,0] [2.0,3.0,3.0,3.0,2.0,3.0,2.0,2.0,2.0,3.0]: 3
+|      |                           |      |      |      |      +--no:  [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |      |      |      +--no:  [1,1,1,1,1,0,1,1,1,0] [2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                           |      |      +--no:  f_615 > 0.0
+|      |                           |      |             +--yes: [0,0,0,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |      |             +--no:  f_243 > 0.0
+|      |                           |      |                    +--yes: [0,0,1,1,1,1,0,0,1,0] [2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|      |                           |      |                    +--no:  f_560 > 0.0
+|      |                           |      |                           +--yes: [1,0,0,0,0,1,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|      |                           |      |                           +--no:  f_755 > 0.0
+|      |                           |      |                                  +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |      |                                  +--no:  [0,0,0,0,0,0,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|      |                           |      +--no:  f_571 > 0.0
+|      |                           |             +--yes: f_167 > 0.0
+|      |                           |             |      +--yes: f_397 > 0.0
+|      |                           |             |      |      +--yes: [0,0,0,0,1,1,0,1,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0]: 2
+|      |                           |             |      |      +--no:  f_178 > 0.0
+|      |                           |             |      |             +--yes: [1,0,0,1,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,3.0,2.0,3.0,2.0,3.0,3.0]: 3
+|      |                           |             |      |             +--no:  [1,0,0,0,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,1.0]: 2
+|      |                           |             |      +--no:  f_502 > 0.0
+|      |                           |             |             +--yes: f_185 > 0.0
+|      |                           |             |             |      +--yes: f_439 > 0.0
+|      |                           |             |             |      |      +--yes: f_258 > 0.0
+|      |                           |             |             |      |      |      +--yes: [1,1,0,1,1,1,1,1,1,1] [3.0,4.0,4.0,4.0,4.0,3.0,4.0,4.0,3.0,4.0]: 4
+|      |                           |             |             |      |      |      +--no:  f_357 > 0.0
+|      |                           |             |             |      |      |             +--yes: [1,1,1,0,1,0,1,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                           |             |             |      |      |             +--no:  [1,1,1,1,1,0,1,1,0,1] [1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      |                           |             |             |      |      +--no:  [1,1,1,1,1,0,0,0,1,1] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0,3.0]: 3
+|      |                           |             |             |      +--no:  [0,0,0,0,1,1,1,0,1,1] [2.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0]: 3
+|      |                           |             |             +--no:  [1,0,1,1,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |                           |             +--no:  f_697 > 0.0
+|      |                           |                    +--yes: f_366 > 0.0
+|      |                           |                    |      +--yes: f_521 > 0.0
+|      |                           |                    |      |      +--yes: f_199 > 0.0
+|      |                           |                    |      |      |      +--yes: [0,1,1,1,1,1,1,0,1,0] [2.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0]: 2
+|      |                           |                    |      |      |      +--no:  f_686 > 0.0
+|      |                           |                    |      |      |             +--yes: [0,0,1,1,1,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |                    |      |      |             +--no:  f_150 > 0.0
+|      |                           |                    |      |      |                    +--yes: [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |                           |                    |      |      |                    +--no:  [0,0,1,1,0,0,0,0,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                           |                    |      |      +--no:  f_737 > 0.0
+|      |                           |                    |      |             +--yes: [0,1,1,0,1,0,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |                    |      |             +--no:  f_3 > 0.0
+|      |                           |                    |      |                    +--yes: [1,1,0,1,1,0,0,0,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |                    |      |                    +--no:  [1,1,1,1,1,1,0,0,1,1] [1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0]: 2
+|      |                           |                    |      +--no:  f_16 > 0.0
+|      |                           |                    |             +--yes: f_3 > 0.0
+|      |                           |                    |             |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0,3.0]: 3
+|      |                           |                    |             |      +--no:  [1,0,0,0,1,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |                    |             +--no:  [0,0,1,0,0,0,0,0,0,1] [3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |                           |                    +--no:  f_699 > 0.0
+|      |                           |                           +--yes: f_391 > 0.0
+|      |                           |                           |      +--yes: f_261 > 0.0
+|      |                           |                           |      |      +--yes: [1,1,0,1,1,0,1,1,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                           |                           |      |      +--no:  [0,1,1,1,1,0,0,1,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0]: 3
+|      |                           |                           |      +--no:  [1,1,0,0,1,1,0,1,1,0] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0]: 2
+|      |                           |                           +--no:  f_371 > 0.0
+|      |                           |                                  +--yes: f_437 > 0.0
+|      |                           |                                  |      +--yes: f_397 > 0.0
+|      |                           |                                  |      |      +--yes: f_150 > 0.0
+|      |                           |                                  |      |      |      +--yes: [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           |                                  |      |      |      +--no:  [0,1,1,0,1,0,1,1,1,1] [2.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                           |                                  |      |      +--no:  f_566 > 0.0
+|      |                           |                                  |      |             +--yes: [1,0,0,1,1,1,1,0,1,1] [3.0,3.0,3.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0]: 3
+|      |                           |                                  |      |             +--no:  f_696 > 0.0
+|      |                           |                                  |      |                    +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0]: 2
+|      |                           |                                  |      |                    +--no:  [0,0,1,1,0,1,0,0,1,1] [3.0,2.0,3.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |                           |                                  |      +--no:  f_346 > 0.0
+|      |                           |                                  |             +--yes: [0,1,1,1,1,0,0,0,0,1] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                           |                                  |             +--no:  [0,1,1,1,1,0,0,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                           |                                  +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           +--no:  f_695 > 0.0
+|      |                                  +--yes: f_542 > 0.0
+|      |                                  |      +--yes: f_248 > 0.0
+|      |                                  |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |      |      +--no:  f_16 > 0.0
+|      |                                  |      |             +--yes: f_366 > 0.0
+|      |                                  |      |             |      +--yes: [0,1,0,0,0,0,0,0,1,1] [3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|      |                                  |      |             |      +--no:  [0,0,0,0,0,0,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                  |      |             +--no:  f_3 > 0.0
+|      |                                  |      |                    +--yes: [0,1,1,1,1,1,0,0,1,1] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |      |                    +--no:  [1,0,1,1,0,1,1,1,1,1] [1.0,2.0,1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+|      |                                  |      +--no:  f_418 > 0.0
+|      |                                  |             +--yes: f_689 > 0.0
+|      |                                  |             |      +--yes: [1,0,0,0,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                  |             |      +--no:  f_3 > 0.0
+|      |                                  |             |             +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             |             +--no:  [1,1,0,0,0,1,0,0,0,0] [1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |             +--no:  f_15 > 0.0
+|      |                                  |                    +--yes: f_691 > 0.0
+|      |                                  |                    |      +--yes: f_33 > 0.0
+|      |                                  |                    |      |      +--yes: f_690 > 0.0
+|      |                                  |                    |      |      |      +--yes: [1,0,1,1,0,0,0,0,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                                  |                    |      |      |      +--no:  [0,0,0,1,1,1,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |      |      +--no:  f_405 > 0.0
+|      |                                  |                    |      |             +--yes: f_179 > 0.0
+|      |                                  |                    |      |             |      +--yes: f_391 > 0.0
+|      |                                  |                    |      |             |      |      +--yes: f_185 > 0.0
+|      |                                  |                    |      |             |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [3.0,4.0,4.0,4.0,4.0,3.0,4.0,3.0,3.0,3.0]: 4
+|      |                                  |                    |      |             |      |      |      +--no:  [1,1,1,1,1,1,1,1,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0]: 3
+|      |                                  |                    |      |             |      |      +--no:  [1,1,1,1,0,0,0,1,1,1] [3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,2.0,2.0]: 3
+|      |                                  |                    |      |             |      +--no:  [1,1,1,1,1,1,1,0,0,1] [2.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0]: 2
+|      |                                  |                    |      |             +--no:  f_703 > 0.0
+|      |                                  |                    |      |                    +--yes: [0,0,1,0,1,0,0,0,0,0] [3.0,2.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0,2.0]: 3
+|      |                                  |                    |      |                    +--no:  [1,1,1,0,0,1,0,1,0,0] [2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |                                  |                    |      +--no:  f_502 > 0.0
+|      |                                  |                    |             +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0]: 2
+|      |                                  |                    |             +--no:  f_3 > 0.0
+|      |                                  |                    |                    +--yes: [1,1,1,1,1,1,1,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                  |                    |                    +--no:  f_638 > 0.0
+|      |                                  |                    |                           +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|      |                                  |                    |                           +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                  |                    +--no:  f_30 > 0.0
+|      |                                  |                           +--yes: [1,1,1,1,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                                  |                           +--no:  [0,0,0,0,0,0,1,1,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |                                  +--no:  f_510 > 0.0
+|      |                                         +--yes: [1,1,1,0,1,0,1,1,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                         +--no:  f_587 > 0.0
+|      |                                                +--yes: f_2 > 0.0
+|      |                                                |      +--yes: [1,1,1,1,1,0,1,1,1,1] [1.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0]: 2
+|      |                                                |      +--no:  [1,1,0,1,1,0,1,1,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                                                +--no:  f_768 > 0.0
+|      |                                                       +--yes: f_11 > 0.0
+|      |                                                       |      +--yes: f_38 > 0.0
+|      |                                                       |      |      +--yes: [1,0,0,1,1,0,1,1,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                                                       |      |      +--no:  [0,0,0,1,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                       |      +--no:  [1,1,1,1,1,1,1,1,0,0] [1.0,1.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                                       +--no:  f_187 > 0.0
+|      |                                                              +--yes: f_3 > 0.0
+|      |                                                              |      +--yes: f_21 > 0.0
+|      |                                                              |      |      +--yes: [0,0,0,0,0,1,0,0,1,1] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                                              |      |      +--no:  [0,0,1,0,0,1,0,0,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                                              |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|      |                                                              +--no:  f_547 > 0.0
+|      |                                                                     +--yes: f_23 > 0.0
+|      |                                                                     |      +--yes: [1,0,0,0,1,0,1,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                     |      +--no:  f_476 > 0.0
+|      |                                                                     |             +--yes: [1,1,0,0,1,0,0,1,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                                                                     |             +--no:  [1,1,1,0,1,0,1,1,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                     +--no:  f_356 > 0.0
+|      |                                                                            +--yes: f_615 > 0.0
+|      |                                                                            |      +--yes: f_682 > 0.0
+|      |                                                                            |      |      +--yes: f_392 > 0.0
+|      |                                                                            |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                                                            |      |      |      +--no:  [0,1,1,1,1,0,0,0,0,0] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            |      |      +--no:  f_694 > 0.0
+|      |                                                                            |      |             +--yes: [1,1,0,1,0,0,0,0,0,0] [3.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,2.0]: 3
+|      |                                                                            |      |             +--no:  f_143 > 0.0
+|      |                                                                            |      |                    +--yes: [0,1,0,0,0,0,0,0,1,0] [3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|      |                                                                            |      |                    +--no:  f_33 > 0.0
+|      |                                                                            |      |                           +--yes: [0,1,1,1,1,1,0,1,1,0] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0]: 2
+|      |                                                                            |      |                           +--no:  [0,1,1,1,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                                                            |      +--no:  f_500 > 0.0
+|      |                                                                            |             +--yes: [1,1,1,0,1,1,1,0,1,1] [1.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|      |                                                                            |             +--no:  f_227 > 0.0
+|      |                                                                            |                    +--yes: [1,1,1,1,0,0,1,0,0,1] [2.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+|      |                                                                            |                    +--no:  f_370 > 0.0
+|      |                                                                            |                           +--yes: f_345 > 0.0
+|      |                                                                            |                           |      +--yes: f_571 > 0.0
+|      |                                                                            |                           |      |      +--yes: f_663 > 0.0
+|      |                                                                            |                           |      |      |      +--yes: f_439 > 0.0
+|      |                                                                            |                           |      |      |      |      +--yes: [1,1,1,1,1,0,0,1,1,0] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |      |      |      +--no:  [1,1,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |                                                                            |                           |      |      |      +--no:  f_443 > 0.0
+|      |                                                                            |                           |      |      |             +--yes: f_449 > 0.0
+|      |                                                                            |                           |      |      |             |      +--yes: f_37 > 0.0
+|      |                                                                            |                           |      |      |             |      |      +--yes: [1,0,1,0,0,0,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                                            |                           |      |      |             |      |      +--no:  [1,1,1,0,1,1,0,0,0,0] [1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |      |             |      +--no:  f_682 > 0.0
+|      |                                                                            |                           |      |      |             |             +--yes: [1,0,1,0,1,0,1,0,1,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|      |                                                                            |                           |      |      |             |             +--no:  f_335 > 0.0
+|      |                                                                            |                           |      |      |             |                    +--yes: [0,0,0,1,0,1,0,0,1,0] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|      |                                                                            |                           |      |      |             |                    +--no:  [0,0,0,0,1,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                                                            |                           |      |      |             +--no:  [0,0,1,0,1,0,0,1,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                                            |                           |      |      +--no:  f_3 > 0.0
+|      |                                                                            |                           |      |             +--yes: f_639 > 0.0
+|      |                                                                            |                           |      |             |      +--yes: [0,0,1,0,0,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |             |      +--no:  f_614 > 0.0
+|      |                                                                            |                           |      |             |             +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |             |             +--no:  f_16 > 0.0
+|      |                                                                            |                           |      |             |                    +--yes: [1,1,1,0,0,1,1,1,0,0] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |             |                    +--no:  [1,1,1,1,0,0,1,1,0,1] [1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                                            |                           |      |             +--no:  f_16 > 0.0
+|      |                                                                            |                           |      |                    +--yes: [0,1,0,0,0,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                                                            |                           |      |                    +--no:  f_377 > 0.0
+|      |                                                                            |                           |      |                           +--yes: f_12 > 0.0
+|      |                                                                            |                           |      |                           |      +--yes: [0,1,0,0,0,0,0,0,0,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                                            |                           |      |                           |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |                           +--no:  f_180 > 0.0
+|      |                                                                            |                           |      |                                  +--yes: [0,1,1,1,1,0,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |                                  +--no:  f_697 > 0.0
+|      |                                                                            |                           |      |                                         +--yes: f_150 > 0.0
+|      |                                                                            |                           |      |                                         |      +--yes: [0,0,1,0,0,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                                            |                           |      |                                         |      +--no:  [0,0,1,0,0,0,0,0,0,0] [4.0,4.0,3.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|      |                                                                            |                           |      |                                         +--no:  f_37 > 0.0
+|      |                                                                            |                           |      |                                                +--yes: [1,0,1,0,0,1,0,1,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|      |                                                                            |                           |      |                                                +--no:  f_2 > 0.0
+|      |                                                                            |                           |      |                                                       +--yes: [1,0,1,0,0,0,1,0,0,1] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|      |                                                                            |                           |      |                                                       +--no:  [1,0,1,0,0,0,1,1,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                                                                            |                           |      +--no:  f_143 > 0.0
+|      |                                                                            |                           |             +--yes: [0,1,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                            |                           |             +--no:  f_567 > 0.0
+|      |                                                                            |                           |                    +--yes: [0,0,0,0,0,0,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                                            |                           |                    +--no:  f_493 > 0.0
+|      |                                                                            |                           |                           +--yes: [0,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|      |                                                                            |                           |                           +--no:  [0,0,0,0,0,0,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|      |                                                                            |                           +--no:  [1,1,0,0,0,0,1,1,0,0] [3.0,2.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+|      |                                                                            +--no:  f_341 > 0.0
+|      |                                                                                   +--yes: f_692 > 0.0
+|      |                                                                                   |      +--yes: f_777 > 0.0
+|      |                                                                                   |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                                   |      |      +--no:  f_15 > 0.0
+|      |                                                                                   |      |             +--yes: f_638 > 0.0
+|      |                                                                                   |      |             |      +--yes: f_3 > 0.0
+|      |                                                                                   |      |             |      |      +--yes: [1,1,1,1,0,0,1,1,1,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|      |                                                                                   |      |             |      |      +--no:  [0,0,1,0,0,1,1,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                                                                   |      |             |      +--no:  [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,2.0]: 3
+|      |                                                                                   |      |             +--no:  [0,0,1,0,1,1,0,0,0,1] [3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+|      |                                                                                   |      +--no:  f_519 > 0.0
+|      |                                                                                   |             +--yes: [1,1,0,0,1,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                                   |             +--no:  f_593 > 0.0
+|      |                                                                                   |                    +--yes: f_462 > 0.0
+|      |                                                                                   |                    |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |                                                                                   |                    |      +--no:  [1,0,1,1,0,1,0,0,0,0] [2.0,2.0,2.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0]: 3
+|      |                                                                                   |                    +--no:  f_391 > 0.0
+|      |                                                                                   |                           +--yes: f_145 > 0.0
+|      |                                                                                   |                           |      +--yes: [0,0,0,0,0,0,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|      |                                                                                   |                           |      +--no:  f_374 > 0.0
+|      |                                                                                   |                           |             +--yes: [0,0,0,0,1,0,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|      |                                                                                   |                           |             +--no:  f_2 > 0.0
+|      |                                                                                   |                           |                    +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                                   |                           |                    +--no:  [1,0,0,0,0,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      |                                                                                   |                           +--no:  [1,0,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0]: 3
+|      |                                                                                   +--no:  f_440 > 0.0
+|      |                                                                                          +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,1.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+|      |                                                                                          +--no:  f_16 > 0.0
+|      |                                                                                                 +--yes: [0,0,1,0,1,1,0,0,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|      |                                                                                                 +--no:  [0,0,1,1,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|      +--no:  f_241 > 0.0
+|             +--yes: f_593 > 0.0
+|             |      +--yes: f_477 > 0.0
+|             |      |      +--yes: f_192 > 0.0
+|             |      |      |      +--yes: f_33 > 0.0
+|             |      |      |      |      +--yes: [0,1,0,0,0,1,0,0,1,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |      |      |      +--no:  [0,0,0,0,0,0,0,0,1,0] [3.0,2.0,3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|             |      |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |      +--no:  f_392 > 0.0
+|             |      |             +--yes: f_650 > 0.0
+|             |      |             |      +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0]: 2
+|             |      |             |      +--no:  f_771 > 0.0
+|             |      |             |             +--yes: [1,1,0,1,1,0,1,1,1,1] [1.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0,1.0]: 2
+|             |      |             |             +--no:  f_672 > 0.0
+|             |      |             |                    +--yes: f_16 > 0.0
+|             |      |             |                    |      +--yes: [0,0,1,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|             |      |             |                    |      +--no:  [0,1,1,1,1,0,0,0,0,0] [2.0,1.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             |                    +--no:  f_19 > 0.0
+|             |      |             |                           +--yes: f_2 > 0.0
+|             |      |             |                           |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|             |      |             |                           |      +--no:  [0,0,0,0,0,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|             |      |             |                           +--no:  f_547 > 0.0
+|             |      |             |                                  +--yes: [1,1,0,0,0,0,1,1,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|             |      |             |                                  +--no:  [1,1,0,0,1,1,0,0,0,0] [1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |             +--no:  f_445 > 0.0
+|             |      |                    +--yes: [1,1,1,1,1,0,1,1,0,0] [3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|             |      |                    +--no:  f_12 > 0.0
+|             |      |                           +--yes: f_579 > 0.0
+|             |      |                           |      +--yes: [0,0,1,1,1,1,0,0,1,1] [2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |      |                           |      +--no:  [0,0,1,0,1,0,0,0,0,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|             |      |                           +--no:  f_2 > 0.0
+|             |      |                                  +--yes: [1,1,1,0,1,1,1,1,1,1] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+|             |      |                                  +--no:  [1,0,0,0,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+|             |      +--no:  f_420 > 0.0
+|             |             +--yes: f_385 > 0.0
+|             |             |      +--yes: f_352 > 0.0
+|             |             |      |      +--yes: f_645 > 0.0
+|             |             |      |      |      +--yes: f_33 > 0.0
+|             |             |      |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,0] [2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0]: 3
+|             |             |      |      |      |      +--no:  [1,1,1,1,1,1,1,1,1,1] [3.0,4.0,4.0,4.0,4.0,4.0,4.0,3.0,4.0,4.0]: 4
+|             |             |      |      |      +--no:  f_374 > 0.0
+|             |             |      |      |             +--yes: f_308 > 0.0
+|             |             |      |      |             |      +--yes: [1,1,1,1,0,0,0,1,1,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |             |      |      |             |      +--no:  [0,1,0,0,0,1,0,0,1,1] [3.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0,3.0,2.0]: 3
+|             |             |      |      |             +--no:  [1,1,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|             |             |      |      +--no:  [1,0,0,1,0,0,0,0,1,1] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|             |             |      +--no:  f_528 > 0.0
+|             |             |             +--yes: f_146 > 0.0
+|             |             |             |      +--yes: f_12 > 0.0
+|             |             |             |      |      +--yes: [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |             |             |      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |             |             |      +--no:  [0,0,1,0,0,0,0,0,0,1] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|             |             |             +--no:  f_345 > 0.0
+|             |             |                    +--yes: f_493 > 0.0
+|             |             |                    |      +--yes: f_335 > 0.0
+|             |             |                    |      |      +--yes: [0,1,0,1,1,0,1,1,0,0] [2.0,2.0,3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0]: 3
+|             |             |                    |      |      +--no:  f_199 > 0.0
+|             |             |                    |      |             +--yes: [0,1,1,1,1,1,0,0,1,1] [2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|             |             |                    |      |             +--no:  [0,1,1,1,1,1,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|             |             |                    |      +--no:  f_257 > 0.0
+|             |             |                    |             +--yes: [1,1,1,0,1,0,0,0,1,1] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|             |             |                    |             +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0]: 3
+|             |             |                    +--no:  f_185 > 0.0
+|             |             |                           +--yes: f_2 > 0.0
+|             |             |                           |      +--yes: [0,0,1,0,1,0,0,0,1,0] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |             |                           |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|             |             |                           +--no:  [0,0,1,1,1,1,0,0,1,1] [2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0]: 2
+|             |             +--no:  f_37 > 0.0
+|             |                    +--yes: [0,0,1,0,0,1,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |                    +--no:  f_150 > 0.0
+|             |                           +--yes: [1,1,1,1,0,1,1,1,0,0] [2.0,1.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+|             |                           +--no:  f_308 > 0.0
+|             |                                  +--yes: f_667 > 0.0
+|             |                                  |      +--yes: f_180 > 0.0
+|             |                                  |      |      +--yes: [1,1,0,1,0,1,1,1,0,0] [3.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+|             |                                  |      |      +--no:  [1,1,0,1,1,0,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|             |                                  |      +--no:  [1,0,0,1,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0,2.0]: 3
+|             |                                  +--no:  f_338 > 0.0
+|             |                                         +--yes: [1,1,0,1,1,0,1,1,1,1] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0]: 3
+|             |                                         +--no:  f_682 > 0.0
+|             |                                                +--yes: [1,1,1,1,1,0,1,1,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|             |                                                +--no:  [1,1,1,1,1,1,1,1,1,1] [5.0,6.0,5.0,6.0,5.0,6.0,6.0,6.0,6.0,5.0]: 6
+|             +--no:  f_742 > 0.0
+|                    +--yes: f_646 > 0.0
+|                    |      +--yes: [1,1,1,0,0,0,1,1,0,0] [1.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                    |      +--no:  f_199 > 0.0
+|                    |             +--yes: f_23 > 0.0
+|                    |             |      +--yes: [0,1,1,0,0,0,0,1,1,0] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                    |             |      +--no:  [1,0,0,0,1,0,0,0,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                    |             +--no:  f_143 > 0.0
+|                    |                    +--yes: [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                    |                    +--no:  f_567 > 0.0
+|                    |                           +--yes: [1,1,0,0,0,0,0,0,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                    |                           +--no:  [0,0,0,0,0,0,0,0,0,0] [5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0]: 5
+|                    +--no:  f_819 > 0.0
+|                           +--yes: f_143 > 0.0
+|                           |      +--yes: [0,1,1,1,0,1,1,1,1,1] [2.0,2.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                           |      +--no:  f_691 > 0.0
+|                           |             +--yes: [1,0,1,1,1,0,0,0,0,0] [3.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                           |             +--no:  f_391 > 0.0
+|                           |                    +--yes: [1,1,0,0,0,0,1,1,0,0] [3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                           |                    +--no:  f_339 > 0.0
+|                           |                           +--yes: [0,1,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                           |                           +--no:  [1,1,1,1,0,0,0,1,1,1] [3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                           +--no:  f_821 > 0.0
+|                                  +--yes: f_187 > 0.0
+|                                  |      +--yes: f_16 > 0.0
+|                                  |      |      +--yes: [1,1,0,1,1,1,0,1,1,1] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                  |      |      +--no:  [1,1,1,1,0,1,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                  |      +--no:  f_569 > 0.0
+|                                  |             +--yes: f_712 > 0.0
+|                                  |             |      +--yes: f_16 > 0.0
+|                                  |             |      |      +--yes: [1,0,0,1,1,1,0,0,1,1] [1.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                  |             |      |      +--no:  [0,0,0,0,0,0,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+|                                  |             |      +--no:  f_734 > 0.0
+|                                  |             |             +--yes: [1,1,1,0,1,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                  |             |             +--no:  f_192 > 0.0
+|                                  |             |                    +--yes: [1,0,1,1,1,0,1,1,0,0] [3.0,2.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                  |             |                    +--no:  f_338 > 0.0
+|                                  |             |                           +--yes: [1,0,0,0,0,0,0,1,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0]: 3
+|                                  |             |                           +--no:  f_485 > 0.0
+|                                  |             |                                  +--yes: [1,0,0,1,0,1,1,1,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                  |             |                                  +--no:  f_23 > 0.0
+|                                  |             |                                         +--yes: [1,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|                                  |             |                                         +--no:  f_759 > 0.0
+|                                  |             |                                                +--yes: f_12 > 0.0
+|                                  |             |                                                |      +--yes: [1,1,1,0,0,1,1,1,0,1] [2.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0]: 2
+|                                  |             |                                                |      +--no:  [1,0,1,1,1,1,1,1,0,1] [2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0]: 2
+|                                  |             |                                                +--no:  f_374 > 0.0
+|                                  |             |                                                       +--yes: [1,1,0,1,1,0,1,1,1,0] [3.0,3.0,2.0,3.0,3.0,2.0,3.0,2.0,2.0,3.0]: 3
+|                                  |             |                                                       +--no:  f_19 > 0.0
+|                                  |             |                                                              +--yes: [1,1,0,1,0,0,1,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  |             |                                                              +--no:  [1,1,0,0,1,0,1,1,0,0] [2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  |             +--no:  f_213 > 0.0
+|                                  |                    +--yes: f_308 > 0.0
+|                                  |                    |      +--yes: [0,1,1,1,0,0,0,1,1,1] [2.0,1.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,1.0]: 2
+|                                  |                    |      +--no:  f_18 > 0.0
+|                                  |                    |             +--yes: [1,1,1,1,1,1,1,1,1,1] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                  |                    |             +--no:  [1,1,0,0,0,0,1,1,1,1] [3.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+|                                  |                    +--no:  f_248 > 0.0
+|                                  |                           +--yes: f_199 > 0.0
+|                                  |                           |      +--yes: f_13 > 0.0
+|                                  |                           |      |      +--yes: [0,0,1,0,0,0,1,1,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0]: 2
+|                                  |                           |      |      +--no:  [1,0,0,0,0,0,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                  |                           |      +--no:  f_391 > 0.0
+|                                  |                           |             +--yes: f_186 > 0.0
+|                                  |                           |             |      +--yes: [1,1,0,1,1,0,1,1,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                  |                           |             |      +--no:  [1,1,1,1,0,0,1,0,0,0] [1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  |                           |             +--no:  [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,2.0,1.0]: 2
+|                                  |                           +--no:  f_712 > 0.0
+|                                  |                                  +--yes: [1,1,1,1,0,0,0,1,0,0] [1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  |                                  +--no:  f_18 > 0.0
+|                                  |                                         +--yes: f_15 > 0.0
+|                                  |                                         |      +--yes: [1,0,0,0,0,1,0,0,1,1] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+|                                  |                                         |      +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                  |                                         +--no:  [0,0,1,0,0,0,0,0,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                  +--no:  f_335 > 0.0
+|                                         +--yes: f_647 > 0.0
+|                                         |      +--yes: [1,1,1,0,0,0,1,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|                                         |      +--no:  f_439 > 0.0
+|                                         |             +--yes: f_259 > 0.0
+|                                         |             |      +--yes: [1,1,1,1,1,1,0,0,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |             |      +--no:  f_695 > 0.0
+|                                         |             |             +--yes: [0,1,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0]: 3
+|                                         |             |             +--no:  f_704 > 0.0
+|                                         |             |                    +--yes: f_392 > 0.0
+|                                         |             |                    |      +--yes: [0,0,1,1,1,0,0,1,0,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |             |                    |      +--no:  [0,0,0,0,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |             |                    +--no:  [0,0,0,0,0,1,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                         |             +--no:  f_755 > 0.0
+|                                         |                    +--yes: f_37 > 0.0
+|                                         |                    |      +--yes: [1,0,1,0,1,0,0,1,1,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                         |                    |      +--no:  f_186 > 0.0
+|                                         |                    |             +--yes: [1,1,0,0,0,0,1,1,1,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                         |                    |             +--no:  [1,0,0,0,0,0,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                         |                    +--no:  f_776 > 0.0
+|                                         |                           +--yes: [0,1,0,0,1,0,0,0,0,0] [3.0,2.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+|                                         |                           +--no:  f_186 > 0.0
+|                                         |                                  +--yes: f_656 > 0.0
+|                                         |                                  |      +--yes: f_3 > 0.0
+|                                         |                                  |      |      +--yes: [0,1,0,1,0,0,0,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      |      +--no:  [1,0,0,0,0,1,1,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|                                         |                                  |      +--no:  f_336 > 0.0
+|                                         |                                  |             +--yes: [1,1,0,1,1,0,1,1,1,1] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                                  |             +--no:  [1,1,0,0,0,0,1,1,0,0] [3.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0]: 3
+|                                         |                                  +--no:  f_691 > 0.0
+|                                         |                                         +--yes: f_256 > 0.0
+|                                         |                                         |      +--yes: [1,1,0,1,1,0,1,1,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                         |                                         |      +--no:  [0,0,1,1,1,0,0,0,0,1] [2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                         |                                         +--no:  f_256 > 0.0
+|                                         |                                                +--yes: [1,1,1,1,0,0,1,1,0,0] [2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                                +--no:  f_680 > 0.0
+|                                         |                                                       +--yes: [1,1,1,1,1,0,1,1,1,1] [3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                         |                                                       +--no:  f_299 > 0.0
+|                                         |                                                              +--yes: [1,1,1,0,1,1,1,1,0,0] [2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                         |                                                              +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                         +--no:  f_396 > 0.0
+|                                                +--yes: f_609 > 0.0
+|                                                |      +--yes: [1,0,1,0,0,1,1,1,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0,2.0]: 3
+|                                                |      +--no:  f_363 > 0.0
+|                                                |             +--yes: [1,1,1,1,1,1,0,0,1,1] [1.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                                |             +--no:  f_738 > 0.0
+|                                                |                    +--yes: f_16 > 0.0
+|                                                |                    |      +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0]: 2
+|                                                |                    |      +--no:  [0,1,1,0,0,1,1,0,0,1] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+|                                                |                    +--no:  f_593 > 0.0
+|                                                |                           +--yes: f_185 > 0.0
+|                                                |                           |      +--yes: f_340 > 0.0
+|                                                |                           |      |      +--yes: f_450 > 0.0
+|                                                |                           |      |      |      +--yes: f_499 > 0.0
+|                                                |                           |      |      |      |      +--yes: [0,0,0,0,0,1,0,0,0,1] [3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0]: 3
+|                                                |                           |      |      |      |      +--no:  f_259 > 0.0
+|                                                |                           |      |      |      |             +--yes: [0,1,0,0,1,0,0,0,0,0] [2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                |                           |      |      |      |             +--no:  f_19 > 0.0
+|                                                |                           |      |      |      |                    +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                |                           |      |      |      |                    +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                |                           |      |      |      +--no:  [1,1,1,1,0,0,0,0,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                |                           |      |      +--no:  [1,1,1,1,0,1,1,1,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                                |                           |      +--no:  f_143 > 0.0
+|                                                |                           |             +--yes: [0,0,1,1,1,0,1,1,0,1] [2.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                                                |                           |             +--no:  [1,0,1,0,1,0,0,1,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0]: 2
+|                                                |                           +--no:  f_676 > 0.0
+|                                                |                                  +--yes: [1,0,1,1,1,0,0,0,0,0] [2.0,3.0,2.0,2.0,3.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                                                |                                  +--no:  f_576 > 0.0
+|                                                |                                         +--yes: f_461 > 0.0
+|                                                |                                         |      +--yes: f_308 > 0.0
+|                                                |                                         |      |      +--yes: [1,1,1,1,0,0,0,1,0,0] [1.0,1.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                |                                         |      |      +--no:  [1,1,0,1,0,0,1,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                |                                         |      +--no:  f_257 > 0.0
+|                                                |                                         |             +--yes: f_187 > 0.0
+|                                                |                                         |             |      +--yes: [1,1,0,1,1,0,1,1,1,0] [1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+|                                                |                                         |             |      +--no:  f_392 > 0.0
+|                                                |                                         |             |             +--yes: [0,0,0,0,1,0,0,0,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0]: 3
+|                                                |                                         |             |             +--no:  f_16 > 0.0
+|                                                |                                         |             |                    +--yes: [0,0,0,0,0,0,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|                                                |                                         |             |                    +--no:  f_341 > 0.0
+|                                                |                                         |             |                           +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                |                                         |             |                           +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                |                                         |             +--no:  [0,1,1,1,0,1,0,0,1,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                                |                                         +--no:  f_18 > 0.0
+|                                                |                                                +--yes: f_299 > 0.0
+|                                                |                                                |      +--yes: [0,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                |                                                |      +--no:  [0,0,0,0,0,0,0,0,0,0] [5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0]: 5
+|                                                |                                                +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0]: 3
+|                                                +--no:  f_538 > 0.0
+|                                                       +--yes: f_2 > 0.0
+|                                                       |      +--yes: f_37 > 0.0
+|                                                       |      |      +--yes: [1,1,0,1,1,0,1,1,0,0] [3.0,2.0,2.0,3.0,2.0,2.0,3.0,2.0,3.0,3.0]: 3
+|                                                       |      |      +--no:  f_33 > 0.0
+|                                                       |      |             +--yes: [1,1,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|                                                       |      |             +--no:  [1,1,1,1,0,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0]: 2
+|                                                       |      +--no:  f_300 > 0.0
+|                                                       |             +--yes: [0,1,0,0,0,0,1,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                       |             +--no:  f_12 > 0.0
+|                                                       |                    +--yes: [1,1,1,1,1,0,0,1,0,0] [2.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                       |                    +--no:  [0,0,1,1,1,0,0,0,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                                       +--no:  f_250 > 0.0
+|                                                              +--yes: f_569 > 0.0
+|                                                              |      +--yes: f_18 > 0.0
+|                                                              |      |      +--yes: [1,1,1,0,0,1,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                              |      |      +--no:  [0,0,1,0,0,1,1,1,0,0] [2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                                              |      +--no:  [1,1,1,0,0,0,1,1,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                                                              +--no:  f_696 > 0.0
+|                                                                     +--yes: f_193 > 0.0
+|                                                                     |      +--yes: f_299 > 0.0
+|                                                                     |      |      +--yes: [0,1,1,0,0,0,0,0,0,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     |      |      +--no:  f_18 > 0.0
+|                                                                     |      |             +--yes: [1,0,0,1,1,0,0,0,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     |      |             +--no:  [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                                                     |      +--no:  f_590 > 0.0
+|                                                                     |             +--yes: f_714 > 0.0
+|                                                                     |             |      +--yes: f_340 > 0.0
+|                                                                     |             |      |      +--yes: f_12 > 0.0
+|                                                                     |             |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     |             |      |      |      +--no:  [1,0,0,1,0,0,0,1,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     |             |      |      +--no:  [0,0,0,0,0,1,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+|                                                                     |             |      +--no:  [0,1,0,0,0,0,0,1,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,2.0,2.0]: 3
+|                                                                     |             +--no:  f_146 > 0.0
+|                                                                     |                    +--yes: f_374 > 0.0
+|                                                                     |                    |      +--yes: f_346 > 0.0
+|                                                                     |                    |      |      +--yes: [1,0,0,0,0,0,1,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|                                                                     |                    |      |      +--no:  f_345 > 0.0
+|                                                                     |                    |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|                                                                     |                    |      |             +--no:  [1,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                                     |                    |      +--no:  [1,1,1,1,1,0,1,1,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0]: 2
+|                                                                     |                    +--no:  f_464 > 0.0
+|                                                                     |                           +--yes: f_734 > 0.0
+|                                                                     |                           |      +--yes: [1,1,1,1,1,1,0,1,1,1] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                                     |                           |      +--no:  f_299 > 0.0
+|                                                                     |                           |             +--yes: f_185 > 0.0
+|                                                                     |                           |             |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                                                     |                           |             |      +--no:  [0,1,1,1,1,0,0,0,1,0] [2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                                                     |                           |             +--no:  f_451 > 0.0
+|                                                                     |                           |                    +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                                                     |                           |                    +--no:  f_346 > 0.0
+|                                                                     |                           |                           +--yes: [1,0,0,0,0,0,0,1,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+|                                                                     |                           |                           +--no:  [0,0,1,0,0,0,1,1,0,0] [2.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                                                     |                           +--no:  f_294 > 0.0
+|                                                                     |                                  +--yes: [1,1,0,1,0,0,1,1,1,1] [3.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+|                                                                     |                                  +--no:  f_685 > 0.0
+|                                                                     |                                         +--yes: [1,1,0,1,0,1,1,1,0,0] [3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0,2.0]: 3
+|                                                                     |                                         +--no:  f_19 > 0.0
+|                                                                     |                                                +--yes: f_645 > 0.0
+|                                                                     |                                                |      +--yes: [1,1,1,1,1,1,1,1,0,0] [1.0,1.0,2.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0]: 2
+|                                                                     |                                                |      +--no:  f_381 > 0.0
+|                                                                     |                                                |             +--yes: [1,1,0,1,0,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,1.0]: 2
+|                                                                     |                                                |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+|                                                                     |                                                +--no:  f_12 > 0.0
+|                                                                     |                                                       +--yes: [1,1,1,1,1,0,1,1,0,0] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     |                                                       +--no:  f_2 > 0.0
+|                                                                     |                                                              +--yes: [0,0,0,0,0,1,1,1,0,0] [2.0,2.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0,3.0]: 3
+|                                                                     |                                                              +--no:  f_18 > 0.0
+|                                                                     |                                                                     +--yes: [1,0,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     |                                                                     +--no:  f_338 > 0.0
+|                                                                     |                                                                            +--yes: [1,1,1,0,0,0,1,1,1,0] [1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                                                     |                                                                            +--no:  [0,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                     +--no:  f_703 > 0.0
+|                                                                            +--yes: [0,1,1,0,0,1,1,1,0,0] [3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                                                            +--no:  f_645 > 0.0
+|                                                                                   +--yes: f_346 > 0.0
+|                                                                                   |      +--yes: f_299 > 0.0
+|                                                                                   |      |      +--yes: f_185 > 0.0
+|                                                                                   |      |      |      +--yes: [1,1,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+|                                                                                   |      |      |      +--no:  [1,1,1,1,1,1,1,1,0,1] [2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0]: 2
+|                                                                                   |      |      +--no:  [1,1,0,0,0,1,1,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0]: 2
+|                                                                                   |      +--no:  f_365 > 0.0
+|                                                                                   |             +--yes: f_695 > 0.0
+|                                                                                   |             |      +--yes: [1,0,1,0,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                                   |             |      +--no:  f_535 > 0.0
+|                                                                                   |             |             +--yes: [1,0,0,0,0,0,0,1,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+|                                                                                   |             |             +--no:  [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+|                                                                                   |             +--no:  [0,0,0,0,0,0,1,0,1,1] [2.0,3.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,3.0]: 3
+|                                                                                   +--no:  f_143 > 0.0
+|                                                                                          +--yes: [1,0,1,0,0,1,1,0,1,0] [2.0,2.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0,3.0]: 3
+|                                                                                          +--no:  f_412 > 0.0
+|                                                                                                 +--yes: [0,0,0,1,0,0,0,0,1,0] [2.0,3.0,3.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0]: 3
+|                                                                                                 +--no:  f_17 > 0.0
+|                                                                                                        +--yes: [0,1,0,0,1,1,0,0,0,1] [2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+|                                                                                                        +--no:  f_692 > 0.0
+|                                                                                                               +--yes: [1,1,0,0,0,0,0,0,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                                                               +--no:  f_418 > 0.0
+|                                                                                                                      +--yes: f_654 > 0.0
+|                                                                                                                      |      +--yes: [0,0,0,0,0,1,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,1.0]: 2
+|                                                                                                                      |      +--no:  [0,0,0,0,0,0,0,0,0,0] [5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0]: 5
+|                                                                                                                      +--no:  f_338 > 0.0
+|                                                                                                                             +--yes: [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+|                                                                                                                             +--no:  f_333 > 0.0
+|                                                                                                                                    +--yes: f_420 > 0.0
+|                                                                                                                                    |      +--yes: [0,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                                                                                    |      +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|                                                                                                                                    +--no:  f_679 > 0.0
+|                                                                                                                                           +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|                                                                                                                                           +--no:  [0,0,0,0,0,1,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
++--no:  f_709 > 0.0
+       +--yes: f_860 > 0.0
+       |      +--yes: f_699 > 0.0
+       |      |      +--yes: f_639 > 0.0
+       |      |      |      +--yes: f_3 > 0.0
+       |      |      |      |      +--yes: f_185 > 0.0
+       |      |      |      |      |      +--yes: f_347 > 0.0
+       |      |      |      |      |      |      +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+       |      |      |      |      |      |      +--no:  f_23 > 0.0
+       |      |      |      |      |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |      |      |      |             +--no:  f_21 > 0.0
+       |      |      |      |      |      |                    +--yes: [1,0,1,1,0,1,0,0,0,0] [1.0,2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |      |      |      |                    +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |      |      |      +--no:  [0,0,0,1,1,1,0,0,1,1] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+       |      |      |      |      +--no:  f_24 > 0.0
+       |      |      |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0]: 3
+       |      |      |      |             +--no:  f_37 > 0.0
+       |      |      |      |                    +--yes: [0,0,1,0,1,1,1,0,0,0] [2.0,2.0,1.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0]: 2
+       |      |      |      |                    +--no:  f_516 > 0.0
+       |      |      |      |                           +--yes: f_21 > 0.0
+       |      |      |      |                           |      +--yes: [0,0,1,1,0,1,1,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0]: 2
+       |      |      |      |                           |      +--no:  f_23 > 0.0
+       |      |      |      |                           |             +--yes: [0,1,1,1,1,1,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+       |      |      |      |                           |             +--no:  [0,1,1,1,0,1,1,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0]: 2
+       |      |      |      |                           +--no:  f_23 > 0.0
+       |      |      |      |                                  +--yes: [0,0,0,1,0,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |      |                                  +--no:  [0,1,1,1,0,1,0,0,0,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |      |      |      +--no:  f_641 > 0.0
+       |      |      |             +--yes: f_193 > 0.0
+       |      |      |             |      +--yes: f_13 > 0.0
+       |      |      |             |      |      +--yes: f_115 > 0.0
+       |      |      |             |      |      |      +--yes: [0,0,0,0,0,0,0,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+       |      |      |             |      |      |      +--no:  [0,0,1,0,1,0,0,0,1,1] [3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |      |      |             |      |      +--no:  f_420 > 0.0
+       |      |      |             |      |             +--yes: f_33 > 0.0
+       |      |      |             |      |             |      +--yes: [0,0,1,1,1,1,0,0,1,1] [2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0]: 2
+       |      |      |             |      |             |      +--no:  f_14 > 0.0
+       |      |      |             |      |             |             +--yes: [1,0,1,0,0,0,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |             |      |             |             +--no:  [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+       |      |      |             |      |             +--no:  [1,1,1,1,1,1,1,1,1,1] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0]: 2
+       |      |      |             |      +--no:  f_146 > 0.0
+       |      |      |             |             +--yes: [0,1,1,0,1,1,0,0,1,0] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+       |      |      |             |             +--no:  [0,1,1,0,1,1,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |             +--no:  f_24 > 0.0
+       |      |      |                    +--yes: f_33 > 0.0
+       |      |      |                    |      +--yes: [0,0,1,0,1,1,1,0,0,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |                    |      +--no:  [0,1,0,0,0,1,0,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+       |      |      |                    +--no:  f_308 > 0.0
+       |      |      |                           +--yes: f_692 > 0.0
+       |      |      |                           |      +--yes: f_462 > 0.0
+       |      |      |                           |      |      +--yes: f_3 > 0.0
+       |      |      |                           |      |      |      +--yes: [0,0,0,0,0,1,0,0,0,0] [3.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,2.0,2.0]: 3
+       |      |      |                           |      |      |      +--no:  f_342 > 0.0
+       |      |      |                           |      |      |             +--yes: [0,0,1,0,1,0,0,0,0,1] [2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |      |      |                           |      |      |             +--no:  f_681 > 0.0
+       |      |      |                           |      |      |                    +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |                           |      |      |                    +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+       |      |      |                           |      |      +--no:  f_346 > 0.0
+       |      |      |                           |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |      |      |                           |      |             +--no:  [0,0,0,0,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+       |      |      |                           |      +--no:  [0,0,1,0,0,1,0,0,0,1] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |      |      |                           +--no:  f_686 > 0.0
+       |      |      |                                  +--yes: [1,0,0,0,0,1,0,0,0,1] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+       |      |      |                                  +--no:  [0,1,0,0,0,0,1,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+       |      |      +--no:  f_698 > 0.0
+       |      |             +--yes: f_150 > 0.0
+       |      |             |      +--yes: [1,1,0,0,1,0,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0]: 2
+       |      |             |      +--no:  f_697 > 0.0
+       |      |             |             +--yes: f_405 > 0.0
+       |      |             |             |      +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |      |             |             |      +--no:  [0,1,0,0,1,0,0,0,0,0] [3.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+       |      |             |             +--no:  [0,0,0,0,1,0,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+       |      |             +--no:  [1,1,0,0,1,0,0,1,1,1] [2.0,2.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0,3.0]: 3
+       |      +--no:  f_567 > 0.0
+       |             +--yes: f_13 > 0.0
+       |             |      +--yes: f_143 > 0.0
+       |             |      |      +--yes: [1,0,0,1,1,0,1,1,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+       |             |      |      +--no:  f_391 > 0.0
+       |             |      |             +--yes: [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |             |      |             +--no:  f_14 > 0.0
+       |             |      |                    +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |             |      |                    +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |             |      +--no:  f_181 > 0.0
+       |             |             +--yes: f_188 > 0.0
+       |             |             |      +--yes: [0,1,0,1,1,0,0,0,1,1] [2.0,3.0,2.0,2.0,3.0,2.0,3.0,2.0,2.0,2.0]: 3
+       |             |             |      +--no:  f_420 > 0.0
+       |             |             |             +--yes: f_115 > 0.0
+       |             |             |             |      +--yes: [0,0,1,0,0,1,0,0,0,1] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |             |             |             |      +--no:  [0,1,0,0,0,0,0,0,1,1] [3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+       |             |             |             +--no:  [0,1,1,0,0,0,0,0,1,0] [3.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,3.0]: 3
+       |             |             +--no:  f_14 > 0.0
+       |             |                    +--yes: f_714 > 0.0
+       |             |                    |      +--yes: f_20 > 0.0
+       |             |                    |      |      +--yes: [1,1,1,1,0,1,1,1,1,0] [3.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0,3.0,2.0]: 3
+       |             |                    |      |      +--no:  [1,1,0,1,0,1,0,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+       |             |                    |      +--no:  f_535 > 0.0
+       |             |                    |             +--yes: f_299 > 0.0
+       |             |                    |             |      +--yes: [1,1,0,1,0,1,0,1,1,1] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,1.0]: 2
+       |             |                    |             |      +--no:  [1,1,1,0,1,1,1,0,1,0] [2.0,1.0,1.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+       |             |                    |             +--no:  f_185 > 0.0
+       |             |                    |                    +--yes: [0,1,0,1,0,1,1,0,0,0] [2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0]: 2
+       |             |                    |                    +--no:  [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+       |             |                    +--no:  f_503 > 0.0
+       |             |                           +--yes: [0,0,0,1,1,1,0,0,1,0] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |             |                           +--no:  f_493 > 0.0
+       |             |                                  +--yes: f_12 > 0.0
+       |             |                                  |      +--yes: [1,0,1,1,0,1,0,0,0,0] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |             |                                  |      +--no:  [1,0,0,1,0,1,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+       |             |                                  +--no:  f_339 > 0.0
+       |             |                                         +--yes: [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+       |             |                                         +--no:  [0,0,0,0,0,0,0,0,1,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0]: 2
+       |             +--no:  f_697 > 0.0
+       |                    +--yes: f_341 > 0.0
+       |                    |      +--yes: f_581 > 0.0
+       |                    |      |      +--yes: f_653 > 0.0
+       |                    |      |      |      +--yes: [1,1,1,1,1,0,1,1,1,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |      |      +--no:  f_185 > 0.0
+       |                    |      |      |             +--yes: f_667 > 0.0
+       |                    |      |      |             |      +--yes: [1,1,1,1,0,0,0,1,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+       |                    |      |      |             |      +--no:  [1,0,1,1,1,1,0,1,0,0] [3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0]: 3
+       |                    |      |      |             +--no:  [0,0,1,1,1,0,1,1,0,1] [2.0,2.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0]: 2
+       |                    |      |      +--no:  f_671 > 0.0
+       |                    |      |             +--yes: f_20 > 0.0
+       |                    |      |             |      +--yes: [0,1,0,0,0,1,0,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0]: 2
+       |                    |      |             |      +--no:  f_366 > 0.0
+       |                    |      |             |             +--yes: [0,0,1,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+       |                    |      |             |             +--no:  f_2 > 0.0
+       |                    |      |             |                    +--yes: [0,0,0,0,0,1,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |                    |      |             |                    +--no:  [0,0,1,1,0,1,0,1,0,0] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+       |                    |      |             +--no:  f_193 > 0.0
+       |                    |      |                    +--yes: f_37 > 0.0
+       |                    |      |                    |      +--yes: [0,1,0,1,1,1,0,1,1,0] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0]: 2
+       |                    |      |                    |      +--no:  [0,0,1,0,1,1,0,0,0,0] [3.0,3.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+       |                    |      |                    +--no:  f_37 > 0.0
+       |                    |      |                           +--yes: [0,0,0,0,0,1,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0]: 3
+       |                    |      |                           +--no:  f_818 > 0.0
+       |                    |      |                                  +--yes: f_620 > 0.0
+       |                    |      |                                  |      +--yes: [1,1,0,1,1,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+       |                    |      |                                  |      +--no:  [1,1,1,1,0,0,1,1,0,0] [2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |      |                                  +--no:  f_19 > 0.0
+       |                    |      |                                         +--yes: f_12 > 0.0
+       |                    |      |                                         |      +--yes: [1,0,0,0,0,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |                    |      |                                         |      +--no:  [1,0,1,0,0,0,0,1,1,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0]: 2
+       |                    |      |                                         +--no:  [1,1,0,0,0,0,1,1,0,0] [3.0,2.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0,3.0]: 3
+       |                    |      +--no:  f_566 > 0.0
+       |                    |             +--yes: f_20 > 0.0
+       |                    |             |      +--yes: [0,1,1,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |             |      +--no:  [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0]: 2
+       |                    |             +--no:  f_443 > 0.0
+       |                    |                    +--yes: f_335 > 0.0
+       |                    |                    |      +--yes: f_713 > 0.0
+       |                    |                    |      |      +--yes: [1,1,1,1,0,1,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,1.0,1.0,2.0,1.0,1.0]: 2
+       |                    |                    |      |      +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,3.0,2.0,3.0,3.0]: 3
+       |                    |                    |      +--no:  [1,1,0,1,1,1,1,1,1,0] [3.0,3.0,2.0,2.0,3.0,2.0,3.0,2.0,3.0,2.0]: 3
+       |                    |                    +--no:  f_712 > 0.0
+       |                    |                           +--yes: f_2 > 0.0
+       |                    |                           |      +--yes: f_214 > 0.0
+       |                    |                           |      |      +--yes: [1,1,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                    |                           |      |      +--no:  [1,1,1,1,0,0,1,1,0,1] [2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+       |                    |                           |      +--no:  [1,0,0,1,0,0,1,1,1,0] [2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,1.0,2.0]: 2
+       |                    |                           +--no:  [0,1,0,0,0,0,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+       |                    +--no:  f_500 > 0.0
+       |                           +--yes: f_20 > 0.0
+       |                           |      +--yes: [1,1,1,1,1,1,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0]: 3
+       |                           |      +--no:  [0,1,1,1,1,0,0,0,0,0] [2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                           +--no:  f_405 > 0.0
+       |                                  +--yes: f_185 > 0.0
+       |                                  |      +--yes: [0,0,1,1,0,0,0,0,0,0] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                                  |      +--no:  [1,1,1,1,0,0,1,0,0,0] [2.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+       |                                  +--no:  f_16 > 0.0
+       |                                         +--yes: [1,1,1,1,1,1,1,0,0,1] [1.0,1.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0,1.0]: 2
+       |                                         +--no:  f_592 > 0.0
+       |                                                +--yes: [0,0,0,0,0,1,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+       |                                                +--no:  f_548 > 0.0
+       |                                                       +--yes: f_11 > 0.0
+       |                                                       |      +--yes: [0,0,0,0,0,1,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0]: 2
+       |                                                       |      +--no:  [0,0,0,0,0,1,0,0,0,0] [2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+       |                                                       +--no:  f_14 > 0.0
+       |                                                              +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       |                                                              +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+       +--no:  f_397 > 0.0
+              +--yes: f_180 > 0.0
+              |      +--yes: f_339 > 0.0
+              |      |      +--yes: [0,0,1,0,1,0,0,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |      |      +--no:  f_2 > 0.0
+              |      |             +--yes: [1,0,1,0,1,0,0,0,0,0] [1.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+              |      |             +--no:  [0,0,0,0,0,0,1,0,0,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+              |      +--no:  f_659 > 0.0
+              |             +--yes: [1,1,1,1,1,1,1,1,1,1] [3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+              |             +--no:  f_656 > 0.0
+              |                    +--yes: [1,0,1,1,0,1,0,0,1,1] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,1.0]: 2
+              |                    +--no:  f_308 > 0.0
+              |                           +--yes: [1,0,0,1,1,0,1,1,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0]: 2
+              |                           +--no:  [1,0,1,1,1,1,1,1,1,1] [2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+              +--no:  f_150 > 0.0
+                     +--yes: f_15 > 0.0
+                     |      +--yes: f_2 > 0.0
+                     |      |      +--yes: f_257 > 0.0
+                     |      |      |      +--yes: [0,0,0,0,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0]: 2
+                     |      |      |      +--no:  [1,0,0,0,1,1,1,0,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,1.0]: 2
+                     |      |      +--no:  [1,1,0,0,0,0,1,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                     |      +--no:  [1,1,0,1,1,0,1,1,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0]: 3
+                     +--no:  f_528 > 0.0
+                            +--yes: f_524 > 0.0
+                            |      +--yes: f_434 > 0.0
+                            |      |      +--yes: f_366 > 0.0
+                            |      |      |      +--yes: f_2 > 0.0
+                            |      |      |      |      +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                            |      |      |      |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |      |      |      +--no:  f_16 > 0.0
+                            |      |      |             +--yes: [0,1,0,0,0,0,1,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |      |      |             +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                            |      |      +--no:  f_12 > 0.0
+                            |      |             +--yes: [0,0,1,0,0,0,1,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                            |      |             +--no:  [1,1,0,1,1,0,1,1,0,0] [2.0,1.0,2.0,1.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+                            |      +--no:  f_305 > 0.0
+                            |             +--yes: [1,1,1,1,0,1,0,0,1,1] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+                            |             +--no:  f_439 > 0.0
+                            |                    +--yes: f_380 > 0.0
+                            |                    |      +--yes: [1,1,1,1,1,1,1,1,1,1] [1.0,2.0,1.0,1.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+                            |                    |      +--no:  f_2 > 0.0
+                            |                    |             +--yes: [0,0,1,0,0,0,1,0,0,0] [2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |                    |             +--no:  f_560 > 0.0
+                            |                    |                    +--yes: [1,0,0,0,0,1,1,1,0,0] [1.0,2.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0]: 2
+                            |                    |                    +--no:  [1,0,1,1,0,0,1,1,0,1] [3.0,2.0,2.0,3.0,2.0,3.0,2.0,3.0,3.0,2.0]: 3
+                            |                    +--no:  f_638 > 0.0
+                            |                           +--yes: f_38 > 0.0
+                            |                           |      +--yes: [1,0,1,1,0,1,1,1,1,1] [2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0,1.0,1.0]: 2
+                            |                           |      +--no:  [1,1,1,1,1,1,1,0,1,1] [1.0,1.0,2.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0]: 2
+                            |                           +--no:  f_413 > 0.0
+                            |                                  +--yes: [1,0,0,0,0,1,1,1,1,1] [1.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,1.0]: 2
+                            |                                  +--no:  f_490 > 0.0
+                            |                                         +--yes: [1,0,1,1,1,1,1,1,1,0] [1.0,2.0,1.0,2.0,2.0,1.0,1.0,1.0,1.0,2.0]: 2
+                            |                                         +--no:  f_517 > 0.0
+                            |                                                +--yes: [1,0,0,0,1,1,1,1,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0,2.0,2.0]: 2
+                            |                                                +--no:  f_643 > 0.0
+                            |                                                       +--yes: f_308 > 0.0
+                            |                                                       |      +--yes: f_592 > 0.0
+                            |                                                       |      |      +--yes: [0,0,1,0,0,0,0,0,0,0] [3.0,3.0,2.0,2.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+                            |                                                       |      |      +--no:  f_15 > 0.0
+                            |                                                       |      |             +--yes: [1,1,0,0,0,0,0,0,0,0] [1.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |                                                       |      |             +--no:  [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                            |                                                       |      +--no:  f_11 > 0.0
+                            |                                                       |             +--yes: [0,0,0,0,1,0,0,0,0,0] [2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                            |                                                       |             +--no:  f_15 > 0.0
+                            |                                                       |                    +--yes: [0,0,0,0,1,0,0,1,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,1.0,2.0]: 2
+                            |                                                       |                    +--no:  [0,0,0,0,1,0,0,0,1,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0]: 2
+                            |                                                       +--no:  [0,0,0,1,1,0,0,0,0,0] [3.0,3.0,3.0,3.0,2.0,3.0,2.0,3.0,3.0,3.0]: 3
+                            +--no:  f_414 > 0.0
+                                   +--yes: f_14 > 0.0
+                                   |      +--yes: [1,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+                                   |      +--no:  [1,0,0,0,1,1,1,0,1,1] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,1.0]: 2
+                                   +--no:  f_654 > 0.0
+                                          +--yes: f_11 > 0.0
+                                          |      +--yes: [0,0,1,0,1,0,0,0,0,1] [2.0,2.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0]: 3
+                                          |      +--no:  [1,0,0,1,1,0,0,1,0,0] [1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                          +--no:  f_401 > 0.0
+                                                 +--yes: [0,1,0,0,0,0,0,0,0,0] [2.0,3.0,2.0,2.0,3.0,2.0,2.0,3.0,2.0,2.0]: 3
+                                                 +--no:  f_24 > 0.0
+                                                        +--yes: f_37 > 0.0
+                                                        |      +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                        |      +--no:  [1,1,0,0,1,0,1,0,1,1] [1.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                        +--no:  f_705 > 0.0
+                                                               +--yes: [1,1,0,0,1,1,1,0,0,0] [1.0,2.0,2.0,2.0,1.0,1.0,1.0,2.0,2.0,2.0]: 2
+                                                               +--no:  f_21 > 0.0
+                                                                      +--yes: f_12 > 0.0
+                                                                      |      +--yes: f_3 > 0.0
+                                                                      |      |      +--yes: f_185 > 0.0
+                                                                      |      |      |      +--yes: [0,0,1,0,0,0,1,0,0,1] [2.0,2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0]: 2
+                                                                      |      |      |      +--no:  [0,0,1,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                      |      |      +--no:  [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                      |      +--no:  f_2 > 0.0
+                                                                      |             +--yes: [0,1,1,0,1,0,1,1,0,0] [2.0,1.0,1.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0]: 2
+                                                                      |             +--no:  [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0]: 2
+                                                                      +--no:  f_614 > 0.0
+                                                                             +--yes: f_3 > 0.0
+                                                                             |      +--yes: [0,1,0,1,1,0,0,0,0,0] [2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                             |      +--no:  f_181 > 0.0
+                                                                             |             +--yes: [1,0,0,0,0,0,0,0,0,0] [2.0,2.0,3.0,3.0,3.0,3.0,2.0,2.0,3.0,3.0]: 3
+                                                                             |             +--no:  f_339 > 0.0
+                                                                             |                    +--yes: [0,1,0,0,0,0,0,0,0,0] [3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                                                                             |                    +--no:  [0,0,0,0,0,0,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+                                                                             +--no:  f_671 > 0.0
+                                                                                    +--yes: [0,0,0,0,1,1,0,0,1,1] [2.0,2.0,2.0,2.0,1.0,1.0,2.0,2.0,2.0,1.0]: 2
+                                                                                    +--no:  f_686 > 0.0
+                                                                                           +--yes: f_341 > 0.0
+                                                                                           |      +--yes: [1,0,0,0,0,0,0,0,0,0] [1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                           |      +--no:  [1,1,0,0,1,0,0,0,0,0] [2.0,2.0,3.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 3
+                                                                                           +--no:  f_639 > 0.0
+                                                                                                  +--yes: [0,0,0,1,1,0,0,0,0,0] [3.0,3.0,3.0,2.0,2.0,3.0,3.0,3.0,2.0,3.0]: 3
+                                                                                                  +--no:  f_406 > 0.0
+                                                                                                         +--yes: f_341 > 0.0
+                                                                                                         |      +--yes: [0,0,0,0,0,1,0,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+                                                                                                         |      +--no:  f_366 > 0.0
+                                                                                                         |             +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0]: 3
+                                                                                                         |             +--no:  f_2 > 0.0
+                                                                                                         |                    +--yes: [0,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+                                                                                                         |                    +--no:  [1,0,1,0,0,1,0,0,0,0] [2.0,3.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+                                                                                                         +--no:  f_643 > 0.0
+                                                                                                                +--yes: [0,1,0,0,0,1,0,1,1,0] [2.0,1.0,2.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+                                                                                                                +--no:  f_308 > 0.0
+                                                                                                                       +--yes: f_9 > 0.0
+                                                                                                                       |      +--yes: [0,0,0,0,1,0,0,0,0,0] [3.0,3.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0]: 3
+                                                                                                                       |      +--no:  [0,0,1,0,0,0,0,0,1,0] [3.0,2.0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0]: 3
+                                                                                                                       +--no:  f_488 > 0.0
+                                                                                                                              +--yes: [0,0,0,0,0,0,0,1,0,0] [2.0,2.0,2.0,3.0,3.0,2.0,3.0,2.0,2.0,2.0]: 3
+                                                                                                                              +--no:  f_18 > 0.0
+                                                                                                                                     +--yes: f_419 > 0.0
+                                                                                                                                     |      +--yes: [0,0,0,0,0,0,1,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                                                                     |      +--no:  f_293 > 0.0
+                                                                                                                                     |             +--yes: [0,0,1,0,0,1,0,0,1,0] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,1.0,2.0]: 2
+                                                                                                                                     |             +--no:  f_613 > 0.0
+                                                                                                                                     |                    +--yes: f_19 > 0.0
+                                                                                                                                     |                    |      +--yes: [0,0,0,1,0,0,0,0,0,0] [2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                                                                     |                    |      +--no:  [0,0,0,0,1,0,0,0,0,0] [2.0,2.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                                                                     |                    +--no:  f_15 > 0.0
+                                                                                                                                     |                           +--yes: [1,0,0,0,0,0,0,0,0,0] [3.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+                                                                                                                                     |                           +--no:  f_286 > 0.0
+                                                                                                                                     |                                  +--yes: f_9 > 0.0
+                                                                                                                                     |                                  |      +--yes: [1,0,0,0,0,0,1,0,0,0] [2.0,4.0,4.0,4.0,4.0,4.0,2.0,4.0,4.0,4.0]: 4
+                                                                                                                                     |                                  |      +--no:  [1,1,1,1,0,0,1,1,0,0] [1.0,1.0,1.0,1.0,2.0,2.0,1.0,1.0,2.0,2.0]: 2
+                                                                                                                                     |                                  +--no:  f_33 > 0.0
+                                                                                                                                     |                                         +--yes: [0,0,0,0,0,0,0,0,0,0] [2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                                                                     |                                         +--no:  [1,0,0,1,1,1,1,1,1,0] [1.0,2.0,2.0,1.0,1.0,1.0,1.0,1.0,2.0,2.0]: 2
+                                                                                                                                     +--no:  f_299 > 0.0
+                                                                                                                                            +--yes: [0,0,0,0,0,1,0,1,0,1] [2.0,2.0,2.0,2.0,2.0,1.0,2.0,1.0,2.0,1.0]: 2
+                                                                                                                                            +--no:  f_1 > 0.0
+                                                                                                                                                   +--yes: [0,0,0,1,0,0,0,0,0,0] [4.0,4.0,4.0,2.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+                                                                                                                                                   +--no:  f_26 > 0.0
+                                                                                                                                                          +--yes: [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+                                                                                                                                                          +--no:  [0,0,0,0,0,0,0,0,0,0] [6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0]: 6
+
+Pruned Model
+************
+
+f_683 > 0.0
++--yes: f_20 > 0.0
+|      +--yes: f_496 > 0.0
+|      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [4.0,6.0,4.0,5.0,5.0,4.0,3.0,5.0,6.0,6.0]: 6
+|      |      +--no:  f_22 > 0.0
+|      |             +--yes: f_567 > 0.0
+|      |             |      +--yes: [1,0,1,0,1,1,0,0,1,1] [12.0,17.0,13.0,17.0,13.0,19.0,18.0,15.0,13.0,13.0]: 21
+|      |             |      +--no:  f_258 > 0.0
+|      |             |             +--yes: [0,1,1,0,1,1,0,0,0,1] [12.0,11.0,9.0,11.0,8.0,12.0,14.0,12.0,9.0,8.0]: 16
+|      |             |             +--no:  [0,0,0,0,0,0,0,0,0,1] [11.0,12.0,13.0,12.0,12.0,11.0,12.0,13.0,8.0,7.0]: 14
+|      |             +--no:  f_230 > 0.0
+|      |                    +--yes: f_597 > 0.0
+|      |                    |      +--yes: [1,1,0,1,1,1,0,0,1,1] [4.0,4.0,4.0,4.0,6.0,5.0,4.0,4.0,6.0,5.0]: 6
+|      |                    |      +--no:  [1,1,0,1,0,0,1,1,1,1] [6.0,8.0,7.0,7.0,9.0,8.0,9.0,8.0,7.0,6.0]: 12
+|      |                    +--no:  f_539 > 0.0
+|      |                           +--yes: f_797 > 0.0
+|      |                           |      +--yes: [0,0,0,0,0,0,0,0,0,0] [15.0,17.0,17.0,11.0,12.0,16.0,16.0,17.0,13.0,16.0]: 19
+|      |                           |      +--no:  f_571 > 0.0
+|      |                           |             +--yes: f_167 > 0.0
+|      |                           |             |      +--yes: [0,0,0,0,1,0,0,0,1,1] [4.0,6.0,6.0,5.0,7.0,4.0,6.0,4.0,6.0,4.0]: 7
+|      |                           |             |      +--no:  [1,1,1,1,1,0,1,1,1,1] [12.0,13.0,9.0,11.0,14.0,11.0,11.0,9.0,10.0,13.0]: 17
+|      |                           |             +--no:  f_697 > 0.0
+|      |                           |                    +--yes: [0,0,1,0,0,0,0,0,0,0] [20.0,16.0,12.0,15.0,12.0,18.0,22.0,23.0,14.0,14.0]: 23
+|      |                           |                    +--no:  f_699 > 0.0
+|      |                           |                           +--yes: [0,1,0,1,1,0,0,1,0,0] [4.0,7.0,4.0,5.0,5.0,5.0,6.0,4.0,5.0,7.0]: 7
+|      |                           |                           +--no:  f_371 > 0.0
+|      |                           |                                  +--yes: [0,0,1,1,1,1,0,0,1,1] [11.0,9.0,11.0,10.0,9.0,10.0,12.0,10.0,12.0,13.0]: 16
+|      |                           |                                  +--no:  [0,1,0,0,0,0,0,0,0,0] [2.0,1.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0]: 2
+|      |                           +--no:  f_695 > 0.0
+|      |                                  +--yes: f_542 > 0.0
+|      |                                  |      +--yes: [0,0,0,0,0,0,0,0,1,1] [11.0,9.0,8.0,10.0,10.0,8.0,10.0,11.0,9.0,8.0]: 12
+|      |                                  |      +--no:  f_418 > 0.0
+|      |                                  |             +--yes: [1,0,0,0,0,0,0,0,0,0] [3.0,5.0,6.0,5.0,5.0,5.0,6.0,6.0,5.0,5.0]: 6
+|      |                                  |             +--no:  f_15 > 0.0
+|      |                                  |                    +--yes: f_691 > 0.0
+|      |                                  |                    |      +--yes: f_33 > 0.0
+|      |                                  |                    |      |      +--yes: [0,0,1,1,0,0,0,0,0,0] [3.0,4.0,2.0,3.0,3.0,3.0,4.0,4.0,3.0,4.0]: 4
+|      |                                  |                    |      |      +--no:  [1,1,1,1,1,1,1,1,0,0] [13.0,15.0,16.0,13.0,12.0,11.0,9.0,11.0,11.0,11.0]: 18
+|      |                                  |                    |      +--no:  [1,1,1,1,1,1,1,1,1,1] [8.0,7.0,5.0,6.0,7.0,5.0,7.0,5.0,6.0,6.0]: 8
+|      |                                  |                    +--no:  [1,0,0,0,0,0,1,1,0,0] [3.0,3.0,3.0,3.0,5.0,5.0,4.0,4.0,5.0,5.0]: 5
+|      |                                  +--no:  f_510 > 0.0
+|      |                                         +--yes: [1,1,1,0,1,0,1,1,0,0] [3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0]: 3
+|      |                                         +--no:  f_587 > 0.0
+|      |                                                +--yes: [1,1,0,1,1,0,1,1,1,1] [3.0,3.0,3.0,3.0,3.0,4.0,3.0,4.0,2.0,2.0]: 4
+|      |                                                +--no:  [0,0,0,0,0,0,0,0,0,0] [97.0,96.0,80.0,99.0,98.0,99.0,103.0,107.0,99.0,99.0]: 137
+|      +--no:  f_241 > 0.0
+|             +--yes: f_593 > 0.0
+|             |      +--yes: f_477 > 0.0
+|             |      |      +--yes: [0,0,0,0,0,0,0,0,1,0] [8.0,6.0,8.0,7.0,8.0,6.0,7.0,7.0,5.0,8.0]: 8
+|             |      |      +--no:  f_392 > 0.0
+|             |      |             +--yes: [0,0,0,0,0,0,0,0,0,0] [12.0,11.0,13.0,13.0,9.0,13.0,14.0,12.0,14.0,13.0]: 17
+|             |      |             +--no:  f_445 > 0.0
+|             |      |                    +--yes: [1,1,1,1,1,0,1,1,0,0] [3.0,2.0,2.0,3.0,3.0,2.0,3.0,3.0,3.0,3.0]: 3
+|             |      |                    +--no:  [0,0,1,0,1,1,0,0,1,1] [6.0,7.0,4.0,7.0,7.0,5.0,5.0,6.0,5.0,7.0]: 8
+|             |      +--no:  f_420 > 0.0
+|             |             +--yes: f_385 > 0.0
+|             |             |      +--yes: f_352 > 0.0
+|             |             |      |      +--yes: f_645 > 0.0
+|             |             |      |      |      +--yes: [1,1,1,1,1,1,1,1,1,1] [5.0,7.0,7.0,7.0,7.0,6.0,7.0,6.0,6.0,5.0]: 7
+|             |             |      |      |      +--no:  f_374 > 0.0
+|             |             |      |      |             +--yes: [0,1,1,0,0,1,0,1,1,0] [4.0,4.0,3.0,3.0,4.0,3.0,4.0,3.0,4.0,3.0]: 5
+|             |             |      |      |             +--no:  [1,1,0,1,0,0,1,1,0,0] [2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,2.0]: 3
+|             |             |      |      +--no:  [1,0,0,1,0,0,0,0,1,1] [1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0,1.0,1.0]: 2
+|             |             |      +--no:  [0,0,1,0,1,0,0,0,0,0] [21.0,18.0,13.0,15.0,13.0,19.0,20.0,18.0,16.0,16.0]: 25
+|             |             +--no:  f_37 > 0.0
+|             |                    +--yes: [0,0,1,0,0,1,0,0,0,0] [2.0,2.0,1.0,2.0,2.0,1.0,2.0,2.0,2.0,2.0]: 2
+|             |                    +--no:  [1,1,1,1,1,0,1,1,1,1] [18.0,16.0,11.0,18.0,13.0,11.0,17.0,17.0,15.0,13.0]: 21
+|             +--no:  f_742 > 0.0
+|                    +--yes: [0,0,0,0,0,0,0,0,0,0] [12.0,12.0,13.0,15.0,13.0,15.0,13.0,13.0,11.0,14.0]: 15
+|                    +--no:  f_819 > 0.0
+|                           +--yes: [1,1,1,1,0,0,1,1,1,1] [10.0,11.0,8.0,10.0,8.0,10.0,8.0,11.0,8.0,7.0]: 14
+|                           +--no:  f_821 > 0.0
+|                                  +--yes: f_187 > 0.0
+|                                  |      +--yes: [1,1,0,1,0,1,0,1,1,1] [5.0,5.0,3.0,5.0,3.0,5.0,3.0,5.0,4.0,4.0]: 5
+|                                  |      +--no:  f_569 > 0.0
+|                                  |             +--yes: [1,0,0,0,0,0,1,1,0,0] [21.0,16.0,19.0,15.0,17.0,18.0,21.0,19.0,23.0,22.0]: 28
+|                                  |             +--no:  f_213 > 0.0
+|                                  |                    +--yes: [1,1,1,1,0,0,1,1,1,1] [6.0,6.0,4.0,5.0,5.0,6.0,6.0,7.0,7.0,6.0]: 8
+|                                  |                    +--no:  [0,0,0,0,0,0,0,0,0,0] [12.0,12.0,13.0,13.0,16.0,17.0,11.0,14.0,16.0,13.0]: 19
+|                                  +--no:  f_335 > 0.0
+|                                         +--yes: f_647 > 0.0
+|                                         |      +--yes: [1,1,1,0,0,0,1,0,0,0] [4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0]: 4
+|                                         |      +--no:  f_439 > 0.0
+|                                         |             +--yes: [0,0,0,0,0,0,0,0,0,0] [9.0,8.0,7.0,9.0,7.0,8.0,9.0,8.0,6.0,6.0]: 11
+|                                         |             +--no:  [1,1,0,0,0,0,1,1,0,0] [24.0,20.0,22.0,18.0,18.0,27.0,21.0,22.0,19.0,22.0]: 32
+|                                         +--no:  [0,0,0,0,0,0,0,0,0,0] [114.0,124.0,129.0,127.0,148.0,126.0,115.0,113.0,146.0,149.0]: 188
++--no:  [0,0,0,0,0,0,0,0,0,0] [273.0,283.0,275.0,280.0,278.0,267.0,291.0,311.0,302.0,305.0]: 392
+

@@ -1,0 +1,33 @@
+2025-11-22 11:54:12,509 - INFO - 
+\U0001f50d 1/13 - Starting new group f8 with [f8].
+2025-11-22 11:54:12,509 - INFO - Comparing Jaccard similarity: ['f8'] with fjs
+2025-11-22 11:54:14,724 - INFO - \u2705 Added f6 to group \u2192 New group: ['f8', 'f6'].
+2025-11-22 11:54:14,724 - INFO - Comparing Jaccard similarity: ['f8', 'f6'] with fjs
+2025-11-22 11:54:16,472 - INFO - \u2705 Added f9 to group \u2192 New group: ['f8', 'f6', 'f9'].
+2025-11-22 11:54:16,472 - INFO - Comparing Jaccard similarity: ['f8', 'f6', 'f9'] with fjs
+2025-11-22 11:54:17,902 - INFO - \u2705 Added f1 to group \u2192 New group: ['f8', 'f6', 'f9', 'f1'].
+2025-11-22 11:54:17,902 - INFO - Comparing Jaccard similarity: ['f8', 'f6', 'f9', 'f1'] with fjs
+2025-11-22 11:54:17,913 - INFO - \u2705 Added f5 to group \u2192 New group: ['f8', 'f6', 'f9', 'f1', 'f5'].
+2025-11-22 11:54:17,913 - INFO - \U0001f4be Group saved: ['f8', 'f6', 'f9', 'f1', 'f5']
+2025-11-22 11:54:17,913 - INFO - 
+\U0001f50d 2/8 - Starting new group f4 with [f4].
+2025-11-22 11:54:17,913 - INFO - Comparing Jaccard similarity: ['f4'] with fjs
+2025-11-22 11:54:17,926 - INFO - \u2705 Added f3 to group \u2192 New group: ['f4', 'f3'].
+2025-11-22 11:54:17,927 - INFO - Comparing Jaccard similarity: ['f4', 'f3'] with fjs
+2025-11-22 11:54:17,938 - INFO - \u2705 Added f11 to group \u2192 New group: ['f4', 'f3', 'f11'].
+2025-11-22 11:54:17,938 - INFO - Comparing Jaccard similarity: ['f4', 'f3', 'f11'] with fjs
+2025-11-22 11:54:17,950 - INFO - \u2705 Added f2 to group \u2192 New group: ['f4', 'f3', 'f11', 'f2'].
+2025-11-22 11:54:17,950 - INFO - Comparing Jaccard similarity: ['f4', 'f3', 'f11', 'f2'] with fjs
+2025-11-22 11:54:17,962 - INFO - \u2705 Added f14 to group \u2192 New group: ['f4', 'f3', 'f11', 'f2', 'f14'].
+2025-11-22 11:54:17,963 - INFO - \U0001f4be Group saved: ['f4', 'f3', 'f11', 'f2', 'f14']
+2025-11-22 11:54:17,963 - INFO - 
+\U0001f50d 6/3 - Starting new group f7 with [f7].
+2025-11-22 11:54:17,963 - INFO - Comparing Jaccard similarity: ['f7'] with fjs
+2025-11-22 11:54:17,974 - INFO - \u2705 Added f12 to group \u2192 New group: ['f7', 'f12'].
+2025-11-22 11:54:17,974 - INFO - Comparing Jaccard similarity: ['f7', 'f12'] with fjs
+2025-11-22 11:54:17,985 - INFO - \u2705 Added f10 to group \u2192 New group: ['f7', 'f12', 'f10'].
+2025-11-22 11:54:17,985 - INFO - Comparing Jaccard similarity: ['f7', 'f12', 'f10'] with fjs
+2025-11-22 11:54:17,996 - INFO - \u2705 Added f13 to group \u2192 New group: ['f7', 'f12', 'f10', 'f13'].
+2025-11-22 11:54:17,996 - INFO - Comparing Jaccard similarity: ['f7', 'f12', 'f10', 'f13'] with fjs
+2025-11-22 11:54:17,996 - INFO - No valid candidate results — stopping.
+2025-11-22 11:54:17,996 - INFO - \U0001f4be Group saved: ['f7', 'f12', 'f10', 'f13']

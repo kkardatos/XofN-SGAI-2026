@@ -1,0 +1,21 @@
+Dataset,XofN_none N/A,XofN Jac-max Ung,XofN VarRed Ung,XofN Vouk Ung
+fingerprint_high_freq,0.782,0.793,0.799,0.794
+fingerprint_mid_freq,0.474,0.499,0.498,0.458
+fingerprint_low_freq,0.077,0.0,0.348,0.385
+fingerprint_cardiac,0.038,0.224,0.389,0.391
+fingerprint_ten,0.593,0.584,0.572,0.582
+fingerprint_ten_mid,0.504,0.483,0.453,0.473
+CPI_high_freq,0.794,0.795,0.799,0.794
+CPI_mid_freq,0.511,0.544,0.532,0.527
+CPI_low_freq,0.422,0.51,0.485,0.472
+CPI_cardiac,0.424,0.478,0.459,0.431
+CPI_ten,0.623,0.611,0.623,0.621
+CPI_ten_mid,0.532,0.515,0.532,0.524
+CPI+fingerprint_high_freq,0.789,0.793,0.79,0.795
+CPI+fingerprint_mid_freq,0.528,0.512,0.508,0.528
+CPI+fingerprint_low_freq,0.516,0.451,0.471,0.461
+CPI+fingerprint_cardiac,0.451,0.43,0.438,0.406
+CPI+fingerprint_ten,0.587,0.597,0.595,0.595
+CPI+fingerprint_ten_mid,0.504,0.505,0.525,0.522
+Avg Rank,2.78,2.44,2.19,2.58
+Wins,5.5,5.0,4.0,3.5

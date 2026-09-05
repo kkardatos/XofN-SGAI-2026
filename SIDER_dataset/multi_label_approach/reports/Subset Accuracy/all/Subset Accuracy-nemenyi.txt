@@ -1,0 +1,2 @@
+Nemenyi's test (CD = 2.12):
+XofN Jac-max Ung and XofN Vouk Org -> |3.06 - 5.25| = 2.19 -> 2.19 >= 2.1235 (Significant)

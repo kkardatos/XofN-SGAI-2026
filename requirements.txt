@@ -1,0 +1,52 @@
+# requirements.txt
+
+# Core Libraries
+numpy~=1.26.4
+pandas~=2.2.3
+scipy
+openpyxl
+dask
+openpyxl
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn~=1.6.1
+tensorflow
+torch
+xgboost
+
+# Natural Language Processing
+nltk
+
+# Jupyter Notebooks
+jupyter
+notebook
+
+# Additional Data Science Tools
+statsmodels
+plotly
+
+# Other
+rdflib
+PyMySQL
+mysql-connector-python
+sqlalchemy
+SPARQLWrapper
+dask_ml
+fastparquet 
+imblearn
+progressbar
+rdkit
+pubchempy~=1.0.4
+arff~=0.9
+import-ipynb
+
+# explainable ai
+shap~=0.47.2
+lime
+requests~=2.32.4
+tqdm~=4.67.1
+joblib~=1.4.2
+python-dotenv~=1.1.1

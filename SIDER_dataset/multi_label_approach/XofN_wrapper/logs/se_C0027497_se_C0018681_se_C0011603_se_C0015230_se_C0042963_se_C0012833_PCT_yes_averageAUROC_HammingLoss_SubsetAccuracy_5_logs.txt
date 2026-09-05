@@ -1,0 +1,358 @@
+2025-10-14 08:53:23,647 - INFO - se_C0027497_se_C0018681_se_C0011603_se_C0015230_se_C0042963_se_C0012833_PCT_yes_averageAUROC_HammingLoss_SubsetAccuracy_5
+2025-10-14 08:53:24,638 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:27,110 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:53:27,110 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:53:27,440 - INFO - 
+\U0001f50d 2/8 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:29,399 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:53:29,399 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:53:29,728 - INFO - 
+\U0001f50d 3/7 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:31,616 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:53:31,616 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:53:31,931 - INFO - 
+\U0001f50d 4/6 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:33,741 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:53:33,741 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:53:34,066 - INFO - 
+\U0001f50d 5/5 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:35,750 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:53:35,750 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:53:36,064 - INFO - 
+\U0001f50d 6/4 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:36,436 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:53:36,437 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:53:36,755 - INFO - 
+\U0001f50d 7/3 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:37,108 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:53:37,108 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:53:37,424 - INFO - 
+\U0001f50d 8/2 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:37,759 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:53:37,759 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:53:38,087 - INFO - 
+\U0001f50d 9/1 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:38,411 - INFO - \U0001f6ab No further improvement found for group: ['f_3'].
+2025-10-14 08:53:38,411 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:53:38,727 - INFO - 
+\U0001f50d 10/0 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:53:38,728 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:53:38,728 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:53:39,689 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:40,197 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:53:40,197 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:53:40,530 - INFO - 
+\U0001f50d 2/8 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:41,022 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:53:41,022 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:53:41,361 - INFO - 
+\U0001f50d 3/7 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:41,824 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:53:41,824 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:53:42,140 - INFO - 
+\U0001f50d 4/6 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:42,571 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:53:42,571 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:53:42,868 - INFO - 
+\U0001f50d 5/5 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:43,273 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:53:43,273 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:53:43,588 - INFO - 
+\U0001f50d 6/4 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:43,972 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:53:43,972 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:53:44,289 - INFO - 
+\U0001f50d 7/3 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:44,664 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:53:44,664 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:53:44,975 - INFO - 
+\U0001f50d 8/2 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:45,309 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:53:45,309 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:53:45,637 - INFO - 
+\U0001f50d 9/1 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:45,982 - INFO - \U0001f6ab No further improvement found for group: ['f_13'].
+2025-10-14 08:53:45,982 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:53:46,291 - INFO - 
+\U0001f50d 10/0 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23418, 'SubsetAccuracy': 0.53586}).
+2025-10-14 08:53:46,292 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:53:46,292 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:53:47,249 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:47,763 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:53:47,763 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:53:48,618 - INFO - 
+\U0001f50d 2/8 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:49,165 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:53:49,166 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:53:49,479 - INFO - 
+\U0001f50d 3/7 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:49,960 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:53:49,960 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:53:50,293 - INFO - 
+\U0001f50d 4/6 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:50,764 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:53:50,764 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:53:51,076 - INFO - 
+\U0001f50d 5/5 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:51,566 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:53:51,566 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:53:51,914 - INFO - 
+\U0001f50d 6/4 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:52,330 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:53:52,330 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:53:52,636 - INFO - 
+\U0001f50d 7/3 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:52,992 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:53:52,992 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:53:53,303 - INFO - 
+\U0001f50d 8/2 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:53,646 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:53:53,646 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:53:53,975 - INFO - 
+\U0001f50d 9/1 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:54,295 - INFO - \U0001f6ab No further improvement found for group: ['f_13'].
+2025-10-14 08:53:54,296 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:53:54,610 - INFO - 
+\U0001f50d 10/0 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.22785, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:53:54,611 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:53:54,611 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:53:55,583 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:53:56,108 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:53:56,108 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:53:56,436 - INFO - 
+\U0001f50d 2/8 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 3.0, 'leaves': 2.0, 'averageAUROC': 0.5363233, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.58228}).
+2025-10-14 08:53:56,914 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:53:56,914 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:53:57,241 - INFO - 
+\U0001f50d 3/7 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:53:57,687 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:53:57,687 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:53:58,014 - INFO - 
+\U0001f50d 4/6 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:53:58,440 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:53:58,440 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:53:58,763 - INFO - 
+\U0001f50d 5/5 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:53:59,169 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:53:59,169 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:53:59,491 - INFO - 
+\U0001f50d 6/4 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 3.0, 'leaves': 2.0, 'averageAUROC': 0.5227154, 'HammingLoss': 0.18214, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:53:59,876 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:53:59,876 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:54:00,198 - INFO - 
+\U0001f50d 7/3 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:54:00,563 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:54:00,564 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:54:00,881 - INFO - 
+\U0001f50d 8/2 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:54:01,223 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:54:01,223 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:54:01,555 - INFO - 
+\U0001f50d 9/1 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:54:01,886 - INFO - \U0001f6ab No further improvement found for group: ['f_3'].
+2025-10-14 08:54:01,886 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:54:02,195 - INFO - 
+\U0001f50d 10/0 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.18495, 'SubsetAccuracy': 0.59072}).
+2025-10-14 08:54:02,195 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:54:02,195 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:54:03,136 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:03,628 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:54:03,628 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:54:03,955 - INFO - 
+\U0001f50d 2/8 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:04,444 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:54:04,444 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:54:04,765 - INFO - 
+\U0001f50d 3/7 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:05,211 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:54:05,211 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:54:05,531 - INFO - 
+\U0001f50d 4/6 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:05,937 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:54:05,937 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:54:06,255 - INFO - 
+\U0001f50d 5/5 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:06,649 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:54:06,649 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:54:06,964 - INFO - 
+\U0001f50d 6/4 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:07,334 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:54:07,334 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:54:07,629 - INFO - 
+\U0001f50d 7/3 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:08,001 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:54:08,001 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:54:08,318 - INFO - 
+\U0001f50d 8/2 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:08,650 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:54:08,650 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:54:08,969 - INFO - 
+\U0001f50d 9/1 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:09,289 - INFO - \U0001f6ab No further improvement found for group: ['f_3'].
+2025-10-14 08:54:09,289 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:54:09,610 - INFO - 
+\U0001f50d 10/0 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.21167, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:09,611 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:54:09,611 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:54:10,578 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:11,077 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:54:11,079 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:54:11,406 - INFO - 
+\U0001f50d 2/8 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:11,888 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:54:11,888 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:54:12,204 - INFO - 
+\U0001f50d 3/7 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:12,653 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:54:12,653 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:54:12,964 - INFO - 
+\U0001f50d 4/6 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:13,379 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:54:13,379 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:54:13,713 - INFO - 
+\U0001f50d 5/5 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:14,492 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:54:14,492 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:54:14,805 - INFO - 
+\U0001f50d 6/4 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 3.0, 'leaves': 2.0, 'averageAUROC': 0.5100358, 'HammingLoss': 0.19972, 'SubsetAccuracy': 0.54852}).
+2025-10-14 08:54:15,168 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:54:15,168 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:54:15,479 - INFO - 
+\U0001f50d 7/3 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:15,830 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:54:15,830 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:54:16,154 - INFO - 
+\U0001f50d 8/2 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:16,476 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:54:16,476 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:54:16,785 - INFO - 
+\U0001f50d 9/1 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:17,105 - INFO - \U0001f6ab No further improvement found for group: ['f_3'].
+2025-10-14 08:54:17,105 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:54:17,431 - INFO - 
+\U0001f50d 10/0 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19269, 'SubsetAccuracy': 0.56118}).
+2025-10-14 08:54:17,432 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:54:17,432 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:54:18,371 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:18,872 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:54:18,873 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:54:19,207 - INFO - 
+\U0001f50d 2/8 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:19,695 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:54:19,695 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:54:20,017 - INFO - 
+\U0001f50d 3/7 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:20,456 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:54:20,456 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:54:20,781 - INFO - 
+\U0001f50d 4/6 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:21,186 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:54:21,186 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:54:21,500 - INFO - 
+\U0001f50d 5/5 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:21,897 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:54:21,897 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:54:22,198 - INFO - 
+\U0001f50d 6/4 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:22,569 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:54:22,569 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:54:22,876 - INFO - 
+\U0001f50d 7/3 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:23,218 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:54:23,218 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:54:24,046 - INFO - 
+\U0001f50d 8/2 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:24,377 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:54:24,377 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:54:24,685 - INFO - 
+\U0001f50d 9/1 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:24,998 - INFO - \U0001f6ab No further improvement found for group: ['f_3'].
+2025-10-14 08:54:24,998 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:54:25,310 - INFO - 
+\U0001f50d 10/0 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.19691, 'SubsetAccuracy': 0.56962}).
+2025-10-14 08:54:25,311 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:54:25,311 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:54:26,226 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:26,737 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:54:26,737 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:54:27,062 - INFO - 
+\U0001f50d 2/8 - Starting new group f_0 with [f_0] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:27,552 - INFO - \U0001f6ab No further improvement found for group: ['f_0'].
+2025-10-14 08:54:27,552 - INFO - \u26a0\ufe0f No valid group formed with ['f_0']
+2025-10-14 08:54:27,865 - INFO - 
+\U0001f50d 3/7 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:28,302 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:54:28,302 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:54:28,627 - INFO - 
+\U0001f50d 4/6 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 3.0, 'leaves': 2.0, 'averageAUROC': 0.5135026, 'HammingLoss': 0.21378, 'SubsetAccuracy': 0.51055}).
+2025-10-14 08:54:29,043 - INFO - \U0001f6ab No further improvement found for group: ['f_10'].
+2025-10-14 08:54:29,043 - INFO - \u26a0\ufe0f No valid group formed with ['f_10']
+2025-10-14 08:54:29,363 - INFO - 
+\U0001f50d 5/5 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:29,761 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:54:29,761 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:54:30,068 - INFO - 
+\U0001f50d 6/4 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:30,463 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:54:30,463 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:54:30,770 - INFO - 
+\U0001f50d 7/3 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:31,112 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:54:31,112 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:54:31,432 - INFO - 
+\U0001f50d 8/2 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 3.0, 'leaves': 2.0, 'averageAUROC': 0.5081869, 'HammingLoss': 0.21378, 'SubsetAccuracy': 0.51477}).
+2025-10-14 08:54:31,775 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:54:31,775 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:54:32,100 - INFO - 
+\U0001f50d 9/1 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:32,420 - INFO - \U0001f6ab No further improvement found for group: ['f_3'].
+2025-10-14 08:54:32,420 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']
+2025-10-14 08:54:32,731 - INFO - 
+\U0001f50d 10/0 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.20816, 'SubsetAccuracy': 0.52743}).
+2025-10-14 08:54:32,732 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:54:32,732 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:54:33,673 - INFO - 
+\U0001f50d 1/9 - Starting new group f_14 with [f_14] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23277, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:54:34,183 - INFO - \U0001f6ab No further improvement found for group: ['f_14'].
+2025-10-14 08:54:34,183 - INFO - \u26a0\ufe0f No valid group formed with ['f_14']
+2025-10-14 08:54:34,507 - INFO - 
+\U0001f50d 2/8 - Starting new group f_10 with [f_10] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 3.0, 'leaves': 2.0, 'averageAUROC': 0.5159756, 'HammingLoss': 0.23699, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:54:34,975 - INFO - \u2705 Added f_0 to group \u2192 New group: ['f_10', 'f_0'].
+2025-10-14 08:54:35,403 - INFO - \U0001f6ab No further improvement found for group: ['f_10', 'f_0'].
+2025-10-14 08:54:35,403 - INFO - \U0001f4be Group saved: ['f_10', 'f_0']
+2025-10-14 08:54:35,716 - INFO - 
+\U0001f50d 3/6 - Starting new group f_11 with [f_11] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23277, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:54:36,122 - INFO - \U0001f6ab No further improvement found for group: ['f_11'].
+2025-10-14 08:54:36,122 - INFO - \u26a0\ufe0f No valid group formed with ['f_11']
+2025-10-14 08:54:36,430 - INFO - 
+\U0001f50d 4/5 - Starting new group f_1 with [f_1] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23277, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:54:36,824 - INFO - \U0001f6ab No further improvement found for group: ['f_1'].
+2025-10-14 08:54:36,824 - INFO - \u26a0\ufe0f No valid group formed with ['f_1']
+2025-10-14 08:54:37,133 - INFO - 
+\U0001f50d 6/4 - Starting new group f_2 with [f_2] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23277, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:54:37,507 - INFO - \U0001f6ab No further improvement found for group: ['f_2'].
+2025-10-14 08:54:37,507 - INFO - \u26a0\ufe0f No valid group formed with ['f_2']
+2025-10-14 08:54:37,831 - INFO - 
+\U0001f50d 7/3 - Starting new group f_12 with [f_12] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23277, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:54:38,183 - INFO - \U0001f6ab No further improvement found for group: ['f_12'].
+2025-10-14 08:54:38,183 - INFO - \u26a0\ufe0f No valid group formed with ['f_12']
+2025-10-14 08:54:38,506 - INFO - 
+\U0001f50d 8/2 - Starting new group f_9 with [f_9] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 3.0, 'leaves': 2.0, 'averageAUROC': 0.5139206, 'HammingLoss': 0.23558, 'SubsetAccuracy': 0.49367}).
+2025-10-14 08:54:38,847 - INFO - \U0001f6ab No further improvement found for group: ['f_9'].
+2025-10-14 08:54:38,847 - INFO - \u26a0\ufe0f No valid group formed with ['f_9']
+2025-10-14 08:54:39,381 - INFO - 
+\U0001f50d 9/1 - Starting new group f_13 with [f_13] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23277, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:54:39,703 - INFO - \U0001f6ab No further improvement found for group: ['f_13'].
+2025-10-14 08:54:39,703 - INFO - \u26a0\ufe0f No valid group formed with ['f_13']
+2025-10-14 08:54:40,016 - INFO - 
+\U0001f50d 10/0 - Starting new group f_3 with [f_3] (['averageAUROC', 'HammingLoss', 'SubsetAccuracy']: {'nodes': 1.0, 'leaves': 1.0, 'averageAUROC': 0.5, 'HammingLoss': 0.23277, 'SubsetAccuracy': 0.49789}).
+2025-10-14 08:54:40,017 - WARNING - No valid candidate results — stopping.
+2025-10-14 08:54:40,017 - INFO - \u26a0\ufe0f No valid group formed with ['f_3']

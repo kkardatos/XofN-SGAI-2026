@@ -1,0 +1,8 @@
+,cpi_dataset,fingerprint_dataset,cpi_fingerprint_dataset
+HammingLoss,0.29042,0.27736,0.28455
+SubsetAccuracy,0.36291,0.3769,0.37016
+RankingLoss,0.19656,0.1995,0.18629
+MacroPrecision,0.79235,0.79932,0.79463
+MacroRecall,0.84466,0.85836,0.84994
+MacroFOne,0.81762,0.82775,0.8213
+averageAUROC,0.5611562,0.5639762,0.5664052

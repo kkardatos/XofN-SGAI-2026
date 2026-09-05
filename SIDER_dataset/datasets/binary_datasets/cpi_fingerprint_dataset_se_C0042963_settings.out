@@ -1,0 +1,783 @@
+Clus run ['se_C0042963']
+************************
+
+Date: 27/04/2025, 10:44
+File: cpi_fingerprint_dataset_se_C0042963_settings.out
+Attributes: 2151 (input: 2150, output: 1)
+Missing values: No
+
+[General]
+Verbose = 1
+RandomSeed = 43
+ResourceInfoLoaded = No
+DoNotInduce = No
+LoggingProperties = logging.properties
+
+[Data]
+File = C:\Users\KostasVoror\Projects\sep\SIDER_dataset\binary_datasets\cpi_fingerprint_dataset_se_C0042963.arff
+TestSet = None
+PruneSet = None
+XVal = 10
+RemoveMissingTarget = No
+NormalizeData = None
+
+[Attributes]
+Target = 2151
+Clustering = 2151
+Descriptive = 1-2150
+Key = None
+Disable = None
+Weights = Normalize
+ClusteringWeights = 1.0
+ReduceMemoryNominalAttrs = No
+GIS = None
+
+[Constraints]
+Syntactic = None
+MaxSize = Infinity
+MaxError = 0.0
+MaxDepth = Infinity
+
+[Nominal]
+MEstimate = 1.0
+
+[Model]
+MinimalWeight = 2.0
+MinimalNumberExamples = 0
+MinimalKnownWeight = 0.0
+ParamTuneNumberFolds = 3
+NominalSubsetTests = Yes
+LoadFromModelFile = No
+
+[Tree]
+Heuristic = VarianceReduction
+HeuristicComplexity = N2
+SetDistance = GSMDistance
+TupleDistance = Euclidean
+TSDistance = DTW
+PruningMethod = C45
+FTest = 1.0
+BinarySplit = Yes
+ConvertToRules = No
+AlternativeSplits = No
+Optimize = []
+MSENominal = No
+SplitSampling = None
+MissingClusteringAttrHandling = EstimateFromParentNode
+MissingTargetAttrHandling = ParentNode
+InductionOrder = DepthFirst
+EntropyType = StandardEntropy
+ConsiderUnlableInstancesInIGCalc = No
+SpatialMatrix = Binary
+SpatialMeasure = GlobalMoran
+Bandwidth = 0.001
+Longlat = No
+NumNeightbours = 0.0
+Alpha = 1.0
+SplitPosition = Exact
+
+[SemiSupervised]
+SemiSupervisedMethod = PCT
+StoppingCriteria = NoneAdded
+UnlabeledCriteria = Threshold
+ConfidenceThreshold = 0.8
+ConfidenceMeasure = Variance
+Iterations = 10
+K = 5
+UnlabeledData = 
+PercentageLabeled = 5
+UseWeights = No
+AirbagTrials = 0
+ExhaustiveSearchThresholds = [0.5,0.6,0.7,0.8,0.9,0.99]
+OOBErrorCalculation = LabeledOnly
+Normalization = MinMaxNormalization
+Aggregation = Average
+CalibrateHmcThreshold = No
+PruningWhenTuning = No
+InternalFolds = 5
+WeightScoresFile = NO
+PossibleWeights = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+IterationsSupervisionOptimisation = 0
+ForceInternalXValOptimisation = No
+ImputeMissingTargetValues = No
+InternalFold = -1234
+ProceedToMain = Yes
+
+[Output]
+ShowModels = [Default, Pruned, Others]
+TrainErrors = Yes
+ValidErrors = Yes
+TestErrors = Yes
+AllFoldModels = Yes
+AllFoldErrors = No
+AllFoldDatasets = No
+UnknownFrequency = No
+BranchFrequency = No
+ShowInfo = [Count]
+PrintModelAndExamples = No
+WriteErrorFile = No
+WriteModelFile = No
+WritePerBagModelFile = Yes
+WriteOOBFile = No
+WritePredictions = []
+GzipOutput = No
+ModelIDFiles = No
+WriteCurves = No
+OutputPythonModel = No
+PythonModelType = Object
+OutputROSSubspaces = No
+OutputJSONModel = No
+OutputDatabaseQueries = No
+OutputClowdFlowsJSON = No
+ComputeSpearman = No
+
+Run: 01
+*******
+
+Statistics
+----------
+
+FTValue (FTest): 1.0
+Induction Time: 6.0000E-1 sec
+Pruning Time: 0 sec
+Prediction Time (total for ClusModel.Original): 
+	0 microsecs
+	0 millisecs
+	0 secs
+Prediction Time (average for ClusModel.Original): 0 microsecs
+Model information:
+     Default: Nodes = 1; Leaves = 1; Depth = 1
+     Original: Nodes = 285; Leaves = 143; Depth = 25
+     Pruned: Nodes = 231; Leaves = 116; Depth = 25
+
+Training error
+--------------
+
+Number of examples: 1394
+Classification Error
+   Default: 
+   Attribute: se_C0042963
+     REAL\PRED |    1 | 0 |
+     ---------------------------
+             1 | 1060 | 0 | 1060
+             0 |  334 | 0 |  334
+     ---------------------------
+               | 1394 | 0 | 1394
+     Accuracy: 7.604017E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0042963
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 | 1052 |   8 | 1060
+             0 |   42 | 292 |  334
+     -----------------------------
+               | 1094 | 300 | 1394
+     Accuracy: 9.641320E-1
+     Cramer's coefficient: 9.001769E-1
+
+   Pruned: 
+   Attribute: se_C0042963
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 | 1046 |  14 | 1060
+             0 |   49 | 285 |  334
+     -----------------------------
+               | 1095 | 299 | 1394
+     Accuracy: 9.548063E-1
+     Cramer's coefficient: 8.735891E-1
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.744])
+   Default        : [1]
+   Original       : [1.4802E-1]
+   Pruned         : [2.1389E-1]
+averageAUROC
+   Default        : 5.000000E-1
+   Original       : 9.817817E-1
+   Pruned         : 9.714425E-1
+averageAUPRC
+   Default        : 7.604017E-1
+   Original       : 9.925683E-1
+   Pruned         : 9.887041E-1
+
+Testing error
+-------------
+
+Number of examples: 1394
+Classification Error
+   Default: 
+   Attribute: se_C0042963
+     REAL\PRED |    1 | 0 |
+     ---------------------------
+             1 | 1060 | 0 | 1060
+             0 |  334 | 0 |  334
+     ---------------------------
+               | 1394 | 0 | 1394
+     Accuracy: 7.604017E-1
+     Cramer's coefficient: 0
+
+   Original: 
+   Attribute: se_C0042963
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 |  868 | 192 | 1060
+             0 |  224 | 110 |  334
+     -----------------------------
+               | 1092 | 302 | 1394
+     Accuracy: 7.015782E-1
+     Cramer's coefficient: 1.535630E-1
+
+   Pruned: 
+   Attribute: se_C0042963
+     REAL\PRED |    1 |   0 |
+     -----------------------------
+             1 |  858 | 202 | 1060
+             0 |  227 | 107 |  334
+     -----------------------------
+               | 1085 | 309 | 1394
+     Accuracy: 6.922525E-1
+     Cramer's coefficient: 1.333780E-1
+
+Weighted mean squared error (MSE) for Nominal Attributes (Weights [2.744])
+   Default        : [1.0023]
+   Original       : [1.5637]
+   Pruned         : [1.5296]
+averageAUROC
+   Default        : 4.364083E-1
+   Original       : 5.938948E-1
+   Pruned         : 5.877867E-1
+averageAUPRC
+   Default        : 7.241665E-1
+   Original       : 7.975610E-1
+   Pruned         : 7.948794E-1
+
+Default Model
+*************
+
+[1] [1060.0]: 1394
+
+Original Model
+**************
+
+f_351 > 0.0
++--yes: cpi_9606.ENSP00000011653 > 166.0
+|      +--yes: cpi_9606.ENSP00000308541 > 874.0
+|      |      +--yes: [0] [2.0]: 2
+|      |      +--no:  cpi_9606.ENSP00000414303 > 814.0
+|      |             +--yes: cpi_9606.ENSP00000263025 > 0.0
+|      |             |      +--yes: [1] [5.0]: 5
+|      |             |      +--no:  [0] [3.0]: 3
+|      |             +--no:  [1] [157.0]: 158
+|      +--no:  cpi_9606.ENSP00000283916 > 162.0
+|             +--yes: cpi_9606.ENSP00000236850 > 202.0
+|             |      +--yes: [0] [4.0]: 4
+|             |      +--no:  cpi_9606.ENSP00000354532 > 158.0
+|             |             +--yes: cpi_9606.ENSP00000164139 > 183.0
+|             |             |      +--yes: [1] [1.0]: 2
+|             |             |      +--no:  [0] [3.0]: 3
+|             |             +--no:  cpi_9606.ENSP00000373169 > 915.0
+|             |                    +--yes: cpi_9606.ENSP00000176183 > 928.0
+|             |                    |      +--yes: [1] [6.0]: 6
+|             |                    |      +--no:  [0] [6.0]: 6
+|             |                    +--no:  cpi_9606.ENSP00000013034 > 153.0
+|             |                           +--yes: [0] [2.0]: 2
+|             |                           +--no:  cpi_9606.ENSP00000301420 > 384.0
+|             |                                  +--yes: [0] [2.0]: 2
+|             |                                  +--no:  cpi_9606.ENSP00000379839 > 236.0
+|             |                                         +--yes: [0] [2.0]: 2
+|             |                                         +--no:  cpi_9606.ENSP00000397582 > 173.0
+|             |                                                +--yes: cpi_9606.ENSP00000267119 > 0.0
+|             |                                                |      +--yes: [0] [3.0]: 3
+|             |                                                |      +--no:  [1] [2.0]: 2
+|             |                                                +--no:  cpi_9606.ENSP00000228476 > 176.0
+|             |                                                       +--yes: [0] [2.0]: 3
+|             |                                                       +--no:  cpi_9606.ENSP00000222381 > 324.0
+|             |                                                              +--yes: cpi_9606.ENSP00000295897 > 0.0
+|             |                                                              |      +--yes: [1] [3.0]: 3
+|             |                                                              |      +--no:  [0] [2.0]: 2
+|             |                                                              +--no:  f_734 > 0.0
+|             |                                                                     +--yes: f_542 > 0.0
+|             |                                                                     |      +--yes: f_756 > 0.0
+|             |                                                                     |      |      +--yes: f_700 > 0.0
+|             |                                                                     |      |      |      +--yes: [0] [2.0]: 2
+|             |                                                                     |      |      |      +--no:  [1] [4.0]: 4
+|             |                                                                     |      |      +--no:  [0] [3.0]: 3
+|             |                                                                     |      +--no:  [1] [18.0]: 18
+|             |                                                                     +--no:  [1] [194.0]: 197
+|             +--no:  cpi_9606.ENSP00000472933 > 178.0
+|                    +--yes: [0] [6.0]: 6
+|                    +--no:  cpi_9606.ENSP00000396704 > 158.0
+|                           +--yes: [1] [50.0]: 51
+|                           +--no:  cpi_9606.ENSP00000337915 > 517.0
+|                                  +--yes: cpi_9606.ENSP00000328973 > 0.0
+|                                  |      +--yes: cpi_9606.ENSP00000255380 > 150.0
+|                                  |      |      +--yes: [1] [2.0]: 2
+|                                  |      |      +--no:  [0] [3.0]: 3
+|                                  |      +--no:  cpi_9606.ENSP00000385806 > 0.0
+|                                  |             +--yes: cpi_9606.ENSP00000003100 > 0.0
+|                                  |             |      +--yes: [1] [2.0]: 2
+|                                  |             |      +--no:  [0] [2.0]: 2
+|                                  |             +--no:  [1] [60.0]: 61
+|                                  +--no:  f_439 > 0.0
+|                                         +--yes: cpi_9606.ENSP00000292095 > 169.0
+|                                         |      +--yes: [0] [3.0]: 3
+|                                         |      +--no:  cpi_9606.ENSP00000380247 > 244.0
+|                                         |             +--yes: [0] [3.0]: 3
+|                                         |             +--no:  f_860 > 0.0
+|                                         |                    +--yes: f_374 > 0.0
+|                                         |                    |      +--yes: [0] [5.0]: 5
+|                                         |                    |      +--no:  [1] [2.0]: 2
+|                                         |                    +--no:  cpi_9606.ENSP00000220764 > 0.0
+|                                         |                           +--yes: [0] [2.0]: 2
+|                                         |                           +--no:  f_535 > 0.0
+|                                         |                                  +--yes: cpi_9606.ENSP00000231188 > 0.0
+|                                         |                                  |      +--yes: [0] [2.0]: 2
+|                                         |                                  |      +--no:  cpi_9606.ENSP00000280701 > 222.0
+|                                         |                                  |             +--yes: [0] [2.0]: 2
+|                                         |                                  |             +--no:  cpi_9606.ENSP00000359663 > 0.0
+|                                         |                                  |                    +--yes: [0] [2.0]: 2
+|                                         |                                  |                    +--no:  f_213 > 0.0
+|                                         |                                  |                           +--yes: cpi_9606.ENSP00000234961 > 0.0
+|                                         |                                  |                           |      +--yes: [0] [3.0]: 3
+|                                         |                                  |                           |      +--no:  [1] [5.0]: 6
+|                                         |                                  |                           +--no:  cpi_9606.ENSP00000003084 > 724.0
+|                                         |                                  |                                  +--yes: [0] [2.0]: 3
+|                                         |                                  |                                  +--no:  cpi_9606.ENSP00000225831 > 208.0
+|                                         |                                  |                                         +--yes: [0] [2.0]: 3
+|                                         |                                  |                                         +--no:  f_194 > 0.0
+|                                         |                                  |                                                +--yes: cpi_9606.ENSP00000367959 > 0.0
+|                                         |                                  |                                                |      +--yes: [1] [2.0]: 2
+|                                         |                                  |                                                |      +--no:  [0] [2.0]: 2
+|                                         |                                  |                                                +--no:  cpi_9606.ENSP00000303830 > 683.0
+|                                         |                                  |                                                       +--yes: [1] [3.0]: 5
+|                                         |                                  |                                                       +--no:  cpi_9606.ENSP00000320180 > 0.0
+|                                         |                                  |                                                              +--yes: cpi_9606.ENSP00000332591 > 0.0
+|                                         |                                  |                                                              |      +--yes: [0] [2.0]: 2
+|                                         |                                  |                                                              |      +--no:  [1] [3.0]: 3
+|                                         |                                  |                                                              +--no:  [1] [145.0]: 150
+|                                         |                                  +--no:  f_418 > 0.0
+|                                         |                                         +--yes: [1] [10.0]: 11
+|                                         |                                         +--no:  f_179 > 0.0
+|                                         |                                                +--yes: f_257 > 0.0
+|                                         |                                                |      +--yes: [1] [3.0]: 4
+|                                         |                                                |      +--no:  [0] [8.0]: 8
+|                                         |                                                +--no:  [1] [3.0]: 3
+|                                         +--no:  cpi_9606.ENSP00000394624 > 222.0
+|                                                +--yes: cpi_9606.ENSP00000280155 > 931.0
+|                                                |      +--yes: cpi_9606.ENSP00000306662 > 795.0
+|                                                |      |      +--yes: [1] [3.0]: 3
+|                                                |      |      +--no:  cpi_9606.ENSP00000234961 > 237.0
+|                                                |      |             +--yes: [0] [3.0]: 3
+|                                                |      |             +--no:  [1] [1.0]: 2
+|                                                |      +--no:  [1] [38.0]: 39
+|                                                +--no:  cpi_9606.ENSP00000295453 > 0.0
+|                                                       +--yes: [1] [12.0]: 12
+|                                                       +--no:  cpi_9606.ENSP00000338345 > 169.0
+|                                                              +--yes: f_338 > 0.0
+|                                                              |      +--yes: cpi_9606.ENSP00000219833 > 0.0
+|                                                              |      |      +--yes: [1] [3.0]: 4
+|                                                              |      |      +--no:  [0] [2.0]: 2
+|                                                              |      +--no:  [1] [15.0]: 15
+|                                                              +--no:  cpi_9606.ENSP00000369960 > 297.0
+|                                                                     +--yes: cpi_9606.ENSP00000262186 > 168.0
+|                                                                     |      +--yes: [1] [1.0]: 2
+|                                                                     |      +--no:  [0] [10.0]: 10
+|                                                                     +--no:  f_343 > 0.0
+|                                                                            +--yes: [1] [9.0]: 9
+|                                                                            +--no:  f_617 > 0.0
+|                                                                                   +--yes: f_662 > 0.0
+|                                                                                   |      +--yes: cpi_9606.ENSP00000433821 > 239.0
+|                                                                                   |      |      +--yes: [0] [2.0]: 2
+|                                                                                   |      |      +--no:  [1] [22.0]: 23
+|                                                                                   |      +--no:  f_334 > 0.0
+|                                                                                   |             +--yes: cpi_9606.ENSP00000260433 > 0.0
+|                                                                                   |             |      +--yes: [1] [1.0]: 2
+|                                                                                   |             |      +--no:  [0] [6.0]: 6
+|                                                                                   |             +--no:  f_521 > 0.0
+|                                                                                   |                    +--yes: cpi_9606.ENSP00000313661 > 0.0
+|                                                                                   |                    |      +--yes: [1] [1.0]: 2
+|                                                                                   |                    |      +--no:  [0] [5.0]: 5
+|                                                                                   |                    +--no:  cpi_9606.ENSP00000196551 > 0.0
+|                                                                                   |                           +--yes: [0] [2.0]: 2
+|                                                                                   |                           +--no:  cpi_9606.ENSP00000342070 > 0.0
+|                                                                                   |                                  +--yes: [0] [2.0]: 2
+|                                                                                   |                                  +--no:  f_702 > 0.0
+|                                                                                   |                                         +--yes: [1] [9.0]: 9
+|                                                                                   |                                         +--no:  f_145 > 0.0
+|                                                                                   |                                                +--yes: cpi_9606.ENSP00000255030 > 0.0
+|                                                                                   |                                                |      +--yes: [1] [1.0]: 2
+|                                                                                   |                                                |      +--no:  [0] [2.0]: 2
+|                                                                                   |                                                +--no:  f_667 > 0.0
+|                                                                                   |                                                       +--yes: [1] [10.0]: 10
+|                                                                                   |                                                       +--no:  f_679 > 0.0
+|                                                                                   |                                                              +--yes: f_3 > 0.0
+|                                                                                   |                                                              |      +--yes: [0] [2.0]: 2
+|                                                                                   |                                                              |      +--no:  [1] [2.0]: 4
+|                                                                                   |                                                              +--no:  [1] [4.0]: 4
+|                                                                                   +--no:  f_533 > 0.0
+|                                                                                          +--yes: [1] [7.0]: 7
+|                                                                                          +--no:  cpi_9606.ENSP00000269571 > 0.0
+|                                                                                                 +--yes: [1] [5.0]: 5
+|                                                                                                 +--no:  f_12 > 0.0
+|                                                                                                        +--yes: f_229 > 0.0
+|                                                                                                        |      +--yes: [1] [3.0]: 3
+|                                                                                                        |      +--no:  f_625 > 0.0
+|                                                                                                        |             +--yes: [1] [3.0]: 3
+|                                                                                                        |             +--no:  f_577 > 0.0
+|                                                                                                        |                    +--yes: f_535 > 0.0
+|                                                                                                        |                    |      +--yes: [0] [5.0]: 5
+|                                                                                                        |                    |      +--no:  f_476 > 0.0
+|                                                                                                        |                    |             +--yes: [0] [2.0]: 2
+|                                                                                                        |                    |             +--no:  [1] [8.0]: 9
+|                                                                                                        |                    +--no:  cpi_9606.ENSP00000252486 > 0.0
+|                                                                                                        |                           +--yes: [1] [2.0]: 2
+|                                                                                                        |                           +--no:  f_380 > 0.0
+|                                                                                                        |                                  +--yes: f_37 > 0.0
+|                                                                                                        |                                  |      +--yes: [1] [3.0]: 3
+|                                                                                                        |                                  |      +--no:  f_33 > 0.0
+|                                                                                                        |                                  |             +--yes: [1] [1.0]: 2
+|                                                                                                        |                                  |             +--no:  [0] [11.0]: 11
+|                                                                                                        |                                  +--no:  [0] [24.0]: 24
+|                                                                                                        +--no:  f_11 > 0.0
+|                                                                                                               +--yes: cpi_9606.ENSP00000222982 > 159.0
+|                                                                                                               |      +--yes: [0] [3.0]: 3
+|                                                                                                               |      +--no:  cpi_9606.ENSP00000259089 > 0.0
+|                                                                                                               |             +--yes: [0] [2.0]: 2
+|                                                                                                               |             +--no:  cpi_9606.ENSP00000365686 > 150.0
+|                                                                                                               |                    +--yes: [0] [2.0]: 2
+|                                                                                                               |                    +--no:  f_38 > 0.0
+|                                                                                                               |                           +--yes: [0] [2.0]: 2
+|                                                                                                               |                           +--no:  cpi_9606.ENSP00000280155 > 0.0
+|                                                                                                               |                                  +--yes: cpi_9606.ENSP00000280155 > 696.0
+|                                                                                                               |                                  |      +--yes: [1] [2.0]: 2
+|                                                                                                               |                                  |      +--no:  [0] [3.0]: 3
+|                                                                                                               |                                  +--no:  cpi_9606.ENSP00000357068 > 0.0
+|                                                                                                               |                                         +--yes: f_333 > 0.0
+|                                                                                                               |                                         |      +--yes: [0] [2.0]: 2
+|                                                                                                               |                                         |      +--no:  [1] [2.0]: 2
+|                                                                                                               |                                         +--no:  [1] [21.0]: 21
+|                                                                                                               +--no:  cpi_9606.ENSP00000237612 > 0.0
+|                                                                                                                      +--yes: [1] [1.0]: 2
+|                                                                                                                      +--no:  [0] [6.0]: 6
++--no:  cpi_9606.ENSP00000337915 > 265.0
+       +--yes: cpi_9606.ENSP00000229277 > 845.0
+       |      +--yes: [0] [3.0]: 3
+       |      +--no:  cpi_9606.ENSP00000229447 > 618.0
+       |             +--yes: [0] [2.0]: 3
+       |             +--no:  cpi_9606.ENSP00000336528 > 893.0
+       |                    +--yes: [0] [2.0]: 3
+       |                    +--no:  [1] [42.0]: 43
+       +--no:  f_571 > 0.0
+              +--yes: f_430 > 0.0
+              |      +--yes: cpi_9606.ENSP00000239849 > 152.0
+              |      |      +--yes: [1] [4.0]: 4
+              |      |      +--no:  f_193 > 0.0
+              |      |             +--yes: f_206 > 0.0
+              |      |             |      +--yes: [1] [4.0]: 4
+              |      |             |      +--no:  cpi_9606.ENSP00000241600 > 0.0
+              |      |             |             +--yes: [1] [2.0]: 2
+              |      |             |             +--no:  [0] [2.0]: 2
+              |      |             +--no:  cpi_9606.ENSP00000275300 > 0.0
+              |      |                    +--yes: [1] [2.0]: 2
+              |      |                    +--no:  cpi_9606.ENSP00000360493 > 215.0
+              |      |                           +--yes: [1] [2.0]: 2
+              |      |                           +--no:  f_38 > 0.0
+              |      |                                  +--yes: [1] [2.0]: 2
+              |      |                                  +--no:  f_21 > 0.0
+              |      |                                         +--yes: f_143 > 0.0
+              |      |                                         |      +--yes: [1] [3.0]: 4
+              |      |                                         |      +--no:  [0] [3.0]: 3
+              |      |                                         +--no:  cpi_9606.ENSP00000231509 > 979.0
+              |      |                                                +--yes: cpi_9606.ENSP00000000442 > 384.0
+              |      |                                                |      +--yes: [1] [2.0]: 2
+              |      |                                                |      +--no:  [0] [2.0]: 2
+              |      |                                                +--no:  cpi_9606.ENSP00000003100 > 0.0
+              |      |                                                       +--yes: [1] [1.0]: 2
+              |      |                                                       +--no:  [0] [44.0]: 44
+              |      +--no:  cpi_9606.ENSP00000164139 > 0.0
+              |             +--yes: [0] [6.0]: 6
+              |             +--no:  cpi_9606.ENSP00000383365 > 163.0
+              |                    +--yes: [0] [2.0]: 2
+              |                    +--no:  cpi_9606.ENSP00000359793 > 199.0
+              |                           +--yes: f_405 > 0.0
+              |                           |      +--yes: [0] [2.0]: 2
+              |                           |      +--no:  [1] [3.0]: 3
+              |                           +--no:  [1] [20.0]: 22
+              +--no:  cpi_9606.ENSP00000241052 > 530.0
+                     +--yes: cpi_9606.ENSP00000244741 > 281.0
+                     |      +--yes: [1] [3.0]: 3
+                     |      +--no:  [0] [12.0]: 12
+                     +--no:  cpi_9606.ENSP00000263321 > 329.0
+                            +--yes: [0] [3.0]: 3
+                            +--no:  cpi_9606.ENSP00000365775 > 0.0
+                                   +--yes: cpi_9606.ENSP00000272065 > 0.0
+                                   |      +--yes: [1] [3.0]: 3
+                                   |      +--no:  cpi_9606.ENSP00000237612 > 0.0
+                                   |             +--yes: [1] [1.0]: 2
+                                   |             +--no:  [0] [6.0]: 6
+                                   +--no:  cpi_9606.ENSP00000262584 > 0.0
+                                          +--yes: [0] [3.0]: 3
+                                          +--no:  cpi_9606.ENSP00000357204 > 0.0
+                                                 +--yes: [0] [2.0]: 2
+                                                 +--no:  cpi_9606.ENSP00000357255 > 729.0
+                                                        +--yes: [0] [2.0]: 2
+                                                        +--no:  cpi_9606.ENSP00000358042 > 0.0
+                                                               +--yes: f_452 > 0.0
+                                                               |      +--yes: [1] [2.0]: 2
+                                                               |      +--no:  [0] [3.0]: 3
+                                                               +--no:  cpi_9606.ENSP00000270570 > 162.0
+                                                                      +--yes: [0] [2.0]: 3
+                                                                      +--no:  cpi_9606.ENSP00000320709 > 176.0
+                                                                             +--yes: [0] [2.0]: 3
+                                                                             +--no:  f_503 > 0.0
+                                                                                    +--yes: [1] [2.0]: 4
+                                                                                    +--no:  cpi_9606.ENSP00000260433 > 0.0
+                                                                                           +--yes: [1] [23.0]: 23
+                                                                                           +--no:  cpi_9606.ENSP00000363822 > 274.0
+                                                                                                  +--yes: [0] [2.0]: 3
+                                                                                                  +--no:  f_672 > 0.0
+                                                                                                         +--yes: f_308 > 0.0
+                                                                                                         |      +--yes: [1] [7.0]: 8
+                                                                                                         |      +--no:  [0] [2.0]: 2
+                                                                                                         +--no:  cpi_9606.ENSP00000353224 > 0.0
+                                                                                                                +--yes: cpi_9606.ENSP00000267119 > 0.0
+                                                                                                                |      +--yes: [1] [3.0]: 3
+                                                                                                                |      +--no:  [0] [2.0]: 2
+                                                                                                                +--no:  [1] [51.0]: 54
+
+Pruned Model
+************
+
+f_351 > 0.0
++--yes: cpi_9606.ENSP00000011653 > 166.0
+|      +--yes: cpi_9606.ENSP00000308541 > 874.0
+|      |      +--yes: [0] [2.0]: 2
+|      |      +--no:  cpi_9606.ENSP00000414303 > 814.0
+|      |             +--yes: cpi_9606.ENSP00000263025 > 0.0
+|      |             |      +--yes: [1] [5.0]: 5
+|      |             |      +--no:  [0] [3.0]: 3
+|      |             +--no:  [1] [157.0]: 158
+|      +--no:  cpi_9606.ENSP00000283916 > 162.0
+|             +--yes: cpi_9606.ENSP00000236850 > 202.0
+|             |      +--yes: [0] [4.0]: 4
+|             |      +--no:  cpi_9606.ENSP00000354532 > 158.0
+|             |             +--yes: [0] [4.0]: 5
+|             |             +--no:  cpi_9606.ENSP00000373169 > 915.0
+|             |                    +--yes: cpi_9606.ENSP00000176183 > 928.0
+|             |                    |      +--yes: [1] [6.0]: 6
+|             |                    |      +--no:  [0] [6.0]: 6
+|             |                    +--no:  cpi_9606.ENSP00000013034 > 153.0
+|             |                           +--yes: [0] [2.0]: 2
+|             |                           +--no:  cpi_9606.ENSP00000301420 > 384.0
+|             |                                  +--yes: [0] [2.0]: 2
+|             |                                  +--no:  cpi_9606.ENSP00000379839 > 236.0
+|             |                                         +--yes: [0] [2.0]: 2
+|             |                                         +--no:  cpi_9606.ENSP00000397582 > 173.0
+|             |                                                +--yes: cpi_9606.ENSP00000267119 > 0.0
+|             |                                                |      +--yes: [0] [3.0]: 3
+|             |                                                |      +--no:  [1] [2.0]: 2
+|             |                                                +--no:  cpi_9606.ENSP00000228476 > 176.0
+|             |                                                       +--yes: [0] [2.0]: 3
+|             |                                                       +--no:  cpi_9606.ENSP00000222381 > 324.0
+|             |                                                              +--yes: cpi_9606.ENSP00000295897 > 0.0
+|             |                                                              |      +--yes: [1] [3.0]: 3
+|             |                                                              |      +--no:  [0] [2.0]: 2
+|             |                                                              +--no:  f_734 > 0.0
+|             |                                                                     +--yes: f_542 > 0.0
+|             |                                                                     |      +--yes: f_756 > 0.0
+|             |                                                                     |      |      +--yes: f_700 > 0.0
+|             |                                                                     |      |      |      +--yes: [0] [2.0]: 2
+|             |                                                                     |      |      |      +--no:  [1] [4.0]: 4
+|             |                                                                     |      |      +--no:  [0] [3.0]: 3
+|             |                                                                     |      +--no:  [1] [18.0]: 18
+|             |                                                                     +--no:  [1] [194.0]: 197
+|             +--no:  cpi_9606.ENSP00000472933 > 178.0
+|                    +--yes: [0] [6.0]: 6
+|                    +--no:  cpi_9606.ENSP00000396704 > 158.0
+|                           +--yes: [1] [50.0]: 51
+|                           +--no:  cpi_9606.ENSP00000337915 > 517.0
+|                                  +--yes: cpi_9606.ENSP00000328973 > 0.0
+|                                  |      +--yes: cpi_9606.ENSP00000255380 > 150.0
+|                                  |      |      +--yes: [1] [2.0]: 2
+|                                  |      |      +--no:  [0] [3.0]: 3
+|                                  |      +--no:  cpi_9606.ENSP00000385806 > 0.0
+|                                  |             +--yes: cpi_9606.ENSP00000003100 > 0.0
+|                                  |             |      +--yes: [1] [2.0]: 2
+|                                  |             |      +--no:  [0] [2.0]: 2
+|                                  |             +--no:  [1] [60.0]: 61
+|                                  +--no:  f_439 > 0.0
+|                                         +--yes: cpi_9606.ENSP00000292095 > 169.0
+|                                         |      +--yes: [0] [3.0]: 3
+|                                         |      +--no:  cpi_9606.ENSP00000380247 > 244.0
+|                                         |             +--yes: [0] [3.0]: 3
+|                                         |             +--no:  f_860 > 0.0
+|                                         |                    +--yes: f_374 > 0.0
+|                                         |                    |      +--yes: [0] [5.0]: 5
+|                                         |                    |      +--no:  [1] [2.0]: 2
+|                                         |                    +--no:  cpi_9606.ENSP00000220764 > 0.0
+|                                         |                           +--yes: [0] [2.0]: 2
+|                                         |                           +--no:  f_535 > 0.0
+|                                         |                                  +--yes: cpi_9606.ENSP00000231188 > 0.0
+|                                         |                                  |      +--yes: [0] [2.0]: 2
+|                                         |                                  |      +--no:  cpi_9606.ENSP00000280701 > 222.0
+|                                         |                                  |             +--yes: [0] [2.0]: 2
+|                                         |                                  |             +--no:  cpi_9606.ENSP00000359663 > 0.0
+|                                         |                                  |                    +--yes: [0] [2.0]: 2
+|                                         |                                  |                    +--no:  f_213 > 0.0
+|                                         |                                  |                           +--yes: cpi_9606.ENSP00000234961 > 0.0
+|                                         |                                  |                           |      +--yes: [0] [3.0]: 3
+|                                         |                                  |                           |      +--no:  [1] [5.0]: 6
+|                                         |                                  |                           +--no:  cpi_9606.ENSP00000003084 > 724.0
+|                                         |                                  |                                  +--yes: [0] [2.0]: 3
+|                                         |                                  |                                  +--no:  cpi_9606.ENSP00000225831 > 208.0
+|                                         |                                  |                                         +--yes: [0] [2.0]: 3
+|                                         |                                  |                                         +--no:  f_194 > 0.0
+|                                         |                                  |                                                +--yes: cpi_9606.ENSP00000367959 > 0.0
+|                                         |                                  |                                                |      +--yes: [1] [2.0]: 2
+|                                         |                                  |                                                |      +--no:  [0] [2.0]: 2
+|                                         |                                  |                                                +--no:  [1] [151.0]: 160
+|                                         |                                  +--no:  f_418 > 0.0
+|                                         |                                         +--yes: [1] [10.0]: 11
+|                                         |                                         +--no:  f_179 > 0.0
+|                                         |                                                +--yes: f_257 > 0.0
+|                                         |                                                |      +--yes: [1] [3.0]: 4
+|                                         |                                                |      +--no:  [0] [8.0]: 8
+|                                         |                                                +--no:  [1] [3.0]: 3
+|                                         +--no:  cpi_9606.ENSP00000394624 > 222.0
+|                                                +--yes: cpi_9606.ENSP00000280155 > 931.0
+|                                                |      +--yes: cpi_9606.ENSP00000306662 > 795.0
+|                                                |      |      +--yes: [1] [3.0]: 3
+|                                                |      |      +--no:  [0] [4.0]: 5
+|                                                |      +--no:  [1] [38.0]: 39
+|                                                +--no:  cpi_9606.ENSP00000295453 > 0.0
+|                                                       +--yes: [1] [12.0]: 12
+|                                                       +--no:  cpi_9606.ENSP00000338345 > 169.0
+|                                                              +--yes: f_338 > 0.0
+|                                                              |      +--yes: cpi_9606.ENSP00000219833 > 0.0
+|                                                              |      |      +--yes: [1] [3.0]: 4
+|                                                              |      |      +--no:  [0] [2.0]: 2
+|                                                              |      +--no:  [1] [15.0]: 15
+|                                                              +--no:  cpi_9606.ENSP00000369960 > 297.0
+|                                                                     +--yes: [0] [11.0]: 12
+|                                                                     +--no:  f_343 > 0.0
+|                                                                            +--yes: [1] [9.0]: 9
+|                                                                            +--no:  f_617 > 0.0
+|                                                                                   +--yes: f_662 > 0.0
+|                                                                                   |      +--yes: cpi_9606.ENSP00000433821 > 239.0
+|                                                                                   |      |      +--yes: [0] [2.0]: 2
+|                                                                                   |      |      +--no:  [1] [22.0]: 23
+|                                                                                   |      +--no:  f_334 > 0.0
+|                                                                                   |             +--yes: [0] [7.0]: 8
+|                                                                                   |             +--no:  f_521 > 0.0
+|                                                                                   |                    +--yes: [0] [6.0]: 7
+|                                                                                   |                    +--no:  cpi_9606.ENSP00000196551 > 0.0
+|                                                                                   |                           +--yes: [0] [2.0]: 2
+|                                                                                   |                           +--no:  cpi_9606.ENSP00000342070 > 0.0
+|                                                                                   |                                  +--yes: [0] [2.0]: 2
+|                                                                                   |                                  +--no:  [1] [26.0]: 33
+|                                                                                   +--no:  f_533 > 0.0
+|                                                                                          +--yes: [1] [7.0]: 7
+|                                                                                          +--no:  cpi_9606.ENSP00000269571 > 0.0
+|                                                                                                 +--yes: [1] [5.0]: 5
+|                                                                                                 +--no:  f_12 > 0.0
+|                                                                                                        +--yes: f_229 > 0.0
+|                                                                                                        |      +--yes: [1] [3.0]: 3
+|                                                                                                        |      +--no:  f_625 > 0.0
+|                                                                                                        |             +--yes: [1] [3.0]: 3
+|                                                                                                        |             +--no:  f_577 > 0.0
+|                                                                                                        |                    +--yes: f_535 > 0.0
+|                                                                                                        |                    |      +--yes: [0] [5.0]: 5
+|                                                                                                        |                    |      +--no:  f_476 > 0.0
+|                                                                                                        |                    |             +--yes: [0] [2.0]: 2
+|                                                                                                        |                    |             +--no:  [1] [8.0]: 9
+|                                                                                                        |                    +--no:  cpi_9606.ENSP00000252486 > 0.0
+|                                                                                                        |                           +--yes: [1] [2.0]: 2
+|                                                                                                        |                           +--no:  f_380 > 0.0
+|                                                                                                        |                                  +--yes: f_37 > 0.0
+|                                                                                                        |                                  |      +--yes: [1] [3.0]: 3
+|                                                                                                        |                                  |      +--no:  [0] [12.0]: 13
+|                                                                                                        |                                  +--no:  [0] [24.0]: 24
+|                                                                                                        +--no:  f_11 > 0.0
+|                                                                                                               +--yes: cpi_9606.ENSP00000222982 > 159.0
+|                                                                                                               |      +--yes: [0] [3.0]: 3
+|                                                                                                               |      +--no:  cpi_9606.ENSP00000259089 > 0.0
+|                                                                                                               |             +--yes: [0] [2.0]: 2
+|                                                                                                               |             +--no:  cpi_9606.ENSP00000365686 > 150.0
+|                                                                                                               |                    +--yes: [0] [2.0]: 2
+|                                                                                                               |                    +--no:  f_38 > 0.0
+|                                                                                                               |                           +--yes: [0] [2.0]: 2
+|                                                                                                               |                           +--no:  cpi_9606.ENSP00000280155 > 0.0
+|                                                                                                               |                                  +--yes: cpi_9606.ENSP00000280155 > 696.0
+|                                                                                                               |                                  |      +--yes: [1] [2.0]: 2
+|                                                                                                               |                                  |      +--no:  [0] [3.0]: 3
+|                                                                                                               |                                  +--no:  cpi_9606.ENSP00000357068 > 0.0
+|                                                                                                               |                                         +--yes: f_333 > 0.0
+|                                                                                                               |                                         |      +--yes: [0] [2.0]: 2
+|                                                                                                               |                                         |      +--no:  [1] [2.0]: 2
+|                                                                                                               |                                         +--no:  [1] [21.0]: 21
+|                                                                                                               +--no:  [0] [7.0]: 8
++--no:  cpi_9606.ENSP00000337915 > 265.0
+       +--yes: cpi_9606.ENSP00000229277 > 845.0
+       |      +--yes: [0] [3.0]: 3
+       |      +--no:  cpi_9606.ENSP00000229447 > 618.0
+       |             +--yes: [0] [2.0]: 3
+       |             +--no:  cpi_9606.ENSP00000336528 > 893.0
+       |                    +--yes: [0] [2.0]: 3
+       |                    +--no:  [1] [42.0]: 43
+       +--no:  f_571 > 0.0
+              +--yes: f_430 > 0.0
+              |      +--yes: cpi_9606.ENSP00000239849 > 152.0
+              |      |      +--yes: [1] [4.0]: 4
+              |      |      +--no:  f_193 > 0.0
+              |      |             +--yes: f_206 > 0.0
+              |      |             |      +--yes: [1] [4.0]: 4
+              |      |             |      +--no:  cpi_9606.ENSP00000241600 > 0.0
+              |      |             |             +--yes: [1] [2.0]: 2
+              |      |             |             +--no:  [0] [2.0]: 2
+              |      |             +--no:  cpi_9606.ENSP00000275300 > 0.0
+              |      |                    +--yes: [1] [2.0]: 2
+              |      |                    +--no:  cpi_9606.ENSP00000360493 > 215.0
+              |      |                           +--yes: [1] [2.0]: 2
+              |      |                           +--no:  f_38 > 0.0
+              |      |                                  +--yes: [1] [2.0]: 2
+              |      |                                  +--no:  f_21 > 0.0
+              |      |                                         +--yes: f_143 > 0.0
+              |      |                                         |      +--yes: [1] [3.0]: 4
+              |      |                                         |      +--no:  [0] [3.0]: 3
+              |      |                                         +--no:  cpi_9606.ENSP00000231509 > 979.0
+              |      |                                                +--yes: cpi_9606.ENSP00000000442 > 384.0
+              |      |                                                |      +--yes: [1] [2.0]: 2
+              |      |                                                |      +--no:  [0] [2.0]: 2
+              |      |                                                +--no:  [0] [45.0]: 46
+              |      +--no:  cpi_9606.ENSP00000164139 > 0.0
+              |             +--yes: [0] [6.0]: 6
+              |             +--no:  cpi_9606.ENSP00000383365 > 163.0
+              |                    +--yes: [0] [2.0]: 2
+              |                    +--no:  cpi_9606.ENSP00000359793 > 199.0
+              |                           +--yes: f_405 > 0.0
+              |                           |      +--yes: [0] [2.0]: 2
+              |                           |      +--no:  [1] [3.0]: 3
+              |                           +--no:  [1] [20.0]: 22
+              +--no:  cpi_9606.ENSP00000241052 > 530.0
+                     +--yes: cpi_9606.ENSP00000244741 > 281.0
+                     |      +--yes: [1] [3.0]: 3
+                     |      +--no:  [0] [12.0]: 12
+                     +--no:  cpi_9606.ENSP00000263321 > 329.0
+                            +--yes: [0] [3.0]: 3
+                            +--no:  cpi_9606.ENSP00000365775 > 0.0
+                                   +--yes: cpi_9606.ENSP00000272065 > 0.0
+                                   |      +--yes: [1] [3.0]: 3
+                                   |      +--no:  [0] [7.0]: 8
+                                   +--no:  cpi_9606.ENSP00000262584 > 0.0
+                                          +--yes: [0] [3.0]: 3
+                                          +--no:  cpi_9606.ENSP00000357204 > 0.0
+                                                 +--yes: [0] [2.0]: 2
+                                                 +--no:  cpi_9606.ENSP00000357255 > 729.0
+                                                        +--yes: [0] [2.0]: 2
+                                                        +--no:  cpi_9606.ENSP00000358042 > 0.0
+                                                               +--yes: f_452 > 0.0
+                                                               |      +--yes: [1] [2.0]: 2
+                                                               |      +--no:  [0] [3.0]: 3
+                                                               +--no:  [1] [89.0]: 105
+
